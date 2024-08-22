@@ -73,7 +73,7 @@ Toimintasuunnitelma:
 	3. virtuaalikone
 	4. linux
 
-Muista koko ajan raportoida + lähteet
+Muista koko ajan raportoida + lähteet.
 
 
 ### Varmuuskopioi
@@ -87,22 +87,20 @@ Työn alla olevan Ohjelmointi 1 -kurssin tehtävät olivat vain kovalevyllä, jo
 
 ### Käytössä oleva rauta & OS
 
-Etsin sähköpostistani sille tallettamani tiedot koneeni osista. Lisäksi tarkistin Windowsin asetukset kohdasta Järjestelmä > Tietoja.
+Etsin sähköpostistani sinne tallettamani tiedot koneeni osista. Lisäksi tarkistin Windowsin asetukset kohdasta Järjestelmä > Tietoja.
 
-En ollut aivan varma, mitä kaikkea tietoja omasta koneesta tulisi kertoa, joten tutkin satunnaisotannalla, kuinka kevään kurssilaiset olivat tehneet vastaavassa tehtävässä. Tarkastelemistani tehtävistä tarkin kuvaus oli Juuso Vainikalla, josta otin osin mallia.
-
-Tarkastin vapaana olevan tilan tietokoneelta.
+En ollut aivan varma, mitä kaikkea tietoja omasta koneesta tulisi kertoa, joten tutkin satunnaisotannalla, kuinka kevään kurssilaiset olivat tehneet. Tarkastelemistani tehtävistä tarkin kuvaus oli Juuso Vainikalla, josta otin osin mallia.
 
 
 **Koneen tiedot** 
 
-	- Pöytäkone
-	- Käyttöjärjestelmä: Windows 11 Education
-	- CPU: AMD Ryzen 5 7600 3.8 GHz 6-Core Processor
-	- Emolevy: MSI PRO B650-P WIFI
-	- Muisti: 32 GB DDR5-6000 CL30
-	- SSD: 2 TB, jossa vapaata tilaa 982 Gt
-	- Näytönohjain: RX 6800 XT 16 GB
+- Pöytäkone
+- Käyttöjärjestelmä: Windows 11 Education
+- CPU: AMD Ryzen 5 7600 3.8 GHz 6-Core Processor
+- Emolevy: MSI PRO B650-P WIFI
+- Muisti: 32 GB DDR5-6000 CL30
+- SSD: 2 TB, jossa vapaata tilaa 982 Gt
+- Näytönohjain: RX 6800 XT 16 GB
 
 
 ### VirtualBox
@@ -111,11 +109,11 @@ Tarkastin vapaana olevan tilan tietokoneelta.
 
 Luennolla suositeltiin asentamaan Virtual box, joten tällä mennään. Google-haku ei anna suoraan yksiselitteistä vastausta, mitä linkkiä klikata ja sitä kautta hypätä suoraan asennukseen eli tein taustatutkimusta aiheesta.
 
-Tutustuin aiheeseen Kevin Stratvertin Youtube-videon avulla. Hän kehottaa tarkistamaan onko, virtualisointi tietokoneella sallittuna. Tarkastin ohjeiden mukaan Tehtävienhallinnasta, että asia on kunnossa.
+Tutustuin aiheeseen Kevin Stratvertin Youtube-videon avulla. Hän kehottaa tarkistamaan onko, virtualisointi tietokoneella sallittuna. Tarkastin hänen ohjeidensa mukaan Tehtävienhallinnasta, että asia on kunnossa.
 
 Seuraavaksi Stratvert vastasi alkuperäiseen kysymykseeni siitä, miltä sivulta lataan VirtualBoxin ja suuntasin sivustolle https://www.virtualbox.org/. Latasin sivulta VirtualBox 7.0.20 platform packages/Windows hosts.
 
-Aloin asentamaan VirtualBoxia ja seurasin samalla Stratvertin ohjeita. Custom Setup -ikkuna ei kuitenkaan vastannut Stratvertin videolla näyttämään versiota, joten googlasin hieman ennen kuin klikkasin kohdan "Register file associations". Geekflaren sivuilta löytyneessä asennusohjeessa Hitesh Sant ei avaa kyseista valintaa suuremmin, mutta esimerkkikuvassa kohta on valittuna, joten hyväksyin valinnan ja jatkoin eteenpäin.
+Aloin asentamaan VirtualBoxia ja seurasin samalla Stratvertin ohjeita. Custom Setup -ikkuna ei kuitenkaan vastannut Stratvertin videolla näyttämää versiota, joten googlasin hieman ennen kuin klikkasin kohdan "Register file associations". Geekflaren sivuilta löytyneessä asennusohjeessa Hitesh Sant ei avaa kyseista valintaa suuremmin, mutta esimerkkikuvassa kohta on valittuna, joten hyväksyin valinnan ja jatkoin eteenpäin.
 
 ![image](https://github.com/user-attachments/assets/21a0070f-0bd3-4895-8923-0124addd6039)
 
@@ -136,7 +134,7 @@ Kevin Stratvert ohjeistaa seuraavaksi Youtube-videollaan, kuinka VirtualBoxiin a
 
 Kurssin pääsivulta seurasin opettajan asennusohjeisiin sivulle https://terokarvinen.com/2021/install-debian-on-virtualbox/. Täältä löytyivät linkki ja neuvot oikean asennustiedoston etsintään.
 
-Oikean tiedoston lataaminen ei kuitenkaan ollut aivan niin selkää. Sivustolla https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/ on pitkä lista tiedostoja, mikä näistä on oikea? Kopioin opettajan sivulta halutun tiedostonimen debian-live-12.6.0-amd64-xfce.iso, painoin Ctrl+F ja Ctrl+V ja Enter ja vaihtoehdot rajautuivat. Latasin .iso-päätteisen tiedoston eli vaihtoehdoista suurimman (kuten opettajakin taisi tunnilla ohjeistaa).
+Oikean tiedoston lataaminen ei kuitenkaan ollut aivan niin selkää. Sivustolla https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/ on pitkä lista tiedostoja, mutta mikä näistä on oikea? Kopioin opettajan sivulta halutun tiedostonimen debian-live-12.6.0-amd64-xfce.iso, painoin Ctrl+F ja Ctrl+V ja Enter ja vaihtoehdot rajautuivat. Latasin .iso-päätteisen tiedoston eli vaihtoehdoista suurimman (kuten opettajakin taisi tunnilla ohjeistaa).
 
 ![image](https://github.com/user-attachments/assets/184cbc7b-95ec-457e-ab67-9ac6bf11ffd7)
 
@@ -153,10 +151,10 @@ Videolla ohjeistetaan, että seuraavaksi pitää luoda uusi virtuaalikone. Klikk
 
 Videolla annetaan seuraavat neuvot asennusikkunan valintoihin:
 
-	- nimeksi yksinkertaisesti Ubuntu (eli Debian meidän tapauksessamme), sijainniksi sellainen, jossa on tarpeeksi tilaa, etsitään juuri äsken ladatun iso-tiedoston sijainti.
-	- seuraavassa ikkunassa suositellaan vaihtamaan käyttäjänimi ja salasana ja suositellaan klikkaamaan kohta Guest Additions
-	- Hardware-ikkunassa Stratwert antaa virtuaalikoneelle neljä gigaa muistia ja neljä prosessoria. (Tarkistin myös opettajan ohjesivulta, siellä esimerkissä on myös 4 gigaa muistia, mutta prosessorien määrästä en löytänyt mainintaa.)
-	- Virtual Hard disk -sivusta Stratvert toteaa, että Pre-allocate Full Size parantaa hieman suorituskykyä, mutta ei kuitenkaan suosittele tekisi tätä valintaa
+- nimeksi yksinkertaisesti Ubuntu (eli Debian meidän tapauksessamme), sijainniksi sellainen, jossa on tarpeeksi tilaa ja etsitään juuri äsken ladatun iso-tiedoston sijainti.
+- seuraavassa ikkunassa suositellaan vaihtamaan käyttäjänimi ja salasana ja suositellaan klikkaamaan kohta Guest Additions
+- Hardware-ikkunassa Stratwert antaa virtuaalikoneelle neljä gigaa muistia ja neljä prosessoria. (Tarkistin myös opettajan ohjesivulta, siellä esimerkissä on myös 4 gigaa muistia, mutta prosessorien määrästä en löytänyt mainintaa.)
+- Virtual Hard disk -sivusta Stratvert toteaa, että Pre-allocate Full Size parantaa hieman suorituskykyä, mutta ei kuitenkaan suosittele tätä valintaa
 
 Noudatin Stratvertin suosituksia:
 
@@ -182,7 +180,7 @@ Tarkoittaako tuo viesti oikealla sitä, että asennuksessa on joku ongelma?
 
 ![image](https://github.com/user-attachments/assets/679e7374-91bc-4256-8d04-9812ee8d894c)
 
-Koska näkymä ei vastaa Stratvertin videota, oli aika etsiä seuraava video, jolla asennetaan juuri Debiania. Videon tekijänä on ProgramminKnowledge. Katsoin videolta uudestaan edellä tekemäni ja videolla iso-tiedoston sijaan valitaan 64-bittinen Debian. Tämä valinta oli minulle harmaana. Myös opettajan ohjeissa on näköjään tuo 64-bittinen versio. Kokeilin muuttaa tämän asetuksista. Nyt siis valittuna oli 32-bittinen.
+Koska näkymä ei vastaa Stratvertin videota, oli aika etsiä seuraava video, jolla asennetaan juuri Debiania. Videon tekijänä on ProgramminKnowledge. Katsoin videolta uudestaan edellä tekemäni ja videolla iso-tiedoston sijaan valitaan 64-bittinen Debian. Tämä valinta oli minulle harmaana. Myös opettajan ohjeissa on 64-bittinen versio. Kokeilin muuttaa tämän asetuksista. Aiemmin valittuna oli 32-bittinen.
 
 ![image](https://github.com/user-attachments/assets/a2e4186d-fdf9-474b-91e2-cc24caa8fe75)
 
@@ -211,13 +209,13 @@ Painoin Enter.
 
 ![image](https://github.com/user-attachments/assets/51ea048d-3675-44ce-aa59-cac7d8db0b83)
 
-Yllä oleva näkymä oli hyvin hämmentävä, sillä missä kaikki asennukseen liittyvät valinnat? Ohjevideollani tehtiin asennus eri lailla, mutta opettajan ohjeissa neuvotaan valitsemaan default-vaihtoehto, joten hylkäsin videon ja aloin lukemaan tarkemmin ohjeita. Hämmennykseni hälvennettiin, sillä opettajan mukaan kyseessä on testiversio Linuxista. Mitään ei siis vielä olekaan asennettu.
+Yllä oleva näkymä oli hyvin hämmentävä, sillä mihin menivät kaikki asennukseen liittyvät valinnat? Ohjevideollani tehtiin asennus eri lailla, mutta opettajan ohjeissa neuvotaan valitsemaan default-vaihtoehto, joten hylkäsin videon ja aloin lukemaan tarkemmin ohjeita. Hämmennykseni hälventyi, sillä opettajan mukaan kyseessä on testiversio Linuxista. Mitään ei siis vielä olekaan asennettu!
 
-Seuraavaksi opettajan ohjeissa kehotetaan testaamaan Linux avaamalla selain, googlaamaan jotain ja käyttämään hiirtä ja testaamaan linkkejä. Etsiydyin toisella kurssilla tekemälleni sivustolle ja klikkailin ympäriinsä. Kyllä toimii. (Sen sijaan Linuxin ollessa valittuna ruudunkaappaustyökalu ei toimi. Valitsin eri ikkunan ja kaappaustyökalu taas toiminnassa.)
+Seuraavaksi opettajan ohjeissa kehotetaan testaamaan Linuxia avaamalla selain, googlaamaan jotain ja käyttämään hiirtä ja testaamaan linkkejä. Etsiydyin toisella kurssilla tekemälleni sivustolle ja klikkailin ympäriinsä. Kyllä toimii. (Sen sijaan Linuxin ollessa valittuna ruudunkaappaustyökalu ei toimi. Valitsin eri ikkunan ja kaappaustyökalu oli taas toiminnassa.)
 
 ![image](https://github.com/user-attachments/assets/c8ed7a0e-fd88-479c-9498-ee21651de3ad)
 
-Selainta sulkiessa jouduin olemaan tarkkana, etten sulkenut koko Debiania, mutta tämäkin on nyt onnistuneesti suoritettu ja seuraavaksi siirryin varsinaiseen Debianin asennukseen. Kieleksi valitsin opettajan ohjeiden mukaisesti englannin ja seurasin muutenkin opettajan ohjeita.
+Selainta sulkiessa jouduin olemaan tarkkana, etten sulkenut koko Debiania. Hieman vielä opettelua käyttöliittymän kanssa. Vältin kuitenkin mokan ja seuraavaksi siirryin varsinaiseen Debianin asennukseen. Kieleksi valitsin opettajan ohjeiden mukaisesti englannin ja seurasin muutenkin opettajan ohjeita. Alla kuvina valitut asetukset.
 
 ![image](https://github.com/user-attachments/assets/c49d339f-de2a-4225-9ef5-63921bf8c4e2)
 
@@ -245,7 +243,17 @@ Debian näyttäisi asentuneen.
 
 Miksi Debianin näkymä on niin pieni? Onko tämä tarkoitus, voiko tätä muuttaa jostain asetuksista? Vastauksen selvittämisen sijaan siirryin tekemään ekstratehtävää.
 
-(Myöhemmin illalla ruudun koon ongelmaan löytyi ratkaisu asetuksia tutkimalla. Aiemmin pikagooglatessa Super userin googletulosnäkymässä tämä ehdotus oli ollut, mutta silloin luultavasti yritin liian suurta resoluutiota. Baeldung nimittäin kirjoittaa artikkelissaan, että Debian 12:ssa maksimiresoluuion on 1366 x 768. Debianin ikkunan kokoa saa muutettua, kun klikkaa hiiren oikealla näppäimellä, valitsee Applications -> Settings -> Display ja vaihtaa resoluution suuremmaksi.)
+---
+
+Myöhemmin illalla ruudun koon ongelmaan löytyi ratkaisu asetuksia tutkimalla. Aiemmin pikagooglatessa Super userin googletulosnäkymässä tämä ehdotus oli ollut, mutta silloin luultavasti yritin liian suurta resoluutiota. Baeldung nimittäin kirjoittaa artikkelissaan, että Debian 12:ssa maksimiresoluuion on 1366 x 768. Debianin ikkunan kokoa saa muutettua, kun klikkaa hiiren oikealla näppäimellä, valitsee Applications -> Settings -> Display ja vaihtaa resoluution suuremmaksi.
+
+Resoluutio kuitenkin palautuu alkuperäiseksi, jos Debianin päästää menemään kirjautumisnäkymään. Tämä tapahtuu liian nopeasti, seuraavaksi pitäisi siis löytää asetus tämän viivyttämiseksi.
+
+Lisäksi totesin, että aiemmalla ohjevideolla ehdotettu asetus Bidirectional aiheuttaa ärsyttäviä virheilmoituksia, jos joutuu klikkailemaan pikkuruisen ruudun rajalla huonosti skaalautunutta verkkosivua oikealle ja vasemmalle.
+
+![image](https://github.com/user-attachments/assets/e6977dec-bf1f-42ba-a796-b21f7cd070f6)
+
+Palautin siis asetukseksi Disabled ja virheilmoitukset katosivat. (Eli VirtualBox:n puolella Settings -> General -> Advanced ja valinnoiksi Disabled.
 
 
 **Lähteet**
@@ -278,7 +286,7 @@ Miksi Debianin näkymä on niin pieni? Onko tämä tarkoitus, voiko tätä muutt
 
 ## k) Suosikkiohjelmani Linuxilla
 
-Suosikki-ohjelmani täytyy olla Steam, joka pikaisen googlauksen perusteella (Jack Wallenin artikkeli Googlen näkymässä) näyttäisi toimivan myös Debianissa. Tätä siis päätin kokeilla.
+Yksi suosikki-ohjelmistani on Steam, joka pikaisen googlauksen perusteella (Jack Wallenin artikkeli Googlen esikatselunäkymässä) näyttäisi toimivan myös Debianissa. Tätä siis päätin kokeilla.
 
 Windowsissa Steam tarjoaa sivun yläkulmassa asennus-vaihtoehdon, mutta Debianin puolella tätä en näe. Mikä on ongelmana? Googletin. Googlettaminen ei ratkaissut asiaa, vaan satunnainen klikkailu Steamissä. En ollut työpöytäsivustolla ja siksi asennusvaihtoehtoa ei ollut näkyvissä.
 
