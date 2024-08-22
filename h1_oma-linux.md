@@ -115,6 +115,8 @@ Seuraavaksi Stratvert vastasi alkuperäiseen kysymykseeni siitä, miltä sivulta
 
 Aloin asentamaan VirtualBoxia ja seurasin samalla Stratvertin ohjeita. Custom Setup -ikkuna ei kuitenkaan vastannut Stratvertin videolla näyttämää versiota, joten googlasin hieman ennen kuin klikkasin kohdan "Register file associations". Geekflaren sivuilta löytyneessä asennusohjeessa Hitesh Sant ei avaa kyseista valintaa suuremmin, mutta esimerkkikuvassa kohta on valittuna, joten hyväksyin valinnan ja jatkoin eteenpäin.
 
+(Kaikki tässä tekstissä esiintyvät kuvat ovat ottamiani ruutukaappauksia, jotka kuvaavat sen hetkistä tilannetta.)
+
 ![image](https://github.com/user-attachments/assets/21a0070f-0bd3-4895-8923-0124addd6039)
 
 Muuten asennus oli ruudusta toiseen klikkailua ja lopulta asennus oli valmis.
