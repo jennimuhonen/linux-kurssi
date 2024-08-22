@@ -178,15 +178,15 @@ Opettajan ohjeissa virtuaalikoneelle on annettu mahdollisuus käyttää 60 GB ti
 
 ![image](https://github.com/user-attachments/assets/d068868b-f298-4f1b-a586-de7b0a2fbf66)
 
-Tarkoittaako tuo viesti oikealla sitä, että asennuksessa on joku ongelma?
+Tarkoittaako alla olevassa kuvassa oikealla näkyvä viesti sitä, että asennuksessa on joku ongelma?
 
 ![image](https://github.com/user-attachments/assets/679e7374-91bc-4256-8d04-9812ee8d894c)
 
-Koska näkymä ei vastaa Stratvertin videota, oli aika etsiä seuraava video, jolla asennetaan juuri Debiania. Videon tekijänä on ProgramminKnowledge. Katsoin videolta uudestaan edellä tekemäni ja videolla iso-tiedoston sijaan valitaan 64-bittinen Debian. Tämä valinta oli minulle harmaana. Myös opettajan ohjeissa on 64-bittinen versio. Kokeilin muuttaa tämän asetuksista. Aiemmin valittuna oli 32-bittinen.
+Koska näkymä ei vastaa Stratvertin videota, oli aika etsiä seuraava video, jolla asennetaan juuri Debiania. Videon tekijänä on ProgramminKnowledge. Katsoin hänen videoltaan uudestaan myös edellä tekemäni osion ja videolla iso-tiedoston sijaan valitaan 64-bittinen Debian. Tämä valinta oli minulle tuolloin harmaana, joten en kiinnittänyt asiaan tuolloin huomiota. Myös opettajan ohjeissa on 64-bittinen versio. Kokeilin muuttaa tämän asetuksista. Aiemmin valittuna oli siis 32-bittinen.
 
 ![image](https://github.com/user-attachments/assets/a2e4186d-fdf9-474b-91e2-cc24caa8fe75)
 
-Ilmeisesti Ubuntun asennus toimi eri tavalla, saamani näkymä oli ProgramminKnowledgen videon perusteella odotettu. Videolla neuvotaan muuttamaan General-asetuksien alta Advanced-asetuksista kahteen kohtaan Bidirectional. Tämä ilmeisestikin mahdollistaa tiedostojen helpon siirtämisen Windowsin ja Debianin välillä. Muutin asetukset.
+Ilmeisesti Ubuntun asennus toimi eri tavalla, saamani näkymä oli ProgramminKnowledgen videon perusteella odotettu. Eli mitään outoa ei tapahtunut. ProgramminKnowledgen videolla neuvotaan muuttamaan General-asetuksien alta Advanced-asetuksista kahteen kohtaan Bidirectional. Tämä ilmeisestikin mahdollistaa tiedostojen helpon siirtämisen Windowsin ja Debianin välillä. Muutin asetukset.
 
 ![image](https://github.com/user-attachments/assets/13879d78-c3b3-44c7-a5df-59cd5b7ed1fc)
 
@@ -243,13 +243,13 @@ Debian näyttäisi asentuneen.
 
 ![image](https://github.com/user-attachments/assets/3b3522cd-60a8-4ac9-8713-8e99cfd91a26)
 
-Miksi Debianin näkymä on niin pieni? Onko tämä tarkoitus, voiko tätä muuttaa jostain asetuksista? Vastauksen selvittämisen sijaan siirryin tekemään ekstratehtävää.
+Miksi Debianin näkymä on niin pieni? Onko tämä tarkoituksellista, voiko tätä muuttaa jostain asetuksista? Vastauksen selvittämisen sijaan siirryin tekemään ekstratehtävää.
 
 ---
 
-Myöhemmin illalla ruudun koon ongelmaan löytyi ratkaisu asetuksia tutkimalla. Aiemmin pikagooglatessa Super userin googletulosnäkymässä tämä ehdotus oli ollut, mutta silloin luultavasti yritin liian suurta resoluutiota. Baeldung nimittäin kirjoittaa artikkelissaan, että Debian 12:ssa maksimiresoluuion on 1366 x 768. Debianin ikkunan kokoa saa muutettua, kun klikkaa hiiren oikealla näppäimellä, valitsee Applications -> Settings -> Display ja vaihtaa resoluution suuremmaksi.
+Myöhemmin illalla ruudun koon ongelmaan löytyi ratkaisu asetuksia tutkimalla. Olin nähnyt tämän ratkaisun jo aiemmin googletulosnäkymässä, jossa kysymykseen tarjottiin vastausta Super userin sivuilta. Silloin luultavasti yritin liian suurta resoluutiota ja siksi muutos ei toiminut. Baeldung nimittäin kirjoittaa artikkelissaan, että Debian 12:ssa maksimiresoluuion on 1366 x 768. Debianin ikkunan kokoa saa siis muutettua, kun klikkaa hiiren oikealla näppäimellä, valitsee Applications -> Settings -> Display ja vaihtaa resoluution suuremmaksi.
 
-Resoluutio kuitenkin palautuu alkuperäiseksi, jos Debianin päästää menemään kirjautumisnäkymään. Tämä tapahtuu liian nopeasti, seuraavaksi pitäisi siis löytää asetus tämän viivyttämiseksi.
+Hetken päästä totesin, että resoluutio kuitenkin palautuu alkuperäiseksi, jos Debianin päästää menemään kirjautumisnäkymään. Debian myös päätyy kirjautumisnäkymään aivan liian nopeasti. Seuraavaksi pitäisi siis löytää asetus tämän viivyttämiseksi.
 
 Ruudussa vilahteli välillä ärsyttäviä virheilmoituksia, kun klikkaili pikkuruisen ruudun rajalla huonosti skaalautunutta verkkosivua oikealle ja vasemmalle.
 
@@ -288,7 +288,7 @@ Virheilmoituksessa sanotaan drag and drop, joten arvelin, että tämä voisi joh
 
 ## k) Suosikkiohjelmani Linuxilla
 
-Yksi suosikki-ohjelmistani on Steam, joka pikaisen googlauksen perusteella (Jack Wallenin artikkeli Googlen esikatselunäkymässä) näyttäisi toimivan myös Debianissa. Tätä siis päätin kokeilla.
+Yksi suosikkiohjelmistani on Steam, joka pikaisen googlauksen perusteella (Jack Wallenin artikkeli Googlen esikatselunäkymässä) näyttäisi toimivan myös Debianissa. Tätä siis päätin kokeilla.
 
 Windowsissa Steam tarjoaa sivun yläkulmassa asennus-vaihtoehdon, mutta Debianin puolella tätä en näe. Mikä on ongelmana? Googletin. Googlettaminen ei ratkaissut asiaa, vaan satunnainen klikkailu Steamissä. En ollut työpöytäsivustolla ja siksi asennusvaihtoehtoa ei ollut näkyvissä.
 
@@ -300,7 +300,7 @@ Klikkasin Asenna. Sen jälkeen pääsin jälleen hämmentymään.
 
 ![image](https://github.com/user-attachments/assets/dc338c2c-f183-4da9-b2c7-50c1413ca168)
 
-Yllä oleva näkymä muistutti mieleeni, että olemme nyt jossain muualla kuin Windowsissa ja että en ymmärrä Debianista tai Linuxista mitään. Googlasin lisää asennusohjeita. Päädyin jälleen Youtubeen. Linux made simple -kanavan videolla juoksevat komentorivit vakuuttivat minut siitä, että jään sittenkin odottelemaan seuraavia tunteja ja sitä, että opin käyttämään Debiania ennen kuin alan itse satunnaisesti testailemaan.
+Yllä oleva näkymä muistutti mieleeni, että olemme nyt jossain muualla kuin Windowsissa ja että en ymmärrä Debianista tai Linuxista mitään. Googlasin lisää asennusohjeita. Päädyin jälleen Youtubeen. Linux made simple -kanavan videolla juoksevat komentorivit vakuuttivat minut siitä, että jään sittenkin odottelemaan seuraavia luentokertoja ja sitä, että saan opetusta Debiania käyttöön ennen kuin alan itse satunnaisesti testailemaan.
 
 Sanottakoon siis, että selain olikin suosikkiohjelmani ja latasin sillä onnistuneesti Steamin lataustiedoston. Alkuperäinen suunnitelmani oli selvästi liian korkealentoinen asennusprojektin päätteeksi. ;)
 
