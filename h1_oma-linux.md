@@ -307,7 +307,7 @@ Sanottakoon siis, että selain olikin suosikkiohjelmani ja latasin sillä onnist
 
 - Linux made simple: How to install Steam on Debian 12. https://www.youtube.com/watch?v=tX9RswgmLWI
 - Steam. https://store.steampowered.com/
-- Wallen, Jack. How to install Steam and start gaming on almost any Linux distro - now it's a Snap. https://www.zdnet.com/article/how-to-install-steam-and-start-gaming-on-almost-any-linux-distro-now-its-a-snap/![image](https://github.com/user-attachments/assets/a97fb0ad-3698-4f96-b579-44058a59e53f)
+- Wallen, Jack. How to install Steam and start gaming on almost any Linux distro - now it's a Snap. https://www.zdnet.com/article/how-to-install-steam-and-start-gaming-on-almost-any-linux-distro-now-its-a-snap/
 
 
 
