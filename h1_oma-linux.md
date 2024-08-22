@@ -302,6 +302,8 @@ Yllä oleva näkymä muistutti mieleeni, että olemme nyt jossain muualla kuin W
 
 Sanottakoon siis, että selain olikin suosikkiohjelmani ja latasin sillä onnistuneesti Steamin lataustiedoston. Alkuperäinen suunnitelmani oli selvästi liikaa asennusprojektin päätteeksi. ;)
 
+**Lisäys:** luettuani muiden raportteja tajusin hypänneeni kaikkien päivitysten yli... palasinpa siis vielä lukemaan opettajan ohjetta ja päivittelemään Debiania ja lisäämään palomuuria yms... 
+
 
 **Lähteet**
 
