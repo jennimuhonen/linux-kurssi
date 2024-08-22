@@ -245,29 +245,33 @@ Debian näyttäisi asentuneen.
 
 Miksi Debianin näkymä on niin pieni? Onko tämä tarkoitus, voiko tätä muuttaa jostain asetuksista? Vastauksen selvittämisen sijaan siirryin tekemään ekstratehtävää.
 
+(Myöhemmin illalla ruudun koon ongelmaan löytyi ratkaisu asetuksia tutkimalla. Aiemmin pikagooglatessa Super userin googletulosnäkymässä tämä ehdotus oli ollut, mutta silloin luultavasti yritin liian suurta resoluutiota. Baeldung nimittäin kirjoittaa artikkelissaan, että Debian 12:ssa maksimiresoluuion on 1366 x 768. Debianin ikkunan kokoa saa muutettua, kun klikkaa hiiren oikealla näppäimellä, valitsee Applications -> Settings -> Display ja vaihtaa resoluution suuremmaksi.)
+
 
 **Lähteet**
 
-	- Debianin lataussivu. https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/
-	- Karvinen, Tero: Install Debian on Virtualbox - Updated 2023. https://terokarvinen.com/2021/install-debian-on-virtualbox/.
-	- Karvinen, Tero: Linux Palvelimet 2024 alkukevät. https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/.
-	- Karvinen, Tero: Linux Palvelimet 2024 alkuksyksy. https://terokarvinen.com/linux-palvelimet/.
-	- Karvinen, Tero: Oppitunti 21.8.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/.
-	- Pande, Ayush: How many CPUs should I assign to a VM? https://www.xda-developers.com/how-many-cpus-vm/.
-	- ProgramminKnowledge. How to Install Debian Linux on VirtualBox on Windows 11. https://www.youtube.com/watch?v=Rusk2FofQPo.
-	- Reddit. How many processors and cores per processor should I assign to my VM? https://www.reddit.com/r/vmware/comments/suqdtj/how_many_processors_and_cores_per_processor/
-	- Reddit. Recommended number of CPU cores to allocate to VMs? https://www.reddit.com/r/Proxmox/comments/ri1u49/recommended_number_of_cpu_cores_to_allocate_to_vms/
-	- Sant, Hitesh: How to Install VirtualBox on Windows? https://geekflare.com/install-virtualbox-on-windows/.
-	- Stratvert, Kevin: How to use VirtualBox - Tutorial for Beginners. https://www.youtube.com/watch?v=nvdnQX9UkMY.
-	- Vainikka, Juuso. Introduction. https://github.com/GitJuski/Linux-servers/blob/main/h1-GJ.md.
-	- VirtualBox. Welcome to VirtualBox.org! https://www.virtualbox.org/.
+- Baeldung: Increasing Screen Size/Resolution on a VirtualBox Instance. https://www.baeldung.com/linux/virtual-box-larger-screen 
+- Debianin lataussivu. https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/
+- Karvinen, Tero: Install Debian on Virtualbox - Updated 2023. https://terokarvinen.com/2021/install-debian-on-virtualbox/
+- Karvinen, Tero: Linux Palvelimet 2024 alkukevät. https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/
+- Karvinen, Tero: Linux Palvelimet 2024 alkuksyksy. https://terokarvinen.com/linux-palvelimet/
+- Karvinen, Tero: Oppitunti 21.8.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
+- Pande, Ayush: How many CPUs should I assign to a VM? https://www.xda-developers.com/how-many-cpus-vm/
+- ProgramminKnowledge. How to Install Debian Linux on VirtualBox on Windows 11. https://www.youtube.com/watch?v=Rusk2FofQPo
+- Reddit. How many processors and cores per processor should I assign to my VM? https://www.reddit.com/r/vmware/comments/suqdtj/how_many_processors_and_cores_per_processor/
+- Reddit. Recommended number of CPU cores to allocate to VMs? https://www.reddit.com/r/Proxmox/comments/ri1u49/recommended_number_of_cpu_cores_to_allocate_to_vms/
+- Sant, Hitesh: How to Install VirtualBox on Windows? https://geekflare.com/install-virtualbox-on-windows/
+- Stratvert, Kevin: How to use VirtualBox - Tutorial for Beginners. https://www.youtube.com/watch?v=nvdnQX9UkMY
+- Superusers: Increase resolution for debian guest in virtualbox. https://superuser.com/questions/923313/increase-resolution-for-debian-guest-in-virtualbox
+- Vainikka, Juuso. Introduction. https://github.com/GitJuski/Linux-servers/blob/main/h1-GJ.md
+- VirtualBox. Welcome to VirtualBox.org! https://www.virtualbox.org/
 
 **Henkilökohtaiset lähteet: oma tietokone ja sähköposti**
 
-	- Muhonen, Jenni: My PC build. 2.7.2023. Sähköposti.
-	- Tehtävienhallinta: Suorituskyky, Suoritin.
-	- Tämä tietokone: Laitteet ja asemat.
-	- Windowsin Asetukset: Järjestelmä > Tietoja.
+- Muhonen, Jenni: My PC build. 2.7.2023. Sähköposti
+- Tehtävienhallinta: Suorituskyky, Suoritin
+- Tämä tietokone: Laitteet ja asemat
+- Windowsin Asetukset: Järjestelmä > Tietoja
 
 ---
 
@@ -293,7 +297,7 @@ Sanottakoon siis, että selain olikin suosikkiohjelmani ja latasin sillä onnist
 
 **Lähteet**
 
-- Linux made simple: How to install Steam on Debian 12. https://www.youtube.com/watch?v=tX9RswgmLWI.
+- Linux made simple: How to install Steam on Debian 12. https://www.youtube.com/watch?v=tX9RswgmLWI
 - Steam. https://store.steampowered.com/
 - Wallen, Jack. How to install Steam and start gaming on almost any Linux distro - now it's a Snap. https://www.zdnet.com/article/how-to-install-steam-and-start-gaming-on-almost-any-linux-distro-now-its-a-snap/![image](https://github.com/user-attachments/assets/a97fb0ad-3698-4f96-b579-44058a59e53f)
 
