@@ -300,7 +300,7 @@ Klikkasin Asenna. Sen jälkeen pääsin jälleen hämmentymään.
 
 Yllä oleva näkymä muistutti mieleeni, että olemme nyt jossain muualla kuin Windowsissa ja että en ymmärrä Debianista tai Linuxista mitään. Googlasin lisää asennusohjeita. Päädyin jälleen Youtubeen. Linux made simple -kanavan videolla juoksevat komentorivit vakuuttivat minut siitä, että jään sittenkin odottelemaan seuraavia luentokertoja ja sitä, että saan opetusta Debiania käyttöön ennen kuin alan itse satunnaisesti testailemaan.
 
-Sanottakoon siis, että selain olikin suosikkiohjelmani ja latasin sillä onnistuneesti Steamin lataustiedoston. Alkuperäinen suunnitelmani oli selvästi liian korkealentoinen asennusprojektin päätteeksi. ;)
+Sanottakoon siis, että selain olikin suosikkiohjelmani ja latasin sillä onnistuneesti Steamin lataustiedoston. Alkuperäinen suunnitelmani oli selvästi liikaa asennusprojektin päätteeksi. ;)
 
 
 **Lähteet**
