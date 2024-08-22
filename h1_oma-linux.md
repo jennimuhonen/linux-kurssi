@@ -245,8 +245,6 @@ Debian näyttäisi asentuneen.
 
 Miksi Debianin näkymä on niin pieni? Onko tämä tarkoituksellista, voiko tätä muuttaa jostain asetuksista? Vastauksen selvittämisen sijaan siirryin tekemään ekstratehtävää.
 
----
-
 Myöhemmin illalla ruudun koon ongelmaan löytyi ratkaisu asetuksia tutkimalla. Olin nähnyt tämän ratkaisun jo aiemmin googletulosnäkymässä, jossa kysymykseen tarjottiin vastausta Super userin sivuilta. Silloin luultavasti yritin liian suurta resoluutiota ja siksi muutos ei toiminut. Baeldung nimittäin kirjoittaa artikkelissaan, että Debian 12:ssa maksimiresoluuion on 1366 x 768. Debianin ikkunan kokoa saa siis muutettua, kun klikkaa hiiren oikealla näppäimellä, valitsee Applications -> Settings -> Display ja vaihtaa resoluution suuremmaksi.
 
 Hetken päästä totesin, että resoluutio kuitenkin palautuu alkuperäiseksi, jos Debianin päästää menemään kirjautumisnäkymään. Debian myös päätyy kirjautumisnäkymään aivan liian nopeasti. Seuraavaksi pitäisi siis löytää asetus tämän viivyttämiseksi.
