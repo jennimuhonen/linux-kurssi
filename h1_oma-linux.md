@@ -64,7 +64,7 @@ Lähdeteksti tiivistelmän alla.
 
 ## a) Asenna Linux virtuaalikoneeseen
 
-Tehtävän aloitus 22.8.2024 klo 12.25
+*Tehtävän aloitus 22.8.2024 klo 12.25*
 
 Toimintasuunnitelma:
 
@@ -105,7 +105,7 @@ En ollut aivan varma, mitä kaikkea tietoja omasta koneesta tulisi kertoa, joten
 
 ### VirtualBox
 
-*Aika nyt 22.8.2024 14:13*
+*22.8.2024 14:13*
 
 Luennolla suositeltiin asentamaan Virtual box, joten tällä mennään. Google-haku ei anna suoraan yksiselitteistä vastausta, mitä linkkiä klikata ja sitä kautta hypätä suoraan asennukseen eli tein taustatutkimusta aiheesta.
 
@@ -128,7 +128,7 @@ VirtualBox näyttäisi avautuvan ongelmitta.
 
 ### Debian
 
-*Aika nyt 22.8.2024 14:51*
+*22.8.2024 14:51*
 
 Kevin Stratvert ohjeistaa seuraavaksi Youtube-videollaan, kuinka VirtualBoxiin asennetaan Linux. Hän kuitenkin asentaa Ubuntun ja kurssilla tarkoituksena on asentaa Debian, joten hyppäsin hetkeksi videon matkasta etsimään oikeaa asennustiedostoa.
 
@@ -141,7 +141,7 @@ Oikean tiedoston lataaminen ei kuitenkaan ollut aivan niin selkää. Sivustolla 
 
 ### Takaisin virtuaaliboksiin
 
-*Aika nyt 22.8.2024 15.19.*
+*22.8.2024 15.19.*
 
 Pienen tauon jälkeen palasin Stratvertin video-ohjeiden pariin.
 
@@ -201,7 +201,7 @@ Tämän jälkeen edessä oli lopulta tunnilta tutun näköinen asennusnäkymä.
 
 ### Debianin asentaminen
 
-*Aika nyt 22.8.2024 16:39*
+*22.8.2024 16:39*
 
 ![image](https://github.com/user-attachments/assets/ebe8edcb-add8-4c60-9e3e-70e3bd4edc35)
 
@@ -237,7 +237,7 @@ Pienen hetken jouduin miettimään, kuinka saan Install-nappulan näkyviin. Ratk
 
 Debian näyttäisi asentuneen.
 
-*Aika nyt 22.8.2024 17:18*
+*22.8.2024 17:18*
 
 ![image](https://github.com/user-attachments/assets/3b3522cd-60a8-4ac9-8713-8e99cfd91a26)
 
@@ -249,11 +249,11 @@ Myöhemmin illalla ruudun koon ongelmaan löytyi ratkaisu asetuksia tutkimalla. 
 
 Resoluutio kuitenkin palautuu alkuperäiseksi, jos Debianin päästää menemään kirjautumisnäkymään. Tämä tapahtuu liian nopeasti, seuraavaksi pitäisi siis löytää asetus tämän viivyttämiseksi.
 
-Lisäksi totesin, että aiemmalla ohjevideolla ehdotettu asetus Bidirectional aiheuttaa ärsyttäviä virheilmoituksia, jos joutuu klikkailemaan pikkuruisen ruudun rajalla huonosti skaalautunutta verkkosivua oikealle ja vasemmalle.
+Ruudussa vilahteli välillä ärsyttäviä virheilmoituksia, kun klikkaili pikkuruisen ruudun rajalla huonosti skaalautunutta verkkosivua oikealle ja vasemmalle.
 
 ![image](https://github.com/user-attachments/assets/e6977dec-bf1f-42ba-a796-b21f7cd070f6)
 
-Palautin siis asetukseksi Disabled ja virheilmoitukset katosivat. (Eli VirtualBox:n puolella Settings -> General -> Advanced ja valinnoiksi Disabled.
+Virheilmoituksessa sanotaan drag and drop, joten arvelin, että tämä voisi johtua ohjevideolla ehdotetusta asetuksesta Bidirectional. Kokeilin palauttaa asetukseksi Disabled ja virheilmoitukset katosivat. (Eli VirtualBox:n puolella Settings -> General -> Advanced ja valinnoiksi Disabled.)
 
 
 **Lähteet**
