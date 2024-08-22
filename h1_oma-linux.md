@@ -51,7 +51,7 @@ Lähdeteksti tiivistelmän alla.
 	- jos lisenssissä on kohtuuttomia rajoituksia, ohjelma voidaan määritellä ei-vapaaksi, vaikka free softwaren määritelmissä rajoituksia ei olisikaan huomattu huomioida
 	- on olemassa erilaisia lisenssejä free softwarelle
 	- virallinen suomennos on vapaa ohjelmisto
-	- ohjelmistojen manuaalijen yms. tulisi myös olla vapaita, hyvä esimerkki on Wikipedia
+	- ohjelmistojen manuaalien yms. tulisi myös olla vapaita, hyvä esimerkki on Wikipedia
 
 **Lähteet**
 
