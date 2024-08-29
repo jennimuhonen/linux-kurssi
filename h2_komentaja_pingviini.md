@@ -267,7 +267,7 @@ Tämän jälkeen kokeilin komentoa uudestaan. (Nuoli ylös -näppäimestä on tu
 ![image](https://github.com/user-attachments/assets/3a9dea7d-13b2-4990-a467-a23a61f7e263)
 ![image](https://github.com/user-attachments/assets/d1e2262d-77b4-4ea5-94be-0ddb0bae4043)
 
-En ymmärtänyt läheskään kaikkea näkemääni, mutta komento kertoi tiivistetysti järjestelmän tietoja. Listauksestä käy ilmi, että toimimme VirtualBoxissa ja meillä on virtuaalikoneella käytössä 4 GiB muistia ja 64 GB tallennustilaa. Virtuaalikoneen taustalta ohjelma tunnisti fyysisen koneen prosessorin. VirtualBoxilla on integraatio hiirelle
+En ymmärtänyt läheskään kaikkea näkemääni, mutta komento kertoi tiivistetysti järjestelmän tietoja. Listauksestä käy ilmi, että toimimme VirtualBoxissa ja meillä on virtuaalikoneella käytössä 4 GiB muistia ja 64 GB tallennustilaa, kuten kuuluukin. Virtuaalikoneen taustalta ohjelma tunnisti fyysisen koneen prosessorin eli jonkinlainen yhteys on olemassa myös taustajärjestelmään eikä pelkästään virtuaalikoneeseeen.
 
 Katsoin Low Orbit Fluxin Youtube-videota aiheesta (https://www.youtube.com/watch?v=4T96fuMffyA) ja tämän perusteella kokeilin myös tiivistämätöntä versiota komennosta. Kirjoitin komennon ensin ilman sudoa, mutta järjestelmä varoitti, että komento kannattaa tehdä super-userina ja että saatu listaus saattaa olla virheellinen tai puutteellinen.
 
