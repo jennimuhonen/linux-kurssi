@@ -137,7 +137,7 @@ Testataan vielä viimeinen ohjelma:
 
 ![image](https://github.com/user-attachments/assets/c8d55d63-3ec6-4b4d-bf46-fd4c52ade081)
 
-Tästä oli vähemmän iloa kuin Lolcatista.
+Tästä oli vähemmän iloa kuin Lolcatista, mutta en lähtenyt enää etsimään innoittavampia ohjelmia.
 
 **Lähteet**
 
