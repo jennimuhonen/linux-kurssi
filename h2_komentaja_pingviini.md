@@ -153,7 +153,7 @@ Tästä oli vähemmän iloa kuin Lolcatista, mutta en lähtenyt enää etsimää
 
 Tehtävä: Esittele tärkeitä kansioita ja näytä kuvaava esimerkki kustakin.
 
-/ on juurikansio, joka on Linuxissa ylin kansio. Juureen pääsin seuraavasti ja tarkastin sen sisällön:
+Opin aiempaa tehtävää tehdessäni opettajan sivulta, että / on juurikansio, joka on Linuxissa ylin kansio. Juureen pääsin seuraavasti ja tarkastin sen sisällön:
 
 ![image](https://github.com/user-attachments/assets/19d34a87-8e77-4ea3-a481-532c51582b5c)
 
@@ -209,7 +209,7 @@ Netsurionin mukaan kyseisestä tiedostosta löytyy viimeaikainen kirjautumistiet
 - Fernandez, Ray: How to Enable USB in VirtualBox. https://www.techrepublic.com/article/how-to-enable-usb-in-virtualbox/
 - Karvinen, Tero 2020: Command line basics revisited. https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
 - Netsurion: Top 5 Linux log file groups in/var/log. https://www.netsurion.com/articles/top-5-linux-log-file-groups-in-var-log
--  Surendra, Anne: Linux directory structure explained:/etc folder . https://www.linux.com/training-tutorials/linux-directory-structure-explainedetc-folder/
+- Surendra, Anne: Linux directory structure explained:/etc folder . https://www.linux.com/training-tutorials/linux-directory-structure-explainedetc-folder/
 
 
 ## d) The Friendly M
