@@ -103,7 +103,7 @@ Tehtävässä oli ekstrana asentaa kaikki ohjelmat kerralla yhdellä komennolla.
 
 ![image](https://github.com/user-attachments/assets/ef0862b5-eb42-413e-8f49-58ceb6a395b9)
 
-Ei siis sittenkään niin helppoa. Aina saa toivoa. Arvasin, että näin tapahtuu, koska hain yhtä ohjelmista komennolla apt-cache search ja kyseinen ohjelma ei osunut silmiini. Siksi myös varakta googletin useamman ohjelman asentamisen.
+Ei sittenkään niin helppoa, mutta aina voi toivoa parasta. Arvasin, että näin tapahtuisi, koska hain yhtä ohjelmista komennolla apt-cache search ja kyseinen ohjelma ei pikaisella selauksella osunut silmiini. Siksi myös varalta googletin useamman ohjelman asentamisen, jotta voisin olettaa, että luultava ongelma ei johtuisi siitä.
 
 Googleria ei ole mainittu epäonnistuneiden listalla, mutta mitään asennustekstiäkään ei näytöllä näkynyt. Kokeilin pelkän googlerin asentamista: 
 
