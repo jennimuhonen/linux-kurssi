@@ -175,7 +175,7 @@ Etc-kansio on juuressa. Sinne pääsin seuraavasti ja tarkastelin sen sisältö�
 
 ![image](https://github.com/user-attachments/assets/c75c326d-898b-433c-9a62-db737304a4e0)
 
-Anne Surendran mukaan tämä kansio sisältää kaikki järjestelmän asetuksiin liittyvät tiedostot ja kurssisivun mukaan tiedostot ovat tekstimuodossa eli voinemme käydä kurkistamassa jotain tiedostoa.
+Anne Surendran mukaan tämä kansio sisältää kaikki järjestelmän asetuksiin liittyvät tiedostot ja opettajan sivun mukaan tiedostot ovat tekstimuodossa eli voinemme käydä kurkistamassa jotain tiedostoa.
 
 ![image](https://github.com/user-attachments/assets/2b5c73dc-70ae-4cc2-a976-590d0e35cedc)
 
