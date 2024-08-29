@@ -147,6 +147,57 @@ Tästä oli vähemmän iloa kuin Lolcatista.
 - PhoenixNap 2024: Linux cat Command (With Examples). https://phoenixnap.com/kb/linux-cat-command
 - ThioJoe 2024: 11 Cool Command Line Programs You Need to See. https://www.youtube.com/watch?v=K0v9hnn24y8
 
+
+## FHS
+
+Tehtävä: Esittele tärkeitä kansioita ja näytä kuvaava esimerkki kustakin.
+
+/ on juurikansio, joka on Linuxissa ylin kansio. Juureen pääsin seuraavasti ja tarkastin sen sisällön:
+
+![image](https://github.com/user-attachments/assets/19d34a87-8e77-4ea3-a481-532c51582b5c)
+
+Juurikansion alta löytyy home, jonka alka löytyy käyttäjien kansiot. Näin pääsin juuresta home-kansioon ja totesin, että käyttäjäkansioni löytyy sen alta:
+
+![image](https://github.com/user-attachments/assets/fa7fe3d9-5dba-4c90-b876-7c12148ce169)
+
+Home-kansion olla on käyttäjäprofiilini kansio jenni. Sinne pääsin home-kansiosta vastaavaan tapaan kuin edelläkin. Kyseisen kansion alta löytyi esimerkiksi aiemmin tekemäni testitiedosto eli testi.md, jonka olisi ehkä voinut ennemmin tallentaa vaikkapa Documents-kansioon.
+
+![image](https://github.com/user-attachments/assets/514d4d4d-5c8e-4487-a695-f0d65c74fad6)
+
+testi.md-tiedoston avasin Microlla seuraavalla komennolla:
+
+![image](https://github.com/user-attachments/assets/c571a502-f28e-4e5f-b09c-a15cc21be73a)
+
+![image](https://github.com/user-attachments/assets/5abeeb70-80a0-42a2-ac5f-1bc1a5386c56)
+
+Etc-kansio on juuressa. Sinne pääsin seuraavasti ja tarkastelin sen sisältöä:
+
+![image](https://github.com/user-attachments/assets/c75c326d-898b-433c-9a62-db737304a4e0)
+
+Anne Surendran mukaan tämä kansio sisältää kaikki järjestelmän asetuksiin liittyvät tiedostot ja kurssisivun mukaan tiedostot ovat tekstimuodossa eli voinemme käydä kurkistamassa jotain tiedostoa.
+
+![image](https://github.com/user-attachments/assets/2b5c73dc-70ae-4cc2-a976-590d0e35cedc)
+
+Tai ilmeisesti ainakaan kaikkea ei voi avata. Kokeilin sen sijaan avata jotain kansiota.
+
+![image](https://github.com/user-attachments/assets/6d81e8c6-6105-4809-82df-276c7aec8e8f)
+
+Pääsin gimp-kansioon ja löysin sen alikansiosta tiedoston toolrc, joka avautui Microon.
+
+![image](https://github.com/user-attachments/assets/6beaa8cd-44d0-478f-a0d3-0fdd64a1404e)
+
+Seuraavaksi listalla on media-kansio, jonka avulla kurssisivuston mukaan pääsee käsiksi usb-tikkuihin ja cd-asemaan. Tutkin asiaa:
+
+![image](https://github.com/user-attachments/assets/3684a234-3127-4fdf-860d-d9ac754cac60)
+
+Kahden ls-komennon välissä kokeilin lisätä koneeseeni usb-muistitikun, mutta kuten epäilin, virtuaalikoneella ole Debian ei sitä löydä. Ray Fernandezin mukaan USB täytyy erikseen sallia. Koska minulla ei ole tarvetta saada USB:tä toimimaan, en perehtynyt aiheeseen tarkemmin.
+
+**Lähteet**
+
+- Fernandez, Ray: How to Enable USB in VirtualBox. https://www.techrepublic.com/article/how-to-enable-usb-in-virtualbox/
+- Karvinen, Tero 2020: Command line basics revisited. https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
+-  Surendra, Anne: Linux directory structure explained:/etc folder . https://www.linux.com/training-tutorials/linux-directory-structure-explainedetc-folder/
+
 ---
   
 *Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 2 tai uudempi) mukaisesti. http://www.gnu.org/licenses/gpl.html*
