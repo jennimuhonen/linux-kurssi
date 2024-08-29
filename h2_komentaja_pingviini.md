@@ -157,11 +157,11 @@ Opin aiempaa tehtävää tehdessäni opettajan sivulta, että / on juurikansio, 
 
 ![image](https://github.com/user-attachments/assets/19d34a87-8e77-4ea3-a481-532c51582b5c)
 
-Juurikansion alta löytyy home, jonka alka löytyy käyttäjien kansiot. Näin pääsin juuresta home-kansioon ja totesin, että käyttäjäkansioni löytyy sen alta:
+Juurikansion alta löytyy home, jonka alta löytyy käyttäjien kansiot. Kuvassa näkyvällä tavalla pääsin juuresta home-kansioon ja näin itse, että käyttäjäkansioni löytyy sen alta:
 
 ![image](https://github.com/user-attachments/assets/fa7fe3d9-5dba-4c90-b876-7c12148ce169)
 
-Home-kansion olla on käyttäjäprofiilini kansio jenni. Sinne pääsin home-kansiosta vastaavaan tapaan kuin edelläkin. Kyseisen kansion alta löytyi esimerkiksi aiemmin tekemäni testitiedosto eli testi.md, jonka olisi ehkä voinut ennemmin tallentaa vaikkapa Documents-kansioon.
+Seuraavaksi vuorossa oli käyttäjäprofiilini kansio jenni. Sinne pääsin home-kansiosta vastaavaan tapaan kuin edelläkin. Kyseisen kansion alta löytyi esimerkiksi aiemmin tekemäni testitiedosto eli testi.md, jonka olisi ehkä voinut ennemmin tallentaa vaikkapa Documents-kansioon.
 
 ![image](https://github.com/user-attachments/assets/514d4d4d-5c8e-4487-a695-f0d65c74fad6)
 
