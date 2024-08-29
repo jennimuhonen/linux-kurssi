@@ -240,6 +240,46 @@ Vaikuttaa kätevältä työkalulta!
 
 - Learn Linux TV 2022: Linux Crash Course - The grep Command. https://www.youtube.com/watch?v=Tc_jntovCM0
 
+
+## Pipe
+*29.8.2024 17:31*
+Tehtävä: Näytä esimerkki putkista
+
+Yhdistin edellisissä tehtävissä tekemääni ja oppimaani ja värjäsin Lolcatilla avulla testitiedoston.
+
+![image](https://github.com/user-attachments/assets/48556f17-b789-4f75-a7f6-ab6678a8e040)
+
+## f) Rauta
+
+*29.8.2024 klo 17.32*
+Tehtävä: Listaa testaamasi koneen rauta. Selitä ja analysoi.
+
+Tehtävässä tarvittua lshw-ohjelmaa ei näyttänyt koneella olevan, joten asensin sen.
+
+![image](https://github.com/user-attachments/assets/6167a843-ad95-443d-95e2-078e5c7d7c29)
+
+Tämän jälkeen kokeilin uudelleen ajaa ohjelman. (Nuoli ylös -näppäimestä on tullut läheinen ystävä testaillessa, kun jatkuvasti joutuu palaamaan edelliseen komentoon.)
+
+![image](https://github.com/user-attachments/assets/3a9dea7d-13b2-4990-a467-a23a61f7e263)
+![image](https://github.com/user-attachments/assets/d1e2262d-77b4-4ea5-94be-0ddb0bae4043)
+
+En ymmärtänyt läheskään kaikkea näkemääni, mutta komento kertoo tiivistetysti järjestelmän tietoja. Listauksestä käy ilmi, että toimimme VirtualBoxissa ja meillä on virtuaalikoneella käytössä 4 GiB muistia ja 64 GB tallennustilaa. Virtuaalikoneen taustalta ohjelma tunnisti fyysisen koneen prosessorin. VirtualBoxilla on integraatio hiirelle
+
+Katsoin Low Orbit Fluxin Youtube-videota aiheesta, https://www.youtube.com/watch?v=4T96fuMffyA ja tämän perusteella kokeilin myös tiivistämätöntä versiota komennosta. Kirjoitin komennon ensin ilman sudoa, mutta järjestelmä varoitti, että komento kannattaa tehdä super-userina ja että saatu listaus saattaa olla virheellinen tai puutteellinen.
+
+![image](https://github.com/user-attachments/assets/e414b5b0-e440-4f98-a953-73a4ab70b516)
+
+Niinpä korjasin komentoa:
+
+![image](https://github.com/user-attachments/assets/7ad4b3ea-71ad-4a67-a841-1a65b5100037)
+
+Tuloksena on huomattavasti pitempi listaus, kuin aiempi tiivistetty versio. Jos tarvitsisin jostain tarkempaa tietoa, voisin varmaan ensin tutkia tiivistettyä versiota, jonka avulla pitempää listausa olisi helpompi käyttää.
+
+**Lähteet**
+
+- Low Orbit Flux: Linux Command - lshw. https://www.youtube.com/watch?v=4T96fuMffyA
+
+
 ---
   
 *Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 2 tai uudempi) mukaisesti. http://www.gnu.org/licenses/gpl.html*
