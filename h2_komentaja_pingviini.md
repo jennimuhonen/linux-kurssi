@@ -220,7 +220,7 @@ Tehtävä: 2-3 esimerkkiä grep-komennosta
 
 Katsoin Learn Linux TV:n videota grep-komennosta (https://www.youtube.com/watch?v=Tc_jntovCM0) hahmottaakseni mistä on kyse. Kyseessä on komento, jonka avulla voidaan hakea halutun sanan avulla tietty rivi pitkästä tiedostosta. Samalla opin, että cat-komennolla saan tekstitiedoston näkyviin suoraan komentorivillä avaamatta erikseen tekstinkäsittelyä.
 
-Testasin molempia komentoja aiemmin tekemääni testitiedostoon. Vertailuna kokeilin myös, mitä tapahtuu ilman cat-komentoa. Lisäksi totesin, että hymiön hakemin ei toiminut. Jälkimmäisenä toinen tapa kirjoittaa sama komento.
+Testasin molempia komentoja aiemmin tekemääni testitiedostoon. Vertailuna kokeilin myös, mitä tapahtuu ilman cat-komentoa. Lisäksi totesin, että hymiön hakeminen ei toiminut. Jälkimmäisenä toinen tapa kirjoittaa sama komento.
 
 ![image](https://github.com/user-attachments/assets/4fd753e7-c037-458e-a880-edc454a96095)
 
