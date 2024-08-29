@@ -231,7 +231,7 @@ Grep toimi myös tiedostoa etsiessä eli jos ls tuottaisi tiedostotulvan, grepin
 
 ![image](https://github.com/user-attachments/assets/f49c7ded-84c0-44dd-8984-0fa157d9b4f1)
 
-Jatkoin Learn Linux TV:n videon parissa ja opin, että lisäämällä komentoon -v, voin hakea kaiken muun paitsi mainitun termin.
+Jatkoin Learn Linux TV:n videon parissa ja opin, että lisäämällä komentoon -v, voin hakea kaiken muun paitsi sen rivin, jolla mainittu termi on.
 
 ![image](https://github.com/user-attachments/assets/94b4c6ca-01ba-4747-afa7-3f3cbb092332)
 
