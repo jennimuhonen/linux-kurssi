@@ -95,13 +95,14 @@ En ollut aivan varma, mitä kaikkea tietoja omasta koneesta tulisi kertoa, joten
 **Koneen tiedot** 
 
 - Pöytäkone
-- Käyttöjärjestelmä: Windows 11 Education
+- Käyttöjärjestelmä: Windows 11 Education, 64 bittinen käyttöjärjestelmä, x64-suoritin
 - CPU: AMD Ryzen 5 7600 3.8 GHz 6-Core Processor
 - Emolevy: MSI PRO B650-P WIFI
 - Muisti: 32 GB DDR5-6000 CL30
 - SSD: 2 TB, jossa vapaata tilaa 982 Gt
-- Näytönohjain: RX 6800 XT 16 GB
+- Näytönohjain: AMD RX 6800 XT 16 GB
 
+*(29.8.2024: tarkennettu yllä olevia tietoja tunnilla saatujen kommenttien perusteella.)*
 
 ### VirtualBox
 
