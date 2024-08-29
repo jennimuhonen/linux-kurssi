@@ -124,7 +124,7 @@ Asennus näyttäisi onnistuneen, joten testasin ohjelmia.
 
 ![image](https://github.com/user-attachments/assets/3f18b8c9-1180-4dce-9516-95315914d9e6)
 
-Google antoi vastauksen kuvassa näkyvään ongelmaan, vastaus on Ctrl+D.
+Google antoi vastauksen kuvassa näkyvään ongelmaan, vastaus on Ctrl+D. Vastauksen taustalla on sivu https://phoenixnap.com/kb/linux-cat-command.
 
 Lolcatin idean ymmärtäminen vaati lisäohjeita, joten päädyin Youtubeen katsomaan Hex DSL:n videon aiheesta, https://www.youtube.com/watch?v=Ivggw8qBbHM. Opin, että Lolcatin avulla voin saada väriä elämään, jälkimmäinen komento hidastettu ja dramaattismepi vaihtoehto:
 
@@ -144,6 +144,7 @@ Tästä oli vähemmän iloa kuin Lolcatista.
 - Ask Ubuntu 2017: https://askubuntu.com/questions/874611/installing-multiple-packages-at-the-same-time
 - Hex DSL 2016: The BEST Linux Application. - lolcat. https://www.youtube.com/watch?v=Ivggw8qBbHM
 - Kili, Aaron 2023: 10 Best Linux Command-Line Tools. https://www.tecmint.com/command-line-tools/
+- PhoenixNap 2024: Linux cat Command (With Examples). https://phoenixnap.com/kb/linux-cat-command
 - ThioJoe 2024: 11 Cool Command Line Programs You Need to See. https://www.youtube.com/watch?v=K0v9hnn24y8
 
 ---
