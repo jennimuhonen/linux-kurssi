@@ -258,11 +258,11 @@ Yhdistin edellisissä tehtävissä tekemääni ja oppimaani ja värjäsin Lolcat
 
 Tehtävä: Listaa testaamasi koneen rauta. Selitä ja analysoi.
 
-Annoin tehtävän komennon, mutta lshw-ohjelmaa ei näyttänyt koneella olevan, joten asensin sen.
+Annoin tehtävän komennon, mutta koneella ei näyttänyt olevan lshw-ohjelmaa, joten asensin sen.
 
 ![image](https://github.com/user-attachments/assets/6167a843-ad95-443d-95e2-078e5c7d7c29)
 
-Tämän jälkeen kokeilin uudestaan tehvän komentoa. (Nuoli ylös -näppäimestä on tullut läheinen ystävä testaillessa, kun jatkuvasti joutuu palaamaan edelliseen komentoon.)
+Tämän jälkeen kokeilin komentoa uudestaan. (Nuoli ylös -näppäimestä on tullut läheinen ystävä testaillessa, kun jatkuvasti joutuu palaamaan edelliseen komentoon.)
 
 ![image](https://github.com/user-attachments/assets/3a9dea7d-13b2-4990-a467-a23a61f7e263)
 ![image](https://github.com/user-attachments/assets/d1e2262d-77b4-4ea5-94be-0ddb0bae4043)
