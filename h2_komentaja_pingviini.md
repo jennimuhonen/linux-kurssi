@@ -214,7 +214,7 @@ Netsurionin mukaan kyseisestä tiedostosta löytyy viimeaikainen kirjautumistiet
 
 ## d) The Friendly M
 
-*29.8.2024 15.48 (Ajan kirjaaminen on päässyt hieman unohtumaan.)
+*29.8.2024 15.48 (Ajan kirjaaminen on päässyt hieman unohtumaan.)*
 
 Tehtävä: 2-3 esimerkkiä grep-komennosta
 
