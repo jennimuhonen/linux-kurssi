@@ -1,10 +1,10 @@
-#h2 Komentaja Pingviini
+# h2 Komentaja Pingviini
 
 Tehtäviä Tero Karvisen kurssille Linux Palvelimet 2024. https://terokarvinen.com/linux-palvelimet/
 
 ---
 
-##x) Lue ja tiivistä
+## x) Lue ja tiivistä
 
 - Komentoja hakemistossa liikkumisen avuksi: esim. pwd, ls, cd kansio_xyz/, cd ..
 - Komentoja tiedostojen manipuloimiseen esim. nano testi.md (luo tiedoston, jos sitä ei vielä ole olemassa), mkdir uusikansio, rmdir uusikansio
@@ -26,7 +26,7 @@ Tehtäviä Tero Karvisen kurssille Linux Palvelimet 2024. https://terokarvinen.c
 - Karvinen, Tero 2020: Command line basics revisited. https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
 
 
-##a) Micro
+## Rauta ja OS
 
 **Virtualisoidun Linuxin tiedot**
 
@@ -34,7 +34,7 @@ Tehtäviä Tero Karvisen kurssille Linux Palvelimet 2024. https://terokarvinen.c
 - Virtualisointi: VirtualBox 7.0.20
 - Muisti: 4096 MB
 - Prosessorit: 4 CPU
-- Virtuaalilevyn maksimikoko: 60 GB
+- Virtuaalilevyn maksimikoko: 60 GB, josta käytetty 13,37 GB
 
 **Taustajärjestelmän tiedot**
 
@@ -43,8 +43,14 @@ Tehtäviä Tero Karvisen kurssille Linux Palvelimet 2024. https://terokarvinen.c
 - CPU: AMD Ryzen 5 7600 3.8 GHz 6-Core Processor
 - Emolevy: MSI PRO B650-P WIFI
 - Muisti: 32 GB DDR5-6000 CL30
-- SSD: 2 TB, jossa vapaata tilaa 982 Gt
+- SSD: 2 TB, jossa vapaata tilaa 976 Gt
 - Näytönohjain: AMD RX 6800 XT 16 GB
+
+## a) Micro
+
+Tehtävä: Asenna Micro
+
+
 
 ---
   
