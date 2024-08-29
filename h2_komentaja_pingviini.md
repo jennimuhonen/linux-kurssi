@@ -179,7 +179,7 @@ Anne Surendran mukaan tämä kansio sisältää kaikki järjestelmän asetuksiin
 
 ![image](https://github.com/user-attachments/assets/2b5c73dc-70ae-4cc2-a976-590d0e35cedc)
 
-Tai ilmeisesti ainakaan kaikkea ei voi avata. Kokeilin sen sijaan avata jotain kansiota.
+Ilmeisesti kaikkea ei voikaan avata. Kokeilin sen sijaan avata jotain kansiota.
 
 ![image](https://github.com/user-attachments/assets/6d81e8c6-6105-4809-82df-276c7aec8e8f)
 
