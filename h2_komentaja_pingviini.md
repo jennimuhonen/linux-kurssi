@@ -202,16 +202,43 @@ Kurssisivuston mukaan kyseessä kansio sisältää koko systeemin laajuisia loge
 
 Netsurionin mukaan kyseisestä tiedostosta löytyy viimeaikainen kirjautumistieto kaikista käyttäjistä. 
 
-## d) The Friendly M
 
-Tehtävä: 2-3 esimerkkiä grep-komennosta
-*29.8.2024 15.48 (Ajan kirjaaminen on päässyt hieman unohtumaan.)
 **Lähteet**
 
 - Fernandez, Ray: How to Enable USB in VirtualBox. https://www.techrepublic.com/article/how-to-enable-usb-in-virtualbox/
 - Karvinen, Tero 2020: Command line basics revisited. https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
 - Netsurion: Top 5 Linux log file groups in/var/log. https://www.netsurion.com/articles/top-5-linux-log-file-groups-in-var-log
 -  Surendra, Anne: Linux directory structure explained:/etc folder . https://www.linux.com/training-tutorials/linux-directory-structure-explainedetc-folder/
+
+
+## d) The Friendly M
+
+Tehtävä: 2-3 esimerkkiä grep-komennosta
+*29.8.2024 15.48 (Ajan kirjaaminen on päässyt hieman unohtumaan.)
+
+Katsoin Learn Linux TV:n videota grep-komennosta (https://www.youtube.com/watch?v=Tc_jntovCM0) hahmottaakseni mistä on kyse. Kyseessä on komento, jonka avulla voidaan hakea halutun sanan avulla tietty rivi pitkästä tiedostosta. Samalla opin, että cat-komennolla saan tekstitiedoston näkyviin suoraan komentorivillä avaamatta erikseen tekstinkäsittelyä.
+
+Testasin molempia komentoja aiemmin tekemääni testitiedostoon. Vertailuna kokeilin myös, mitä tapahtuu ilman cat-komentoa. Lisäksi totesin, että hymiön hakemin ei toiminut. Jälkimmäisenä toinen tapa kirjoittaa sama komento.
+
+![image](https://github.com/user-attachments/assets/4fd753e7-c037-458e-a880-edc454a96095)
+
+![image](https://github.com/user-attachments/assets/c704fd72-e8c5-44e9-8ce1-daf973a48978)
+
+
+Grep toimi myös tiedostoa etsiessä eli jos ls tuottaisi tiedostotulvan, grepin avulla voi tsekata, onko tietty tiedosto kansiossa:
+
+![image](https://github.com/user-attachments/assets/f49c7ded-84c0-44dd-8984-0fa157d9b4f1)
+
+Jatkoin Learn Linux TV:n videon parissa ja opin, että lisäämällä komentoon -v, voin hakea kaiken muun paitsi mainitun termin.
+
+![image](https://github.com/user-attachments/assets/94b4c6ca-01ba-4747-afa7-3f3cbb092332)
+
+
+Vaikuttaa kätevältä työkalulta!
+
+**Lähteet**
+
+- Learn Linux TV 2022: Linux Crash Course - The grep Command. https://www.youtube.com/watch?v=Tc_jntovCM0
 
 ---
   
