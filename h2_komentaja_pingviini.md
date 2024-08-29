@@ -125,9 +125,9 @@ Asennus näyttäisi onnistuneen, joten testasin ohjelmia. Ensimmäisenä Lolcat,
 
 ![image](https://github.com/user-attachments/assets/3f18b8c9-1180-4dce-9516-95315914d9e6)
 
-Google antoi vastauksen kuvassa näkyvään ongelmaan, vastaus on Ctrl+D. Vastauksen taustalla on sivu https://phoenixnap.com/kb/linux-cat-command.
+Googlaamalla löytyi vastaus ongelmaan, Ctrl+D:llä pääsi pois tekstien värjäämistilasta. Vastauksen taustalla on sivu https://phoenixnap.com/kb/linux-cat-command.
 
-Lolcatin idean ymmärtäminen vaati lisäohjeita, joten päädyin Youtubeen katsomaan Hex DSL:n videon aiheesta, https://www.youtube.com/watch?v=Ivggw8qBbHM. Opin, että Lolcatin avulla voin saada väriä elämään, jälkimmäinen komento hidastettu ja dramaattismepi vaihtoehto:
+Lolcatin idean ymmärtäminen vaati lisäohjeita, joten päädyin Youtubeen katsomaan Hex DSL:n videon aiheesta (https://www.youtube.com/watch?v=Ivggw8qBbHM). Opin, että Lolcatin avulla voin saada väriä elämään muutenkin, kuin kirjoittamalla tekstiä. Kuvassa näkyvistä jälkimmäinen komento oli hidastettu ja dramaattismepi vaihtoehto, sillä se toi rivit näkyviin yksi kerrallaan:
 
 ![image](https://github.com/user-attachments/assets/db992105-6727-4f88-8856-61935f74a2dc)
 
