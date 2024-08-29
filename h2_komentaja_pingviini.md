@@ -121,7 +121,7 @@ Siirryin siis kokeilemaan muita listalla suositeltuja ohjelmia.
 
 ![image](https://github.com/user-attachments/assets/5a5941e5-19bc-4c84-817a-fdfaf4082705)
 
-Asennus näyttäisi onnistuneen, joten testasin ohjelmia.
+Asennus näyttäisi onnistuneen, joten testasin ohjelmia. Ensimmäisenä Lolcat, jonne jäin hetkeksi jumiin annettuani pelkän komennon lolcat:
 
 ![image](https://github.com/user-attachments/assets/3f18b8c9-1180-4dce-9516-95315914d9e6)
 
