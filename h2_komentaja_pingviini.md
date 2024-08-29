@@ -248,7 +248,7 @@ Vaikuttaa kätevältä työkalulta!
 
 Tehtävä: Näytä esimerkki putkista
 
-Yhdistin edellisissä tehtävissä tekemääni ja oppimaani ja värjäsin Lolcatilla avulla testitiedoston.
+Yhdistin edellisissä tehtävissä tekemääni ja oppimaani ja värjäsin Lolcatilla avulla testitiedostoni.
 
 ![image](https://github.com/user-attachments/assets/48556f17-b789-4f75-a7f6-ab6678a8e040)
 
