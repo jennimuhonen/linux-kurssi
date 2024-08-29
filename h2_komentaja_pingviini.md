@@ -67,13 +67,33 @@ Selasin listaa etsiäkseni Micron. Tähän varmaan oli parempiakin keinoja kuin 
 
 ![image](https://github.com/user-attachments/assets/cf1b18bc-8d04-406b-987e-2a42b4c1ea2e)
 
-Näyttäisi siis siltä, että Micro on asennettavissa paketinhallinnan kautta. Seuraavaksi ohjesivusto ohjeistaa asentamaan ohjelmon seuraavalla komennolla:
+Näyttäisi siltä, että Micro on asennettavissa paketinhallinnan kautta. Seuraavaksi ohjesivusto ohjeistaa asentamaan ohjelmon seuraavalla komennolla:
 
+![image](https://github.com/user-attachments/assets/e95d4dac-2a42-4366-ad44-6af0ffb6da69)
+
+Oletin asennuksen onnistuneen ja testasin asiaa tekemällä uuden tiedoston microlla.
+
+![image](https://github.com/user-attachments/assets/e7510446-3598-4a8c-a6e3-23a9d4c2b057)
+
+Hyvältä näytti:
+
+![image](https://github.com/user-attachments/assets/a1810cf3-5f27-4244-9e21-bbc80e58618e)
+
+Suurin haaste tuli lopuksi, kun ohjelma piti sulkea. Pikainen googlaus ohjasi sivulle https://crazcalm.github.io/blog/post/learning_micro/, josta löytyi vastaus. Ohjelma suljetaan komennolla Ctrl+q. Tämän olisi varmasti voinut arvata, jos ei olisi näin aloittelija Linuxin kanssa. Sama vastaus olisi löytynyt, jos olisi avannut ohjelman alalaidassa mainitun helpin.
 
 
 **Lähteet**
 
+- Crazcalm. https://crazcalm.github.io/blog/post/learning_micro/
 - Karvinen, Tero 2020: Command line basics revisited. https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
+
+
+## Apt
+
+Tehtävä: asenna kolme itsellesi uutta komentoriviohjelmaa ja kokeile niitä.
+
+Kaikki komentoriviohjelmat ovat minulle uusia eli ensimmäiseksi minun pitää selvittää, mitä voisin edes olla haluamassa, kun en tiedä aiheesta mitään.
+
 
 ---
   
