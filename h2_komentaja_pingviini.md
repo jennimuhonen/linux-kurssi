@@ -48,8 +48,9 @@ Tehtäviä Tero Karvisen kurssille Linux Palvelimet 2024. https://terokarvinen.c
 
 ## a) Micro
 
-Tehtävä: Asenna Micro
 *29.8.2024 n. 12.00*
+
+Tehtävä: Asenna Micro
 
 Suuntasin opettajan komentokehotteet listaavalle sivulle (https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited) ja etsin asennukseen liittyvät komennot. Ensiksi kehotetaan päivittämään tarjolla olevat paketit. Eli näin tein seuraavalla komennolla:
 
@@ -213,8 +214,9 @@ Netsurionin mukaan kyseisestä tiedostosta löytyy viimeaikainen kirjautumistiet
 
 ## d) The Friendly M
 
-Tehtävä: 2-3 esimerkkiä grep-komennosta
 *29.8.2024 15.48 (Ajan kirjaaminen on päässyt hieman unohtumaan.)
+
+Tehtävä: 2-3 esimerkkiä grep-komennosta
 
 Katsoin Learn Linux TV:n videota grep-komennosta (https://www.youtube.com/watch?v=Tc_jntovCM0) hahmottaakseni mistä on kyse. Kyseessä on komento, jonka avulla voidaan hakea halutun sanan avulla tietty rivi pitkästä tiedostosta. Samalla opin, että cat-komennolla saan tekstitiedoston näkyviin suoraan komentorivillä avaamatta erikseen tekstinkäsittelyä.
 
@@ -243,6 +245,7 @@ Vaikuttaa kätevältä työkalulta!
 
 ## Pipe
 *29.8.2024 17:31*
+
 Tehtävä: Näytä esimerkki putkista
 
 Yhdistin edellisissä tehtävissä tekemääni ja oppimaani ja värjäsin Lolcatilla avulla testitiedoston.
@@ -251,7 +254,8 @@ Yhdistin edellisissä tehtävissä tekemääni ja oppimaani ja värjäsin Lolcat
 
 ## f) Rauta
 
-*29.8.2024 klo 17.32*
+*29.8.2024 17.32*
+
 Tehtävä: Listaa testaamasi koneen rauta. Selitä ja analysoi.
 
 Tehtävässä tarvittua lshw-ohjelmaa ei näyttänyt koneella olevan, joten asensin sen.
