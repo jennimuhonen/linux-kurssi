@@ -188,14 +188,29 @@ Pääsin gimp-kansioon ja löysin sen alikansiosta tiedoston toolrc, joka avautu
 
 Seuraavaksi listalla on media-kansio, jonka avulla kurssisivuston mukaan pääsee käsiksi usb-tikkuihin ja cd-asemaan. Tutkin asiaa:
 
-![image](https://github.com/user-attachments/assets/3684a234-3127-4fdf-860d-d9ac754cac60)
+![image](https://github.com/user-attachments/assets/62269511-f8d7-4d2b-9dc5-f1517cfde227)
 
-Kahden ls-komennon välissä kokeilin lisätä koneeseeni usb-muistitikun, mutta kuten epäilin, virtuaalikoneella ole Debian ei sitä löydä. Ray Fernandezin mukaan USB täytyy erikseen sallia. Koska minulla ei ole tarvetta saada USB:tä toimimaan, en perehtynyt aiheeseen tarkemmin.
+Ray Fernandezin mukaan USB täytyy erikseen sallia virtuaalikoneella. Koska minulla ei ole tarvetta saada USB:tä toimimaan, en perehtynyt aiheeseen tarkemmin. Nyt löysin media-kansion alta vain käyttäjäprofiilini kansion, jonka alta ei löytynyt mitään.
 
+Viimeisenä tutustuttavana on var/log. Palasin jälleen juureen, sillä olin nähnyt var-kansion siellä.
+
+![image](https://github.com/user-attachments/assets/93e7c1b3-939e-498c-8248-9ef66e88cdb7)
+
+Kurssisivuston mukaan kyseessä kansio sisältää koko systeemin laajuisia logeja. Kokeilin kurkata lastlog-tiedostoon Microlla, mutta se avasi vain tyhjän tiedoston. Netsurion-sivustolta (https://www.netsurion.com/articles/top-5-linux-log-file-groups-in-var-log) löysin neuvon avata tiedosto suoraan ilman Microa ja näin se aukesikin:
+
+![image](https://github.com/user-attachments/assets/52a79ab6-fbc2-4eb4-a79d-f179fcf32383)
+
+Netsurionin mukaan kyseisestä tiedostosta löytyy viimeaikainen kirjautumistieto kaikista käyttäjistä. 
+
+## d) The Friendly M
+
+Tehtävä: 2-3 esimerkkiä grep-komennosta
+*29.8.2024 15.48 (Ajan kirjaaminen on päässyt hieman unohtumaan.)
 **Lähteet**
 
 - Fernandez, Ray: How to Enable USB in VirtualBox. https://www.techrepublic.com/article/how-to-enable-usb-in-virtualbox/
 - Karvinen, Tero 2020: Command line basics revisited. https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
+- Netsurion: Top 5 Linux log file groups in/var/log. https://www.netsurion.com/articles/top-5-linux-log-file-groups-in-var-log
 -  Surendra, Anne: Linux directory structure explained:/etc folder . https://www.linux.com/training-tutorials/linux-directory-structure-explainedetc-folder/
 
 ---
