@@ -277,7 +277,7 @@ Niinpä korjasin komentoa:
 
 ![image](https://github.com/user-attachments/assets/7ad4b3ea-71ad-4a67-a841-1a65b5100037)
 
-Tuloksena on huomattavasti pitempi listaus, kuin aiempi tiivistetty versio. Jos tarvitsisin jostain tarkempaa tietoa, voisin varmaan ensin tutkia tiivistettyä versiota, jonka avulla pitempää listausa olisi helpompi käyttää.
+Tuloksena on huomattavasti pitempi listaus, kuin aiempi tiivistetty versio. Jos tarvitsisin jostain tarkempaa tietoa, voisin varmaan ensin tutkia tiivistettyä versiota, jonka avulla pitempää listausta olisi helpompi käyttää.
 
 **Lähteet**
 
