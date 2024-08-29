@@ -92,8 +92,25 @@ Suurin haaste tuli lopuksi, kun ohjelma piti sulkea. Pikainen googlaus ohjasi si
 
 Tehtävä: asenna kolme itsellesi uutta komentoriviohjelmaa ja kokeile niitä.
 
-Kaikki komentoriviohjelmat ovat minulle uusia eli ensimmäiseksi minun pitää selvittää, mitä voisin edes olla haluamassa, kun en tiedä aiheesta mitään.
+Kaikki komentoriviohjelmat ovat minulle uusia eli ensimmäiseksi minun pitää selvittää, mitä voisin edes haluta asentaa, kun en tiedä aiheesta mitään. Google ohjasi minut Youtubeen katsomaan ThioJoe:n videota aiheesta https://www.youtube.com/watch?v=K0v9hnn24y8. Hetken videota katsottuani tarkistin, löytyykö ensimmäistä suositeltua ohjelmaa paketinhallinnan kautta. Ei löytynyt. Kokeilin aiemmin asentaa Steamiä Debianiini ja sain huomata, ettei se olekaan niin yksinkertaista. Nyt en siis lähtenyt repimään hiuksiani satunnaisten ohjelmien takia vaan päätin etsiä vinkkini muualta.
 
+Miten löydän ohjelmia paketinhallinnasta ilman että tiedän, mitä etsin? Ask Ubuntu -sivustolla joku oli miettinyt samaa ja hänelle annettiin vinkkinä "apt-cache searc keyword". Kokeilin ensin avainsanaa game, mutta mistä tiedän mikä on komentoriviohjelma? Seuraavaksi kokeilin avainsanaa commandline ja edessäni oli pitkä lista ohjelmia, joiden käyttötarkoitus näytti varsin mystiseltä.
+
+Palasin googlen ääreen etsimään parempia vinkkejä ja päädyin lukemaan Aaron Kilin listausta kymmenestä parhaasta Linuxin komentorivityökalusta https://www.tecmint.com/command-line-tools/. Kilin mukaan kaikki hänen listaamansa ohjelmat löytyvät paketinhallinnan kautta. Hänen vinkeillään siis mentiin.
+
+Tehtävässä oli ekstrana asentaa kaikki ohjelmat kerralla yhdellä komennolla. Minulla oli veikkaus asiaan, mutta kokeilemisen sijaan tarkistin vastauksen Ask Ubuntu sivustolta ja kuten epäilin, riittää kun listaan haluamani paketit komentoon peräkkäin.
+
+![image](https://github.com/user-attachments/assets/ef0862b5-eb42-413e-8f49-58ceb6a395b9)
+
+Ei siis sittenkään niin helppoa. Aina saa toivoa. Arvasin, että näin tapahtuu ja siksi googletin useamman ohjelman asentamisen. Kokeillaanpa seuraavaksi yksitellen.
+
+
+**Lähteet**
+
+- Ask Ubuntu 2012: https://askubuntu.com/questions/160897/how-do-i-search-for-available-packages-from-the-command-line
+- Ask Ubuntu 2017: https://askubuntu.com/questions/874611/installing-multiple-packages-at-the-same-time
+- Kili, Aaron 2023: 10 Best Linux Command-Line Tools. https://www.tecmint.com/command-line-tools/
+- ThioJoe 2024: 11 Cool Command Line Programs You Need to See. https://www.youtube.com/watch?v=K0v9hnn24y8
 
 ---
   
