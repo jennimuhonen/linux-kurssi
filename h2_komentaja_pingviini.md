@@ -68,7 +68,7 @@ Selasin listaa etsiäkseni Micron. Tähän varmaan oli parempiakin keinoja kuin 
 
 ![image](https://github.com/user-attachments/assets/cf1b18bc-8d04-406b-987e-2a42b4c1ea2e)
 
-Näyttäisi siltä, että Micro on asennettavissa paketinhallinnan kautta. Seuraavaksi ohjesivusto ohjeistaa asentamaan ohjelmon seuraavalla komennolla:
+Näyttäisi siltä, että Micro on asennettavissa paketinhallinnan kautta. Seuraavaksi ohjesivusto ohjeistaa asentamaan ohjelman seuraavalla komennolla:
 
 ![image](https://github.com/user-attachments/assets/e95d4dac-2a42-4366-ad44-6af0ffb6da69)
 
