@@ -102,13 +102,47 @@ Tehtävässä oli ekstrana asentaa kaikki ohjelmat kerralla yhdellä komennolla.
 
 ![image](https://github.com/user-attachments/assets/ef0862b5-eb42-413e-8f49-58ceb6a395b9)
 
-Ei siis sittenkään niin helppoa. Aina saa toivoa. Arvasin, että näin tapahtuu ja siksi googletin useamman ohjelman asentamisen. Kokeillaanpa seuraavaksi yksitellen.
+Ei siis sittenkään niin helppoa. Aina saa toivoa. Arvasin, että näin tapahtuu, koska hain yhtä ohjelmista komennolla apt-cache search ja kyseinen ohjelma ei osunut silmiini. Siksi myös varakta googletin useamman ohjelman asentamisen.
 
+Googleria ei ole mainittu epäonnistuneiden listalla, mutta mitään asennustekstiäkään ei näytöllä näkynyt. Kokeilin pelkän googlerin asentamista: 
+
+![image](https://github.com/user-attachments/assets/557979e8-6435-463a-9583-e01c59bbc272)
+
+Tämä näyttäisi onnistuvan. Siispä kokeilin avata ohjelman:
+
+![image](https://github.com/user-attachments/assets/bc71a621-50b5-424f-8bb6-4bdb1cc8b578)
+
+Vertailuna kävin katsomassa selainversiota Googlesta ja haku debian antaa tulokseksi samat linkit. Toimii siis!
+
+Kokeilin asentaa Wikitin ja Browshin yksitellen, mutta lopputulos oli sama. Tulkitsen niin, että näitä ei enää löydy paketinhallinnan kautta.
+
+Siirryin siis kokeilemaan muita listalla suositeltuja ohjelmia.
+
+![image](https://github.com/user-attachments/assets/5a5941e5-19bc-4c84-817a-fdfaf4082705)
+
+Asennus näyttäisi onnistuneen, joten testasin ohjelmia.
+
+![image](https://github.com/user-attachments/assets/3f18b8c9-1180-4dce-9516-95315914d9e6)
+
+Google antoi vastauksen kuvassa näkyvään ongelmaan, vastaus on Ctrl+D.
+
+Lolcatin idean ymmärtäminen vaati lisäohjeita, joten päädyin Youtubeen katsomaan Hex DSL:n videon aiheesta, https://www.youtube.com/watch?v=Ivggw8qBbHM. Opin, että Lolcatin avulla voin saada väriä elämään, jälkimmäinen komento hidastettu ja dramaattismepi vaihtoehto:
+
+![image](https://github.com/user-attachments/assets/db992105-6727-4f88-8856-61935f74a2dc)
+
+Testataan vielä viimeinen ohjelma:
+
+![image](https://github.com/user-attachments/assets/c7a80e4d-93f5-4a91-96a4-555c6f768fee)
+
+![image](https://github.com/user-attachments/assets/c8d55d63-3ec6-4b4d-bf46-fd4c52ade081)
+
+Tästä oli vähemmän iloa kuin Lolcatista.
 
 **Lähteet**
 
 - Ask Ubuntu 2012: https://askubuntu.com/questions/160897/how-do-i-search-for-available-packages-from-the-command-line
 - Ask Ubuntu 2017: https://askubuntu.com/questions/874611/installing-multiple-packages-at-the-same-time
+- Hex DSL 2016: The BEST Linux Application. - lolcat. https://www.youtube.com/watch?v=Ivggw8qBbHM
 - Kili, Aaron 2023: 10 Best Linux Command-Line Tools. https://www.tecmint.com/command-line-tools/
 - ThioJoe 2024: 11 Cool Command Line Programs You Need to See. https://www.youtube.com/watch?v=K0v9hnn24y8
 
