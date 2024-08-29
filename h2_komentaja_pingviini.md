@@ -197,7 +197,7 @@ Viimeisenä tutustuttavana on var/log. Palasin jälleen juureen, sillä olin nä
 
 ![image](https://github.com/user-attachments/assets/93e7c1b3-939e-498c-8248-9ef66e88cdb7)
 
-Kurssisivuston mukaan kyseessä kansio sisältää koko systeemin laajuisia logeja. Kokeilin kurkata lastlog-tiedostoon Microlla, mutta se avasi vain tyhjän tiedoston. Netsurion-sivustolta (https://www.netsurion.com/articles/top-5-linux-log-file-groups-in-var-log) löysin neuvon avata tiedosto suoraan ilman Microa ja näin se aukesikin:
+Opettajan sivun mukaan kyseinen kansio sisältää koko systeemin laajuisia logeja. Kokeilin kurkata lastlog-tiedostoon Microlla, mutta se avasi vain tyhjän tiedoston. Netsurion-sivustolta (https://www.netsurion.com/articles/top-5-linux-log-file-groups-in-var-log) löysin neuvon avata tiedosto suoraan ilman Microa ja näin se aukesikin:
 
 ![image](https://github.com/user-attachments/assets/52a79ab6-fbc2-4eb4-a79d-f179fcf32383)
 
