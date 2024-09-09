@@ -137,11 +137,28 @@ Viimeisenä on tarkka virheviesti. AH00489 vaikuttaisi olevan kyseisen viestin t
 
 Toinen viesti puolestaan kertoo, että komentoa /usr/bin/apache2 käytettiin. (Lähde: https://serverfault.com/questions/607873/apache-is-ok-but-what-is-this-in-error-log-mpm-preforknotice)
 
-*(Lopetuskellonaika 13.23.)*
+*(Lopetus klo 13.23.)*
+
+*Kommentti 14.56: Tehtävässä näköjään ei olisikaan tarvinnut analysoida virhelokia, mutta tuskin työ hukkaan meni.*
 
 ## c) Etusivu uusiksi
 
-9.9.2024 ?????????
+*9.9.2024 14.50*
+
+*Tehtävä: Etusivu uusiksi. Tee uusi name based virtual host. Sivun tulee näkyä suoraan palvelimen etusivulla http://localhost/. Sivua pitää pystyä muokkaamaan normaalina käyttäjänä, ilman sudoa. Tee uusi, laita vanhat pois päältä. Uusi sivu on hattu.example.com, ja tämän pitää näkyä: asetustiedoston nimessä, asetustiedoston ServerName-muuttujassa sekä etusivun sisällössä (esim title, h1 tai p).*
+
+Etsin opettajan ohjesivulta (https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/) neuvoja tehtävän tekemiseen. Sieltä löytyy tällainen komento `$ echo "Default"|sudo tee /var/www/html/index.html`
+
+Kokeilin:
+
+![image](https://github.com/user-attachments/assets/3811de12-e7ba-49f8-bae9-b8545607e931)
+
+Tarvitsin lisätietoa komennosta. Koska googlaamalla ei heti löytynyt suoraa selkeää vastausta, kysyin ChatGPT:ltä seuraavan kysymyksen: "Mitä tämä komento tekee: $ echo "Default"|sudo tee /var/www/html/index.html" ChatGPT kertoi, että `echo "Default"` tulostaa sanan Default ja että `echo`-komento tulostaa tekstin komentoriville. Putki lähettää komennon tulosteen seuraavan komennon syötteeksi. tee-komento lukee syotteen eli tässä tapauksessa "Default"-tekstin ja kirjoittaa sen tiedostoon eli `/var/www/html/index.html`.
+
+Eli jos oikein ymmärsin, komennon olisi pitänyt korvata aiempi etusivun sisältö, mutta sivu näyttää edelleen samalta:
+
+![image](https://github.com/user-attachments/assets/13012819-0642-4b41-94e5-b07b4382ce67)
+
 
 
 
@@ -151,10 +168,12 @@ Toinen viesti puolestaan kertoo, että komentoa /usr/bin/apache2 käytettiin. (L
 **Lähteet:**
 - Apache: Log Files. https://httpd.apache.org/docs/current/logs.html
 - Apache: Terms Used to Describe Directives. https://httpd.apache.org/docs/current/mod/directive-dict.html
+- ChatGPT
 - Eric, 17.3.2023: Apache Error Log Explained. https://stackify.com/apache-error-log-explained/
 - Isaiah, Ayooluwa, 23.11.2023: How to View and Configure Apache Access & Error Logs. https://betterstack.com/community/guides/logging/how-to-view-and-configure-apache-access-and-error-logs/
 - Karvinen, Tero: Linux Palvelimet 2024 alkuksyksy. https://terokarvinen.com/linux-palvelimet/
 - Karvinen, Tero: Oppitunti 4.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
+- Karvinen, Tero, 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
 - Nicola Urbinati: Apache restarts randomly. https://talk.plesk.com/threads/apache-restarts-randomly.358945/
 - Serverfault: Apache is OK, but what is this in error.log - [mpm_prefork:notice]?. https://serverfault.com/questions/607873/apache-is-ok-but-what-is-this-in-error-log-mpm-preforknotice
 - WhatIsMyIPAddress. https://whatismyipaddress.com/localhost
