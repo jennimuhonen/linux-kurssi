@@ -183,8 +183,17 @@ Suljin tiedoston tallentamatta, koska olin säätänyt jotain. Kokeilin pari ker
 
 ![image](https://github.com/user-attachments/assets/f45e8b97-1c5f-4db7-aaf4-20289e03930c)
 
-Opettajan ohjesivulla cat-komento näytti tiedoston sisältä tietoja. Aiheuttiko säätäminen jotain ongelmia? Vai kuuluiko minun kirjoittaa näkyvät tiedot itse tiedostoon?
+Opettajan ohjesivulla cat-komento näytti tiedoston sisältä tietoja. Aiheuttiko säätäminen jotain ongelmia? Vai kuuluiko minun kirjoittaa cat-komennolla näkyvät tiedot itse tiedostoon?
 
+Kokeilin molempia vaihtoehtoja, mutta ohjesivun seuraava vaihe, jossa pitäisi tehdä verkkosivu normaalina käyttäjänä, ei toimi kummallakaan tavalla. Jokin on ongelmana, mutta en tiedä mikä.
+
+Ihmetellessä raportoinnista jäi jokunen ihmettely ja testikerta nyt välistä, tässä viimeisin. Kuten voi huomata, hattu.example.com oli jo aiemmin otettu käyttöön:
+
+![image](https://github.com/user-attachments/assets/d1fb469e-e730-4be9-8ff2-8472024dc5c0)
+
+Etsin lisätietoa. TechRepublic-kanavan ohjeiden (https://www.youtube.com/watch?v=_uZjqSyLWQM) perusteella tiedot tosiaan tuli itse laittaa tiedostoon. Näin olinkin jo tehnyt, kuten yllä olevasta kuvasta näkyy.
+
+Jotain kuitenkin on vielä väärin, sillä ohjesivun se
 
 
 
@@ -204,6 +213,7 @@ Opettajan ohjesivulla cat-komento näytti tiedoston sisältä tietoja. Aiheuttik
 - Karvinen, Tero, 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
 - Nicola Urbinati: Apache restarts randomly. https://talk.plesk.com/threads/apache-restarts-randomly.358945/
 - Serverfault: Apache is OK, but what is this in error.log - [mpm_prefork:notice]?. https://serverfault.com/questions/607873/apache-is-ok-but-what-is-this-in-error-log-mpm-preforknotice
+- TechRepublic, 31.12.2020: Apache web server: How to install and configure a website. https://www.youtube.com/watch?v=_uZjqSyLWQM
 - WhatIsMyIPAddress. https://whatismyipaddress.com/localhost
 
 ---
