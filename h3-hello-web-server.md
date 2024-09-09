@@ -135,6 +135,11 @@ Client address on Apachen (https://httpd.apache.org/docs/current/logs.html) sivu
 
 Viimeisenä on tarkka virheviesti. AH00489 vaikuttaisi olevan kyseisen viestin tunnus, koska keskustelupalstalla Nicola Urbinatin (https://talk.plesk.com/threads/apache-restarts-randomly.358945/) kuvakaappauksissa on sama koodi, kun virhelokin viesti on ilmoittanut "resuming normal operations". Kyseinen viesti vaikuttaisi kertovan, että Apache versionumerolla 2.4.62 ja joka pyörii Debianilla on konfiguroitu ja palaa normaaliin toimintaan. Eli käynnistettyäni Debianin, myös Apache on käynnistynyt.
 
+Toinen viesti puolestaan kertoo, että komentoa /usr/bin/apache2 käytettiin. (Lähde: https://serverfault.com/questions/607873/apache-is-ok-but-what-is-this-in-error-log-mpm-preforknotice)
+
+
+
+
 
 
 
@@ -148,6 +153,7 @@ Viimeisenä on tarkka virheviesti. AH00489 vaikuttaisi olevan kyseisen viestin t
 - Karvinen, Tero: Linux Palvelimet 2024 alkuksyksy. https://terokarvinen.com/linux-palvelimet/
 - Karvinen, Tero: Oppitunti 4.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
 - Nicola Urbinati: Apache restarts randomly. https://talk.plesk.com/threads/apache-restarts-randomly.358945/
+- Serverfault: Apache is OK, but what is this in error.log - [mpm_prefork:notice]?. https://serverfault.com/questions/607873/apache-is-ok-but-what-is-this-in-error-log-mpm-preforknotice
 - WhatIsMyIPAddress. https://whatismyipaddress.com/localhost
 
 ---
