@@ -137,8 +137,11 @@ Viimeisenä on tarkka virheviesti. AH00489 vaikuttaisi olevan kyseisen viestin t
 
 Toinen viesti puolestaan kertoo, että komentoa /usr/bin/apache2 käytettiin. (Lähde: https://serverfault.com/questions/607873/apache-is-ok-but-what-is-this-in-error-log-mpm-preforknotice)
 
+*(Lopetuskellonaika 13.23.)*
 
+## c) Etusivu uusiksi
 
+9.9.2024 ?????????
 
 
 
