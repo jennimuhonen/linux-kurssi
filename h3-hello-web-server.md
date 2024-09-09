@@ -159,6 +159,34 @@ Eli jos oikein ymmärsin, komennon olisi pitänyt korvata aiempi etusivun sisäl
 
 ![image](https://github.com/user-attachments/assets/13012819-0642-4b41-94e5-b07b4382ce67)
 
+Hetken ihmeteltyäni ymmärsin tarkistaa kirjoittamani komennon ja sieltä löytyi kirjoitusvirhe. Uusi yritys:
+
+![image](https://github.com/user-attachments/assets/5a4aab15-54ac-4fa0-b8a8-2407ca7a498a)
+
+Kokeillaan myös selaimessa:
+
+![image](https://github.com/user-attachments/assets/0ea9286d-4ffe-472d-a515-a6e4fc419e8d)
+
+Molempiin on nyt vaihtunut alkuperäisen tekstin sijalle pelkkä Default eli etusivun sisältö on muutettu.
+
+Seuraavaksi opettajan ohjeessa lisätään uusi name based virtual host. Tehtävässä uuden sivun nimi on hattu.example.com.
+
+ChatGPT avasi yllä komennon selkeästi, joten palasin ChatGPT:n äärelle ja kysyin "Mitä tämä komento tekee sudoedit /etc/apache2/sites-available/pyora.example.com.conf". ChatGPT:n mukaan komento avaa pyora.example.com konfiguraatiotiedoston muokattavaksi.
+
+Muutin ohjeissa olevan pyora.example.com tilalle hattu.example.com ja katsoi, mitä tapahtuu.
+
+Komento avasi tyhjän tiedoston muokattavaksi.
+
+![image](https://github.com/user-attachments/assets/0c82f00b-6913-4be6-b7ba-b08db69ec344)
+
+Suljin tiedoston tallentamatta, koska olin säätänyt jotain. Kokeilin pari kertaa uudestaan, kunnes löysin oikeat näppäimet, jolla tiedosto tallentui. Alkuun cat-komento ilmoitti, että tiedostoa ei ole ja kun lopulta tallensin tiedoston, komento ei näyttänyt mitään, koska tiedost oli tyhjä.
+
+![image](https://github.com/user-attachments/assets/f45e8b97-1c5f-4db7-aaf4-20289e03930c)
+
+Opettajan ohjesivulla cat-komento näytti tiedoston sisältä tietoja. Aiheuttiko säätäminen jotain ongelmia? Vai kuuluiko minun kirjoittaa näkyvät tiedot itse tiedostoon?
+
+
+
 
 
 
