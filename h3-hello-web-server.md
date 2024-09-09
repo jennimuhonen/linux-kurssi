@@ -211,6 +211,30 @@ Jatkoin opettajan ohjeiden mukaisesti:
 
 Ja kuten näkyy, päivitys onnistui ilman sudoa ja sivulla lukee nyt testi.
 
+Firefoxin puolella ei kuitenkaan vielä löytynyt sivustoa eli jotain on tekemättä. Ohjesivustoa selaamalla löytyi seuraava komento, jonka annoin:
+
+![image](https://github.com/user-attachments/assets/ac598340-b34f-4ec0-a3b0-4e7eb4637e48)
+
+Komento aukaisi tekstitiedoston, johon lisäsin rivin 127.0.0.1 hattu.example.com.
+
+![image](https://github.com/user-attachments/assets/0ca278c7-74a5-4c7f-835a-5a0d46014b7e)
+
+Tämän jälkeen sivustoa pääsi ihailemaan Firefoxin puolella:
+
+![image](https://github.com/user-attachments/assets/7e5bd557-6139-43ca-823a-2ecfb90fb8aa)
+
+Kokeilin terminaalin puolella:
+
+![image](https://github.com/user-attachments/assets/b70f6b89-d463-4625-8a53-602885868686)
+
+Eli näköjään jos haluan hakea pelkästään hattu.example.com-sivun, jätän localhostin pois.
+
+Varsinainen tehtävänanto sanoi, että "Uusi sivu on hattu.example.com, ja tämän pitää näkyä: asetustiedoston nimessä, asetustiedoston ServerName-muuttujassa sekä etusivun sisällössä (esim title, h1 tai p)."
+
+Muokkasin siis vielä sivuston sisältöä.
+
+
+
 
 ---
 
