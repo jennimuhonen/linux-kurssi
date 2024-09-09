@@ -25,7 +25,28 @@ Tehtäviä Tero Karvisen kurssille Linux Palvelimet 2024. https://terokarvinen.c
 - Karvinen 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
 
 
-# a) Testaa
+## Rauta ja OS
+
+**Virtualisoidun Linuxin tiedot**
+
+- Käyttöjärjestelmä: Debian 12.6.0 AMD64
+- Virtualisointi: VirtualBox 7.0.20
+- Muisti: 4096 MB
+- Prosessorit: 4 CPU
+- Virtuaalilevyn maksimikoko: 60 GB, josta käytetty 13,92 GB
+
+**Taustajärjestelmän tiedot**
+
+- Pöytäkone
+- Käyttöjärjestelmä: Windows 11 Education, 64 bittinen käyttöjärjestelmä, x64-suoritin
+- CPU: AMD Ryzen 5 7600 3.8 GHz 6-Core Processor
+- Emolevy: MSI PRO B650-P WIFI
+- Muisti: 32 GB DDR5-6000 CL30
+- SSD: 2 TB, jossa vapaata tilaa 967 GB
+- Näytönohjain: AMD RX 6800 XT 16 GB
+
+
+## a) Testaa
 
 *Tehtävä: Testaa, että weppipalvelimesi vastaa localhost-osoitteesta. Asenna Apache-weppipalvelin, jos se ei ole jo asennettuna.*
 
