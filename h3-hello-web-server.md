@@ -127,7 +127,13 @@ Seuraavaksi ovat viestin tuottaneet moduulit, jotka on molemmat merkktty ilmoitu
 - MPM: tulee sanoista Multi-Processing Module 
 - Core: keskeisimpiä Apachen osia ja aina käytettävissä.
 
+Eric Stackifyn sivulla (https://stackify.com/apache-error-log-explained/) toteaa, että notice tarkoittaa normaalia, mutta merkittävää tilaa.
+
 [pid 749:tid 749], joka on molemmissa lokeissa, on prosessin id ja myös mahdollisesti "thread ID". Eli molemmissa on sama prosessi id sekä thread id 749.
+
+Client address on Apachen (https://httpd.apache.org/docs/current/logs.html) sivujen esimerkissä hakasuluissa. Tällaista tietoa ei lokeissa ollut näkyvillä. Ericin mukaan virhelokissa puuttuvat parametrit jätetään pois eli vaikuttaisi toimivan eri tavalla kuin pääsyloki, jossa puuttuvien tietojen tilalla oli -.
+
+Viimeisenä on tarkka virheviesti. AH00489 vaikuttaisi olevan kyseisen viestin tunnus, koska keskustelupalstalla Nicola Urbinatin (https://talk.plesk.com/threads/apache-restarts-randomly.358945/) kuvakaappauksissa on sama koodi, kun virhelokin viesti on ilmoittanut "resuming normal operations". Kyseinen viesti vaikuttaisi kertovan, että Apache versionumerolla 2.4.62 ja joka pyörii Debianilla on konfiguroitu ja palaa normaaliin toimintaan. Eli käynnistettyäni Debianin, myös Apache on käynnistynyt.
 
 
 
@@ -136,9 +142,12 @@ Seuraavaksi ovat viestin tuottaneet moduulit, jotka on molemmat merkktty ilmoitu
 
 **Lähteet:**
 - Apache: Log Files. https://httpd.apache.org/docs/current/logs.html
+- Apache: Terms Used to Describe Directives. https://httpd.apache.org/docs/current/mod/directive-dict.html
+- Eric, 17.3.2023: Apache Error Log Explained. https://stackify.com/apache-error-log-explained/
 - Isaiah, Ayooluwa, 23.11.2023: How to View and Configure Apache Access & Error Logs. https://betterstack.com/community/guides/logging/how-to-view-and-configure-apache-access-and-error-logs/
 - Karvinen, Tero: Linux Palvelimet 2024 alkuksyksy. https://terokarvinen.com/linux-palvelimet/
 - Karvinen, Tero: Oppitunti 4.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
+- Nicola Urbinati: Apache restarts randomly. https://talk.plesk.com/threads/apache-restarts-randomly.358945/
 - WhatIsMyIPAddress. https://whatismyipaddress.com/localhost
 
 ---
