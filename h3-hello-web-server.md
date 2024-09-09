@@ -283,7 +283,7 @@ Päivitin myös varsinaisen tiedoston ohjeiden mukaisesti:
 
 HackerSploit kertoi Youtube-videollaan, että `curl hattu.example.com`näytti verkkosivun tiedot, kuten olemmekin jo aiemmin nähneet moneen kertaan. Tämä ominaisuus liittyy siihen, että curl tukee http ja https -protkollia.
 
-Seuraavaksi testasin komentia `curl -I`:
+Seuraavaksi testasin komentoa `curl -I`:
 
 ![image](https://github.com/user-attachments/assets/40e1c81e-e32c-48a0-b88d-73fa8e7f2169)
 
