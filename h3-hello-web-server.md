@@ -209,7 +209,7 @@ Jatkoin opettajan ohjeiden mukaisesti:
 
 ![image](https://github.com/user-attachments/assets/2fb2662a-36be-4727-bda7-256097d850f3)
 
-Ja kuten näkyy, päivitys onnistui ilman Sudoa ja sivulla lukee nyt testi.
+Ja kuten näkyy, päivitys onnistui ilman sudoa ja sivulla lukee nyt testi.
 
 
 ---
