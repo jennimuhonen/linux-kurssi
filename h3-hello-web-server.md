@@ -58,7 +58,7 @@ Kuten luennolla neuvottiin, kirjoitin selaimen osoitekenttään localhost ja sai
 
 ![image](https://github.com/user-attachments/assets/6a95bea9-c723-402b-b6f7-5fe906ff15fc)
 
-Näyttäisi siis hyvältä. Testataan vielä myös komentorivin puolella kehoitteella `curl localhost`, johon myös tutustuttiin tunnilla.
+Näyttäisi siis hyvältä. Testatasin vielä myös komentorivin puolella kehoitteella `curl localhost`, johon myös tutustuttiin tunnilla.
 
 ![image](https://github.com/user-attachments/assets/8d427ff2-62b4-44cd-9b4a-66c134da2e96)
 
@@ -67,9 +67,11 @@ Tälläkin puolella näyttää hyvältä, ja <title>-kohdassa nähdään sivun n
 
 ## b) Etsi lokista
 
+*9.9.2024 n. klo 11*
+
 *Tehtävä: Etsi lokista rivit, jotka syntyvät, kun lataat omalta palvelimeltasi yhden sivun. Analysoi rivit (eli selitä yksityiskohtaisesti jokainen kohta ja numero, etsi tarvittaessa lähteitä).*
 
-Kurssisivulla vinkataan komennot `sudo tail /var/log/apache2/access.log`, `sudo tail /var/log/apache2/error.log`, joten näillä varmaankin pääsen haluttuihin lokeihin käsiksi. Tutkitaan.
+Kurssisivulla vinkataan komennot `sudo tail /var/log/apache2/access.log`, `sudo tail /var/log/apache2/error.log`, joten näillä varmaankin pääsen haluttuihin lokeihin käsiksi. Tutkin asiaa.
 
 Ensimmäisellä komennolla saadaan seuraavanlaista tietoa:
 
@@ -79,12 +81,30 @@ Ja jälkimmäisellä seuraava:
 
 ![image](https://github.com/user-attachments/assets/460cb920-ff23-40d1-b7fb-e9b83ae296fb)
 
-Seuraavaksi perehdyn aiheeseen lisää, jotta osaan tulkita näkemääni.
+Seuraavaksi perehdyin aiheeseen lisää, jotta osasin tulkita näkemääni.
+
+Apachen sivujen (https://httpd.apache.org/docs/current/logs.html) mukaan pääsyloki (access log) tallentaa kaikki pyynnöt, jotka serveri on prosessoinut. Virheloki (error log) puolestaan on sivuston mukaan tärkein lokitiedosto. Apache lähettää tänne diagnostiikkatietoja ja kirjaa kohtaamansa virheet. Jos kohtaa ongelman serverin käynnistämisessä tai operoinnissa, niin täältä kannattaa tarkistaa ensimmäisenä.
+
+Tässä sivuston kuvaus virhelokin sisällöstä:
+- ensimmäisenä lokitiedossa on viestin päiväys ja aika
+- seuraavana on moduuli, joka tuottaa viestin
+- kolmantena prosessin ID ja mahdollisesti "thread ID"
+- neljäntenä "client address", joka teki pyynnön
+- viimeisenä tarkka virheviesti
+
+Tarkastelemme siis pääsylokia ja virhelokia. Molemmissa näkyi ensimmäisenä päiväys ja aika. Päivämäärä ovat kaikissa lokeissa tänään, mutta kellonajat ovat pääsylokin ja virhelokin puolella noin 15 minuutin erotuksella toisistaan. Pääsylokia tarkemmin tarkastelemalla totesin, että siinä on kuvattu edellisen tehtävän toiminnot. Kirjoitin komentoriville `curl localhost` ja hain Firefox-selaimella saman sivun.
+
+*Huomio: Hämmensin itseäni sillä, että olin kirjannut tekemäni toimet edelliseen tehtävään eri järjestykseen kuin lokissa näkyy. Tästä opin, että on tärkeää kirjoittaa raporttiin asiat oikeaan järjestykseen, jotta jos jälkikäteen asioihin joutuu palaamaan, on tulkinta helpompaa. Samoin unohdukseni kirjata kellonaika tämän tehtävän alkuun lisäsi haasteita arvioida lokien kellonaikoja.*
+
+Pääsylokien aivan alussa on IP-osoite eli 127.0.0.1. Arvelin, että luennolla oli ehkä puhetta localhostin IP-osoitteesta ja ainakin muutamassa tunnilta ottamassani ruutukaappauksessa näkyy sama IP-osoite. Selvitin asian (https://whatismyipaddress.com/localhost) ja kyseessä on tosiaan localholstin IP-osoite.
+
+, vaikka laitoin ne peräkkäin ja en ole tänään asentanut tai muuttanut mitään. Pääsylo kellonaika   En myöskään ole tänään tehnyt muuta kuin  ei ole se, jolloin kirjoitin komennon (klo nyt 11.30 joten ei myöskään ole kyse )
 
 **Lähteet:**
+- Apache: Log Files. https://httpd.apache.org/docs/current/logs.html
 - Karvinen, Tero: Linux Palvelimet 2024 alkuksyksy. https://terokarvinen.com/linux-palvelimet/
 - Karvinen, Tero: Oppitunti 4.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
-- 
+- WhatIsMyIPAddress. https://whatismyipaddress.com/localhost
 
 ---
   
