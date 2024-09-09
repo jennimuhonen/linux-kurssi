@@ -195,9 +195,15 @@ Etsin lisätietoa. TechRepublic-kanavan ohjeiden (https://www.youtube.com/watch?
 
 Jotain kuitenkin on vielä väärin, sillä ohjesivun se
 
+Yksi ongelma ainakin oli, että seurasin liian kirjaimellisesti ohjetta. Vaihdoin xubuntun omaan käyttäjänimeeni.
 
+![image](https://github.com/user-attachments/assets/0f26669a-3cc3-4cdc-80e7-c253c6d5fed1)
 
+Käynnistin varalta apache2:n uudelleen. Ja kokeilin mkdir-komentoa uudestaan.
 
+![image](https://github.com/user-attachments/assets/f4922fe1-1934-40bf-9ca0-1a88a79eae06)
+
+Ja nyt ei enää tule virheilmoituksia, kun komennossa on oikeasti olemassa oleva käyttäjänimi.
 
 
 ---
