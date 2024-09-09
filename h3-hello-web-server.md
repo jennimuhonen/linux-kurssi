@@ -85,23 +85,58 @@ Seuraavaksi perehdyin aiheeseen lisää, jotta osasin tulkita näkemääni.
 
 Apachen sivujen (https://httpd.apache.org/docs/current/logs.html) mukaan pääsyloki (access log) tallentaa kaikki pyynnöt, jotka serveri on prosessoinut. Virheloki (error log) puolestaan on sivuston mukaan tärkein lokitiedosto. Apache lähettää tänne diagnostiikkatietoja ja kirjaa kohtaamansa virheet. Jos kohtaa ongelman serverin käynnistämisessä tai operoinnissa, niin täältä kannattaa tarkistaa ensimmäisenä.
 
-Tässä sivuston kuvaus virhelokin sisällöstä:
+Komennoilla hain siis pääsylokin ja virhelokin.
+
+**Pääsyloki**
+
+Tässä uudestaan pääsylokin kuvakaappaus:
+
+![image](https://github.com/user-attachments/assets/1719de4b-283a-44bb-9a8c-b5e9b8775254)
+
+Pääsylokien aivan alussa on IP-osoite eli 127.0.0.1. Arvelin, että luennolla oli ehkä puhetta localhostin IP-osoitteesta ja ainakin muutamassa tunnilta ottamassani ruutukaappauksessa näkyy sama IP-osoite. Selvitin asian (https://whatismyipaddress.com/localhost) ja kyseessä on tosiaan localhostin IP-osoite.
+
+Ayooluwa Isaiahin (https://betterstack.com/community/guides/logging/how-to-view-and-configure-apache-access-and-error-logs/) mukaan IP-osoitteen perässä olevat kaksi viivaa ovat placeholdereita, ensimmäinen on "remote log name (name used to log in a user)" ja jälkimmäinen "remote username (username of logger-in user)" ja jos näitä ei ole asetettu, tilalla on -. 
+
+Seuraavana on päiväys ja kellonaika. Päiväys on sekä pääsylokissa että virhelokissa tälle päivälle, mutta kellonajat ovat pääsylokin ja virhelokin puolella noin 15 minuutin erotuksella toisistaan. Pääsylokia tarkemmin tarkastelemalla totesin, että siinä on kuvattu edellisen tehtävän toiminnot. Tehtävässä kirjoitin komentoriville `curl localhost` ja hain Firefox-selaimella saman sivun.
+
+*Huomio: Hämmensin itseäni sillä, että olin kirjannut tekemäni toimet edelliseen tehtävään eri järjestykseen kuin lokissa näkyy. Tästä opin, että on tärkeää kirjoittaa raporttiin asiat oikeaan järjestykseen, jotta jos jälkikäteen asioihin joutuu palaamaan, on tulkinta helpompaa. Samoin unohdukseni kirjata kellonaika tämän tehtävän alkuun lisäsi haasteita arvioida lokien kellonaikoja.*
+
+Eli päiväys ja kellonaika ovat se aika, jolloin olen tehnyt komennot. Lokiin on kirjautunut se hetki, kun olen hakenut sivuston tiedot komentorivillä ja verkkoselaimessa ja määritetään vielä se, millä aikavyöhykkeellä käytetty kellonaika on.
+
+"GET / HTTP/1.1" tarkoittaa Ayooluwa Isaiahin mukaan pyynnön metodia, reittiä ja protokollaa. 200 on vastauksen koodi ja 10956 / 3380 on vastauksen koko bitteinä. "-" on viittaajan URL-osoite, jos tarjolla tai muuten placeholderina on jälleen -. Viimeisenä on yksityiskohtaista tietoa pyynnön tehneestä "user agent of the client".
+
+
+**Virheloki**
+
+Tässä uudestaan virhelokin kuvakaappaus:
+
+![image](https://github.com/user-attachments/assets/bffabe54-b497-41d0-bb3c-509328d816de)
+
+Apachen sivuston (https://httpd.apache.org/docs/current/logs.html) kuvaa virhelokin sisältöä seuraavasti:
+
 - ensimmäisenä lokitiedossa on viestin päiväys ja aika
 - seuraavana on moduuli, joka tuottaa viestin
 - kolmantena prosessin ID ja mahdollisesti "thread ID"
 - neljäntenä "client address", joka teki pyynnön
 - viimeisenä tarkka virheviesti
 
-Tarkastelemme siis pääsylokia ja virhelokia. Molemmissa näkyi ensimmäisenä päiväys ja aika. Päivämäärä ovat kaikissa lokeissa tänään, mutta kellonajat ovat pääsylokin ja virhelokin puolella noin 15 minuutin erotuksella toisistaan. Pääsylokia tarkemmin tarkastelemalla totesin, että siinä on kuvattu edellisen tehtävän toiminnot. Kirjoitin komentoriville `curl localhost` ja hain Firefox-selaimella saman sivun.
+Tarkasteltavassa virhelokissa ensimmäisenä on siis viestin päiväys ja aika. Päiväys on tälle päivälle ja kellonaika on kymmenen minuuttia ennen kuin aloitin tekemään testausta tehtävässä a. Oletan, että kyseessä on suunnilleen kellonaika, jolloin olen tänään käynnistänyt Debianin. Sekunnin murto-osissa on kahdessa lokissa eroa.
 
-*Huomio: Hämmensin itseäni sillä, että olin kirjannut tekemäni toimet edelliseen tehtävään eri järjestykseen kuin lokissa näkyy. Tästä opin, että on tärkeää kirjoittaa raporttiin asiat oikeaan järjestykseen, jotta jos jälkikäteen asioihin joutuu palaamaan, on tulkinta helpompaa. Samoin unohdukseni kirjata kellonaika tämän tehtävän alkuun lisäsi haasteita arvioida lokien kellonaikoja.*
+Seuraavaksi ovat viestin tuottaneet moduulit, jotka on molemmat merkktty ilmoituksiksi (notice). Apachen toisella sivulla (https://httpd.apache.org/docs/current/mod/directive-dict.html) kerrotaan, että:
 
-Pääsylokien aivan alussa on IP-osoite eli 127.0.0.1. Arvelin, että luennolla oli ehkä puhetta localhostin IP-osoitteesta ja ainakin muutamassa tunnilta ottamassani ruutukaappauksessa näkyy sama IP-osoite. Selvitin asian (https://whatismyipaddress.com/localhost) ja kyseessä on tosiaan localholstin IP-osoite.
+- MPM: tulee sanoista Multi-Processing Module 
+- Core: keskeisimpiä Apachen osia ja aina käytettävissä.
 
-, vaikka laitoin ne peräkkäin ja en ole tänään asentanut tai muuttanut mitään. Pääsylo kellonaika   En myöskään ole tänään tehnyt muuta kuin  ei ole se, jolloin kirjoitin komennon (klo nyt 11.30 joten ei myöskään ole kyse )
+[pid 749:tid 749], joka on molemmissa lokeissa, on prosessin id ja myös mahdollisesti "thread ID". Eli molemmissa on sama prosessi id sekä thread id 749.
+
+
+
+
+---
 
 **Lähteet:**
 - Apache: Log Files. https://httpd.apache.org/docs/current/logs.html
+- Isaiah, Ayooluwa, 23.11.2023: How to View and Configure Apache Access & Error Logs. https://betterstack.com/community/guides/logging/how-to-view-and-configure-apache-access-and-error-logs/
 - Karvinen, Tero: Linux Palvelimet 2024 alkuksyksy. https://terokarvinen.com/linux-palvelimet/
 - Karvinen, Tero: Oppitunti 4.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
 - WhatIsMyIPAddress. https://whatismyipaddress.com/localhost
