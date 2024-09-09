@@ -50,7 +50,22 @@ Tehtäviä Tero Karvisen kurssille Linux Palvelimet 2024. https://terokarvinen.c
 
 *Tehtävä: Testaa, että weppipalvelimesi vastaa localhost-osoitteesta. Asenna Apache-weppipalvelin, jos se ei ole jo asennettuna.*
 
+*9.9.2024 10.45*
 
+Asensin Apachen luennon aikana, joten aloitan testaamalla.
+
+Kuten luennolla neuvottiin, kirjoitin selaimen osoitekenttään localhost ja sain Apachen oletussivun näkyviin:
+
+![image](https://github.com/user-attachments/assets/6a95bea9-c723-402b-b6f7-5fe906ff15fc)
+
+Näyttäisi siis hyvältä. Testataan vielä myös komentorivin puolella kehoitteella `curl localhost`, johon myös tutustuttiin tunnilla.
+
+![image](https://github.com/user-attachments/assets/8d427ff2-62b4-44cd-9b4a-66c134da2e96)
+
+
+**Lähteet:**
+- Karvinen, Tero: Oppitunti 4.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
+- 
 
 ---
   
