@@ -69,10 +69,20 @@ Tälläkin puolella näyttää hyvältä, ja <title>-kohdassa nähdään sivun n
 
 *Tehtävä: Etsi lokista rivit, jotka syntyvät, kun lataat omalta palvelimeltasi yhden sivun. Analysoi rivit (eli selitä yksityiskohtaisesti jokainen kohta ja numero, etsi tarvittaessa lähteitä).*
 
+Kurssisivulla vinkataan komennot `sudo tail /var/log/apache2/access.log`, `sudo tail /var/log/apache2/error.log`, joten näillä varmaankin pääsen haluttuihin lokeihin käsiksi. Tutkitaan.
 
+Ensimmäisellä komennolla saadaan seuraavanlaista tietoa:
 
+![image](https://github.com/user-attachments/assets/0e7fdc70-f85e-413f-a44c-6562c59055ad)
+
+Ja jälkimmäisellä seuraava:
+
+![image](https://github.com/user-attachments/assets/460cb920-ff23-40d1-b7fb-e9b83ae296fb)
+
+Seuraavaksi perehdyn aiheeseen lisää, jotta osaan tulkita näkemääni.
 
 **Lähteet:**
+- Karvinen, Tero: Linux Palvelimet 2024 alkuksyksy. https://terokarvinen.com/linux-palvelimet/
 - Karvinen, Tero: Oppitunti 4.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
 - 
 
