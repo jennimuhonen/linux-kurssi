@@ -62,6 +62,15 @@ Näyttäisi siis hyvältä. Testataan vielä myös komentorivin puolella kehoitt
 
 ![image](https://github.com/user-attachments/assets/8d427ff2-62b4-44cd-9b4a-66c134da2e96)
 
+Tälläkin puolella näyttää hyvältä, ja <title>-kohdassa nähdään sivun nimi It works, joka nähtiin myös selaimen puolella.
+
+
+## b) Etsi lokista
+
+*Tehtävä: Etsi lokista rivit, jotka syntyvät, kun lataat omalta palvelimeltasi yhden sivun. Analysoi rivit (eli selitä yksityiskohtaisesti jokainen kohta ja numero, etsi tarvittaessa lähteitä).*
+
+
+
 
 **Lähteet:**
 - Karvinen, Tero: Oppitunti 4.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
