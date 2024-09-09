@@ -233,8 +233,61 @@ Varsinainen tehtävänanto sanoi, että "Uusi sivu on hattu.example.com, ja täm
 
 Muokkasin siis vielä sivuston sisältöä.
 
+Etsin index-tiedoston omasta kansiostaan, jotta asia oli minulle selkeämpää ja muokkasin tiedostoa Microlla:
+
+![image](https://github.com/user-attachments/assets/7cbd465e-fd58-4b86-b0f4-ea2f0070b1ac)
+
+![image](https://github.com/user-attachments/assets/9bf5ee7d-54dd-4000-a328-d0d0316cafda)
+
+Ja tältä näyttää selaimessa:
+
+![image](https://github.com/user-attachments/assets/61a1bf82-f222-49c2-a439-daeb765ee2a9)
+
+(Sivun pohjan malli: https://terokarvinen.com/2012/short-html5-page/)
+
+## e) tee validi HTML5 sivu
+
+*9.9.2024 n. klo 21*
+*Pidin pitemmän tauon edellisen tehtävän loppupuolella ja unohdin lisätä kellonaikoja sen jälkeen.*
+
+Käytin yllä opettajan lyhyttä HTML5-mallipohjaa (https://terokarvinen.com/2012/short-html5-page/) muokatessani sivua. Eli tehtävä tuli jo äsken suoritettua.
+
+Koska sivu ei ole verkossa, ei yllä olevalle sivulle linkattuun validaattoriin voinut heittää pelkkää verkkosivua. Niinpä kopioin html:n seuraavasta näkymästä:
+
+![image](https://github.com/user-attachments/assets/64508866-96d7-4f2c-928d-2938c81380de)
+
+Ja heitin tekstinä validaattoriin:
+
+![image](https://github.com/user-attachments/assets/b1ea3448-3af5-4ef9-8f8a-9aa3ed6e3f68)
+
+![image](https://github.com/user-attachments/assets/2f69eb61-20aa-4776-a80a-9f0f6a6b0f47)
+
+Validaattorin mukaan olisi toivottavaa lisätä sivulle vielä kielitieto ja "trailing slash":n voisi poistaa.
+
+Kun nämä muutokset tekee, validaattorilla ei ole valitettavaa:
+
+![image](https://github.com/user-attachments/assets/4daf1ed0-87ed-4694-90bc-dd14f9cd2044)
+
+Päivitin myös varsinaisen tiedoston ohjeiden mukaisesti:
+
+![image](https://github.com/user-attachments/assets/690a702d-6c59-4b90-a2e0-e3ce2a524184)
 
 
+## Anna esimerkit
+
+*9.9.2024 21.20*
+
+*Tehtävä: Anna esimerkit 'curl -I' ja 'curl' -komennoista. Selitä 'curl -I' muutamasta näyttämästä otsakkeesta (response header), mitä ne tarkoittavat.*
+
+`man curl` -sivun mukaan curl on työkalu, jolla voidaan siirtää dataa serveriltä tai serverille ja se tukee monia protokollia.
+
+HackerSploit kertoi Youtube-videollaan, että `curl hattu.example.com`näytti verkkosivun tiedot, kuten olemmekin jo aiemmin nähneet moneen kertaan. Tämä ominaisuus liittyy siihen, että curl tukee http ja https -protkollia.
+
+Seuraavaksi testasin komentia `curl -I`:
+
+![image](https://github.com/user-attachments/assets/40e1c81e-e32c-48a0-b88d-73fa8e7f2169)
+
+Komento näyttää verkkosivun tietoja. Man curl -sivun mukaan komento hakee pelkästään otsikot (headers).
 
 ---
 
@@ -243,6 +296,7 @@ Muokkasin siis vielä sivuston sisältöä.
 - Apache: Terms Used to Describe Directives. https://httpd.apache.org/docs/current/mod/directive-dict.html
 - ChatGPT
 - Eric, 17.3.2023: Apache Error Log Explained. https://stackify.com/apache-error-log-explained/
+- HackerSploit, 3.6.2019: Linux Essentials: Curl Fundamentals. https://www.youtube.com/watch?v=Xy7fDxz39FM
 - Isaiah, Ayooluwa, 23.11.2023: How to View and Configure Apache Access & Error Logs. https://betterstack.com/community/guides/logging/how-to-view-and-configure-apache-access-and-error-logs/
 - Karvinen, Tero: Linux Palvelimet 2024 alkuksyksy. https://terokarvinen.com/linux-palvelimet/
 - Karvinen, Tero: Oppitunti 4.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
