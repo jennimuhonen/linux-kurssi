@@ -95,6 +95,7 @@ Tunnilla kerrottiin, että SSH olisi parempi vaihtoehto, mutta koska emme vielä
 
 ![image](https://github.com/user-attachments/assets/149dd5d9-e3bf-45a9-8a59-32b04c40e851)
 
+Joudun siis omatoimisesti perehtymään SSH-salaukseen. Tämä lienee hyvä hetki pitää ruokatauko.
 
 
 **Lähteet**
