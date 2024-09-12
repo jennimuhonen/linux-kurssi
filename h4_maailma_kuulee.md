@@ -277,6 +277,7 @@ Jostain syystä ei onnistunut. Tässä kohtaa etsin varalta vahingossa tekemäni
 
 ![image](https://github.com/user-attachments/assets/48e8f0e9-b3b4-46ce-9c60-b172898948a1)
 
+Pääsy palvelimelle oli kuitenkin edelleen estetty käyttäjältä jemjem, mutta root pääsi kirjautumaan ongelmitta.
 
 **Lähteet**
 
