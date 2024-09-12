@@ -166,6 +166,21 @@ Jostain syystä ensimmäisen tiedoston nimi näyttäytyy y:n sijaan pisteenä ja
 
 Kokeilin cat-komentoa ja nyt se toimii. Kopioin avaimen ja liitin sen UpCloud-tililleni. Kopioin kaiken cat-komennon antaman tiedon, toivottavasti tämä on oikein. Ainakin Up-Cloudilla kaikki näyttää hyvältä. (En ota kuvakaappauksia, koska en tiedä mitä tietoa avaimeen liittyen voin tietoturvallisesti näyttää.)
 
+**Takaisin alkuperäisen tehtävän pariin**
+
+*12.9.2024 19.16*
+
+Tähänhän nyt meni hieman ennalta odotettua pitempään... Olisin päässyt niin paljon helpommalla, jos en olisi päättänyt tutustua uuteen palveluun. Seuraavaksi jatkoin virtuaalipalvelimen luomista.
+
+![image](https://github.com/user-attachments/assets/69369935-464e-4015-8074-4989d4a7dbde)
+
+En tiedä olisiko avaimen default-nimeä voinut ongelmitta vaihtaa sitä UpCloudiin tallentaessa, mutta en halunnut kokeilla.
+
+![image](https://github.com/user-attachments/assets/bfc92261-f3fc-4d2b-8078-eccfd7d5ad8e)
+
+Loput kaksi kohtaa menin automaattisilla valinnoilla ja lopultakin klikkasin Deploy.
+
+
 **Lähteet**
 
 - ChatGPT
