@@ -61,6 +61,9 @@ Ilmaisjakson rajoitteet ovat nämä, en
 
 ![image](https://github.com/user-attachments/assets/ccc4b342-c9e9-4d6f-b4b0-4850c99e789e)
 
+Lue ja tiivistä -kohdan materiaaleissa mainittiin portit 22 ja 80. En tiedä tuottaako se ongelmia, että kokeilujaksolla portin 22 liikenne on vain yksisuuntaista. Pidän tämän mielessä ja katson, kuinka käy.
+
+
 
 **Lähteet**
 
