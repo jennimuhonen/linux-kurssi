@@ -269,7 +269,7 @@ Tämän jälkeen ohje kehotti testaamaan uutta käyttäjää ja hyvä niin:
 
 Ongelma oletettavasti liittyy siihen, että jouduin ottamaan SSH-avaimet käyttöön ja en ollut antanut uudelle käyttäjälle julkista avainta.
 
-UpCloudin ohjeiden mukaan tällä komennolla voidaan antaa julkinen avain käyttäjälle: ssh-copy-id -i ~/.ssh/id_rsa.pub user@server
+UpCloudin ohjeiden (https://upcloud.com/resources/tutorials/use-ssh-keys-authentication) mukaan tällä komennolla voidaan antaa julkinen avain käyttäjälle: ssh-copy-id -i ~/.ssh/id_rsa.pub user@server
 
 ![image](https://github.com/user-attachments/assets/d1a3d58d-e3fc-43c1-a8ed-c60c1f124826)
 
