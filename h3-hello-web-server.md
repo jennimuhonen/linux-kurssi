@@ -193,7 +193,7 @@ Ihmetellessä raportoinnista jäi jokunen ihmettely ja testikerta nyt välistä,
 
 Etsin lisätietoa. TechRepublic-kanavan ohjeiden (https://www.youtube.com/watch?v=_uZjqSyLWQM) perusteella tiedot tosiaan tuli itse laittaa tiedostoon. Näin olinkin jo tehnyt, kuten yllä olevasta kuvasta näkyy.
 
-Jotain kuitenkin on vielä väärin, sillä ohjesivun se
+Jotain kuitenkin on vielä väärin, sillä ohjesivun se [Lisäys jälkikäteen: olisin korjannut tämän typon, mutta en enää muista, mikä tässä kohtaa ei toiminut.]
 
 Yksi ongelma ainakin oli, että seurasin liian kirjaimellisesti ohjetta. Vaihdoin xubuntun omaan käyttäjänimeeni.
 
