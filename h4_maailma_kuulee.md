@@ -257,7 +257,11 @@ Testailun keskellä alkuperäinen yhteys oli taas katkennut. Kävin tarkistamass
 
 ![image](https://github.com/user-attachments/assets/24e63722-0a2d-4229-b0bd-d2dd2f560b27)
 
+Lisäsin käyttäjän ja annoin käyttäjälle sudo-oikeudet:
 
+![image](https://github.com/user-attachments/assets/8e962a6a-032c-46f2-a1c5-4024b82d59fb)
+
+Annoin käyttäjän tietoihin koko nimeno, kuten Susanna Lehto (https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/) oli tehnyt omassa tehtävässään ja jätin muut kohdat tyhjiksi. Annoin käyttäjälle salasanan.
 
 **Lähteet**
 
