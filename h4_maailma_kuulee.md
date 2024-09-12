@@ -107,10 +107,32 @@ Videolta sain yleisen kuvan siitä, mistä on kyse. Tämän jälkeen palasin UpC
 
 Aiemmin mainitulla SSH-ohjeiden sivulla kerrotaan kuinka SSH-salaus tehdään komentorivillä, mutta se ei vastaa siihen, mitä yllä olevaan pitäisi antaa. Siirryin etsimään vastausta sähköpostin ohjeviestiin linkatun sivun takaa (https://upcloud.com/resources/tutorials/deploy-server), mutta siellä aihetta käsiteltiin hyvin yleisesti. Päätin avata terminaalin ja kokeilla luoda SSH-avaimet Debianillani ja katsoa mitä tapahtuu. Tein rekisteröitymistä Windowsin puolella, mutta avaimet kokeilen lisätä Debianin puolella. Avaimet voi lisätä tilin tietoihin omalla välilehdellä eli voin palata rekisteröitymisen pariin Windowsin puolelle, jos saan salausasiat kuntoon.
 
+**SSH**
+
+Ryhdyin toimeen apunani UpCloudin ohjesivu https://upcloud.com/resources/tutorials/use-ssh-keys-authentication ja ChatGPT.
+
+UpCloudin ohjeiden mukaan luon SSH-avainparin seuraavasti:
+
+![image](https://github.com/user-attachments/assets/e94baf55-c7d7-4046-8bab-bcba1cc5c0d4)
+
+Ennen kuin syötin komentoja tarkistin vielä ChatGPT:ltä, mitä kukin komento tekee ja mitä olen tehnyt laitettuani nämä kolme komentoa.
+
+Kysyin seuraavat kysymykset ChatGPT:ltä:
+
+- mitä komento mkdir -p ~/.ssh tekee?
+- mitä tämä komento tekee: chmod 700 ~/.ssh
+- mitä tämä komento tekee: ssh-keygen -t rsa
+- Eli näiden komentojen jälkeen olen 1. luonu kansion 2. määrittänyt sen oikeudet vain itselleni ja 3. luonut kansioon ssh-avainparin? Tämä ei vielä ota SSH:ta käyttöön?
+- viimeisimmässä vaiheessa saan vastauksen bash: ssh-keygen: command not found. Johtuuko tämä siitä, että minun tarvitsee asentaa ensin jotain vai käyttää sudoa?
+
+Viimeisimmän kysymyksen kysyin saatuani virheviestin. ChatGPT kertoi minulle, että en tarvitse tässä sudoa (joka olisikin ollut yllättävää, koska ohjeissakaan sitä ei ollut) vaan että luultavasti minun täytyy asentaa ssh-keygen.
+
+
 
 **Lähteet**
 
--Finder: UpCloud Oy. https://www.finder.fi/IT-palvelut/UpCloud+Oy/Helsinki/yhteystiedot/2617969
+- ChatGPT
+- Finder: UpCloud Oy. https://www.finder.fi/IT-palvelut/UpCloud+Oy/Helsinki/yhteystiedot/2617969
 - Karvinen 2012: First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
 - Karvinen, Tero: Oppitunti 11.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
 - Lovet, Kris. Benchmark between cloud servers (January 2024). (https://techblog.nexxwave.eu/benchmark-between-cloud-servers-january-2024/)
@@ -118,7 +140,6 @@ Aiemmin mainitulla SSH-ohjeiden sivulla kerrotaan kuinka SSH-salaus tehdään ko
 - Susanna Lehto 2022: Teoriasta käytäntöön pilvipalvelimen avulla (h4). https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/
 - UpCloud 23.4.2024: How to deploy a new Cloud Server. https://upcloud.com/resources/tutorials/deploy-server
 - UpCloud: Documentation. https://upcloud.com/docs/products/networking/features/utility-network/
-
 
 ---
   
