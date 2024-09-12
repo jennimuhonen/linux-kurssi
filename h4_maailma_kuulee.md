@@ -251,6 +251,12 @@ Tämän jälkeen tein palomuuriin reiän ja aktivoin sen. Hetkeksi pysähdyin ja
 
 ![image](https://github.com/user-attachments/assets/114f1725-4e14-47c3-ac41-eabdca44ace7)
 
+Palomuuri on käytössä vasta systeemin uudelleenkäynnistämisen jälkeen. Muistelin, että aiemmin katsomallani Youtube-videolla asioita tarkisteltiin toisen terminaaliyhteyden kautta ennen kuin aiempaa yhteyttä suljettiin, jotta voitiin olla varmoja siitä, että mitään ei ollut mennyt pieleen ja yhteyden ottaminen edelleen onnistui. Kokeilin tätä ja pääsin edelleen sisälle. Niinpä siirryin ohjeen seuraavaan kohtaan.
+
+Testailun keskellä alkuperäinen yhteys oli taas katkennut. Kävin tarkistamassa mikä komento ohjeessa vielä annettiin lopuksi ja kokeilin antaa sen, josko erillinen uudelleenkäynnistäminen sittenkin tarvittiin.
+
+![image](https://github.com/user-attachments/assets/24e63722-0a2d-4229-b0bd-d2dd2f560b27)
+
 
 
 **Lähteet**
