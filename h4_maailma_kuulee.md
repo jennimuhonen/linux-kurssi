@@ -269,6 +269,11 @@ Tämän jälkeen ohje kehotti testaamaan uutta käyttäjää ja hyvä niin:
 
 Ongelma liittyi tietenkin siihen, että jouduin ottamaan SSH-avaimet käyttöön ja en ollut antanut uudelle käyttäjälle julkista avainta.
 
+Tosin olin myös typottanut käyttäjänimen, mutta tämän korjaaminen ei auta asiaa:
+
+![image](https://github.com/user-attachments/assets/ffdfff04-6aaa-4b62-8de2-23a593fffb7a)
+
+
 **Lähteet**
 
 - ChatGPT
