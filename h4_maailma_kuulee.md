@@ -75,6 +75,27 @@ Oppitunnilla sanottiin, että kannattaa valita halvin vaihtoehto, jossa on gigat
 
 ![image](https://github.com/user-attachments/assets/5b36c132-bb9c-4b72-b7fa-aa5873eff558)
 
+Seuraaville kohdille en tehnyt mitää, sillä tunnilla kerrottiin, ettei ekstrasta kannata maksaa, sillä varmuuskopiot täytyy joka tapauksessa ottaa itse.
+
+![image](https://github.com/user-attachments/assets/c2b83bd3-a3e0-46a6-b076-ace34db4fbcc)
+
+Käyttöjärjestelmäksi valitsin Debianin.
+
+![image](https://github.com/user-attachments/assets/672d5a50-9e23-420c-8f89-59304eeb9f5d)
+
+Seuraaville valinnoille en tehnyt mitään. Klikkasin Utility networkin linkkiä ja sivulla kerrottiin, että kaikki käyttäjän palvelimet on yhdistettu "utility networkiin", joka yhdistää kaikkia yrityksen palvelinkeskuksia. Tämä takaa nopean yhteyden palvelinten välillä.
+
+![image](https://github.com/user-attachments/assets/47cdbf60-7a66-4c37-8738-b0cf383b4167)
+
+Myöskään seuraaviin en tehnyt muutoksia ja sivusto kertoi, että Metadata Servicen pitää olla päällä valitsemassani kokonaisuudessa.
+
+![image](https://github.com/user-attachments/assets/150161e2-470e-48c5-8cf2-1a8716077a0a)
+
+Tunnilla kerrottiin, että SSH olisi parempi vaihtoehto, mutta koska emme vielä osaa tätä, voimme valita salasanan. Tässä kohtaa ongelmaksi tuli se, että sivusto ilmoitti, etten voi valita salasanaa kyseisen käyttöjärjestelmän version kanssa.
+
+![image](https://github.com/user-attachments/assets/149dd5d9-e3bf-45a9-8a59-32b04c40e851)
+
+
 
 **Lähteet**
 
@@ -84,6 +105,7 @@ Oppitunnilla sanottiin, että kannattaa valita halvin vaihtoehto, jossa on gigat
 - Lovet, Kris. Benchmark between cloud servers (January 2024). (https://techblog.nexxwave.eu/benchmark-between-cloud-servers-january-2024/)
 - Susanna Lehto 2022: Teoriasta käytäntöön pilvipalvelimen avulla (h4). https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/
 - UpCloud 23.4.2024: How to deploy a new Cloud Server. https://upcloud.com/resources/tutorials/deploy-server
+- UpCloud: Documentation. https://upcloud.com/docs/products/networking/features/utility-network/
 
 
 ---
