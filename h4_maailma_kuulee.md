@@ -263,6 +263,12 @@ Lisäsin käyttäjän ja annoin käyttäjälle sudo-oikeudet:
 
 Annoin käyttäjän tietoihin koko nimeno, kuten Susanna Lehto (https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/) oli tehnyt omassa tehtävässään ja jätin muut kohdat tyhjiksi. Annoin käyttäjälle salasanan.
 
+Tämän jälkeen ohje kehotti testaamaan uutta käyttäjää ja hyvä niin:
+
+![image](https://github.com/user-attachments/assets/6fdb85bc-114b-44bd-acb7-8725c9a73a1a)
+
+Ongelma liittyi tietenkin siihen, että jouduin ottamaan SSH-avaimet käyttöön ja en ollut antanut uudelle käyttäjälle julkista avainta.
+
 **Lähteet**
 
 - ChatGPT
