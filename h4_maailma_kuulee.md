@@ -279,7 +279,7 @@ Jostain syystä ei onnistunut. Tässä kohtaa etsin varalta vahingossa tekemäni
 
 Pääsy palvelimelle oli kuitenkin edelleen estetty käyttäjältä jemjem, mutta root pääsi edelleen kirjautumaan ongelmitta.
 
-Kello on tässä kohtaa sen verran paljon, että jätän ongelman selvittelyn toiseen päivään.
+Kello oli tässä kohtaa sen verran paljon, että jätin ongelman selvittelyn toiseen päivään.
 
 **Lähteet**
 
