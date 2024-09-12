@@ -219,7 +219,11 @@ Komentoa antaessani oli käynyt niin, että yhteys virtuaalipalvelimelle oli kat
 
 Otin yhteyttä uudestaan virtuaalipalvelimelle, mutta siellä komento ei onnistunut. Kävin tarkistamassa palomuurin asennusohjeet (https://terokarvinen.com/2021/install-debian-on-virtualbox/) ja tosiaan, ufw piti ensin asentaa.
 
-Tällä välin yhteys virtuaalipalvelimeen oli taas katkennut.
+Tällä välin yhteys virtuaalipalvelimeen oli taas katkennut:
+
+![image](https://github.com/user-attachments/assets/3a19e7e9-24dd-40d2-bade-fe51545cfc16)
+
+Tätäkin pitäisi varmaan selvittää. Googlaus tuottikin yllättävän helposti vastauksen (https://www.tecmint.com/client_loop-send-disconnect-broken-pipe/) eli yhteys katkeaa, kun se on liian pitkään käyttämättä. Liian pitkään on tässä hyvin suhteellinen käsite, sillä hetki tiedonhakua muualla katkaisi yhteyden.
 
 **Lähteet**
 
@@ -232,6 +236,7 @@ Tällä välin yhteys virtuaalipalvelimeen oli taas katkennut.
 - Lovet, Kris. Benchmark between cloud servers (January 2024). (https://techblog.nexxwave.eu/benchmark-between-cloud-servers-january-2024/)
 - NetworkChuck 18.3.2021: 5 Steps to Secure Linux (protect from hackers). https://www.youtube.com/watch?v=ZhMw53Ud2tY
 - Oracle. 4 Working with SSH Key Pairs. https://docs.oracle.com/en/operating-systems/oracle-linux/openssh/openssh-WorkingwithSSHKeyPairs.html#remote-access-without-password
+- Saive, Ravi 31.5.2023: How to Fix SSH Client_loop: send disconnect: Broken pipe Error. https://www.tecmint.com/client_loop-send-disconnect-broken-pipe/
 - Susanna Lehto 2022: Teoriasta käytäntöön pilvipalvelimen avulla (h4). https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/
 - UpCloud 24.5.2023: How to use SSH keys for authentication https://upcloud.com/resources/tutorials/use-ssh-keys-authentication
 - UpCloud 23.4.2024: How to deploy a new Cloud Server. https://upcloud.com/resources/tutorials/deploy-server
