@@ -95,7 +95,17 @@ Tunnilla kerrottiin, että SSH olisi parempi vaihtoehto, mutta koska emme vielä
 
 ![image](https://github.com/user-attachments/assets/149dd5d9-e3bf-45a9-8a59-32b04c40e851)
 
-Joudun siis omatoimisesti perehtymään SSH-salaukseen. Tämä lienee hyvä hetki pitää ruokatauko.
+Joudun siis omatoimisesti perehtymään SSH-salaukseen, jos en halua luovuttaa. Tämä lienee hyvä hetki pitää tauko.
+
+*12.9.2024 16.40*
+
+UpCloudin sivuilla on SSH-ohjeet (https://upcloud.com/resources/tutorials/use-ssh-keys-authentication), mutta aloitin aiheeseen perehtymisen mieluummin katsomalla ensin videon Youtubesta: https://www.youtube.com/watch?v=ZhMw53Ud2tY.
+
+Videolta sain yleisen kuvan siitä, mistä on kyse. Tämän jälkeen palasin UpCloudin sivulle tutkimaan, mitä rekisteröitymisvaiheessa tarvitaan. En vielä ymmärrä, mitä tietoa sivulle pitäisi antaa:
+
+![image](https://github.com/user-attachments/assets/027ff9b5-448f-407a-b3b5-e82f6e225379)
+
+Aiemmin mainitulla SSH-ohjeiden sivulla kerrotaan kuinka SSH-salaus tehdään komentorivillä, mutta se ei vastaa siihen, mitä yllä olevaan pitäisi antaa. Siirryin etsimään vastausta sähköpostin ohjeviestiin linkatun sivun takaa (https://upcloud.com/resources/tutorials/deploy-server), mutta siellä aihetta käsiteltiin hyvin yleisesti. Päätin avata terminaalin ja kokeilla luoda SSH-avaimet Debianillani ja katsoa mitä tapahtuu. Tein rekisteröitymistä Windowsin puolella, mutta avaimet kokeilen lisätä Debianin puolella. Avaimet voi lisätä tilin tietoihin omalla välilehdellä eli voin palata rekisteröitymisen pariin Windowsin puolelle, jos saan salausasiat kuntoon.
 
 
 **Lähteet**
