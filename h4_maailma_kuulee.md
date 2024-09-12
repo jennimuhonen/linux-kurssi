@@ -71,6 +71,10 @@ Tunnilla kerrottiin, että sijainti kannattaa ottaa niin läheltä asiakasta kui
 
 ![image](https://github.com/user-attachments/assets/af36e6e4-c691-4891-8397-3314a9f1caa8)
 
+Oppitunnilla sanottiin, että kannattaa valita halvin vaihtoehto, jossa on gigatavu ram-muistia. Eli tämän perusteella kolmen euron vaihtoehto kuulostaa hyvältä.
+
+![image](https://github.com/user-attachments/assets/5b36c132-bb9c-4b72-b7fa-aa5873eff558)
+
 
 **Lähteet**
 
