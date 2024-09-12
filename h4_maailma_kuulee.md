@@ -199,6 +199,16 @@ Näytti lupaavalta.
 
 Seuraavaksi aloin seuraamaan opettajan ohjeita (https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/) virtuaalipalvelimen alkutoimien kanssa.
 
+Ensiksi kopioin virtuaalipalvelimeni ip-osoitteen ja sen jälkeen otin siihen yhteyttä root-käyttäjänä.
+
+![image](https://github.com/user-attachments/assets/82499348-aa48-4d18-aa4d-af99d86e9df4)
+
+Jostain syystä, kun annoin tuon komennon, yhteys lopuksi suljettiin ja en päässyt kirjautumaan sisään. Kävin ChatGPT:n kanssa keskustelun siitä, mihin vaikuttaa se, että kokeilujaksolla portin 22 lähtevä liikenne on suljettu. ChatGPT kuitenkin vakuutti minut siitä, että tämä ei ole ongelmaan syyllinen. Kokeilin siis varalta komentoa uudestaan ja tällä kertaa pääsinkin sisään:
+
+![image](https://github.com/user-attachments/assets/18ac676b-21e6-407c-871b-5e8ee070d01b)
+
+Tässä kohtaa kävin ChatGPT:n kanssa keskustelun myös SSH-salauksesta ja hahmotin, miksi riittää, että olen antanut virtuaalipalvelimelle vain avaimen julkisen puoliskon. ChatGPT selitti, että kun otan yhteyttä palvelimelle, palvelin heittää haasteena julkisen avaimen ja koska koneeni osaa yksityisen avaimen avulla ratkaista haasteen, pääsen sisälle.
+
 
 
 
