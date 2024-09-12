@@ -265,13 +265,17 @@ Annoin käyttäjän tietoihin koko nimeno, kuten Susanna Lehto (https://susannal
 
 Tämän jälkeen ohje kehotti testaamaan uutta käyttäjää ja hyvä niin:
 
-![image](https://github.com/user-attachments/assets/6fdb85bc-114b-44bd-acb7-8725c9a73a1a)
-
-Ongelma liittyi tietenkin siihen, että jouduin ottamaan SSH-avaimet käyttöön ja en ollut antanut uudelle käyttäjälle julkista avainta.
-
-Tosin olin myös typottanut käyttäjänimen, mutta tämän korjaaminen ei auta asiaa:
-
 ![image](https://github.com/user-attachments/assets/ffdfff04-6aaa-4b62-8de2-23a593fffb7a)
+
+Ongelma oletettavasti liittyy siihen, että jouduin ottamaan SSH-avaimet käyttöön ja en ollut antanut uudelle käyttäjälle julkista avainta.
+
+UpCloudin ohjeiden mukaan tällä komennolla voidaan antaa julkinen avain käyttäjälle: ssh-copy-id -i ~/.ssh/id_rsa.pub user@server
+
+![image](https://github.com/user-attachments/assets/d1a3d58d-e3fc-43c1-a8ed-c60c1f124826)
+
+Jostain syystä ei onnistunut. Tässä kohtaa etsin varalta vahingossa tekemäni ylimääräiset avaimet, jos ne vaikuttavat asiaan. Avaimet löytyivät kotihakemistostani, josta poistin ne.
+
+![image](https://github.com/user-attachments/assets/48e8f0e9-b3b4-46ce-9c60-b172898948a1)
 
 
 **Lähteet**
