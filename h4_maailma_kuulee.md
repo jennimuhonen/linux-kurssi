@@ -158,6 +158,12 @@ Kokeilin varalta luoda avaimen uudelleen, mutta tässä kohtaa käy ilmi, että 
 
 Lähdin etsimään neuvoja jostain muualta.
 
+Raivokkaasta googlettamisesta huolimatta kaikkialla vain tarjottiin samat komennot eikä mitään ratkaisuja eli mistään en löytänyt vastausta ongelmaani. Päätin kokeilla vielä kerran avaimen luomista ja lopulta ymmärsin, missä olin mennyt vikaan. En ollut lukenut kunnolla, mitä avainta luodessa oikeastaan sanotaan. Olin painanut y ja ajatellut, että haluttiin vain hyväksyntää, mutta itseasiassa tässä kohtaa kysyttiin, haluanko antaa tiedostolle uuden nimen vai käyttää default nimeä. Olin siis nimennyt tiedoston nimellä y. Olin siis tehnyt saman virheen kahteen kertaan ja vasta kolmannella yrityksellä luin tarpeeksi hitaasti ja ymmärsin, mitä olin tehnyt. Päädyin tekemään uuden avaimen oletusnimellä.
+
+![image](https://github.com/user-attachments/assets/a9ef3677-63e1-464e-b08c-a19dbbffcc33)
+
+Jostain syystä ensimmäisen tiedoston nimi näyttäytyy y:n sijaan pisteenä ja luulin, että pisteet piilottavat jotain tietoa. Jotain vikaa y:ksi nimetyssä tiedostossa varmaankin on, koska sen tiedot näyttävät oudoilta. Defaul-nimellä nimetyt tiedostot näyttävät sen sijaan oikealta. (Vertailuna käytin: https://docs.oracle.com/en/operating-systems/oracle-linux/openssh/openssh-WorkingwithSSHKeyPairs.html#remote-access-without-password)
+
 **Lähteet**
 
 - ChatGPT
@@ -167,6 +173,7 @@ Lähdin etsimään neuvoja jostain muualta.
 - Karvinen, Tero: Oppitunti 11.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
 - Lovet, Kris. Benchmark between cloud servers (January 2024). (https://techblog.nexxwave.eu/benchmark-between-cloud-servers-january-2024/)
 - NetworkChuck 18.3.2021: 5 Steps to Secure Linux (protect from hackers). https://www.youtube.com/watch?v=ZhMw53Ud2tY
+- Oracle. 4 Working with SSH Key Pairs. https://docs.oracle.com/en/operating-systems/oracle-linux/openssh/openssh-WorkingwithSSHKeyPairs.html#remote-access-without-password
 - Susanna Lehto 2022: Teoriasta käytäntöön pilvipalvelimen avulla (h4). https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/
 - UpCloud 23.4.2024: How to deploy a new Cloud Server. https://upcloud.com/resources/tutorials/deploy-server
 - UpCloud: Documentation. https://upcloud.com/docs/products/networking/features/utility-network/
