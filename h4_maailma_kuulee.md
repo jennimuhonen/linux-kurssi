@@ -127,6 +127,9 @@ Kysyin seuraavat kysymykset ChatGPT:ltä:
 
 Viimeisimmän kysymyksen kysyin saatuani virheviestin. ChatGPT kertoi minulle, että en tarvitse tässä sudoa (joka olisikin ollut yllättävää, koska ohjeissakaan sitä ei ollut) vaan että luultavasti minun täytyy asentaa ssh-keygen.
 
+Aion ensin suoraan noudattaa ChatGPT:n neuvoja, mutta päädyin kuitenkin tarkistamaan, mitkä kurssilla neuvotut komennot asennuksiin olivat (https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited). ChatGPT halusi käyttää sudo apt -komentoa ja kurssille on ohjeistettu käyttämään sudo apt-get. Muistan, että opettaja on kertonut näiden eron, mutta en enää muista vastausta. ChatGPT:n mukaan ("mitä eroa on komennoilla sudo apt ja sudo apt-get?") ero on tiivistetysti se, että apt on uudempi ja helpompi komento, kun taas apt-get tarjoaa ominaisuuksia, joita apt:lla ei ole.
+
+
 
 
 **Lähteet**
@@ -134,6 +137,7 @@ Viimeisimmän kysymyksen kysyin saatuani virheviestin. ChatGPT kertoi minulle, e
 - ChatGPT
 - Finder: UpCloud Oy. https://www.finder.fi/IT-palvelut/UpCloud+Oy/Helsinki/yhteystiedot/2617969
 - Karvinen 2012: First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
+- Karvinen, Tero: Command Line Basics Revisited. https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
 - Karvinen, Tero: Oppitunti 11.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
 - Lovet, Kris. Benchmark between cloud servers (January 2024). (https://techblog.nexxwave.eu/benchmark-between-cloud-servers-january-2024/)
 - NetworkChuck 18.3.2021: 5 Steps to Secure Linux (protect from hackers). https://www.youtube.com/watch?v=ZhMw53Ud2tY
