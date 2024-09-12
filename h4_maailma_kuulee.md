@@ -241,6 +241,10 @@ Lopulta ohjeiden (https://www.cs.colostate.edu/helpdocs/vi.html) avulla sain pä
 
 Tosin tätä kirjoittaessa serveri heitti minut taas pihalle ja oletan, etten tuhlannut varttia.
 
+Luin ohjetta vielä uudelleen ja ohjeessa käskettiin käynnistämään SSH daemon uudestaan. Oletan, että tätä ei nyt enää erikseen tarvitse tehdä, kun minut ehdittiin jo heittää pihalle. Palaan ohjeiden pariin, jos ongelma jatkuu.
+
+
+
 
 **Lähteet**
 
