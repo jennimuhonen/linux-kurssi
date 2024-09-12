@@ -223,9 +223,23 @@ Tällä välin yhteys virtuaalipalvelimeen oli taas katkennut:
 
 ![image](https://github.com/user-attachments/assets/3a19e7e9-24dd-40d2-bade-fe51545cfc16)
 
-Tätäkin pitäisi varmaan selvittää. Googlaus tuottikin yllättävän helposti vastauksen (https://www.tecmint.com/client_loop-send-disconnect-broken-pipe/) eli yhteys katkeaa, kun se on liian pitkään käyttämättä. Liian pitkään on tässä hyvin suhteellinen käsite, sillä hetki tiedonhakua muualla katkaisi yhteyden.
+Tätäkin pitäisi varmaan selvittää. Googlaus tuottikin yllättävän helposti vastauksen. Ravi Saiven (https://www.tecmint.com/client_loop-send-disconnect-broken-pipe/) mukaan yhteys katkeaa, kun se on liian pitkään käyttämättä. Liian pitkään on tässä hyvin suhteellinen käsite, sillä hetki tiedonhakua muualla katkaisi yhteyden.
+
+Ravi Saive kehotetti antamaan komento sudo vi /etc/ssh/sshd_config ja etsimään tiedostosta alla olevassa kuvassa näkyvät tiedot.
 
 ![image](https://github.com/user-attachments/assets/b47d1f3a-cc20-4769-9435-468ae96d0f65)
+
+Saiven mukaan ClientAliveInterval (https://www.cs.colostate.edu/helpdocs/vi.html) tarkoittaa sitä, kuinka pitkän inaktiivisuuden jälkeen SSH serveri lähettää alive-viestin clientille ja ClientAliveCountMax tarkoittaa, kuinka monta kertaa tämä tapahtuu. Eli toisin sanoen heti epäaktiivisuuden jälkeen serveri alkoi tarkistella tilannetta, totesi kuolleeksi ja sulki yhteyden. Eipä ihme, että oli haasteita.
+
+Saive kehottaa päivittämään ylemmäksi luvun arvoksi 300, jolloin alive-viesti lähtee 300 sekunnin eli viiden minuutin päästä. Koska tämä toistetaan kolmesti, on armonaikaa tämän jälkeen 15 minuuttia. Tämä kuulosti huomattavasti paremmalta, mutta vi-editorin käyttö vaati erikseen käyttöohjeiden etsimisen. Kokeilin myös välissä, voiko tiedoston avata microlla, mutta ei voinut. Tiedoston sisältö näytti sellaiselta, että varmaan ihan hyvä, ettei sitä aivan helposti saanut käpälöityä.
+
+![image](https://github.com/user-attachments/assets/f8cdf267-2fcc-4772-8798-cdbd40a5c49a)
+
+Lopulta ohjeiden (https://www.cs.colostate.edu/helpdocs/vi.html) avulla sain päivitettyä ClientAliveInterval:n 300 sekuntiin:
+
+![image](https://github.com/user-attachments/assets/c1d768a6-b3d0-4de1-93e3-a6b2d518c043)
+
+Tosin tätä kirjoittaessa serveri heitti minut taas pihalle ja oletan, etten tuhlannut varttia.
 
 
 **Lähteet**
