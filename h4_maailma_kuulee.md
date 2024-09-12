@@ -209,8 +209,17 @@ Jostain syystä, kun annoin tuon komennon, yhteys lopuksi suljettiin ja en pää
 
 Tässä kohtaa kävin ChatGPT:n kanssa keskustelun myös SSH-salauksesta ja hahmotin, miksi riittää, että olen antanut virtuaalipalvelimelle vain avaimen julkisen puoliskon. ChatGPT selitti, että kun otan yhteyttä palvelimelle, palvelin heittää haasteena julkisen avaimen ja koska koneeni osaa yksityisen avaimen avulla ratkaista haasteen, pääsen sisälle.
 
+SSH-avaimien käyttämisen takia minun ei tarvinnut antaa salasanaa, kuten ohjeessa neuvottiin.
 
+Seuraavaksi minun tuli tehdä reikä palomuuriin komennolla `sudo ufw allow 22/tcp`. ChatGPT selitti (kysymys: mitä tämä komento tekee: sudo ufw allow 22/tcp), että ufw on palomuurin hallintatyökalu ja allow sallii yhteydet määritettyyn porttiin.
 
+![image](https://github.com/user-attachments/assets/404f466f-748a-4a11-83c3-d731a88c50ed)
+
+Komentoa antaessani oli käynyt niin, että yhteys virtuaalipalvelimelle oli katkennut ja annoin komennon vahingossa väärällä puolella. Lyhyt keskustelu ChatGPT:n kanssa antoi minulle keinot korjata asian ja vahvistuksen arviolle, että tietosuojasyistä aukkoa ei ole syytä huvikseen sinne jättää.
+
+Otin yhteyttä uudestaan virtuaalipalvelimelle, mutta siellä komento ei onnistunut. Kävin tarkistamassa palomuurin asennusohjeet (https://terokarvinen.com/2021/install-debian-on-virtualbox/) ja tosiaan, ufw piti ensin asentaa.
+
+Tällä välin yhteys virtuaalipalvelimeen oli taas katkennut.
 
 **Lähteet**
 
@@ -219,6 +228,7 @@ Tässä kohtaa kävin ChatGPT:n kanssa keskustelun myös SSH-salauksesta ja hahm
 - Karvinen 2012: First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
 - Karvinen, Tero 2020: Command Line Basics Revisited. https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
 - Karvinen, Tero 2024: Oppitunti 11.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
+- Karvinen, Tero: Install Debian on Virtualbox - Updated 2023. https://terokarvinen.com/2021/install-debian-on-virtualbox/
 - Lovet, Kris. Benchmark between cloud servers (January 2024). (https://techblog.nexxwave.eu/benchmark-between-cloud-servers-january-2024/)
 - NetworkChuck 18.3.2021: 5 Steps to Secure Linux (protect from hackers). https://www.youtube.com/watch?v=ZhMw53Ud2tY
 - Oracle. 4 Working with SSH Key Pairs. https://docs.oracle.com/en/operating-systems/oracle-linux/openssh/openssh-WorkingwithSSHKeyPairs.html#remote-access-without-password
