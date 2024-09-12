@@ -243,12 +243,20 @@ Tosin tätä kirjoittaessa serveri heitti minut taas pihalle ja oletan, etten tu
 
 Luin ohjetta vielä uudelleen ja ohjeessa käskettiin käynnistämään SSH daemon uudestaan. Oletan, että tätä ei nyt enää erikseen tarvitse tehdä, kun minut ehdittiin jo heittää pihalle. Palaan ohjeiden pariin, jos ongelma jatkuu.
 
+Eli olin asentamassa usw:tä. Ensiksi ajoin päivityksiä ja sen jälkeen asensin ufw:n ja samalla tajusin, että micro piti myös erikseen asentaa, jos sitä haluaa käyttää.
+
+![image](https://github.com/user-attachments/assets/e359c52b-f008-4e7a-b71e-ccadb909a21a)
+
+Tämän jälkeen tein palomuuriin reiän ja aktivoin sen. Hetkeksi pysähdyin ja tarkistin, että palomuurin reikä näyttäisi olevan ok, ennen kuin hyväksyin palomuurin käynnistämisen.
+
+![image](https://github.com/user-attachments/assets/114f1725-4e14-47c3-ac41-eabdca44ace7)
 
 
 
 **Lähteet**
 
 - ChatGPT
+- Colorado State University. Computer Science Department : Basic vi Commands. https://www.cs.colostate.edu/helpdocs/vi.html
 - Finder: UpCloud Oy. https://www.finder.fi/IT-palvelut/UpCloud+Oy/Helsinki/yhteystiedot/2617969
 - Karvinen 2012: First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
 - Karvinen, Tero 2020: Command Line Basics Revisited. https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
