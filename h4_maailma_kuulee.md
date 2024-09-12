@@ -63,6 +63,13 @@ Ilmaisjakson rajoitteet ovat nämä, en
 
 Lue ja tiivistä -kohdan materiaaleissa mainittiin portit 22 ja 80. En tiedä tuottaako se ongelmia, että kokeilujaksolla portin 22 liikenne on vain yksisuuntaista. Pidän tämän mielessä ja katson, kuinka käy.
 
+Seuraavaksi ohjesähköpostissa oli kohta Deploy your first cloud server, joka vei aiheeseen liittyvälle ohjesivulle: https://upcloud.com/resources/tutorials/deploy-server. Sivun perusteella klikkailin itseni Servers-sivustolle, josta löytyi kohta Deploy New Server.
+
+![image](https://github.com/user-attachments/assets/75a3756e-67bb-4ed9-9297-4de36d1c05c4)
+
+Tunnilla kerrottiin, että sijainti kannattaa ottaa niin läheltä asiakasta kuin mahdollista ja että EU-maat ovat hyviä valintoja EU:n sääntelyn takia. Koska UPCloud on suomalainen palvelu, saan valita jopa kahden kotimaisen vaihtoehdon väliltä:
+
+![image](https://github.com/user-attachments/assets/af36e6e4-c691-4891-8397-3314a9f1caa8)
 
 
 **Lähteet**
@@ -72,6 +79,7 @@ Lue ja tiivistä -kohdan materiaaleissa mainittiin portit 22 ja 80. En tiedä tu
 - Karvinen, Tero: Oppitunti 11.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
 - Lovet, Kris. Benchmark between cloud servers (January 2024). (https://techblog.nexxwave.eu/benchmark-between-cloud-servers-january-2024/)
 - Susanna Lehto 2022: Teoriasta käytäntöön pilvipalvelimen avulla (h4). https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/
+- UpCloud 23.4.2024: How to deploy a new Cloud Server. https://upcloud.com/resources/tutorials/deploy-server
 
 
 ---
