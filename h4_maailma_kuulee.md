@@ -144,6 +144,20 @@ Halusin vielä nähdä, onko näin todella. Pelkkä ls-komento ei tuottanut vast
 
 Sitten takaisin UpCloudin sivulle, mutta tällä kertaa Debianin kautta. Jotta tämä onnistui, jouduin vaihtamaan salasanan palveluun, sillä olin laiskana antanut Googlen luoda ja tallentaa salasanan, josta minulla ei ollut enää mitään aavistusta.
 
+Seuraava haaste: kuinka kopioin salausavaimen verkkosivulle.
+
+Tämä kohta osoittautui kinkkiseksi. ChatGPT ehdotti, että tulostan tiedoston cat-komennon avulla ja saan sen jälkeen kopioitua sen. 
+
+![image](https://github.com/user-attachments/assets/c7e68f88-e8d9-4b1e-8bf1-e9c5c9239d07)
+
+Tarkastin yllä tiedoston sisällön, mutta en näe siellä tiedostoa, jonka nimi olisi id_rsa.pub.
+
+Kokeilin varalta luoda avaimen uudelleen, mutta tässä kohtaa käy ilmi, että avain kyllä on olemassa:
+
+![image](https://github.com/user-attachments/assets/c1cefdee-d280-4ffc-9069-2fec0bc4acbf)
+
+Lähdin etsimään neuvoja jostain muualta.
+
 **Lähteet**
 
 - ChatGPT
