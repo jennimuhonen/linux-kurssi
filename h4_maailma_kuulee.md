@@ -176,9 +176,21 @@ Tähänhän nyt meni hieman ennalta odotettua pitempään... Olisin päässyt ni
 
 En tiedä olisiko avaimen default-nimeä voinut ongelmitta vaihtaa sitä UpCloudiin tallentaessa, mutta en halunnut kokeilla.
 
-![image](https://github.com/user-attachments/assets/bfc92261-f3fc-4d2b-8078-eccfd7d5ad8e)
+Tämä valinta kuulostaa edistyneemmille käyttäjille suunnatulta, joten hyppäsin sen yli:
 
-Loput kaksi kohtaa menin automaattisilla valinnoilla ja lopultakin klikkasin Deploy.
+![image](https://github.com/user-attachments/assets/c563bf3f-41b7-48ec-aba5-8f0a11202017)
+
+Ja viimeiseksi piti valita Hostname ja Servername. Tässä on yksi nimi enemmän kuin esimerkeissä näkemälläni DigitalOceanilla. Tarkistin ohjesivulta (https://upcloud.com/resources/tutorials/deploy-server), mitä eri nimillä tarkoitetaan. Sivun mukaan Hostname-kohtaan laittaisin domainini, jos minulla sellainen olisi ja Server name -kohtaan taas nimi, jolla tunnistan nopeasti serverini. Tämä nimi näkyy servereiden listauksessa ilmeisestikin UpCloudin sivuilla. Opettajan ohje nimeämiseen oli laittaa jotain harmitonta, jonka näkyminen ulospäin ei haittaa. Laitoin kahteen kohtaan hieman erilaiset nimet, niin näen mitä näkyy missäkin.
+
+![image](https://github.com/user-attachments/assets/b50f234c-3dd5-4fb9-bd42-d351d58818f8)
+
+Sitten klikkasin Deploy.
+
+![image](https://github.com/user-attachments/assets/2e3d1980-f2e1-4a41-885a-39d9459bd2a3)
+![image](https://github.com/user-attachments/assets/837f00b5-9b03-41f5-ab31-5bbe404827ec)
+
+Näytti lupaavalta.
+
 
 
 **Lähteet**
