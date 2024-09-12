@@ -129,8 +129,20 @@ Viimeisimmän kysymyksen kysyin saatuani virheviestin. ChatGPT kertoi minulle, e
 
 Aion ensin suoraan noudattaa ChatGPT:n neuvoja, mutta päädyin kuitenkin tarkistamaan, mitkä kurssilla neuvotut komennot asennuksiin olivat (https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited). ChatGPT halusi käyttää sudo apt -komentoa ja kurssille on ohjeistettu käyttämään sudo apt-get. Muistan, että opettaja on kertonut näiden eron, mutta en enää muista vastausta. ChatGPT:n mukaan ("mitä eroa on komennoilla sudo apt ja sudo apt-get?") ero on tiivistetysti se, että apt on uudempi ja helpompi komento, kun taas apt-get tarjoaa ominaisuuksia, joita apt:lla ei ole.
 
+Vaihdoin siis apt-getiin ja jatkoin ChatGPT:n ohjeiden mukaan. Googlasin nopsaan ChatGPT:n ehdottaman asennuspaketin (https://packages.debian.org/unstable/openssh-client) ja koska se näytti hyvältä, jatkoin asentamaan sen. Tunnilla opettaja puhui asentamisen turvallisuudesta apt-getin avulla, joten en olisi ollut kovin huolestunut asentamisesta ilmankaan googlausta.
 
+History-komennon avulla etsin, mitä olin tehnyt tähän mennessä tänään:
 
+![image](https://github.com/user-attachments/assets/c91d36c7-93f8-4924-8ec0-eaee25e5f756)
+
+Eli nyt minulla pitäisi olla ssh-avainpari kansiossa odottamassa.
+
+Halusin vielä nähdä, onko näin todella. Pelkkä ls-komento ei tuottanut vastausta, joten keskustelin hetken aiheesta ChatGPT:n kanssa. Ymmärsin lopulta, että kyseinen kansio on piilotettu ja sen takia sitä ei näkynyt. Kun annoin kotihakemistossani komennon `ls -la` kyseinen ja varsin moni muukin tiedosto tuli näkyviin.
+
+![image](https://github.com/user-attachments/assets/70e0db64-1e9c-4e52-afcd-e9d9b301f799)
+![image](https://github.com/user-attachments/assets/26f7674c-09f3-4dac-866e-6fff1d87f6a1)
+
+Sitten takaisin UpCloudin sivulle, mutta tällä kertaa Debianin kautta. Jotta tämä onnistui, jouduin vaihtamaan salasanan palveluun, sillä olin laiskana antanut Googlen luoda ja tallentaa salasanan, josta minulla ei ollut enää mitään aavistusta.
 
 **Lähteet**
 
