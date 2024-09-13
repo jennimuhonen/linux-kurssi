@@ -321,6 +321,25 @@ Valitettavasti ongelma ei ratkennut tällä:
 
 Eli joko tein jonkin virheen kopioinnissa tai ongelma on jossain muualla.
 
+Ongelma ei ratkea säätämällä ympäriinsä, joten ryhdyin järjestelmällisesti käymään läpi Pranitan (https://www.redswitches.com/blog/ssh-permission-denied/) vianselvityslistaa.
+
+Ensimmäisenä kehotetaan tarkistamaan, että yksityisten avainten oikeudet ovat oikein. Aiemman kuvakaappauksen tiedot täsmäävät esimerkkikuvaan.
+
+Toisena kehotetaan tarkistamaan, että "auhorized keys" ovat oikein ~/.ssh/authorized_keys-tiedostossa. Tarkastin ChatGPT:ltä, kuinka katson kyseistä tiedostoa ja sen jälkeen tutkin tilannetta jemjem:llä ja root:lla.
+
+![image](https://github.com/user-attachments/assets/ff696fcd-42c0-47b1-8009-bc7523ab117b)
+
+jemjem:llä tätä tiedostoa ei ole, kun taas root:lla se oli. Eli olin ilmeisesti kopioinut tiedot väärään paikkaan, kun en ollut perehtynyt ohjeisiin aiemmin tarpeeksi tarkkaan. Kokeilin ohjeiden mukaisesti lähettää taas tiedoston koneelta virtuaalipalvelimelle, mutta tämä ei edelleenkään toimi. Sen sijaan, kun loin samaan tapaan kuin aiemmin tiedoston oikealla nimellä, sain homman lopulta toimimaan!
+
+Eli kopioin avaintiedoston sisällön ja loin jemjem:lle uuden tiedoston ja sen jälkeen cat-komento näytti tiedoston sisällön (jota en tässä näytä).
+
+![image](https://github.com/user-attachments/assets/0425d30a-8c6e-4d75-bbdb-698e41a515d2)
+
+![image](https://github.com/user-attachments/assets/24ee2585-d844-4963-abbb-10fd8c72b78a)
+
+Eli mitä tästä opin. 1. lue ohjeita huolellisesti ja säädä vähemmän. 2. ssh-avaimet ovat kotikoneella ja virtuaalipalvelimella eri nimisissä tiedostoissa (ylläri).
+
+
 
 **Lähteet**
 
