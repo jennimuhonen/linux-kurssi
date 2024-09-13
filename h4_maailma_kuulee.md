@@ -375,12 +375,13 @@ Ja lopuksi ohje kehotti vielä:
 
 ![image](https://github.com/user-attachments/assets/3e3b46bb-d70d-4909-8a17-dae51dad3ada)
 
-
+Päivitykset tein jo palomuurin asentamisen yhteydessä. Palomuuripäivitysten ohjesivulla oli dist-upgrade ja nyt käytetyssä ohjessa pelkkä upgrade. Googlasin asiaa ja päädyin Debianin wikiin (https://wiki.debian.org/AptCLI). upgrade päivittää kaikki paketit ilman, että poistaa mitään, kun taas dist-upgrade myös poistaa asioita. Debianin ohjeessa kehotetaan kirjaamana, mitä on poistetu, jotta näitä voi tarvittaessa asentaa uudestaan.
 
 **Lähteet**
 
 - ChatGPT
 - Colorado State University. Computer Science Department : Basic vi Commands. https://www.cs.colostate.edu/helpdocs/vi.html
+- Debian: AptCli. https://wiki.debian.org/AptCLI.
 - Finder: UpCloud Oy. https://www.finder.fi/IT-palvelut/UpCloud+Oy/Helsinki/yhteystiedot/2617969
 - Karvinen 2012: First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
 - Karvinen, Tero 2020: Command Line Basics Revisited. https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
