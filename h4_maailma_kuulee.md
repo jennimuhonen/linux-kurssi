@@ -343,6 +343,19 @@ Eli kopioin avaintiedoston sisällön ja loin jemjem:lle uuden tiedoston ja sen 
 
 Mitä tästä opin. 1. lue ohjeita huolellisesti ja säädä vähemmän. 2. ssh-avaimet ovat kotikoneella ja virtuaalipalvelimella eri nimisissä tiedostoissa (ylläri). 3. tehdyt virheet tuntuvat usein liittyvän enemmän huolimattomuuteen kuin siihen, että olisi ollut tekemässä jotain totaalisen väärää asiaa.
 
+**Takaisin varsinaisen tehtävän pariin**
+
+Ohjeissa käyttäjä lisätään ryhmiin sudo, adm ja admin. Olin lisännyt jemjem:n jo ryhmään sudo, mutta opettaja taisi tunnilla mainita, että kaikkia ryhmiä ei välttämättä ole käytössä. Kysyin ChatGPT:ltä miten asia tarkistetaan ja sen jälkeen tutkin asiaa:
+
+![image](https://github.com/user-attachments/assets/309fe942-2da5-4e3a-b16a-2b59e995b00a)
+
+Adminia ei ilmeisestikään ole, mutta adm antoi jotain tulosta. Niinpä päätin lisätä käyttäjäni myös adm-ryhmään.
+
+Jatkoin opettajan ohjeiden seurantaa ja seuraavaksi tulee sulkea root-tunnus. Noudatin ohjeita, mutta ohjeissahan itseasiassa sanotaa, että tässä lukitaan salasana. Ja root-käyttäjällähän ei ole salasanaa vaan oikeus tulee ssh:n kautta.
+
+![image](https://github.com/user-attachments/assets/5a575587-3f6f-46cc-8e5a-cc2042df6c25)
+
+
 
 
 **Lähteet**
