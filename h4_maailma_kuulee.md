@@ -192,7 +192,7 @@ Jostain syystä ensimmäisen tiedoston nimi näyttäytyy y:n sijaan pisteenä ja
 
 *(Jälkikäteiskommentti: y-nimiset avaimet eivät itseasiassa olleet päätyneet lainkaan tähän kansioon.)*
 
-Kokeilin cat-komentoa ja nyt se toimii. Kopioin avaimen ja liitin sen UpCloud-tililleni. Kopioin kaiken cat-komennon antaman tiedon, toivottavasti tämä on oikein. Ainakin Up-Cloudilla kaikki näytti hyvältä. (En ota kuvakaappauksia, koska en tiedä mitä tietoa avaimeen liittyen voin tietoturvallisesti näyttää.)
+Kokeilin cat-komentoa ja nyt se toimi. Kopioin avaimen ja liitin sen UpCloud-tililleni. Kopioin kaiken cat-komennon antaman tiedon, toivottavasti tämä on oikein. Ainakin Up-Cloudilla kaikki näytti hyvältä. (En ota kuvakaappauksia, koska en tiedä mitä tietoa avaimeen liittyen voin tietoturvallisesti näyttää.)
 
 **Takaisin alkuperäisen tehtävän pariin**
 
