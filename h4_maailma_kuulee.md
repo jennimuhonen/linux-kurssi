@@ -385,7 +385,9 @@ Opettajan ohjesivu (https://terokarvinen.com/2017/first-steps-on-a-new-virtual-p
 
 ![image](https://github.com/user-attachments/assets/b263d1e3-8faa-4f11-9d38-ce1a8bac141a)
 
-Sen jälkeen palasin 
+Sen jälkeen palasin viime viikolta tutulle opettajan Apache-ohjesivulle (Karvinen, Tero, 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/) asentaakseni Apachen ja tehdäkseni uuden testisivun.
+
+
 
 **Lähteet**
 
@@ -393,7 +395,8 @@ Sen jälkeen palasin
 - Colorado State University. Computer Science Department : Basic vi Commands. https://www.cs.colostate.edu/helpdocs/vi.html
 - Debian: AptCli. https://wiki.debian.org/AptCLI.
 - Finder: UpCloud Oy. https://www.finder.fi/IT-palvelut/UpCloud+Oy/Helsinki/yhteystiedot/2617969
-- Karvinen 2012: First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
+- Karvinen, Tero 2012: First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
+- Karvinen, Tero 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
 - Karvinen, Tero 2020: Command Line Basics Revisited. https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
 - Karvinen, Tero 2024: Oppitunti 11.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
 - Karvinen, Tero: Install Debian on Virtualbox - Updated 2023. https://terokarvinen.com/2021/install-debian-on-virtualbox/
