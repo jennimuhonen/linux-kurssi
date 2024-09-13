@@ -261,7 +261,7 @@ Lisäsin käyttäjän ja annoin käyttäjälle sudo-oikeudet:
 
 ![image](https://github.com/user-attachments/assets/8e962a6a-032c-46f2-a1c5-4024b82d59fb)
 
-Annoin käyttäjän tietoihin koko nimeno, kuten Susanna Lehto (https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/) oli tehnyt omassa tehtävässään ja jätin muut kohdat tyhjiksi. Annoin käyttäjälle salasanan.
+Annoin käyttäjän tietoihin koko nimen, kuten Susanna Lehto (https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/) oli tehnyt omassa tehtävässään ja jätin muut kohdat tyhjiksi. Annoin käyttäjälle salasanan.
 
 Tämän jälkeen ohje kehotti testaamaan uutta käyttäjää ja hyvä niin:
 
