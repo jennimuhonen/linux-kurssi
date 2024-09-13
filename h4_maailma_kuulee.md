@@ -73,7 +73,7 @@ Vahvistettuani korttitietoni ilmainen kokeilujakso alkoi:
 
 ![image](https://github.com/user-attachments/assets/e78b9fff-60b2-4231-9553-b8e98ee3c7d8)
 
-Jotain rahaa tosin ilmeisesti täytyy antaa, sillä sivusto ilmoittaa, että kokeilujaksolla on rajoitteita ja tietoni häviävät kolmen päivän päästä, jos en ole käyttänyt rahaa:
+Jotain rahaa tosin ilmeisesti täytyy antaa jossain vaiheessa, sillä sivusto ilmoittaa, että kokeilujaksolla on rajoitteita ja tietoni häviävät kolmen päivän päästä, jos en ole käyttänyt rahaa:
 
 ![image](https://github.com/user-attachments/assets/67a1105f-3500-435d-af02-7119677753da)
 
