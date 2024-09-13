@@ -313,10 +313,13 @@ Tarkistin, löytyisikö Oraclen sivulta (https://docs.oracle.com/en/operating-sy
 
 ![image](https://github.com/user-attachments/assets/363d89c4-7366-4de7-959c-4a9e8f87c15d)
 
+![image](https://github.com/user-attachments/assets/6b88cbc3-1c59-4ec2-ad62-852a1e98a204)
+
 Valitettavasti ongelma ei ratkennut tällä:
 
 ![image](https://github.com/user-attachments/assets/cbeb0cdd-7502-4719-8376-5f7a81a16ced)
 
+Eli joko tein jonkin virheen kopioinnissa tai ongelma on jossain muualla.
 
 
 **Lähteet**
