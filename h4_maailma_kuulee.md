@@ -57,7 +57,7 @@ Linode mainostaa uusien asiakkaiden saavan sadan dollarin edestä ilmaisia kredi
 
 Hyvin nopeasti kävi ilmi, että UpCloudin ilmainen kokeilujakso tarkoittaa kolmea ilmaista päivää. Sattumalta päädyin kuitenkin Redditin kautta artikkeliin (https://techblog.nexxwave.eu/benchmark-between-cloud-servers-january-2024/), jossa arvosteltiin eri pilvipalvelimia ja heidän linkkinsä kautta voisi saada 25 ilmaista euroa UpCloudin käyttöön.
 
-Klikkasin yllä mainitun sivuston linkin kautta ja rekisteröidyin UpCloudin sivulle. Minulle tarjotaan edelleen kolmen päivän ilmaista kokeilujaksoa ja tämän lisäksi minulla näyttää olevan tililläni luvatut 25 euroa. Sivulla ei ainakaan vielä näy, onko näillä euroilla jotain erääntymispäivää.
+Klikkasin yllä mainitun sivuston linkin kautta ja rekisteröidyin UpCloudin sivulle. Minulle tarjottiin edelleen kolmen päivän ilmaista kokeilujaksoa ja tämän lisäksi minulla näytti olevan tililläni luvatut 25 euroa. Sivulla ei näkynyt tietoa siitä, onko näillä euroilla jotain erääntymispäivää.
 
 ![image](https://github.com/user-attachments/assets/40567c24-4261-4f0b-b9d8-a117d3f9b23a)
 
