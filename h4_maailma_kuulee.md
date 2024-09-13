@@ -190,7 +190,7 @@ Raivokkaasta googlettamisesta huolimatta kaikkialla vain tarjottiin samat komenn
 
 Jostain syystä ensimmäisen tiedoston nimi näyttäytyy y:n sijaan pisteenä ja luulin, että pisteet piilottavat jotain tietoa. Jotain vikaa y:ksi nimetyssä tiedostossa varmaankin on, koska sen tiedot näyttävät oudoilta. Defaul-nimellä nimetyt tiedostot näyttävät sen sijaan oikealta. (Vertailuna käytin: https://docs.oracle.com/en/operating-systems/oracle-linux/openssh/openssh-WorkingwithSSHKeyPairs.html#remote-access-without-password)
 
-*(Jälkikäteiskommentti: y-nimiset avaimet eivät olleet päätyneet lainkaan tähän kansioon eli kansiossa on nähtävissä juuri se sisältö kuin kuuluukin.)*
+*(Jälkikäteiskommentti: y-nimiset avaimet eivät itseasiassa olleet päätyneet lainkaan tähän kansioon.)*
 
 Kokeilin cat-komentoa ja nyt se toimii. Kopioin avaimen ja liitin sen UpCloud-tililleni. Kopioin kaiken cat-komennon antaman tiedon, toivottavasti tämä on oikein. Ainakin Up-Cloudilla kaikki näyttää hyvältä. (En ota kuvakaappauksia, koska en tiedä mitä tietoa avaimeen liittyen voin tietoturvallisesti näyttää.)
 
