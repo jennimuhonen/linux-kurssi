@@ -417,7 +417,7 @@ Päädyin takaisin NetworkChuckin videolle (https://www.youtube.com/watch?v=ZhMw
 
 ## c) Apache
 
-*Tehtävä: c) Asenna weppipalvelin omalle virtuaalipalvelimellesi. Korvaa testisivu. Kokeile, että se näkyy julkisesti. Kokeile myös eri koneelta, esim kännykältä.*
+*Tehtävä: Asenna weppipalvelin omalle virtuaalipalvelimellesi. Korvaa testisivu. Kokeile, että se näkyy julkisesti. Kokeile myös eri koneelta, esim kännykältä.*
 
 *13.9.2024 n. 15.45*
 
