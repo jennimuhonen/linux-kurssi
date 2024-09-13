@@ -301,6 +301,12 @@ Tutkin asian heti, sillä olisi ollut kovin helppoa, jos olisin voinut kiertää
 
 Pranitan mukaan virheviesti tarkoittaa juuri sitä, mitä alunperin itsekin ajattelin eli pääsy on kielletty julkiseen avaimeen liittyvän ongelman takia. 
 
+Pranitan ohjeet tuntuivat lähtevän siitä, että tarkistellaan ssh-tiedostoja. Niinpä kysyin ChatGPT:ltä, kuinka vaihdan käyttäjää rootista jemjem:ksi ollessani kirjautuneena, jotta pääsen helpommin tarkastelemaan käyttäjän tietoja. Komento oli `su`.
+
+![image](https://github.com/user-attachments/assets/980f1a9f-4bca-4f0f-b7b8-f174073c30a0)
+
+Kuten aiemman virheviestin perusteella saattoi päätellä, .ssh-kansion luominen ei ole onnistunut. Loin sen siis ja asetin käyttöoikeudet. Seuraavaksi palaan aiempien ohjeiden pariin sen suhteen, kuinka kopioin käsin julkisen avaimen käyttäjätunnukselleni. Josko tämä auttaisi ongelmaan.
+
 
 
 
