@@ -55,7 +55,7 @@ Opettaja suositteli tunnilla vaihtoehtoina DigitalOceania, Linodea ja UpCloudia.
 
 Linode mainostaa uusien asiakkaiden saavan sadan dollarin edestä ilmaisia krediittejä ja samoin UpCloudilla on ilmainen testijakso. Kävi ilmi, että UpCloud on suomalainen firma (https://www.finder.fi/IT-palvelut/UpCloud+Oy/Helsinki/yhteystiedot/2617969), joten päätin kannattaa kotimaista.
 
-Hyvin nopeasti kävi ilmi, että UpCloudin ilmainen kokeilujakso tarkoittaa kolmea ilmaista päivää. Sattumalta päädyin kuitenkin Redditin kautta artikkeliin (https://techblog.nexxwave.eu/benchmark-between-cloud-servers-january-2024/), jossa arvosteltiin ei palveluita ja heidän linkkinsä kautta voisi saada 25 ilmaista euroa palvelun käyttöön.
+Hyvin nopeasti kävi ilmi, että UpCloudin ilmainen kokeilujakso tarkoittaa kolmea ilmaista päivää. Sattumalta päädyin kuitenkin Redditin kautta artikkeliin (https://techblog.nexxwave.eu/benchmark-between-cloud-servers-january-2024/), jossa arvosteltiin eri palveluita ja heidän linkkinsä kautta voisi saada 25 ilmaista euroa UpCloudin käyttöön.
 
 Klikkasin yllä mainitun sivuston linkin kautta ja rekisteröidyin UpCloudin sivulle. Minulle tarjotaan edelleen kolmen päivän ilmaista kokeilujaksoa ja tämän lisäksi minulla näyttää olevan tililläni luvatut 25 euroa. Sivulla ei ainakaan vielä näy, onko näillä euroilla jotain erääntymispäivää.
 
