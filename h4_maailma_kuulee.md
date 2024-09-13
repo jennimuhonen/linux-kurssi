@@ -259,11 +259,11 @@ Ravi Saive kehotti antamaan komennon sudo vi /etc/ssh/sshd_config ja etsimään 
 
 Saiven mukaan ClientAliveInterval (https://www.cs.colostate.edu/helpdocs/vi.html) tarkoittaa sitä, kuinka pitkän inaktiivisuuden jälkeen SSH serveri lähettää alive-viestin clientille ja ClientAliveCountMax tarkoittaa, kuinka monta kertaa tämä tapahtuu. Eli toisin sanoen heti epäaktiivisuuden jälkeen serveri alkoi tarkistella tilannetta, totesi kuolleeksi ja sulki yhteyden. Eipä ihme, että oli haasteita.
 
-Saive kehottaa päivittämään ylemmäksi luvun arvoksi 300, jolloin alive-viesti lähtee 300 sekunnin eli viiden minuutin päästä. Koska tämä toistetaan kolmesti, on armonaikaa tämän jälkeen 15 minuuttia. Tämä kuulosti huomattavasti paremmalta, mutta vi-editorin käyttö vaati erikseen käyttöohjeiden etsimisen. Kokeilin myös välissä, voiko tiedoston avata microlla, mutta ei voinut. Tiedoston sisältö näytti sellaiselta, että varmaan ihan hyvä, ettei sitä aivan helposti saanut käpälöityä.
+Saive kehottaa päivittämään ylemmän luvun arvoksi 300, jolloin alive-viesti lähtee 300 sekunnin eli viiden minuutin päästä. Koska tämä toistetaan kolmesti, on armonaikaa tämän jälkeen 15 minuuttia. Tämä kuulosti huomattavasti paremmalta, mutta vi-editorin käyttö vaati erikseen käyttöohjeiden etsimisen (https://www.cs.colostate.edu/helpdocs/vi.html). Kokeilin myös välissä, voiko tiedoston avata microlla, mutta ei voinut. Tiedoston sisältö näytti sellaiselta, että varmaan ihan hyvä, ettei sitä aivan helposti saanut käpälöityä. *(Jälkikäteishuomautus: Microa ei oltu vielä edes asennettu palvelimelle.)*
 
 ![image](https://github.com/user-attachments/assets/f8cdf267-2fcc-4772-8798-cdbd40a5c49a)
 
-Lopulta ohjeiden (https://www.cs.colostate.edu/helpdocs/vi.html) avulla sain päivitettyä ClientAliveInterval:n 300 sekuntiin:
+Lopulta ohjeiden avulla sain päivitettyä ClientAliveInterval:n 300 sekuntiin:
 
 ![image](https://github.com/user-attachments/assets/c1d768a6-b3d0-4de1-93e3-a6b2d518c043)
 
