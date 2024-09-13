@@ -411,8 +411,9 @@ Tämä ei kuitenkaan vielä julkaissut sivua verkkoon, vaan Apache täytyi viel�
 
 Tämän jälkeen vielä testasin, että pääsen sivulleni kännykällä:
 
-![Screenshot_20240913_162813_Chrome](https://github.com/user-attachments/assets/01354442-efe4-4d2e-9976-bb672a98545b)
+![Screenshot_20240913_162813_Chrome2](https://github.com/user-attachments/assets/97c9136c-7f6e-4338-bd8c-5c4f769d1d9c)
 
+Onnistui! Lopuksi kävin laittamassa UpCloudin tilille 10 euroa, ettei koko virtuaalipalvelinta poisteta kokeilukauden päätteeksi eli huomenna.
 
 
 **Lähteet**
