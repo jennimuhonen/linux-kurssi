@@ -137,7 +137,7 @@ Aiemmin mainitulla SSH-ohjeiden sivulla kerrotaan kuinka SSH-salaus tehdään ko
 
 Ryhdyin toimeen apunani UpCloudin ohjesivu https://upcloud.com/resources/tutorials/use-ssh-keys-authentication ja ChatGPT.
 
-UpCloudin ohjeiden mukaan luon SSH-avainparin seuraavasti:
+UpCloudin ohjeiden mukaisesti loin SSH-avainparin seuraavasti:
 
 ![image](https://github.com/user-attachments/assets/e94baf55-c7d7-4046-8bab-bcba1cc5c0d4)
 
