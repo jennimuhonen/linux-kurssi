@@ -77,6 +77,8 @@ Jotain rahaa tosin ilmeisesti täytyy antaa jossain vaiheessa, sillä sivusto il
 
 ![image](https://github.com/user-attachments/assets/67a1105f-3500-435d-af02-7119677753da)
 
+*(Jälkikäteiskommentti: Tein lopulta kaikki tehtävät ennen kuin maksoin 10 euroa, jotta tekemäni palvelin ei katoaisi testijakson päätyttyä.)*
+
 Sivusto kehotti ottamaan käyttöön kaksivaiheisen tunnistautumisen, joten lisäsin sivuston Google Authenticatoriini.
 
 Ilmaisjakson rajoitteet ovat nämä, en osaa sanoa, onko näillä vaikutusta tehtävien tekoon:
