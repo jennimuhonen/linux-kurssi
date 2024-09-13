@@ -377,6 +377,16 @@ Ja lopuksi ohje kehotti vielä:
 
 Päivitykset tein jo palomuurin asentamisen yhteydessä. Palomuuripäivitysten ohjesivulla oli dist-upgrade ja nyt käytetyssä ohjessa pelkkä upgrade. Googlasin asiaa ja päädyin Debianin wikiin (https://wiki.debian.org/AptCLI). upgrade päivittää kaikki paketit ilman, että poistaa mitään, kun taas dist-upgrade myös poistaa asioita. Debianin ohjeessa kehotetaan kirjaamana, mitä on poistetu, jotta näitä voi tarvittaessa asentaa uudestaan.
 
+## c) Apache
+
+*Tehtävä: c) Asenna weppipalvelin omalle virtuaalipalvelimellesi. Korvaa testisivu. Kokeile, että se näkyy julkisesti. Kokeile myös eri koneelta, esim kännykältä.*
+
+Opettajan ohjesivu (https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/) muistuttaa tekemään reiän palomuuriin, jotta Apache toimii. Aloitin siis siitä:
+
+![image](https://github.com/user-attachments/assets/b263d1e3-8faa-4f11-9d38-ce1a8bac141a)
+
+Sen jälkeen palasin 
+
 **Lähteet**
 
 - ChatGPT
