@@ -121,6 +121,8 @@ Tunnilla kerrottiin, että SSH olisi parempi vaihtoehto, mutta koska emme vielä
 
 Joudun siis omatoimisesti perehtymään SSH-salaukseen, jos en halua luovuttaa ja vaihtaa palvelua. Pidin tauon miettiäkseni asiaa.
 
+**SSH**
+
 *12.9.2024 16.40*
 
 Päätin olla luovuttamatta näin helpolla.
@@ -132,8 +134,6 @@ Videolta sain yleisen kuvan siitä, mistä on kyse. Tämän jälkeen palasin UpC
 ![image](https://github.com/user-attachments/assets/027ff9b5-448f-407a-b3b5-e82f6e225379)
 
 Aiemmin mainitulla SSH-ohjeiden sivulla kerrotaan kuinka SSH-salaus tehdään komentorivillä, mutta se ei vastaa siihen, mitä yllä olevaan pitäisi antaa. Siirryin etsimään vastausta sähköpostin ohjeviestiin linkatun sivun takaa (https://upcloud.com/resources/tutorials/deploy-server), mutta siellä aihetta käsiteltiin hyvin yleisesti. Päätin avata terminaalin ja kokeilla luoda SSH-avaimet Debianillani ja katsoa mitä tapahtuu. Tein rekisteröitymistä Windowsin puolella, mutta avaimet kokeilen lisätä Debianin puolella. Avaimet voi lisätä tilin tietoihin omalla välilehdellä eli voin palata rekisteröitymisen pariin Windowsin puolelle, jos saan salausasiat kuntoon.
-
-**SSH**
 
 Ryhdyin toimeen apunani UpCloudin ohjesivu https://upcloud.com/resources/tutorials/use-ssh-keys-authentication ja ChatGPT.
 
