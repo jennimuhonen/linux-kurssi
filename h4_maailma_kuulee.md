@@ -53,7 +53,7 @@ Hain maanantaina GitHub Educationin etuja. Hakemukseni hyväksyttiin, mutta etuj
 
 Opettaja suositteli tunnilla vaihtoehtoina DigitalOceania, Linodea ja UpCloudia. DigitalOceanista näimme tunnilla käytännön esimerkin ja samoin x-kohdan tiivistystehtävässä oli käytetty DigitalOceania. Jotta saan vähän laajempaa kuvaa aiheesta, perehdyn ensisijaisesti jompaan kumpaan muista vaihtoehdoista.
 
-Linode mainostaa uusien asiakkaiden saadan sadan dollarin edestä ilmaisia krediittejä ja samoin UpCloudilla on ilmainen testijakso. Kävi ilmi, että UpCloud on suomalainen firma (https://www.finder.fi/IT-palvelut/UpCloud+Oy/Helsinki/yhteystiedot/2617969), joten päätin kannattaa kotimaista.
+Linode mainostaa uusien asiakkaiden saavan sadan dollarin edestä ilmaisia krediittejä ja samoin UpCloudilla on ilmainen testijakso. Kävi ilmi, että UpCloud on suomalainen firma (https://www.finder.fi/IT-palvelut/UpCloud+Oy/Helsinki/yhteystiedot/2617969), joten päätin kannattaa kotimaista.
 
 Hyvin nopeasti kävi ilmi, että UpCloudin ilmainen kokeilujakso tarkoittaa kolmea ilmaista päivää. Sattumalta päädyin kuitenkin Redditin kautta artikkeliin (https://techblog.nexxwave.eu/benchmark-between-cloud-servers-january-2024/), jossa arvosteltiin ei palveluita ja heidän linkkinsä kautta voisi saada 25 ilmaista euroa palvelun käyttöön.
 
