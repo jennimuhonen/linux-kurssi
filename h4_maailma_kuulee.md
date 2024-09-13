@@ -119,7 +119,7 @@ Tunnilla kerrottiin, että SSH olisi parempi vaihtoehto, mutta koska emme vielä
 
 ![image](https://github.com/user-attachments/assets/149dd5d9-e3bf-45a9-8a59-32b04c40e851)
 
-Joudun siis omatoimisesti perehtymään SSH-salaukseen, jos en halua luovuttaa ja vaihtaa palvelua. Pidin tauon miettiäkseni asiaa.
+Joudun siis omatoimisesti perehtymään SSH-avainten käyttöön, jos en halua luovuttaa ja vaihtaa palvelua. Pidin tauon miettiäkseni asiaa.
 
 **SSH-avaimet**
 
