@@ -377,7 +377,7 @@ Ohjeissa käyttäjä lisätään ryhmiin sudo, adm ja admin. Olin lisännyt jemj
 
 Adminia ei ilmeisestikään ole, mutta adm antoi jotain tulosta. Niinpä päätin lisätä käyttäjäni myös adm-ryhmään.
 
-Jatkoin opettajan ohjeiden seurantaa ja seuraavaksi tulee sulkea root-tunnus. Noudatin ohjeita, mutta ohjeissahan itseasiassa sanotaa, että tässä lukitaan salasana. Ja root-käyttäjällähän ei ole salasanaa vaan ssh:n julkisen avaimen tiedosto.
+Jatkoin opettajan ohjeiden seurantaa ja seuraavaksi tulee sulkea root-tunnus. Noudatin ohjeita, mutta ohjeissahan itseasiassa sanotaan, että tässä lukitaan salasana. Ja root-käyttäjällähän ei ole salasanaa vaan ssh:n julkisen avaimen tiedosto.
 
 ![image](https://github.com/user-attachments/assets/5a575587-3f6f-46cc-8e5a-cc2042df6c25)
 
