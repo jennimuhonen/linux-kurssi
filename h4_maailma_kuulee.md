@@ -91,15 +91,15 @@ Seuraavaksi ohjesähköpostissa oli kohta Deploy your first cloud server, joka v
 
 ![image](https://github.com/user-attachments/assets/75a3756e-67bb-4ed9-9297-4de36d1c05c4)
 
-Tunnilla kerrottiin, että sijainti kannattaa ottaa niin läheltä asiakasta kuin mahdollista ja että EU-maat ovat hyviä valintoja EU:n sääntelyn takia. Koska UPCloud on suomalainen palvelu, saan valita jopa kahden kotimaisen vaihtoehdon väliltä:
+Tunnilla kerrottiin, että sijainti kannattaa ottaa niin läheltä asiakasta kuin mahdollista ja että EU-maat ovat hyviä valintoja EU:n sääntelyn takia. Koska UPCloud on suomalainen palvelu, sain valita jopa kahden kotimaisen vaihtoehdon väliltä:
 
 ![image](https://github.com/user-attachments/assets/af36e6e4-c691-4891-8397-3314a9f1caa8)
 
-Oppitunnilla sanottiin, että kannattaa valita halvin vaihtoehto, jossa on gigatavu ram-muistia. Eli tämän perusteella kolmen euron vaihtoehto kuulostaa hyvältä.
+Oppitunnilla sanottiin, että kannattaa valita halvin vaihtoehto, jossa on gigatavu ram-muistia. Eli tämän perusteella kolmen euron vaihtoehto kuulosti hyvältä.
 
 ![image](https://github.com/user-attachments/assets/5b36c132-bb9c-4b72-b7fa-aa5873eff558)
 
-Seuraaville kohdille en tehnyt mitää, sillä tunnilla kerrottiin, ettei ekstrasta kannata maksaa, sillä varmuuskopiot täytyy joka tapauksessa ottaa itse.
+Seuraaville kohdille en tehnyt mitää, sillä tunnilla kerrottiin, ettei ekstrasta kannata maksaa ja varmuuskopiot täytyy joka tapauksessa ottaa itse.
 
 ![image](https://github.com/user-attachments/assets/c2b83bd3-a3e0-46a6-b076-ace34db4fbcc)
 
