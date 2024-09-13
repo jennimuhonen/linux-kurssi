@@ -129,7 +129,7 @@ Päätin olla luovuttamatta näin helpolla.
 
 UpCloudin sivuilla on SSH-ohjeet (https://upcloud.com/resources/tutorials/use-ssh-keys-authentication), mutta aloitin aiheeseen perehtymisen katsomalla ensin NetworkChuckin videon aiheesta (https://www.youtube.com/watch?v=ZhMw53Ud2tY.).
 
-Videolta sain yleisen kuvan siitä, mistä on kyse. Tämän jälkeen palasin UpCloudin sivulle tutkimaan, mitä rekisteröitymisvaiheessa tarvitaan. En vielä ymmärrä, mitä tietoa sivulle pitäisi antaa:
+Videolta sain yleisen kuvan siitä, mistä on kyse. Tämän jälkeen palasin UpCloudin sivulle tutkimaan, mitä rekisteröitymisvaiheessa tarvitaan. En vielä ymmärtänyt, mitä tietoa sivulle pitäisi antaa:
 
 ![image](https://github.com/user-attachments/assets/027ff9b5-448f-407a-b3b5-e82f6e225379)
 
