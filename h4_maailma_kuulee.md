@@ -287,6 +287,23 @@ Pääsy palvelimelle oli kuitenkin edelleen estetty käyttäjältä jemjem, mutt
 
 Kello oli tässä kohtaa sen verran paljon, että jätin ongelman selvittelyn toiseen päivään.
 
+*13.9.2024 10.26*
+
+Pohdittuani asiaa ja tarkistettuani asian ChatGPT:ltä tajusin, että käyttäjänhän pitäisi päästä kirjautumaan salasanalla niin pitkään, kun sellaisen käyttöä ei ole kielletty. Lisäksi kuvakaappauksessa, jossa yritän lähettää SSH-koodin käyttäjälle jemjem tulee virhe jo koodin lähettämisvaiheessa eli se ei onnistu ja tulee sama virheilmoitus kuin kirjautumista yrittäessä.
+
+Lähdin etsimään tietoa virheilmoituksesta. Pranita (https://www.redswitches.com/blog/ssh-permission-denied/) on pureutunut ongelmaan blogipostauksessaan ja näyttää siltä, että alkuperäinen ajatukseni oli kuitenkin oikea ja ongelma johtuu ssh-salauksesta. Onko salasanan käyttö valmiiksi estetty kaikilta käyttäjiltä?
+
+Tutkin asian heti, sillä olisi ollut kovin helppoa, jos olisin voinut kiertää ssh-ongelmat. NetworkChuck näyttää videollaan (https://www.youtube.com/watch?v=ZhMw53Ud2tY), kuinka salasanakirjautuminen estetään, joten tarkistin hänen neuvojensa avulla, onko tämä jo kielletty, mutta ei valitettavasti ollut:
+
+![image](https://github.com/user-attachments/assets/d21bb93b-a9d8-4089-934e-54dd4ff75965)
+
+![image](https://github.com/user-attachments/assets/19afa4a3-dffc-47c9-a788-d2e28b673d72)
+
+Pranitan mukaan virheviesti tarkoittaa juuri sitä, mitä alunperin itsekin ajattelin eli pääsy on kielletty julkiseen avaimeen liittyvän ongelman takia. 
+
+
+
+
 **Lähteet**
 
 - ChatGPT
