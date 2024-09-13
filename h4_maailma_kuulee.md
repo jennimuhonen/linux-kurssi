@@ -21,6 +21,28 @@ Karvinen 2012: First Steps on a New Virtual Private Server – an Example on Dig
 - muista tehdä reikä palomuuriin
 - ip-osoitteen lisäksi nimi on kiva eli vuokraa sellainen
 
+
+## Rauta ja OS
+
+**Virtuaalikoneella pyörivän Linuxin tiedot**
+
+- Käyttöjärjestelmä: Debian 12.6.0 AMD64
+- Virtualisointi: VirtualBox 7.0.20
+- Muisti: 4096 MB
+- Prosessorit: 4 CPU
+- Virtuaalilevyn maksimikoko: 60 GB, josta käytetty 14,02 GB
+
+**Taustajärjestelmän tiedot**
+
+- Pöytäkone
+- Käyttöjärjestelmä: Windows 11 Education, 64 bittinen käyttöjärjestelmä, x64-suoritin
+- CPU: AMD Ryzen 5 7600 3.8 GHz 6-Core Processor
+- Emolevy: MSI PRO B650-P WIFI
+- Muisti: 32 GB DDR5-6000 CL30
+- SSD: 2 TB, jossa vapaata tilaa 974 GB
+- Näytönohjain: AMD RX 6800 XT 16 GB
+
+
 ## a) Oma virtuaalipalvelin
 
 *Tehtävä: Vuokraa oma virtuaalipalvelin haluamaltasi palveluntarjoajalta. (Vaihtoehtona voit käyttää ilmaista kokeilujaksoa, GitHub Education krediittejä; tai jos mikään muu ei onnistu, voit kokeilla ilmaiseksi vagrant:ia paikallisesti. Suosittelen kuitenkin harjoittelemaan oikeilla, tuotantoon kelpaavilla julkisilla palveluilla).*
