@@ -431,7 +431,7 @@ Hain ensin päivitykset, koska en ollut niitä tänään vielä hakenut ja sen j
 
 ![image](https://github.com/user-attachments/assets/f7e38625-610b-4bd7-8386-b3adde68b09c)
 
-Tämä ei kuitenkaan vielä julkaissut sivua verkkoon, vaan Apache täytyi vielä käynnistää ja localhostin sijaan tarkastin, että sivu löytyy ip-osoitteen takaa:
+Tämä ei kuitenkaan vielä julkaissut sivua verkkoon, vaan Apache täytyi vielä käynnistää (tämän kohdan sain helpolla kuntoon kiitos NetworkChuckin jo aiemmin mainitun videon) ja localhostin sijaan tarkastin, että sivu löytyy ip-osoitteen takaa.
 
 ![image](https://github.com/user-attachments/assets/e3e13c66-d19e-444d-b626-aaabbade1a14)
 
