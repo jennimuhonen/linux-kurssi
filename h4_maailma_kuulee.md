@@ -127,7 +127,7 @@ Joudun siis omatoimisesti perehtymään SSH-salaukseen, jos en halua luovuttaa j
 
 Päätin olla luovuttamatta näin helpolla.
 
-UpCloudin sivuilla on SSH-ohjeet (https://upcloud.com/resources/tutorials/use-ssh-keys-authentication), mutta aloitin aiheeseen perehtymisen mieluummin katsomalla ensin videon Youtubesta: https://www.youtube.com/watch?v=ZhMw53Ud2tY.
+UpCloudin sivuilla on SSH-ohjeet (https://upcloud.com/resources/tutorials/use-ssh-keys-authentication), mutta aloitin aiheeseen perehtymisen katsomalla ensin NetworkChuckin videon aiheesta (https://www.youtube.com/watch?v=ZhMw53Ud2tY.).
 
 Videolta sain yleisen kuvan siitä, mistä on kyse. Tämän jälkeen palasin UpCloudin sivulle tutkimaan, mitä rekisteröitymisvaiheessa tarvitaan. En vielä ymmärrä, mitä tietoa sivulle pitäisi antaa:
 
