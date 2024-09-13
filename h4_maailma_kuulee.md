@@ -331,7 +331,7 @@ Pranitan ohjeet tuntuivat lähtevän siitä, että tarkistellaan ssh-tiedostoja.
 
 ![image](https://github.com/user-attachments/assets/980f1a9f-4bca-4f0f-b7b8-f174073c30a0)
 
-Kuten aiemman virheviestin perusteella saattoi päätellä, .ssh-kansion luominen ei ole onnistunut. Loin sen siis ja asetin käyttöoikeudet. Seuraavaksi palaan aiempien ohjeiden pariin sen suhteen, kuinka kopioin käsin julkisen avaimen käyttäjätunnukselleni. Josko tämä auttaisi ongelmaan.
+Kuten aiemman virheviestin perusteella saattoi päätellä, .ssh-kansion luominen ei ole onnistunut. Loin siis sen ja asetin käyttöoikeudet. Seuraavaksi palaan aiempien ohjeiden pariin sen suhteen, kuinka kopioin käsin julkisen avaimen käyttäjätunnukselleni. Josko tämä auttaisi ongelmaan.
 
 Tarkistin, löytyisikö Oraclen sivulta (https://docs.oracle.com/en/operating-systems/oracle-linux/openssh/openssh-WorkingwithSSHKeyPairs.html#copy-public-key), tarkat ohjeet kopiointiin. Silmiin ei suoraan osunut sopivaa ohjetta siihen, mitä kopioinnin jälkeen teen, joten päädyin kopioimaan koodin ja tekemään microlla uuden vastaavan nimisen tiedoston jemjem:lle ja liittämään kopioimani tiedot tiedostoon.
 
