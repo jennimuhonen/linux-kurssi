@@ -121,7 +121,7 @@ Tunnilla kerrottiin, että SSH olisi parempi vaihtoehto, mutta koska emme vielä
 
 Joudun siis omatoimisesti perehtymään SSH-salaukseen, jos en halua luovuttaa ja vaihtaa palvelua. Pidin tauon miettiäkseni asiaa.
 
-**SSH**
+**SSH-avaimet**
 
 *12.9.2024 16.40*
 
