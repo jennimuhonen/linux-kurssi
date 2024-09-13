@@ -359,7 +359,7 @@ Toisena kehotetaan tarkistamaan, että "auhorized keys" ovat oikein ~/.ssh/autho
 
 ![image](https://github.com/user-attachments/assets/ff696fcd-42c0-47b1-8009-bc7523ab117b)
 
-jemjem:llä tätä tiedostoa ei ole, kun taas root:lla se oli. Eli olin ilmeisesti kopioinut tiedot väärään paikkaan, kun en ollut perehtynyt ohjeisiin aiemmin tarpeeksi tarkkaan. Kokeilin ohjeiden mukaisesti lähettää taas tiedoston koneelta virtuaalipalvelimelle, mutta tämä ei edelleenkään toimi. Sen sijaan, kun loin samaan tapaan kuin aiemmin tiedoston oikealla nimellä, sain homman lopulta toimimaan!
+jemjem:llä tätä tiedostoa ei ollut, kun taas root:lla se oli. Eli olin ilmeisesti kopioinut tiedot väärään paikkaan, kun en ollut perehtynyt ohjeisiin aiemmin tarpeeksi tarkkaan. Kokeilin ohjeiden mukaisesti lähettää taas tiedoston koneelta virtuaalipalvelimelle, mutta tämä ei edelleenkään toiminut. Sen sijaan, kun loin samaan tapaan kuin aiemmin tiedoston oikealla nimellä, sain homman lopulta toimimaan!
 
 Eli kopioin avaintiedoston sisällön ja loin jemjem:lle uuden tiedoston ja sen jälkeen cat-komento näytti tiedoston sisällön (jota en tässä näytä).
 
