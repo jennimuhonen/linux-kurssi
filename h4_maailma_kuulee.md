@@ -103,7 +103,7 @@ Seuraaville kohdille en tehnyt mitää, sillä tunnilla kerrottiin, ettei ekstra
 
 ![image](https://github.com/user-attachments/assets/c2b83bd3-a3e0-46a6-b076-ace34db4fbcc)
 
-Käyttöjärjestelmäksi valitsin Debianin.
+Käyttöjärjestelmäksi valitsin uusimman Debian-version.
 
 ![image](https://github.com/user-attachments/assets/672d5a50-9e23-420c-8f89-59304eeb9f5d)
 
