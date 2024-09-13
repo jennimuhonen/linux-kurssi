@@ -403,7 +403,7 @@ Ja lopuksi ohje kehotti vielä:
 
 Päivitykset tein jo palomuurin asentamisen yhteydessä. Palomuuripäivitysten ohjesivulla oli dist-upgrade ja nyt käytetyssä ohjessa pelkkä upgrade. Googlasin asiaa ja päädyin Debianin wikiin (https://wiki.debian.org/AptCLI). Wikissä kerrottiin, että upgrade päivittää kaikki paketit ilman, että poistaa mitään, kun taas dist-upgrade myös poistaa asioita. Debianin ohjeessa kehotetaan kirjaamaan, mitä on poistetu, jotta näitä voi tarvittaessa asentaa uudestaan.
 
-*13.9.2024 16.16.*
+*Hieman myöhemmin eli 13.9.2024 16.16.*
 
 Päädyin takaisin NetworkChuckin videolle (https://www.youtube.com/watch?v=ZhMw53Ud2tY) ja muistin, että hän esti salasanakirjautumisen kokonaan. Noudatin hänen ohjeitaan:
 
