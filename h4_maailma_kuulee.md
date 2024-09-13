@@ -253,7 +253,7 @@ Tällä välin yhteys virtuaalipalvelimeen oli taas katkennut:
 
 Tätäkin pitäisi varmaan selvittää. Googlaus tuottikin yllättävän helposti vastauksen. Ravi Saiven (https://www.tecmint.com/client_loop-send-disconnect-broken-pipe/) mukaan yhteys katkeaa, kun se on liian pitkään käyttämättä. Liian pitkään on tässä hyvin suhteellinen käsite, sillä hetki tiedonhakua muualla katkaisi yhteyden.
 
-Ravi Saive kehotetti antamaan komento sudo vi /etc/ssh/sshd_config ja etsimään tiedostosta alla olevassa kuvassa näkyvät tiedot.
+Ravi Saive kehotti antamaan komennon sudo vi /etc/ssh/sshd_config ja etsimään tiedostosta alla olevassa kuvassa näkyvät tiedot.
 
 ![image](https://github.com/user-attachments/assets/b47d1f3a-cc20-4769-9435-468ae96d0f65)
 
