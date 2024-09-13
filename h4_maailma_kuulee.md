@@ -405,6 +405,14 @@ Hain ensin päivitykset, koska en ollut niitä tänään vielä hakenut ja sen j
 
 ![image](https://github.com/user-attachments/assets/f7e38625-610b-4bd7-8386-b3adde68b09c)
 
+Tämä ei kuitenkaan vielä julkaissut sivua verkkoon, vaan Apache täytyi vielä käynnistää ja localhostin sijaan tarkastin, että sivu löytyy ip-osoitteen takaa:
+
+![image](https://github.com/user-attachments/assets/e3e13c66-d19e-444d-b626-aaabbade1a14)
+
+Tämän jälkeen vielä testasin, että pääsen sivulleni kännykällä:
+
+![Screenshot_20240913_162813_Chrome](https://github.com/user-attachments/assets/01354442-efe4-4d2e-9976-bb672a98545b)
+
 
 
 **Lähteet**
