@@ -77,8 +77,6 @@ Jotain rahaa tosin ilmeisesti täytyy antaa jossain vaiheessa, sillä sivusto il
 
 ![image](https://github.com/user-attachments/assets/67a1105f-3500-435d-af02-7119677753da)
 
-*(Jälkikäteiskommentti: Tein lopulta kaikki tehtävät ennen kuin maksoin 10 euroa, jotta tekemäni palvelin ei katoaisi testijakson päätyttyä.)*
-
 Sivusto kehotti ottamaan käyttöön kaksivaiheisen tunnistautumisen, joten lisäsin sivuston Google Authenticatoriini.
 
 Ilmaisjakson rajoitteet ovat nämä, en osaa sanoa, onko näillä vaikutusta tehtävien tekoon:
@@ -86,6 +84,8 @@ Ilmaisjakson rajoitteet ovat nämä, en osaa sanoa, onko näillä vaikutusta teh
 ![image](https://github.com/user-attachments/assets/ccc4b342-c9e9-4d6f-b4b0-4850c99e789e)
 
 Lue ja tiivistä -kohdan materiaaleissa mainittiin portit 22 ja 80. En tiedä tuottaako se ongelmia, että kokeilujaksolla portin 22 liikenne on vain yksisuuntaista. Pidän tämän mielessä ja katson, kuinka käy.
+
+*(Jälkikäteiskommentti: Tein lopulta kaikki tehtävät ennen kuin maksoin 10 euroa, jotta tekemäni palvelin ei katoaisi testijakson päätyttyä. Testijakson rajoitteet eivät haitanneet tehtävien tekemistä.)*
 
 Seuraavaksi ohjesähköpostissa oli kohta Deploy your first cloud server, joka vei aiheeseen liittyvälle ohjesivulle: https://upcloud.com/resources/tutorials/deploy-server. Sivun perusteella klikkailin itseni Servers-sivustolle, josta löytyi kohta Deploy New Server.
 
