@@ -295,13 +295,11 @@ Tämän jälkeen ohje kehotti testaamaan uutta käyttäjää ja hyvä niin:
 
 ![image](https://github.com/user-attachments/assets/d1f98c3d-f90d-409a-9bd0-197c9a9db4e0)
 
-Ongelma oletettavasti liittyy siihen, että jouduin ottamaan SSH-avaimet käyttöön ja en ollut antanut uudelle käyttäjälle julkista avainta.
+Ongelma oletettavasti liittyy siihen, että jouduin ottamaan SSH-avaimet käyttöön ja en ollut antanut uudelle käyttäjälle julkista avainta. Paitsi että tässähän on myös kirjoitusvirhe.
 
-Paitsi että tässähän on myös kirjoitusvirhe.
+Kokeilin uudestaan ja Virhe toistui myös oikealla käyttäjänimellä:
 
 ![image](https://github.com/user-attachments/assets/ffdfff04-6aaa-4b62-8de2-23a593fffb7a)
-
-Virhe toistuu myös oikealla käyttäjänimellä.
 
 UpCloudin ohjeiden (https://upcloud.com/resources/tutorials/use-ssh-keys-authentication) mukaan tällä komennolla voidaan antaa julkinen avain käyttäjälle: ssh-copy-id -i ~/.ssh/id_rsa.pub user@server
 
