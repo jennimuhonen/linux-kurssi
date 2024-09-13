@@ -321,9 +321,13 @@ Valitettavasti ongelma ei ratkennut tällä:
 
 Eli joko tein jonkin virheen kopioinnissa tai ongelma on jossain muualla.
 
+*13.9.2024 n. 14.30*
+
+(Eli pitemmän tauon jälkeen.)
+
 Ongelma ei ratkea säätämällä ympäriinsä, joten ryhdyin järjestelmällisesti käymään läpi Pranitan (https://www.redswitches.com/blog/ssh-permission-denied/) vianselvityslistaa.
 
-Ensimmäisenä kehotetaan tarkistamaan, että yksityisten avainten oikeudet ovat oikein. Aiemman kuvakaappauksen tiedot täsmäävät esimerkkikuvaan.
+Ensimmäisenä kehotetaan tarkistamaan, että yksityisten avainten oikeudet ovat oikein. Aiemman ottamani kuvakaappauksen tiedot täsmäävät Pranitan esimerkkikuvaan.
 
 Toisena kehotetaan tarkistamaan, että "auhorized keys" ovat oikein ~/.ssh/authorized_keys-tiedostossa. Tarkastin ChatGPT:ltä, kuinka katson kyseistä tiedostoa ja sen jälkeen tutkin tilannetta jemjem:llä ja root:lla.
 
@@ -337,7 +341,7 @@ Eli kopioin avaintiedoston sisällön ja loin jemjem:lle uuden tiedoston ja sen 
 
 ![image](https://github.com/user-attachments/assets/24ee2585-d844-4963-abbb-10fd8c72b78a)
 
-Eli mitä tästä opin. 1. lue ohjeita huolellisesti ja säädä vähemmän. 2. ssh-avaimet ovat kotikoneella ja virtuaalipalvelimella eri nimisissä tiedostoissa (ylläri).
+Mitä tästä opin. 1. lue ohjeita huolellisesti ja säädä vähemmän. 2. ssh-avaimet ovat kotikoneella ja virtuaalipalvelimella eri nimisissä tiedostoissa (ylläri). 3. tehdyt virheet tuntuvat usein liittyvän enemmän huolimattomuuteen kuin siihen, että olisi ollut tekemässä jotain totaalisen väärää asiaa.
 
 
 
@@ -353,6 +357,7 @@ Eli mitä tästä opin. 1. lue ohjeita huolellisesti ja säädä vähemmän. 2. 
 - Lovet, Kris. Benchmark between cloud servers (January 2024). (https://techblog.nexxwave.eu/benchmark-between-cloud-servers-january-2024/)
 - NetworkChuck 18.3.2021: 5 Steps to Secure Linux (protect from hackers). https://www.youtube.com/watch?v=ZhMw53Ud2tY
 - Oracle. 4 Working with SSH Key Pairs. https://docs.oracle.com/en/operating-systems/oracle-linux/openssh/openssh-WorkingwithSSHKeyPairs.html#remote-access-without-password
+- Pranita 2.11.2023: How to Fix SSH Permission Denied (Publickey) Error. https://www.redswitches.com/blog/ssh-permission-denied/
 - Saive, Ravi 31.5.2023: How to Fix SSH Client_loop: send disconnect: Broken pipe Error. https://www.tecmint.com/client_loop-send-disconnect-broken-pipe/
 - Susanna Lehto 2022: Teoriasta käytäntöön pilvipalvelimen avulla (h4). https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/
 - UpCloud 24.5.2023: How to use SSH keys for authentication https://upcloud.com/resources/tutorials/use-ssh-keys-authentication
