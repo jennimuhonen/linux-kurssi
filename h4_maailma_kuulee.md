@@ -425,7 +425,7 @@ Opettajan ohjesivu (https://terokarvinen.com/2017/first-steps-on-a-new-virtual-p
 
 ![image](https://github.com/user-attachments/assets/b263d1e3-8faa-4f11-9d38-ce1a8bac141a)
 
-Sen jälkeen palasin viime viikolta tutulle opettajan Apache-ohjesivulle (Karvinen, Tero, 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/) asentaakseni Apachen ja tehdäkseni uuden testisivun.
+Sen jälkeen palasin viime viikolta tutulle opettajan Apache-ohjesivulle (https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/) asentaakseni Apachen ja tehdäkseni uuden testisivun.
 
 Hain ensin päivitykset, koska en ollut niitä tänään vielä hakenut ja sen jälkeen asensin apachen. Sitten tarkistin, että localhost näyttää oletussivun ja sen jälkeen muutin oletussivun tekstiksi "Testi". Sen jälkeen tarkistin, että näin tosiaan kävi.
 
