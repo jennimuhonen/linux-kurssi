@@ -297,7 +297,7 @@ Tämän jälkeen ohje kehotti testaamaan uutta käyttäjää ja hyvä niin:
 
 Ongelma oletettavasti liittyy siihen, että jouduin ottamaan SSH-avaimet käyttöön ja en ollut antanut uudelle käyttäjälle julkista avainta. Paitsi että tässähän on myös kirjoitusvirhe.
 
-Kokeilin uudestaan ja Virhe toistui myös oikealla käyttäjänimellä:
+Kokeilin uudestaan ja virhe toistui myös oikealla käyttäjänimellä:
 
 ![image](https://github.com/user-attachments/assets/ffdfff04-6aaa-4b62-8de2-23a593fffb7a)
 
