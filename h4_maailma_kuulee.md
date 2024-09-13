@@ -315,7 +315,7 @@ Kello oli tässä kohtaa sen verran paljon, että jätin ongelman selvittelyn to
 
 *13.9.2024 10.26*
 
-Pohdittuani asiaa ja tarkistettuani asian ChatGPT:ltä tajusin, että käyttäjänhän pitäisi päästä kirjautumaan salasanalla niin pitkään, kun sellaisen käyttöä ei ole kielletty. Lisäksi kuvakaappauksessa, jossa yritän lähettää SSH-koodin käyttäjälle jemjem tulee virhe jo koodin lähettämisvaiheessa eli se ei onnistu ja tulee sama virheilmoitus kuin kirjautumista yrittäessä.
+Pohdittuani asiaa ja tarkistettuani asian ChatGPT:ltä tajusin, että käyttäjänhän pitäisi päästä kirjautumaan salasanalla niin pitkään, kuin sellaisen käyttöä ei ole kielletty. Lisäksi kuvakaappauksessa, jossa yritän lähettää SSH-koodin käyttäjälle jemjem tulee virhe jo koodin lähettämisvaiheessa eli se ei onnistu ja tulee sama virheilmoitus kuin kirjautumista yrittäessä.
 
 Lähdin etsimään tietoa virheilmoituksesta. Pranita (https://www.redswitches.com/blog/ssh-permission-denied/) on pureutunut ongelmaan blogipostauksessaan ja näyttää siltä, että alkuperäinen ajatukseni oli kuitenkin oikea ja ongelma johtuu ssh-salauksesta. Onko salasanan käyttö valmiiksi estetty kaikilta käyttäjiltä?
 
