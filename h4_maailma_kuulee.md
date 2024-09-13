@@ -259,7 +259,7 @@ Ravi Saive kehotti antamaan komennon sudo vi /etc/ssh/sshd_config ja etsimään 
 
 Saiven mukaan ClientAliveInterval (https://www.cs.colostate.edu/helpdocs/vi.html) tarkoittaa sitä, kuinka pitkän inaktiivisuuden jälkeen SSH serveri lähettää alive-viestin clientille ja ClientAliveCountMax tarkoittaa, kuinka monta kertaa tämä tapahtuu. Eli toisin sanoen heti epäaktiivisuuden jälkeen serveri alkoi tarkistella tilannetta, totesi kuolleeksi ja sulki yhteyden. Eipä ihme, että oli haasteita.
 
-Saive kehottaa päivittämään ylemmän luvun arvoksi 300, jolloin alive-viesti lähtee 300 sekunnin eli viiden minuutin päästä. Koska tämä toistetaan kolmesti, on armonaikaa tämän jälkeen 15 minuuttia. Tämä kuulosti huomattavasti paremmalta, mutta vi-editorin käyttö vaati erikseen käyttöohjeiden etsimisen (https://www.cs.colostate.edu/helpdocs/vi.html). Kokeilin myös välissä, voiko tiedoston avata microlla, mutta ei voinut. Tiedoston sisältö näytti sellaiselta, että varmaan ihan hyvä, ettei sitä aivan helposti saanut käpälöityä. *(Jälkikäteishuomautus: Microa ei oltu vielä edes asennettu palvelimelle.)*
+Saive kehottaa päivittämään ylemmän luvun arvoksi 300, jolloin alive-viesti lähtee 300 sekunnin eli viiden minuutin päästä. Koska tämä toistetaan kolmesti, on armonaikaa tämän jälkeen 15 minuuttia. Tämä kuulosti huomattavasti paremmalta, mutta vi-editorin käyttö vaati erikseen käyttöohjeiden etsimisen (https://www.cs.colostate.edu/helpdocs/vi.html). Kokeilin myös välissä, voiko tiedoston avata microlla, mutta ei voinut. Tiedoston sisältö näytti sellaiselta, että varmaan ihan hyvä, ettei sitä aivan helposti saanut käpälöityä.
 
 ![image](https://github.com/user-attachments/assets/f8cdf267-2fcc-4772-8798-cdbd40a5c49a)
 
@@ -271,7 +271,7 @@ Tosin tätä kirjoittaessa serveri heitti minut taas pihalle ja oletan, etten tu
 
 Luin ohjetta vielä uudelleen ja ohjeessa käskettiin käynnistämään SSH daemon uudestaan. Oletan, että tätä ei nyt enää erikseen tarvitse tehdä, kun minut ehdittiin jo heittää pihalle. Palaan ohjeiden pariin, jos ongelma jatkuu.
 
-Eli olin asentamassa usw:tä. Ensiksi ajoin päivityksiä ja sen jälkeen asensin ufw:n ja samalla tajusin, että micro piti myös erikseen asentaa, jos sitä haluaa käyttää.
+Eli olin asentamassa usw:tä. Ensiksi ajoin päivityksiä ja sen jälkeen asensin ufw:n ja samalla tajusin, että Micro piti myös erikseen asentaa, jos sitä haluaa käyttää. (Eli ei ihme, ettei sillä voinut avata tiedostoja.)
 
 ![image](https://github.com/user-attachments/assets/e359c52b-f008-4e7a-b71e-ccadb909a21a)
 
