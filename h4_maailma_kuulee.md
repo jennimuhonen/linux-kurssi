@@ -379,11 +379,14 @@ Päivitykset tein jo palomuurin asentamisen yhteydessä. Palomuuripäivitysten o
 
 *13.9.2024 16.16.*
 
-Päädyin NetworkChuckin videolla ja muistin, että hän esti salasanakirjautumisen kokonaan. Noudatin hänen ohjeitaan:
+Päädyin takaisin NetworkChuckin videolle (https://www.youtube.com/watch?v=ZhMw53Ud2tY) ja muistin, että hän esti salasanakirjautumisen kokonaan. Noudatin hänen ohjeitaan:
 
 ![image](https://github.com/user-attachments/assets/f53f5f5e-0b5d-4cd0-bec4-39add25d2ff1)
 
 ![image](https://github.com/user-attachments/assets/49999be7-638f-4933-9a58-65f3b39a85f9)
+
+![image](https://github.com/user-attachments/assets/0735ddc4-969c-445d-9000-24a456f9f418)
+
 
 
 ## c) Apache
