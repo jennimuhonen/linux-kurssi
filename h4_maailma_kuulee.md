@@ -359,6 +359,22 @@ Jatkoin opettajan ohjeiden seurantaa ja seuraavaksi tulee sulkea root-tunnus. No
 
 Kuten epäilinkin, root-käyttäjä pääsee edelleen kirjautumaan koneelle. Eli poistetaanpa samainen tiedosto, jota jemjem:lle äsken työllä ja tuskalla luotiin.
 
+![image](https://github.com/user-attachments/assets/426774a7-a83d-4d7b-92a7-d75893c786d0)
+
+![image](https://github.com/user-attachments/assets/7d3b3500-712d-4ed6-a675-b79b21a620d1)
+
+Avasin toisen terminaaliyhteyden ja tarkistin kaiken varalta, että jemjem pääsee edelleen sisään (pääsee) ja sen jälkeen kokeilin, pääseekö root:
+
+![image](https://github.com/user-attachments/assets/71452086-7c19-4907-933b-470d9b3793ce)
+
+Näköjään äskeinen ei ollutkaan vielä kaikki mitä piti tehdä eli ehkä tiedoston poistaminen oli turhaa? Eli seuraavaksi kävin komennolla sudoedit `/etc/ssh/sshd_config` muokkaamassa root:n kirjautumisoikeuksia:
+
+![image](https://github.com/user-attachments/assets/19b8e0e2-e2b7-480f-b25f-82ffa79ea39e)
+
+Ja lopuksi ohje kehotti vielä:
+
+![image](https://github.com/user-attachments/assets/3e3b46bb-d70d-4909-8a17-dae51dad3ada)
+
 
 
 **Lähteet**
