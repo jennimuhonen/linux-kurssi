@@ -79,7 +79,7 @@ Jotain rahaa tosin ilmeisesti täytyy antaa, sillä sivusto ilmoittaa, että kok
 
 Sivusto kehotti ottamaan käyttöön kaksivaiheisen tunnistautumisen, joten lisäsin sivuston Google Authenticatoriini.
 
-Ilmaisjakson rajoitteet ovat nämä, en
+Ilmaisjakson rajoitteet ovat nämä, en osaa sanoa, onko näillä vaikutusta tehtävien tekoon.
 
 ![image](https://github.com/user-attachments/assets/ccc4b342-c9e9-4d6f-b4b0-4850c99e789e)
 
