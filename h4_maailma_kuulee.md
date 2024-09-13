@@ -377,15 +377,30 @@ Ja lopuksi ohje kehotti vielä:
 
 Päivitykset tein jo palomuurin asentamisen yhteydessä. Palomuuripäivitysten ohjesivulla oli dist-upgrade ja nyt käytetyssä ohjessa pelkkä upgrade. Googlasin asiaa ja päädyin Debianin wikiin (https://wiki.debian.org/AptCLI). upgrade päivittää kaikki paketit ilman, että poistaa mitään, kun taas dist-upgrade myös poistaa asioita. Debianin ohjeessa kehotetaan kirjaamana, mitä on poistetu, jotta näitä voi tarvittaessa asentaa uudestaan.
 
+*13.9.2024 16.16.*
+
+Päädyin NetworkChuckin videolla ja muistin, että hän esti salasanakirjautumisen kokonaan. Noudatin hänen ohjeitaan:
+
+![image](https://github.com/user-attachments/assets/f53f5f5e-0b5d-4cd0-bec4-39add25d2ff1)
+
+![image](https://github.com/user-attachments/assets/49999be7-638f-4933-9a58-65f3b39a85f9)
+
+
 ## c) Apache
 
 *Tehtävä: c) Asenna weppipalvelin omalle virtuaalipalvelimellesi. Korvaa testisivu. Kokeile, että se näkyy julkisesti. Kokeile myös eri koneelta, esim kännykältä.*
+
+*13.9.2024 n. 15.45*
 
 Opettajan ohjesivu (https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/) muistuttaa tekemään reiän palomuuriin, jotta Apache toimii. Aloitin siis siitä:
 
 ![image](https://github.com/user-attachments/assets/b263d1e3-8faa-4f11-9d38-ce1a8bac141a)
 
 Sen jälkeen palasin viime viikolta tutulle opettajan Apache-ohjesivulle (Karvinen, Tero, 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/) asentaakseni Apachen ja tehdäkseni uuden testisivun.
+
+Hain ensin päivitykset, koska en ollut niitä tänään vielä hakenut ja sen jälkeen asensin apachen. Sitten tarkistin, että localhost näyttää oletussivun ja sen jälkeen muutin oletussivun tekstiksi "Testi". Sen jälkeen tarkistin, että näin tosiaan kävi.
+
+![image](https://github.com/user-attachments/assets/f7e38625-610b-4bd7-8386-b3adde68b09c)
 
 
 
