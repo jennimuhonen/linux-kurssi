@@ -443,6 +443,8 @@ Onnistui!
 
 Lopuksi kävin laittamassa UpCloudin tilille 10 euroa, ettei koko virtuaalipalvelinta poisteta kokeilukauden päätteeksi eli huomenna.
 
+*14.9.2024 17.55. Jälkikommentti ChatGPT:n käytöstä, sillä olin saanut vertaispalautetta siitä, että tukeuduin siihen varsin paljon. Tarkistin raporttini läpi ja etupäässä käytin ChatGPT:tä tulkitsemaan, mitä toisessa ohjeessa annetut komennot tekivät. Kun vastaukset kuulostivat uskottavilta, olin tyytyväinen niihin. Näin sain paremman kuvan siitä, mitä olin tekemässä ja säästin aikaa, kun en aina etsinyt muuta lähdettä. Yleensä, kun pyysin komentoja ChatGPT:ltä, olivat ne sellaisia, joita olin käyttänyt ennenkin, mutta unohtanut eli pystyin itse arvioimaan vastausten järkevyyttä. Ainoat ChatGPT:ltä suoraan ottamani komennot olivat su ja getent. Myönnän, että nämä olisi voinut vielä tarkistaa toisesta lähteestä ennen käyttöä.*
+
 ---
 
 **Lähteet**
