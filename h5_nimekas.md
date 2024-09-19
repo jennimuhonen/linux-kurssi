@@ -148,11 +148,15 @@ Muokkasin myös conf-tiedostoa:
 
 Tämän jälkeen palasin viilaamaan sivustojen html:ää:
 
-![image](https://github.com/user-attachments/assets/00782378-1602-401a-b85b-d64bbd735539)
+![image](https://github.com/user-attachments/assets/1550f18c-0db2-4633-b436-bf7a716c3493)
 
 ![image](https://github.com/user-attachments/assets/91983f8d-2ee1-46f1-a5a2-6830765d92fd)
 
+Lopuksi validoin sivustojen html:n.
 
+![image](https://github.com/user-attachments/assets/8d0eddda-730d-464c-99c4-c92a174f3033)
+
+Pääsivu ja tutkimusmatka olivat kunnossa, mutta linux-sivulta validaattori löysi typon, jota en ollut huomannut, kun en ollut päässyt näkemään sivustoa selaimessa. Korjasin virheen. 
 
 
 
