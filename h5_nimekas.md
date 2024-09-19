@@ -152,7 +152,7 @@ Tämän jälkeen palasin viilaamaan sivustojen html:ää:
 
 ![image](https://github.com/user-attachments/assets/91983f8d-2ee1-46f1-a5a2-6830765d92fd)
 
-Lopuksi validoin sivustojen html:n.
+Lopuksi validoin sivustojen html:n (https://validator.w3.org) opettajan ohjeista löytyneen linkin kautta.
 
 ![image](https://github.com/user-attachments/assets/8d0eddda-730d-464c-99c4-c92a174f3033)
 
