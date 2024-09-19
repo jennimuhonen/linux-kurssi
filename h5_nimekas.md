@@ -118,6 +118,8 @@ Googletin virheilmoituksen koodilla AH00035 ja esimerkiksi Linux Mint Forumsilla
 
 DebianWikissä (https://wiki.debian.org/Permissions) kerrotaan, että chmod:lla voidaan manipuloida tiedostojen oikeuksia. AskUbunto-sivustolla (https://askubuntu.com/questions/443789/what-does-chmod-x-filename-do-and-how-do-i-use-it) selitettiin tarkemmin, että +x komennon perässä tekee sen, että siihen annetaan suoritusoikeudet.
 
+Eli kokeilen, auttaisiko komento `chmod +x /home/jemjem/publicsites`.
+
 ---
 
 **Lähteet**
