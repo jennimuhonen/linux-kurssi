@@ -103,6 +103,10 @@ Vertailuna kokeilin, mitä portfolio-sivu sanoo curlilla. Tämän sivun virheilm
 
 Päätin kokeilla tehdä tälle sivulle loputkin toimet ja katsoa, käykö sen kanssa eri lailla.
 
+![image](https://github.com/user-attachments/assets/e1277e6c-a800-47a1-9619-3d301c2318f1)
+
+Tälläkin sivulla virheilmoitus pysyi samana. Onko tässä jotain viivettä vai olenko tehnyt jonkin virheen?
+
 ---
 
 **Lähteet**
