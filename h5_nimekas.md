@@ -120,6 +120,10 @@ DebianWikissä (https://wiki.debian.org/Permissions) kerrotaan, että chmod:lla 
 
 Eli kokeilen, auttaisiko komento `chmod +x /home/jemjem/publicsites`.
 
+![image](https://github.com/user-attachments/assets/d665ffe3-d8da-4362-bc05-9cf1302f504d)
+
+Ei ainakaan suorilta auttanut. Tosin tutkin mitä tarkoittaa domainin TTL-kohdassa oleva aika ja Cloudflare Docs:n (https://developers.cloudflare.com/dns/manage-dns-records/reference/ttl/) tämä tarkoittaa Time to Live eli kuinka kauan kestää, että tietueiden päivitykset saavuttavat loppukäyttäjän. Eli varmaan aivan heti mitään muutosta ei kuulukaan nähdä.
+
 ---
 
 **Lähteet**
