@@ -81,6 +81,11 @@ Eli kysymykseksi jää, miksi ip-osoite ohjaa eri paikkaan kuin domain? Hain esi
 
 ![image](https://github.com/user-attachments/assets/926ec309-ea0b-434d-b9ae-327f7542a7da)
 
+Ja hain host-komennolla vielä domainin tiedot, kuten tunnilla opin:
+
+![image](https://github.com/user-attachments/assets/9f80587f-a5e5-4c8d-bfc0-c82325532114)
+
+
 
 ---
 
