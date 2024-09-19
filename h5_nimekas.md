@@ -136,7 +136,7 @@ Johtuisikohan tämä virhe siitä, etten ole vielä tehnyt seuraavassa tehtävis
 
 Katsoin Youtubesta Nerd on the Street:n videota (https://www.youtube.com/watch?v=x5fWSWdM4F8) ja sen perusteella arvelen, että en vielä tässä kohtaa oleta, että mitään on pielessä portfolio-sivulla ja vasta jos se ei toimi alidomainin tekemisen jälkeen, huolestun.
 
-Nyt on aika siis viilata sivujen html tehtävänannon mukaiseksi ja tehdä 
+Nyt on aika siis viilata sivujen html tehtävänannon mukaiseksi ja tehdä tutkimusmatka-sivustolle samat toimet kuin muillekin.
 
 ---
 
