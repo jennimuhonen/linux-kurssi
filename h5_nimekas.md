@@ -67,7 +67,7 @@ Kävin tässä vaiheessa tutkimassa, miltä sivusto näyttää verkkoselaimessa:
 
 ![image](https://github.com/user-attachments/assets/1eb66a6f-f183-4135-81dd-7fd93182481f)
 
-jennimuhonen.com:sta katosi edellisellä kerralla tekemäni testisivu, mutta sivu näkyy, kun syötän ip-osoitteen. Tämä vaatii hieman lisätutkimusta, jotta hahmotan, mitä edellä tein.
+jennimuhonen.com:sta katosi edellisellä kerralla tekemäni testisivu, mutta sivu näkyi, kun syötin ip-osoitteen. Tämä vaatii hieman lisätutkimusta, jotta hahmotan, mitä edellä tein.
 
 
 ---
