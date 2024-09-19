@@ -114,7 +114,7 @@ Googletin asiaa (https://stackoverflow.com/questions/18447454/apache-giving-403-
 
 ![image](https://github.com/user-attachments/assets/63b3272c-2b56-4d6f-ade7-3a11c9a1558b)
 
-Googletin virheilmoituksen koodilla AH00035 ja esimerkiksi Linux Mint Forumsilla on ongelmasta keskustelua (https://forums.linuxmint.com/viewtopic.php?t=176598). Eli kuten ilmoituksessakin itsessään lukee, ongelmana on puutteelliset oikeudet. Ratkaisuksi tarjotaan komentoa chmod +x. Toisessa keskustelussa https://askubuntu.com/questions/1353377/apache2-permission-denied-access-to-denied-because-search-permissions-are-mi) komento on sanottu selkeämmin chmod +x /home/username.
+Googletin virheilmoituksen koodilla AH00035 ja esimerkiksi Linux Mint Forumsilla on ongelmasta keskustelua (https://forums.linuxmint.com/viewtopic.php?t=176598). Eli kuten ilmoituksessakin itsessään lukee, ongelmana on puutteelliset oikeudet. Ratkaisuksi tarjotaan komentoa chmod +x. Toisessa keskustelussa (https://askubuntu.com/questions/1353377/apache2-permission-denied-access-to-denied-because-search-permissions-are-mi) komento on sanottu selkeämmin chmod +x /home/username.
 
 DebianWikissä (https://wiki.debian.org/Permissions) kerrotaan, että chmod:lla voidaan manipuloida tiedostojen oikeuksia. AskUbunto-sivustolla (https://askubuntu.com/questions/443789/what-does-chmod-x-filename-do-and-how-do-i-use-it) selitettiin tarkemmin, että +x komennon perässä tekee sen, että siihen annetaan suoritusoikeudet.
 
@@ -125,6 +125,10 @@ Eli kokeilen, auttaisiko komento `chmod +x /home/jemjem/publicsites`.
 **Lähteet**
 
 - Alex Coventry 6.12.2021 & Archathean_Official 10.11.2022. Reddit-kommentit. https://www.reddit.com/r/virtualbox/comments/ra8cvc/is_there_a_way_to_set_guest_resolution_to/?rdt=44017
+- Ask Ubuntu: Apache2 Permission denied - access to / denied because search permissions are missing on a component of the path. https://askubuntu.com/questions/1353377/apache2-permission-denied-access-to-denied-because-search-permissions-are-mi
+- Ask Ubuntu: What does "chmod +x <filename>" do and how do I use it? https://askubuntu.com/questions/443789/what-does-chmod-x-filename-do-and-how-do-i-use-it
+- Debian Wiki: Permissions. https://wiki.debian.org/Permissions
+- Linux Mint Forums: [SOLVED][Apache2] AH00035: access to / denied. https://forums.linuxmint.com/viewtopic.php?t=176598
 - Muhonen, Jenni 2024: h3 Hello Web Server. https://github.com/jennimuhonen/linux-kurssi/blob/main/h3-hello-web-server.md
 - Muhonen, Jenni 2024: h4 Maailma kuulee. https://github.com/jennimuhonen/linux-kurssi/blob/main/h4_maailma_kuulee.md
 - Karvinen, Tero, 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
