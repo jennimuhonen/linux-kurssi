@@ -107,6 +107,14 @@ Päätin kokeilla tehdä tälle sivulle loputkin toimet ja katsoa, käykö sen k
 
 Tälläkin sivulla virheilmoitus pysyi samana. Onko tässä jotain viivettä vai olenko tehnyt jonkin virheen?
 
+*19.9.2024 20.25*
+
+Googletin asiaa (
+ ja päädyin sen myötä tutkimaan Apachen virhelokia:
+
+![image](https://github.com/user-attachments/assets/63b3272c-2b56-4d6f-ade7-3a11c9a1558b)
+
+
 ---
 
 **Lähteet**
