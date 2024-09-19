@@ -85,7 +85,7 @@ Ja hain host-komennolla vielä domainin tiedot, kuten tunnilla opin:
 
 ![image](https://github.com/user-attachments/assets/9f80587f-a5e5-4c8d-bfc0-c82325532114)
 
-
+Googletin asiaa ja Webmasters-sivustolla olleen vastauksen (https://webmasters.stackexchange.com/questions/113237/why-does-typing-in-my-sites-ip-address-bring-up-a-different-site) perusteella tulkitsin, että http://jennimuhonen.com yhdistää sekä ip-osoitteeseen, että Host: jennimuhonen.com. Ip-osoite sen sijaan lähettää Host: 94.237.16.92. Tässä tapauksessa serveri ei välttämättä tiedä, minkä sivuston tarjoaisi, jolloin se voi palauttaa default-sivuston. Eli default-sivu lienee se var-kansion uumenissa oleve index.html, jonka ip-osoite löytää, kun varsinaista sivua ei ole olemassa.
 
 ---
 
