@@ -43,8 +43,13 @@ Pari ongelmaa, joihin törmäsin, mutta joita en kokonaan ratkonut:
 
 *19.9.2024 17.24*
 
-Muisteltuani mitä edellisellä kerralla tein, ryhdyin seuraamaan edellä mainittua opettajan ohjeistusta uuden name based virtual hostin tekemiseen.
+Aivan aluksi syötin varalta komennon `sudo apt-get update`, jos päädyn asentamaan mitään. Ja tämän jälkeen ryhdyin seuraamaan edellä mainittua opettajan ohjeistusta uuden name based virtual hostin tekemiseen.
 
+![image](https://github.com/user-attachments/assets/0f6ad50c-5d99-4fe1-80e4-0df3f7d399fe)
+
+![image](https://github.com/user-attachments/assets/8d93ab77-2fd7-4531-b030-f613764f42b1)
+
+Tässä kohtaa aloin muistelemaan, kuuluuko minun tehdä samanlainen tiedosto myös pääsivustani jennimuhonen.com. Tutkin mitä tein edellisessä rapotissani (
 
 
 
