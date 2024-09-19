@@ -30,6 +30,9 @@ Tehtäviä Tero Karvisen kurssille Linux Palvelimet 2024. https://terokarvinen.c
 
 Aloitin tehtävän teon lukemalla aiempaa raporttiani (https://github.com/jennimuhonen/linux-kurssi/blob/main/h3-hello-web-server.md), jossa opettelin käyttämään name based virtual hostingia ilman pilvipalvelinta. Lisäksi tarkistin kyseisessä tehtävässä käytetyn ohjeistuksen (https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/)
 
+Toinen taustatyö jonka tein, oli Windows-puolen sijaan siirtää mahdollisimman paljon tarvittavia sivuja Linuxin puolelle, jotta voisin kopioida ohjeista koodeja suoraan terminaaliin sen sijaan, että kirjoittaisin niitä käsin. Työntekoani on jatkuvasti hidastanut erilaiset kirjoitusvirheet, joita on helppo vähentää kirjoittamalla koodeja vähemmän käsin. Koska käsin kirjoittaminen on johtunut kahden eri käyttöjärjestelmän käyttämisestä, pyrin vähentämään tätä.
+
+
 
 ---
 
