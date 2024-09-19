@@ -128,6 +128,10 @@ Luin vielä tarkemmin Linux Mint Forumsin keskusteluketjua ja siellä annettiin 
 
 ![image](https://github.com/user-attachments/assets/dd162a94-fe20-4288-b10f-d43663ac753e)
 
+Sensijaan portfolio-sivulla on jokin muu ongelma:
+
+![image](https://github.com/user-attachments/assets/f9014ef4-6c20-4a22-9f8e-dd66358d2478)
+
 
 ---
 
