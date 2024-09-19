@@ -49,7 +49,11 @@ Aivan aluksi syötin varalta komennon `sudo apt-get update`, jos päädyn asenta
 
 ![image](https://github.com/user-attachments/assets/8d93ab77-2fd7-4531-b030-f613764f42b1)
 
-Tässä kohtaa aloin muistelemaan, kuuluuko minun tehdä samanlainen tiedosto myös pääsivustani jennimuhonen.com. Tutkin mitä tein kahdessa edellisessä raportissani
+Tässä kohtaa aloin muistelemaan, kuuluuko minun tehdä samanlainen tiedosto myös pääsivustani jennimuhonen.com. Tutkin mitä tein kahdessa edellisessä raportissani ja tulin siihen tulokseen, että tällä hetkellä pääsivua on muokattu vain sudo-käyttäjänä, mutta koska sivua tulee pystyä muokkaamaan myös ilman pääkäyttäjän oikeuksia, edellisellä kerralla tekemäni ei vielä riitä.
+
+![image](https://github.com/user-attachments/assets/e2d9c6b4-ab8b-4325-8bf2-b12057dd283e)
+
+![image](https://github.com/user-attachments/assets/5b259b73-3019-4175-8d95-22e56add6eba)
 
 
 
