@@ -150,7 +150,8 @@ Tämän jälkeen palasin viilaamaan sivustojen html:ää:
 
 ![image](https://github.com/user-attachments/assets/00782378-1602-401a-b85b-d64bbd735539)
 
-![image](https://github.com/user-attachments/assets/4a9cd9d5-f52a-4ae3-8b9d-ebb9073c0803)
+![image](https://github.com/user-attachments/assets/91983f8d-2ee1-46f1-a5a2-6830765d92fd)
+
 
 
 
