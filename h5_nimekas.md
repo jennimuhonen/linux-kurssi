@@ -138,6 +138,12 @@ Katsoin Youtubesta Nerd on the Street:n videota (https://www.youtube.com/watch?v
 
 Nyt on aika siis viilata sivujen html tehtävänannon mukaiseksi ja tehdä tutkimusmatka-sivustolle samat toimet kuin muillekin.
 
+Seuraavaksi aloin askartelemaan html:n kanssa. Ohessa päätin muuttaa portfolio-sivuston nimeksi linux.
+
+![image](https://github.com/user-attachments/assets/3a2aaf53-b314-4497-aebf-d1386fb5d1be)
+
+
+
 ---
 
 **Lähteet**
