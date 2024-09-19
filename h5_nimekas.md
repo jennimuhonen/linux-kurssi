@@ -132,9 +132,11 @@ Sensijaan portfolio-sivulla on jokin muu ongelma:
 
 ![image](https://github.com/user-attachments/assets/f9014ef4-6c20-4a22-9f8e-dd66358d2478)
 
-Johtuisikohan tämä virhe siitä, etten ole vielä tehnyt seuraavassa tehtävissä eteen tulevia toimenpiteitä. Nyt on varmaankin aika selvittää, mitä host tarkoittaa.
+Johtuisikohan tämä virhe siitä, etten ole vielä tehnyt seuraavassa tehtävissä eteen tulevia toimenpiteitä.
 
 Katsoin Youtubesta Nerd on the Street:n videota (https://www.youtube.com/watch?v=x5fWSWdM4F8) ja sen perusteella arvelen, että en vielä tässä kohtaa oleta, että mitään on pielessä portfolio-sivulla ja vasta jos se ei toimi alidomainin tekemisen jälkeen, huolestun.
+
+Nyt on aika siis viilata sivujen html tehtävänannon mukaiseksi ja tehdä 
 
 ---
 
