@@ -93,6 +93,9 @@ Googletin asiaa ja Webmasters-sivustolla olleen vastauksen (https://webmasters.s
 
 *19.9.2024 19.31 (tauon ja asioiden ihmettelyn jälkeen)*
 
+Jatkoin opettajan ohjeiden seuraamista ja ilmeisestikin olen jotain mokannut jossain vaiheessa, sillä tulos on edelleen sama kuin aiemminkin:
+
+![image](https://github.com/user-attachments/assets/fd6b0aec-e5b0-4b0b-bb57-d4bee2a8b8c1)
 
 
 ---
