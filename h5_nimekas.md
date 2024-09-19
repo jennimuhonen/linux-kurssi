@@ -61,6 +61,13 @@ Kokeilin voiko kaikki kolme sivustoa oikeuttaa kerralla ja kyllä pystyi. Lisäk
 
 Nyt minun pitäisi pystyä luomaan verkkosivuja ilman sudoa.
 
+Kävin tässä vaiheessa tutkimassa, miltä sivusto näyttää verkkoselaimessa:
+
+![image](https://github.com/user-attachments/assets/a7dcd13a-d137-4d94-a102-dac862e8af5d)
+
+![image](https://github.com/user-attachments/assets/1eb66a6f-f183-4135-81dd-7fd93182481f)
+
+jennimuhonen.com:sta katosi edellisellä kerralla tekemäni testisivu, mutta sivu näkyy, kun syötän ip-osoitteen. Tämä vaatii hieman lisätutkimusta, jotta hahmotan, mitä edellä tein.
 
 
 ---
