@@ -73,6 +73,14 @@ Tutkin mitä komentoja olen antanut. Kun viime viikolla (raportti 4) loin testi-
 
 ![image](https://github.com/user-attachments/assets/a4b44586-0b00-4d99-9e30-75d6f07952bf)
 
+Conf-tiedosto viittaa hakemistoon, joka on kansiossa jemjem/publicsites, mutta sellaista kansiota ei vielä ole, koska en sitä ole luonut:
+
+![image](https://github.com/user-attachments/assets/57f4b60e-3359-47c0-bb66-310b6edb2956)
+
+Eli kysymykseksi jää, miksi ip-osoite ohjaa eri paikkaan kuin domain? Hain esimerkit vielä curlilla varmistaakseni, ettei kyse ollut vain selaimen välimuistista:
+
+![image](https://github.com/user-attachments/assets/926ec309-ea0b-434d-b9ae-327f7542a7da)
+
 
 ---
 
