@@ -142,6 +142,10 @@ Seuraavaksi aloin askartelemaan html:n kanssa. Ohessa päätin muuttaa portfolio
 
 ![image](https://github.com/user-attachments/assets/3a2aaf53-b314-4497-aebf-d1386fb5d1be)
 
+Muokkasin myös conf-tiedostoa:
+
+![image](https://github.com/user-attachments/assets/ec5e3c3e-5e8a-47f8-b0df-c362f2ad3159)
+
 
 
 ---
