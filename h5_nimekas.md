@@ -124,6 +124,11 @@ Eli kokeilen, auttaisiko komento `chmod +x /home/jemjem/publicsites`.
 
 Ei ainakaan suorilta auttanut. Tosin tutkin mitä tarkoittaa domainin TTL-kohdassa oleva aika ja Cloudflare Docs:n (https://developers.cloudflare.com/dns/manage-dns-records/reference/ttl/) tämä tarkoittaa Time to Live eli kuinka kauan kestää, että tietueiden päivitykset saavuttavat loppukäyttäjän. Eli varmaan aivan heti mitään muutosta ei kuulukaan nähdä.
 
+Luin vielä tarkemmin Linux Mint Forumsin keskusteluketjua ja siellä annettiin ohje, että oikeudet kannattaa antaa myös kansioille /home ja /home/user. Tein näin ja lopulta sivu alkoi toimia:
+
+![image](https://github.com/user-attachments/assets/dd162a94-fe20-4288-b10f-d43663ac753e)
+
+
 ---
 
 **Lähteet**
