@@ -146,6 +146,13 @@ Muokkasin myös conf-tiedostoa:
 
 ![image](https://github.com/user-attachments/assets/ec5e3c3e-5e8a-47f8-b0df-c362f2ad3159)
 
+Tämän jälkeen palasin viilaamaan sivustojen html:ää:
+
+![image](https://github.com/user-attachments/assets/00782378-1602-401a-b85b-d64bbd735539)
+
+![image](https://github.com/user-attachments/assets/4a9cd9d5-f52a-4ae3-8b9d-ebb9073c0803)
+
+
 
 
 ---
