@@ -49,7 +49,7 @@ Aivan aluksi syötin varalta komennon `sudo apt-get update`, jos päädyn asenta
 
 ![image](https://github.com/user-attachments/assets/8d93ab77-2fd7-4531-b030-f613764f42b1)
 
-Tässä kohtaa aloin muistelemaan, kuuluuko minun tehdä samanlainen tiedosto myös pääsivustani jennimuhonen.com. Tutkin mitä tein edellisessä rapotissani (
+Tässä kohtaa aloin muistelemaan, kuuluuko minun tehdä samanlainen tiedosto myös pääsivustani jennimuhonen.com. Tutkin mitä tein kahdessa edellisessä raportissani
 
 
 
@@ -62,6 +62,7 @@ Tässä kohtaa aloin muistelemaan, kuuluuko minun tehdä samanlainen tiedosto my
 
 - Alex Coventry 6.12.2021 & Archathean_Official 10.11.2022. Reddit-kommentit. https://www.reddit.com/r/virtualbox/comments/ra8cvc/is_there_a_way_to_set_guest_resolution_to/?rdt=44017
 - Muhonen, Jenni 2024: h3 Hello Web Server. https://github.com/jennimuhonen/linux-kurssi/blob/main/h3-hello-web-server.md
+- Muhonen, Jenni 2024: h4 Maailma kuulee. https://github.com/jennimuhonen/linux-kurssi/blob/main/h4_maailma_kuulee.md
 - Karvinen, Tero, 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
 
 
