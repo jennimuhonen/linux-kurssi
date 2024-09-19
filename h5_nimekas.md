@@ -55,8 +55,11 @@ Tässä kohtaa aloin muistelemaan, kuuluuko minun tehdä samanlainen tiedosto my
 
 ![image](https://github.com/user-attachments/assets/5b259b73-3019-4175-8d95-22e56add6eba)
 
+Kokeilin voiko kaikki kolme sivustoa oikeuttaa kerralla ja kyllä pystyi. Lisäksi käynnistin Apachen uudestaan.
 
+![image](https://github.com/user-attachments/assets/26f91119-856c-4052-b215-81a84f5431d8)
 
+Nyt minun pitäisi pystyä luomaan verkkosivuja ilman sudoa.
 
 
 
