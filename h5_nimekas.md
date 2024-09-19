@@ -97,6 +97,11 @@ Jatkoin opettajan ohjeiden seuraamista ja ilmeisestikin olen jotain mokannut jos
 
 ![image](https://github.com/user-attachments/assets/fd6b0aec-e5b0-4b0b-bb57-d4bee2a8b8c1)
 
+Vertailuna kokeilin, mitä portfolio-sivu sanoo curlilla. Tämän sivun virheilmoitus on erilainen:
+
+![image](https://github.com/user-attachments/assets/4d49224c-ba7c-42a0-864d-4db6b44f71fe)
+
+Päätin kokeilla tehdä tälle sivulle loputkin toimet ja katsoa, käykö sen kanssa eri lailla.
 
 ---
 
