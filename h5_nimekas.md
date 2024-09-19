@@ -132,6 +132,7 @@ Sensijaan portfolio-sivulla on jokin muu ongelma:
 
 ![image](https://github.com/user-attachments/assets/f9014ef4-6c20-4a22-9f8e-dd66358d2478)
 
+Johtuisikohan tämä virhe siitä, etten ole vielä tehnyt seuraavassa tehtävissä eteen tulevia toimenpiteitä. Nyt on varmaankin aika selvittää, mitä host tarkoittaa.
 
 ---
 
