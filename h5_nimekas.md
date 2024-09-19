@@ -109,7 +109,7 @@ Tälläkin sivulla virheilmoitus pysyi samana. Onko tässä jotain viivettä vai
 
 *19.9.2024 20.25*
 
-Googletin asiaa (
+Googletin asiaa (https://stackoverflow.com/questions/18447454/apache-giving-403-forbidden-errors)
  ja päädyin sen myötä tutkimaan Apachen virhelokia:
 
 ![image](https://github.com/user-attachments/assets/63b3272c-2b56-4d6f-ade7-3a11c9a1558b)
