@@ -67,7 +67,11 @@ Kävin tässä vaiheessa tutkimassa, miltä sivusto näyttää verkkoselaimessa:
 
 ![image](https://github.com/user-attachments/assets/1eb66a6f-f183-4135-81dd-7fd93182481f)
 
-jennimuhonen.com:sta katosi edellisellä kerralla tekemäni testisivu, mutta sivu näkyi, kun syötin ip-osoitteen. Tämä vaatii hieman lisätutkimusta, jotta hahmotan, mitä edellä tein.
+jennimuhonen.com:sta katosi edellisellä kerralla tekemäni testisivu, mutta sivu näkyi, kun syötin ip-osoitteen. Tämä vaatii hieman lisätutkimusta, jotta hahmotan, mitä edellä tein. (Raporttia kolme tekiessä kaikki oli niin uutta ja kyseisellä viikolla aikaa oli tavallista vähemmän, joten silloin en pysähtynyt ihmettelemään samaan tapaan.)
+
+Tutkin mitä komentoja olen antanut. Kun viime viikolla (raportti 4) loin testi-sivun automaattisen sivun sijalle, käytetyn komennon perusteella sivu tallentui var-kansion alle. Seikkailin kansiossa ja löysin kansiorakenteen syvyyksistä index.html-tiedoston, joka näkyy edelleen, kun sivustolle pyrkii ip-osoitteella. 
+
+![image](https://github.com/user-attachments/assets/a4b44586-0b00-4d99-9e30-75d6f07952bf)
 
 
 ---
