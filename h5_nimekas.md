@@ -114,6 +114,9 @@ Googletin asiaa (https://stackoverflow.com/questions/18447454/apache-giving-403-
 
 ![image](https://github.com/user-attachments/assets/63b3272c-2b56-4d6f-ade7-3a11c9a1558b)
 
+Googletin virheilmoituksen koodilla AH00035 ja esimerkiksi Linux Mint Forumsilla on ongelmasta keskustelua (https://forums.linuxmint.com/viewtopic.php?t=176598). Eli kuten ilmoituksessakin itsessään lukee, ongelmana on puutteelliset oikeudet. Ratkaisuksi tarjotaan komentoa chmod +x. Toisessa keskustelussa https://askubuntu.com/questions/1353377/apache2-permission-denied-access-to-denied-because-search-permissions-are-mi) komento on sanottu selkeämmin chmod +x /home/username.
+
+DebianWikissä (https://wiki.debian.org/Permissions) kerrotaan, että chmod:lla voidaan manipuloida tiedostojen oikeuksia. AskUbunto-sivustolla (https://askubuntu.com/questions/443789/what-does-chmod-x-filename-do-and-how-do-i-use-it) selitettiin tarkemmin, että +x komennon perässä tekee sen, että siihen annetaan suoritusoikeudet.
 
 ---
 
@@ -123,6 +126,7 @@ Googletin asiaa (https://stackoverflow.com/questions/18447454/apache-giving-403-
 - Muhonen, Jenni 2024: h3 Hello Web Server. https://github.com/jennimuhonen/linux-kurssi/blob/main/h3-hello-web-server.md
 - Muhonen, Jenni 2024: h4 Maailma kuulee. https://github.com/jennimuhonen/linux-kurssi/blob/main/h4_maailma_kuulee.md
 - Karvinen, Tero, 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
+- StackOverflow: Apache giving 403 forbidden error. https://stackoverflow.com/questions/18447454/apache-giving-403-forbidden-errors
 - Webmasters: Why does typing in my site's IP address bring up a different site? https://webmasters.stackexchange.com/questions/113237/why-does-typing-in-my-sites-ip-address-bring-up-a-different-site
 
 
