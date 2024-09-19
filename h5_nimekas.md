@@ -28,7 +28,7 @@ Tehtäviä Tero Karvisen kurssille Linux Palvelimet 2024. https://terokarvinen.c
 
 *Tehtävä: Kotisivu. Tee vähintään kolmen erillisen weppisivun kotisivu ja kopioi se näkymään palvelimellesi. Jos sinulla on oikea palvelin Internetissä, kannattaa käyttää sitä. Käytä name based virtual hosting tekniikkaa. Sivujen muokkaamisen pitää onnistua ilman pääkäyttäjän oikeuksia, niiden kopioiminen pääkäyttäjänä testisivun paikalle ei käy. Kotisivujen ei tarvitse olla hienoja, mutta niiden tulee olla validia HTML:ää ja linkittää toisiinsa.*
 
-Aloitin tehtävän teon lukemalla aiempaa raporttiani (https://github.com/jennimuhonen/linux-kurssi/blob/main/h3-hello-web-server.md), jossa opettelin käyttämään name based virtual hostingia ilman pilvipalvelinta. Lisäksi tarkistin kyseisessä tehtävässä käytetyn ohjeistuksen (https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/)
+Aloitin tehtävän teon lukemalla aiempaa raporttiani (https://github.com/jennimuhonen/linux-kurssi/blob/main/h3-hello-web-server.md), jossa opettelin käyttämään name based virtual hostingia ilman pilvipalvelinta. Lisäksi tarkistin kyseisessä tehtävässä käytetyn opettajan ohjeistuksen (https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/)
 
 **Sivuhuomioita**
 
@@ -41,7 +41,12 @@ Pari ongelmaa, joihin törmäsin, mutta joita en kokonaan ratkonut:
 
 **Varsinaiseen asiaan**
 
-*19.9.2024 17.24**
+*19.9.2024 17.24*
+
+Muisteltuani mitä edellisellä kerralla tein, ryhdyin seuraamaan edellä mainittua opettajan ohjeistusta uuden name based virtual hostin tekemiseen.
+
+
+
 
 
 
