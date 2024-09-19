@@ -134,6 +134,8 @@ Sensijaan portfolio-sivulla on jokin muu ongelma:
 
 Johtuisikohan tämä virhe siitä, etten ole vielä tehnyt seuraavassa tehtävissä eteen tulevia toimenpiteitä. Nyt on varmaankin aika selvittää, mitä host tarkoittaa.
 
+Katsoin Youtubesta Nerd on the Street:n videota (https://www.youtube.com/watch?v=x5fWSWdM4F8) ja sen perusteella arvelen, että en vielä tässä kohtaa oleta, että mitään on pielessä portfolio-sivulla ja vasta jos se ei toimi alidomainin tekemisen jälkeen, huolestun.
+
 ---
 
 **Lähteet**
@@ -142,10 +144,11 @@ Johtuisikohan tämä virhe siitä, etten ole vielä tehnyt seuraavassa tehtävis
 - Ask Ubuntu: Apache2 Permission denied - access to / denied because search permissions are missing on a component of the path. https://askubuntu.com/questions/1353377/apache2-permission-denied-access-to-denied-because-search-permissions-are-mi
 - Ask Ubuntu: What does "chmod +x <filename>" do and how do I use it? https://askubuntu.com/questions/443789/what-does-chmod-x-filename-do-and-how-do-i-use-it
 - Debian Wiki: Permissions. https://wiki.debian.org/Permissions
+- Karvinen, Tero 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
+- Karvinen, Tero: Oppitunti 18.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
 - Linux Mint Forums: [SOLVED][Apache2] AH00035: access to / denied. https://forums.linuxmint.com/viewtopic.php?t=176598
 - Muhonen, Jenni 2024: h3 Hello Web Server. https://github.com/jennimuhonen/linux-kurssi/blob/main/h3-hello-web-server.md
 - Muhonen, Jenni 2024: h4 Maailma kuulee. https://github.com/jennimuhonen/linux-kurssi/blob/main/h4_maailma_kuulee.md
-- Karvinen, Tero, 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
 - StackOverflow: Apache giving 403 forbidden error. https://stackoverflow.com/questions/18447454/apache-giving-403-forbidden-errors
 - Webmasters: Why does typing in my site's IP address bring up a different site? https://webmasters.stackexchange.com/questions/113237/why-does-typing-in-my-sites-ip-address-bring-up-a-different-site
 
