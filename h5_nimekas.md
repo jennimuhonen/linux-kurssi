@@ -32,6 +32,12 @@ Aloitin tehtävän teon lukemalla aiempaa raporttiani (https://github.com/jennim
 
 Toinen taustatyö jonka tein, oli Windows-puolen sijaan siirtää mahdollisimman paljon tarvittavia sivuja Linuxin puolelle, jotta voisin kopioida ohjeista koodeja suoraan terminaaliin sen sijaan, että kirjoittaisin niitä käsin. Työntekoani on jatkuvasti hidastanut erilaiset kirjoitusvirheet, joita on helppo vähentää kirjoittamalla koodeja vähemmän käsin. Koska käsin kirjoittaminen on johtunut kahden eri käyttöjärjestelmän käyttämisestä, pyrin vähentämään tätä.
 
+Pari ongelmaa, joihin törmäsin, mutta joita en kokonaan ratkonut:
+
+- Virtuaalisen käyttöjärjestelmän maksimikoko on  1920x1200, kun taas näyttöni on 2560x1440. Löysin tähän mahdollisen ratkaisun (https://www.reddit.com/r/virtualbox/comments/ra8cvc/is_there_a_way_to_set_guest_resolution_to/?rdt=44017) eli säätää VirtualBoxin puolelta Debianin asetuksia kohdasta Display -> Screen ja nostaa Video Memoryn määrää.
+- En pikaisella googletuksella löytänyt yhtä tehokasta ruutukaappausmenetelmää, kuin mitä käytän Windowsin puolella.
+
+
 
 
 ---
