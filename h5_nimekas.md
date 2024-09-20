@@ -240,7 +240,7 @@ Historystä voi myös todeta, että käytin a2ensite-komentoa myös linux-sivuun
 
 ![image](https://github.com/user-attachments/assets/9d1bf8ac-0cc7-4bb4-8784-ea9e2cf0bd1b)
 
-Tässä kohtaa toivoin, että olisin googlettanut aiemmin, mutta edellisen voinee ottaa harjoituksena ja sain ainakin korjattua linux-sivun. Googletin siis lopulta termin DNS TXT record ja Cloudflaren sivuilta opin, että tämän avulla voin syöttää tekstiä suoraan Domain Name Systemiin eli DNS. TXT record on siis tyyppi, jonka voin valita suoraan namecheapin sivulta, minun ei kuulunut askarrella mitään apacheen.
+Tässä kohtaa toivoin, että olisin googlettanut aiemmin, mutta edellisen voinee ottaa harjoituksena ja sain ainakin korjattua linux-sivun. Googletin siis lopulta termin DNS TXT record ja Cloudflaren sivuilta (https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/) opin, että tämän avulla voin syöttää tekstiä suoraan Domain Name Systemiin eli DNS. TXT record on siis tyyppi, jonka voin valita suoraan namecheapin sivulta, minun ei kuulunut askarrella mitään apacheen.
 
 ![image](https://github.com/user-attachments/assets/4e7241eb-a119-4af7-acf0-352f98b568d3)
 
@@ -252,6 +252,7 @@ Tässä kohtaa toivoin, että olisin googlettanut aiemmin, mutta edellisen voine
 - Alex Coventry 6.12.2021 & Archathean_Official 10.11.2022. Reddit-kommentit. https://www.reddit.com/r/virtualbox/comments/ra8cvc/is_there_a_way_to_set_guest_resolution_to/?rdt=44017
 - Ask Ubuntu: Apache2 Permission denied - access to / denied because search permissions are missing on a component of the path. https://askubuntu.com/questions/1353377/apache2-permission-denied-access-to-denied-because-search-permissions-are-mi
 - Ask Ubuntu: What does "chmod +x <filename>" do and how do I use it? https://askubuntu.com/questions/443789/what-does-chmod-x-filename-do-and-how-do-i-use-it
+- CloudFlare: What is a DNS TXT record? https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/
 - Debian Wiki: Permissions. https://wiki.debian.org/Permissions
 - DNSimple Support: Differences Between A and CNAME Records. https://support.dnsimple.com/articles/differences-a-cname-records/
 - Github Docs: Managing a custom domain for your GitHub Pages site. https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
