@@ -254,7 +254,9 @@ Palasin takaisin Githubin verifiointiohjeeseen, jossa sanotaan, että TXT record
 
 Tämän jälkeen ohjeen mukaan tuli lisätä A-tietueena Githubin antamat ip-osoitteet. Tässä kohtaa aloin miettimään, kumpi minun oikeastaan tulisi verifioida jennimuhonen.com vai tutkimusmatka.jennimuhonen.com. Kokeilin molempia vaihtoehtoja sekä githubin verifioinnin puolella sekä A recordina. Kumpikaan ei toiminut ja sekä sivu jennimuhonen.com että tutkimusmat.jennimuhonen.com pysyivät entisellään. Videolla ei tarvinnut tehdä muuta ja toki olisi mahdollista, että muutos ei vielä ollut aktiivinen, mutta tässä kohtaa huomasin alkaa miettimään, että luultavasti esimerkiksi conf-tiedostossa olevat tiedot ovat ristiriidassa nyt yrittämäni kanssa ja ongelma on luultavasti jossain siellä päässä. Haluaisin myös oikeastaan ensisijaisesti siirtää verkkosivujen materiaalit palvelimen puolelle pelkän sivun uudelleenohjauksen sijaan, joten päätin, ettei minulla ollut nyt aikaa selvittää tätä ongelmaa enempää, koska olin eksynyt sivupoluilla varsinaisesta tehtävänannosta.
 
+**CNAME record**
 
+Edellä raportoidut erilaiset kiertopolut jättivät minut pohtimaan CNAME recordia tarkemmin ja toteamaan, että tässä kohtaa on aika lukea aiheesta hieman lisää, sillä en oikeastaan sittenkään tiedä, mistä on kyse. Päädyin Cloudfaren sivulle (https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/).
 
 ---
 **ToDo-lista**
