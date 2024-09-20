@@ -232,6 +232,14 @@ Tulkitsin, että rivillä kahdeksan viitataan conf-tiedoston riviin kahdeksan:
 
 Kyseinen rivi on tiedoston viimeinen rivi ja siinä itsessään ei ole mitään vikaa eli oletan, että vika on jossain muualla sisällössä. Kun tarpeeksi pitkään tuijotin, löysin lopulta virheen ensimmäiseltä riviltä, siellä oli ylimääräinen <-merkki.
 
+Korjattuani virheen, uudelleenkäynnistin Apachen onnistuneesti:
+
+![image](https://github.com/user-attachments/assets/b117584c-9f7a-4975-baea-9c83c2e664b5)
+
+Historystä voi myös todeta, että käytin a2ensite-komentoa myös linux-sivuun, sillä arvelin unohtaneeni tehdä tämän. Sivu alkoi toimimaan:
+
+![image](https://github.com/user-attachments/assets/9d1bf8ac-0cc7-4bb4-8784-ea9e2cf0bd1b)
+
 
 ---
 
