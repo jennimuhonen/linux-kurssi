@@ -184,6 +184,12 @@ Linux-sivussa on jotain pielessä, sillä se näyttää Testi-sivun. Tarkistan a
 
 Jouduin hetken hakemaan sitä, missä muodossa github-sivun osoite kuului antaa. lopun / ja alun https:// täytyi ottaa pois, jotta osoite hyväksyttiin.
 
+Osoite osoittautui virheelliseksi:
+
+![image](https://github.com/user-attachments/assets/e4c5cb51-40ac-4c33-ae2d-e7de6a09037b)
+
+Eli seuraavaksi pitää 1. selvittää kuinka ohjaus github-sivuille kuuluu tehdä ja 2. selvittää linux-sivun ongelmaa. Ensin pidin kuitenkin tauon.
+
 ---
 
 **Lähteet**
