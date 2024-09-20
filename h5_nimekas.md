@@ -287,7 +287,7 @@ Mysteeriksi jäi vielä, onko ALIAS record sama, jonka voisi määrittää myös
 
 **Selvittämättömät ongelmat**
 
-- Mikä meni pieleen Github-kokeilun kanssa
+- Mikä meni pieleen Github-kokeilun kanssa?
 
 ---
 
