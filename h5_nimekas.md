@@ -214,7 +214,7 @@ Tein ensin uuden A-tietueen Githubin pyytämällä nimellä:
 
 ![image](https://github.com/user-attachments/assets/3541d49f-3ba7-49b9-8a67-c1eb2876dc35)
 
-En ole varma mitä kohtia voisin hypätä ohjeessa testisivua tehdessä, joten noudatin ohjeita:
+En ole varma mitä kohtia voisin hypätä ohjeessa tarkistussivua tehdessä, joten noudatin ohjeita:
 
 ![image](https://github.com/user-attachments/assets/296215d8-a4c7-419a-b0bc-170dc2929c40)
 
@@ -222,7 +222,15 @@ Kuitenkin Apachea uudelleen käynnistäessä sain virheilmoituksen, jossa kehote
 
 ![image](https://github.com/user-attachments/assets/ba6124f0-3826-4534-ade5-104d2491bd1e)
 
+![image](https://github.com/user-attachments/assets/e9789cfa-2068-49e7-8963-5fcc9d6491a0)
+
 (Laitettuani komennon systemctl status apache2.service en löytänyt enää takaisin aiempiin komentoihin muuten kuin history:n kautta, joten en voinut raportoida tarkemmin tekemääni tai saamaani virheilmoitusta enää tässä vaiheessa.)
+
+Tulkitsin, että rivillä kahdeksan viitataan conf-tiedoston rivin kahdeksan:
+
+![image](https://github.com/user-attachments/assets/918784e5-6794-4280-a2bb-6775af6e2518)
+
+Joka on tiedoston viimeinen rivi ja siinä itsessään ei ole mitään vikaa eli oletan, että vika on jossain muualla sisällössä, jonka takia tiedosto tuottaa virheilmoituksen.
 
 
 ---
