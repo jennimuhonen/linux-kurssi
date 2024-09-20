@@ -214,6 +214,16 @@ Tein ensin uuden A-tietueen Githubin pyytämällä nimellä:
 
 ![image](https://github.com/user-attachments/assets/3541d49f-3ba7-49b9-8a67-c1eb2876dc35)
 
+En ole varma mitä kohtia voisin hypätä ohjeessa testisivua tehdessä, joten noudatin ohjeita:
+
+![image](https://github.com/user-attachments/assets/296215d8-a4c7-419a-b0bc-170dc2929c40)
+
+Kuitenkin Apachea uudelleen käynnistäessä sain virheilmoituksen, jossa kehotettiin tarkistamaan systemctl:ää. Kurkistin ensin virhelokia, mutta siellä ei näkynyt mitään ja sen jälkeen laitoin ohjeessa pyydetyn komennon. Näyttää siltä, että tekemässäni conf-tiedostossa on jotain pielessä:
+
+![image](https://github.com/user-attachments/assets/ba6124f0-3826-4534-ade5-104d2491bd1e)
+
+(Laitettuani komennon systemctl status apache2.service en löytänyt enää takaisin aiempiin komentoihin muuten kuin history:n kautta, joten en voinut raportoida tarkemmin tekemääni tai saamaani virheilmoitusta enää tässä vaiheessa.)
+
 
 ---
 
