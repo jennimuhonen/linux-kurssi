@@ -196,6 +196,8 @@ Korjasin puuttuvat www-tiedot:
 
 ![image](https://github.com/user-attachments/assets/2dadc0d1-5bfe-4cbd-ac23-abd383c68b5a)
 
+**Github-seikkailu vailla onnellista loppua**
+
 *20.9.2024 13.11 (tauon jälkeen)*
 
 Katsomani video-ohje on vuodelta 2021 ja Githubin sivut ovat luultavasti muuttuneet sen jälkeen, sillä en löytänyt videolla nähtyä kohtaa. Vaihdoin sen sijaan lukemaan Githubin ohjeita (https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site). Vilkaisin ohjeita jo aiemminkin, mutta nyt kun minulla olen videomuodossa saanut yleiskäsityksen siitä mitä olen tekemässä, on pelkkiin tekstiohjeisiin helpompi tarttua.
@@ -248,17 +250,21 @@ Lisättyäni yllänäkyvän tiedon ja odotettuani hetken klikkasin Verify Github
 
 ![image](https://github.com/user-attachments/assets/1d4c5bb9-87bd-495f-9c76-7e135ed4318d)
 
+Palasin takaisin Githubin verifiointiohjeeseen, jossa sanotaan, että TXT record kannattaa pitää DNS configuraatiossa, jotta domain pysyy verifioituna. Tämän jälkeen palasin alkuperäiseen Github-ohjeeseen.
+
+Tämän jälkeen ohjeen mukaan tuli lisätä A-tietueena Githubin antamat ip-osoitteet. Tässä kohtaa aloin miettimään, kumpi minun oikeastaan tulisi verifioida jennimuhonen.com vai tutkimusmatka.jennimuhonen.com. Kokeilin molempia vaihtoehtoja sekä githubin verifioinnin puolella sekä A recordina. Kumpikaan ei toiminut ja sekä sivu jennimuhonen.com että tutkimusmat.jennimuhonen.com pysyivät entisellään. Videolla ei tarvinnut tehdä muuta ja toki olisi mahdollista, että muutos ei vielä ollut aktiivinen, mutta tässä kohtaa huomasin alkaa miettimään, että luultavasti esimerkiksi conf-tiedostossa olevat tiedot ovat ristiriidassa nyt yrittämäni kanssa ja ongelma on luultavasti jossain siellä päässä. Haluaisin myös oikeastaan ensisijaisesti siirtää verkkosivujen materiaalit palvelimen puolelle pelkän sivun uudelleenohjauksen sijaan, joten päätin, ettei minulla ollut nyt aikaa selvittää tätä ongelmaa enempää, koska olin eksynyt sivupoluilla varsinaisesta tehtävänannosta.
+
 
 
 ---
 **ToDo-lista**
 
 - poista turhaan tehdyt githubin verifiointisivun tiedot
-- 
+- opettele siirtämään sivun sisältö omalle palvelimelle sen sijaan, että ohjaan sivun githubiin
 
-**Selvitettäviä**
+**Selvittämättömät ongelmat**
 
-- 
+- Mikä meni pieleen Github-kokeilun kanssa
 
 ---
 
