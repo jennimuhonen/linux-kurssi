@@ -174,6 +174,12 @@ Kokeilin ensin tehdä molemmille alidomaineille A-tietueet:
 
 Pidin pienen tauon ennen kuin kokeilin, ovatko sivut lähteneet toimimaan.
 
+Molemmat alidomainit toimivat, mutta molemmissa on korjattavaa:
+
+![image](https://github.com/user-attachments/assets/e60e97c5-8a32-473f-96a8-750fac05300c)
+
+Linux-sivussa on jotain pielessä, sillä se näyttää Testi-sivun. Tarkistan aiemmin tekemäni muutoksen etsiäkseni tekemääni virhettä. Tutkimusmatka-sivun html:ää taas voisi vähän viilata, mutta viilaamisen sijaan kokeilen ohjata kyseisen alidomainin osoittamaan suoraan varsinaiselle github-sivulle.
+
 ---
 
 **Lähteet**
