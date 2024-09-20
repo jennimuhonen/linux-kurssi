@@ -158,7 +158,11 @@ Lopuksi validoin sivustojen html:n (https://validator.w3.org) opettajan ohjeista
 
 Pääsivu ja tutkimusmatka olivat kunnossa, mutta linux-sivulta validaattori löysi typon, jota en ollut huomannut, kun en ollut päässyt näkemään sivustoa selaimessa. Korjasin virheen. 
 
+## b) Alidomain
 
+*Tehtävä: Alidomain. Tee kaksi uutta alidomainia, jotka osoittava omaan koneeseesi. Esimerkiksi palvelu on example.com -> linuxkurssi.example.com. Tee toinen alidomain A-tietueella ja toinen CNAME-tietueella. Alidomainit ovat tyypillisesti ilmaisia, kun sinulla on päädomain (example.com).*
+
+Aloitin perehtymällä aiheeseen. DNSimplen sivuilla (https://support.dnsimple.com/articles/differences-a-cname-records/) selitetään tiiviisti A recordin ja CNAME recordin ero. A record osoittaa nimen suoraan IP-osoitteeseen eli esimerkiksi jennimuhonen.com osoittaa ip-osoitteeseen 94.237.16.92. CNAME record puolestaan osoittaa nimestä toiseen nimeen. Eli esimerkiksi voisin laittaa tekemäni sivun 
 
 ---
 
