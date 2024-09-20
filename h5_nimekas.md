@@ -180,6 +180,10 @@ Molemmat alidomainit toimivat, mutta molemmissa on korjattavaa:
 
 Linux-sivussa on jotain pielessä, sillä se näyttää Testi-sivun. Tarkistan aiemmin tekemäni muutoksen etsiäkseni tekemääni virhettä. Tutkimusmatka-sivun html:ää taas voisi vähän viilata, mutta viilaamisen sijaan kokeilen ohjata kyseisen alidomainin osoittamaan suoraan varsinaiselle github-sivulle.
 
+![image](https://github.com/user-attachments/assets/5578227b-775b-4677-9ea8-d47f6230fb45)
+
+Jouduin hetken hakemaan sitä, missä muodossa github-sivun osoite kuului antaa. lopun / ja alun https:// täytyi ottaa pois, jotta osoite hyväksyttiin.
+
 ---
 
 **Lähteet**
