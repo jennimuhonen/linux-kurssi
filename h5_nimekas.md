@@ -188,7 +188,9 @@ Osoite osoittautui virheelliseksi:
 
 ![image](https://github.com/user-attachments/assets/e4c5cb51-40ac-4c33-ae2d-e7de6a09037b)
 
-Eli seuraavaksi pitää 1. selvittää kuinka ohjaus github-sivuille kuuluu tehdä ja 2. selvittää linux-sivun ongelmaa. Ensin pidin kuitenkin tauon.
+Eli seuraavaksi pitää 1. selvittää kuinka ohjaus github-sivuille kuuluu tehdä ja 2. selvittää linux-sivun ongelmaa. 
+
+Katsoin jälleen Tony Teaches Techin videon (https://www.youtube.com/watch?v=EX4w9hsduNA) ja kävi ilmi, että tein asian aivan väärin. En voinut vain iskeä satunnaista github-sivua osoittamaan omalle sivulleni, vaan githubin päähän pitää antaa käyttämäni domain ja Namecheapin puolelle taas pitää laittaa muutama ip-osoite. Videota katsoessa muistin myös, että minun olisi pitänyt antaa myös www:t aiemmin tekemiini A-tietueisiin.
 
 ---
 
