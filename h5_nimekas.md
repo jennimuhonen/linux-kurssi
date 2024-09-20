@@ -256,7 +256,28 @@ Tämän jälkeen ohjeen mukaan tuli lisätä A-tietueena Githubin antamat ip-oso
 
 **CNAME record**
 
-Edellä raportoidut erilaiset kiertopolut jättivät minut pohtimaan CNAME recordia tarkemmin ja toteamaan, että tässä kohtaa on aika lukea aiheesta hieman lisää, sillä en oikeastaan sittenkään tiedä, mistä on kyse. Päädyin Cloudfaren sivulle (https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/).
+Koska Githubin kanssa oli liikaa haasteita, jatkoin CNAME-tietueen tekemisen kokeilua kahden alidomainin kesken. Lisäsin CNAME Recordin Namecheapiin tekemättä uutta alidomainia vielä Apachen puolella:
+
+![image](https://github.com/user-attachments/assets/dd282e29-bd83-4cdf-8f35-17e640d6ef32)
+
+Tämä näyttää riittävän ja matka.jennimuhonen.com:n sisältö on sama Github-ongelma kuin tutkimusmatka.jennimuhonen.com.
+
+![image](https://github.com/user-attachments/assets/d17294a2-110b-4bf6-935f-aa5210b402a6)
+
+Eli näyttää siltä, että CNAME recordia tehdessä minun ei tarvitse tehdä mitään Apachen puolella. Yritin lukea 
+
+Tässä vaiheessa matka-sivu osoittaa var-kansion alla olevaan tiedostoon, jossa on pelkkä sana Testi. Tämä sivu näyttää erilaisissa ongelmatilanteissa tulevan vastaan eli ehkä siellä voisi lukea jotain muuta kuin Testi. Yritin lukea uudestaan Apachen dokumentaatiota name-based virtual hosteista (https://httpd.apache.org/docs/2.4/vhosts/name-based.html) ja vaikka sivun sisältö on nyt ymmärrettävämpää kuin silloin, kun sitä ensimmäisen kerran piti lukea, ei se edelleenkään avaa aihetta minulle tarpeeksi. Luin myös serveraliaksista (https://httpd.apache.org/docs/current/mod/core.html#serveralias) eli voisin conf-tiedostoon listata myös erilaisia aliaksia sivulle. Kuinka tämä eroaa CNAME:sta? Lisäksi Namecheapin puolella voisin lisätä ALIAS recordin. Miten tämä eroaa edellisistä?
+
+DNSimplen sivuilla vertaillaan erilaisia tietuevaihtoehtoja (https://support.dnsimple.com/articles/differences-between-a-cname-alias-url/). Sivun mukaan A, CNAME, ALIAS ja URL ovat kaikki vaihtoehtoja, joilla osoittaa sivun host nimi, mutta näissä on pieniä eroavaisuuksia.
+
+- A record: ohjaa ip-osoitteeseen
+- CNAME record: nimestä nimeen - tätä tulisi käyttää vain, jos nimelle ei ole muita tietueita
+- ALIAS record: nimestä nimeen - voi olla rinnakkaisia tietueita nimeen
+- URL record: ohjaa nimen kohdenimeen käyttäyn HTTP 301 statuskoodia
+
+Mysteeriksi jäi vielä, onko ALIAS record sama, jonka voisi määrittää myös conf-tiedostoon.
+
+
 
 ---
 **ToDo-lista**
@@ -273,11 +294,14 @@ Edellä raportoidut erilaiset kiertopolut jättivät minut pohtimaan CNAME recor
 **Lähteet**
 
 - Alex Coventry 6.12.2021 & Archathean_Official 10.11.2022. Reddit-kommentit. https://www.reddit.com/r/virtualbox/comments/ra8cvc/is_there_a_way_to_set_guest_resolution_to/?rdt=44017
+- Apache. Apache Core Features. https://httpd.apache.org/docs/current/mod/core.html#serveralias
+- Apache. Name-based Virtual Host Support. https://httpd.apache.org/docs/2.4/vhosts/name-based.html
 - Ask Ubuntu: Apache2 Permission denied - access to / denied because search permissions are missing on a component of the path. https://askubuntu.com/questions/1353377/apache2-permission-denied-access-to-denied-because-search-permissions-are-mi
 - Ask Ubuntu: What does "chmod +x <filename>" do and how do I use it? https://askubuntu.com/questions/443789/what-does-chmod-x-filename-do-and-how-do-i-use-it
 - CloudFlare: What is a DNS TXT record? https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/
 - Debian Wiki: Permissions. https://wiki.debian.org/Permissions
 - DNSimple Support: Differences Between A and CNAME Records. https://support.dnsimple.com/articles/differences-a-cname-records/
+- DNSimple Support: Differences Among A, CNAME, ALIAS, and URL records. https://support.dnsimple.com/articles/differences-between-a-cname-alias-url/
 - Github Docs: Managing a custom domain for your GitHub Pages site. https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
 - Github Docs: Verifying your custom domain for GitHub Pages. https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages
 - Karvinen, Tero 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
