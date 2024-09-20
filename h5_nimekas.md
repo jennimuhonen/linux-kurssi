@@ -196,7 +196,24 @@ Korjasin puuttuvat www-tiedot:
 
 ![image](https://github.com/user-attachments/assets/2dadc0d1-5bfe-4cbd-ac23-abd383c68b5a)
 
-Ja pidin tauon.
+*20.9.2024 13.11 (tauon jälkeen)*
+
+Katsomani video-ohje on vuodelta 2021 ja Githubin sivut ovat luultavasti muuttuneet sen jälkeen, sillä en löytänyt videolla nähtyä kohtaa. Vaihdoin sen sijaan lukemaan Githubin ohjeita (https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site). Vilkaisin ohjeita jo aiemminkin, mutta nyt kun minulla olen videomuodossa saanut yleiskäsityksen siitä mitä olen tekemässä, on pelkkiin tekstiohjeisiin helpompi tarttua.
+
+Ohjeet ohjasivat ensiksi vahvistamaan domainin Github-sivuille (https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages), jotta joku muu ei pysty ottamaan sivustoani haltuun. Kun vahvista päädomainin, vahvistuvat samalla myös kaikki mahdolliset alidomainit.
+
+Menin Githubin sivuilla asetuksiin ja sivupalkin kohdasta Code, Planning, and Automation alta löytyi Pages. Klikkasin sitä ja syötin domainin:
+
+![image](https://github.com/user-attachments/assets/80622309-2274-43e6-aa25-6dfa7f09648f)
+
+Sen jälkeen minun täytyy vahvistaa domain Githubille suorittamalla vaadityt toimet:
+
+![image](https://github.com/user-attachments/assets/f48c9ec8-afd3-4dab-8e09-682b8dae6d73)
+
+Tein ensin uuden A-tietueen Githubin pyytämällä nimellä:
+
+![image](https://github.com/user-attachments/assets/3541d49f-3ba7-49b9-8a67-c1eb2876dc35)
+
 
 ---
 
