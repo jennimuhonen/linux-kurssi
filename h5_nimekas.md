@@ -213,6 +213,7 @@ Ja pidin tauon.
 - Muhonen, Jenni 2024: h3 Hello Web Server. https://github.com/jennimuhonen/linux-kurssi/blob/main/h3-hello-web-server.md
 - Muhonen, Jenni 2024: h4 Maailma kuulee. https://github.com/jennimuhonen/linux-kurssi/blob/main/h4_maailma_kuulee.md
 - StackOverflow: Apache giving 403 forbidden error. https://stackoverflow.com/questions/18447454/apache-giving-403-forbidden-errors
+- Tony Teaches Tech 27.4.2021: How to Use a Custom Domain with GitHub Pages. https://www.youtube.com/watch?v=EX4w9hsduNA
 - Tony Teaches Tech 19.8.2021: What are CNAME records? (and how they compare to DNS A records). https://www.youtube.com/watch?v=ZXCQwdVgDno
 - Webmasters: Why does typing in my site's IP address bring up a different site? https://webmasters.stackexchange.com/questions/113237/why-does-typing-in-my-sites-ip-address-bring-up-a-different-site
 
