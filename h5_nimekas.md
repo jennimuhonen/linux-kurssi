@@ -240,10 +240,25 @@ Historystä voi myös todeta, että käytin a2ensite-komentoa myös linux-sivuun
 
 ![image](https://github.com/user-attachments/assets/9d1bf8ac-0cc7-4bb4-8784-ea9e2cf0bd1b)
 
-Tässä kohtaa toivoin, että olisin googlettanut aiemmin, mutta edellisen voinee ottaa harjoituksena ja sain ainakin korjattua linux-sivun. Googletin siis lopulta termin DNS TXT record ja Cloudflaren sivuilta (https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/) opin, että tämän avulla voin syöttää tekstiä suoraan Domain Name Systemiin eli DNS. TXT record on siis tyyppi, jonka voin valita suoraan namecheapin sivulta, minun ei kuulunut askarrella mitään apacheen.
+Tässä kohtaa toivoin, että olisin googlettanut aiemmin, mutta edellisen voinee ottaa harjoituksena ja sain ainakin korjattua linux-sivun. Googletin siis lopulta termin DNS TXT record ja Cloudflaren sivuilta (https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/) opin, että tämän avulla voin syöttää tekstiä suoraan Domain Name Systemiin eli DNS. TXT record on siis tyyppi, jonka voin valita suoraan namecheapin sivulta, minun ei kuulunut askarrella mitään apacheen:
 
 ![image](https://github.com/user-attachments/assets/4e7241eb-a119-4af7-acf0-352f98b568d3)
 
+Lisättyäni yllänäkyvän tiedon ja odotettuani hetken klikkasin Verify Githubin sivuilla ja prosessi oli suoritettu:
+
+![image](https://github.com/user-attachments/assets/1d4c5bb9-87bd-495f-9c76-7e135ed4318d)
+
+
+
+---
+**ToDo-lista**
+
+- poista turhaan tehdyt githubin verifiointisivun tiedot
+- 
+
+**Selvitettäviä**
+
+- 
 
 ---
 
