@@ -162,7 +162,17 @@ Pääsivu ja tutkimusmatka olivat kunnossa, mutta linux-sivulta validaattori lö
 
 *Tehtävä: Alidomain. Tee kaksi uutta alidomainia, jotka osoittava omaan koneeseesi. Esimerkiksi palvelu on example.com -> linuxkurssi.example.com. Tee toinen alidomain A-tietueella ja toinen CNAME-tietueella. Alidomainit ovat tyypillisesti ilmaisia, kun sinulla on päädomain (example.com).*
 
-Aloitin perehtymällä aiheeseen. DNSimplen sivuilla (https://support.dnsimple.com/articles/differences-a-cname-records/) selitetään tiiviisti A recordin ja CNAME recordin ero. A record osoittaa nimen suoraan IP-osoitteeseen eli esimerkiksi jennimuhonen.com osoittaa ip-osoitteeseen 94.237.16.92. CNAME record puolestaan osoittaa nimestä toiseen nimeen. Eli esimerkiksi voisin laittaa tekemäni sivun 
+*20.9.2024 n. 10.30*
+
+Aloitin perehtymällä aiheeseen. DNSimplen sivuilla (https://support.dnsimple.com/articles/differences-a-cname-records/) selitetään tiiviisti A recordin ja CNAME recordin ero. A record osoittaa nimen suoraan IP-osoitteeseen eli esimerkiksi jennimuhonen.com osoittaa ip-osoitteeseen 94.237.16.92. CNAME record puolestaan osoittaa nimestä toiseen nimeen. Eli esimerkiksi voisin laittaa tekemäni sivun tutkimusmatka.jennimuhonen.com osoittamaan aiemmin kurssityönä tekemääni githubissa olevaan verkkosivuun.
+
+Halusin nähdä käytännössä miten näitä tietoja muokataan, joten katsoin Tony Teaches Techin videon (https://www.youtube.com/watch?v=ZXCQwdVgDno) aiheesta. Hänen ohjeidensa perusteella suuntasin Namecheepin sivuille kokeilemaan asiaa käytännössä.
+
+Kokeilin ensin tehdä molemmille alidomaineille A-tietueet:
+
+![image](https://github.com/user-attachments/assets/00cda459-378a-4a6d-97d7-2787cd98c95c)
+
+Pidin pienen tauon ennen kuin kokeilin, ovatko sivut lähteneet toimimaan.
 
 ---
 
@@ -172,12 +182,14 @@ Aloitin perehtymällä aiheeseen. DNSimplen sivuilla (https://support.dnsimple.c
 - Ask Ubuntu: Apache2 Permission denied - access to / denied because search permissions are missing on a component of the path. https://askubuntu.com/questions/1353377/apache2-permission-denied-access-to-denied-because-search-permissions-are-mi
 - Ask Ubuntu: What does "chmod +x <filename>" do and how do I use it? https://askubuntu.com/questions/443789/what-does-chmod-x-filename-do-and-how-do-i-use-it
 - Debian Wiki: Permissions. https://wiki.debian.org/Permissions
+- DNSimple Support: Differences Between A and CNAME Records. https://support.dnsimple.com/articles/differences-a-cname-records/
 - Karvinen, Tero 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
 - Karvinen, Tero: Oppitunti 18.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
 - Linux Mint Forums: [SOLVED][Apache2] AH00035: access to / denied. https://forums.linuxmint.com/viewtopic.php?t=176598
 - Muhonen, Jenni 2024: h3 Hello Web Server. https://github.com/jennimuhonen/linux-kurssi/blob/main/h3-hello-web-server.md
 - Muhonen, Jenni 2024: h4 Maailma kuulee. https://github.com/jennimuhonen/linux-kurssi/blob/main/h4_maailma_kuulee.md
 - StackOverflow: Apache giving 403 forbidden error. https://stackoverflow.com/questions/18447454/apache-giving-403-forbidden-errors
+- Tony Teaches Tech 19.8.2021: What are CNAME records? (and how they compare to DNS A records). https://www.youtube.com/watch?v=ZXCQwdVgDno
 - Webmasters: Why does typing in my site's IP address bring up a different site? https://webmasters.stackexchange.com/questions/113237/why-does-typing-in-my-sites-ip-address-bring-up-a-different-site
 
 
