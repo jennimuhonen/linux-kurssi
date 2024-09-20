@@ -240,7 +240,9 @@ Historystä voi myös todeta, että käytin a2ensite-komentoa myös linux-sivuun
 
 ![image](https://github.com/user-attachments/assets/9d1bf8ac-0cc7-4bb4-8784-ea9e2cf0bd1b)
 
+Tässä kohtaa toivoin, että olisin googlettanut aiemmin, mutta edellisen voinee ottaa harjoituksena ja sain ainakin korjattua linux-sivun. Googletin siis lopulta termin DNS TXT record ja Cloudflaren sivuilta opin, että tämän avulla voin syöttää tekstiä suoraan Domain Name Systemiin eli DNS. TXT record on siis tyyppi, jonka voin valita suoraan namecheapin sivulta, minun ei kuulunut askarrella mitään apacheen.
 
+![image](https://github.com/user-attachments/assets/4e7241eb-a119-4af7-acf0-352f98b568d3)
 
 
 ---
