@@ -226,11 +226,11 @@ Kuitenkin Apachea uudelleen käynnistäessä sain virheilmoituksen, jossa kehote
 
 (Laitettuani komennon systemctl status apache2.service en löytänyt enää takaisin aiempiin komentoihin muuten kuin history:n kautta, joten en voinut raportoida tarkemmin tekemääni tai saamaani virheilmoitusta enää tässä vaiheessa.)
 
-Tulkitsin, että rivillä kahdeksan viitataan conf-tiedoston rivin kahdeksan:
+Tulkitsin, että rivillä kahdeksan viitataan conf-tiedoston riviin kahdeksan:
 
 ![image](https://github.com/user-attachments/assets/918784e5-6794-4280-a2bb-6775af6e2518)
 
-Joka on tiedoston viimeinen rivi ja siinä itsessään ei ole mitään vikaa eli oletan, että vika on jossain muualla sisällössä, jonka takia tiedosto tuottaa virheilmoituksen.
+Kyseinen rivi on tiedoston viimeinen rivi ja siinä itsessään ei ole mitään vikaa eli oletan, että vika on jossain muualla sisällössä. Kun tarpeeksi pitkään tuijotin, löysin lopulta virheen ensimmäiseltä riviltä, siellä oli ylimääräinen <-merkki.
 
 
 ---
