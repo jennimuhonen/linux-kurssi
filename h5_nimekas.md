@@ -236,9 +236,11 @@ Korjattuani virheen, uudelleenkäynnistin Apachen onnistuneesti:
 
 ![image](https://github.com/user-attachments/assets/b117584c-9f7a-4975-baea-9c83c2e664b5)
 
-Historystä voi myös todeta, että käytin a2ensite-komentoa myös linux-sivuun, sillä arvelin unohtaneeni tehdä tämän. Sivu alkoi toimimaan:
+Historystä voi myös todeta, että käytin a2ensite-komentoa myös linux-sivuun, sillä arvelin unohtaneeni tehdä tämän. Olin oikeassa, sillä tämän jälkeen sivu alkoi toimimaan:
 
 ![image](https://github.com/user-attachments/assets/9d1bf8ac-0cc7-4bb4-8784-ea9e2cf0bd1b)
+
+
 
 
 ---
@@ -250,6 +252,8 @@ Historystä voi myös todeta, että käytin a2ensite-komentoa myös linux-sivuun
 - Ask Ubuntu: What does "chmod +x <filename>" do and how do I use it? https://askubuntu.com/questions/443789/what-does-chmod-x-filename-do-and-how-do-i-use-it
 - Debian Wiki: Permissions. https://wiki.debian.org/Permissions
 - DNSimple Support: Differences Between A and CNAME Records. https://support.dnsimple.com/articles/differences-a-cname-records/
+- Github Docs: Managing a custom domain for your GitHub Pages site. https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
+- Github Docs: Verifying your custom domain for GitHub Pages. https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages
 - Karvinen, Tero 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
 - Karvinen, Tero: Oppitunti 18.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
 - Linux Mint Forums: [SOLVED][Apache2] AH00035: access to / denied. https://forums.linuxmint.com/viewtopic.php?t=176598
