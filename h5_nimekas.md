@@ -380,7 +380,7 @@ man host -sivun mukaan host-komentoa käytetään normaalisti muuntamaan domain 
 
 man dig -sivun mukaan dig-komento on monipuolinen työkalu, jonka vulla voi tutkia DNS nimiservereitä. Komennon avulla voi selvittää DNS:ään liittyviä ongelmia. dig -h listaa lyhyen tiivistelmän erilaisista komennoista ja vaihtoehdoista.
 
-Yksinkertainen tapa käyttää komentoa: dig @server name type, jossa serveri: DNS serveri, josta tietoa haetaan ja jos ei ole määritelty, default on /etc/resolv/conf , nimi: sivu josta halutaan tietoa, tyyppi (ANY, A (eli A Recordiin) MC (liittyy sähköpostiin) SIG tms ja jos tyyppiä ei ole määritetty, etsitään A recordia). (Lisätietoa aiheeseen löydetty man dig:n täydennykseksi Tony Teaches Techin videolta (https://www.youtube.com/watch?v=iESSCDnC74k)).
+Yksinkertainen tapa käyttää komentoa: dig @server name type, jossa serveri: DNS serveri, josta tietoa haetaan ja jos ei ole määritelty, defaulttina ovat serverit, jotka on määritelty tiedostossa /etc/resolv/conf , nimi: sivu josta halutaan tietoa, tyyppi (ANY, A (eli A Recordiin) MC (liittyy sähköpostiin) SIG tms ja jos tyyppiä ei ole määritetty, etsitään A recordia). (Lisätietoa aiheeseen löydetty man dig:n täydennykseksi Tony Teaches Techin videolta (https://www.youtube.com/watch?v=iESSCDnC74k)).
 
 Man-sivujen perusteella saattoi huomata, että dig-komennossa on huomattavasti enemmän erilaisia lisäkomentoja verrattuna hostiin.
 
