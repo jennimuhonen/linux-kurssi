@@ -335,7 +335,17 @@ Tämän jälkeen homma alkoi toimia:
 
 *Tehtävä: Automatisoi kirjautuminen julkisella SSH-avaimella.*
 
-Edellisen kerran raportista voi lukea kamppailuistani SSH-avaimien kanssa (https://github.com/jennimuhonen/linux-kurssi/blob/main/h4_maailma_kuulee.md), sillä valitsemani UpCloud pakotti käyttämään niitä. Sain avaimet lopulta toimimaan, mutta toisin kuin käyttämissäni ohjeissa ja tunneilla, jouduin antamaan julkisen avaimen uudelle käyttäjälle copy-paste-tekniikalla sen sijaan, että olisin voinut lähettää sen käyttäjälle.
+Edellisen kerran raportista voi lukea kamppailuistani SSH-avaimien kanssa (https://github.com/jennimuhonen/linux-kurssi/blob/main/h4_maailma_kuulee.md), sillä valitsemani UpCloud pakotti käyttämään niitä. Sain avaimet lopulta toimimaan, mutta ongelmana oli, etten päässyt kirjautumaan uudella tekemälläni käyttäjällä palvelimelle salasanan avulla, vaikka salasanakirjautuminen olikin sallittua (muutin sen itse vasta myöhemmin).
+
+Koska varsinaisella käyttäjälläni on jo ssh-avaimet käytössä, tein uuden käyttäjän:
+
+![image](https://github.com/user-attachments/assets/227a3776-ccf8-4534-acc6-abeee0b42796)
+
+Kopioin julkisen avaimen käyttäjältä jemjem:
+
+![image](https://github.com/user-attachments/assets/1360389d-b3b3-43bc-a0cd-9001b795ad4b)
+
+Vaihdoin käyttäjään 
 
 
 ---
