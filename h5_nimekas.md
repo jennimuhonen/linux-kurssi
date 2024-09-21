@@ -293,6 +293,45 @@ Tämän jälkeen sivu alkoi toimimaan.
 
 Apachen puolelle en ole syöttänyt mitään tietoja alidomainista sivu enkä tiedä olisiko tämä tarpeellista vai sekoaisiko sivu tästä.
 
+**CNAME uudestaan**
+
+*21.9.2024 n. 14*
+
+Palasin CNAME-teeman pariin vielä uudestaan, sillä säädettyäni Github-sivun toimimaan ja siirrettyäni sen käyttämään osoitetta sivu.jennimuhonen.com ja vaihdettuani tutkimusmatka.jennimuhonen.com näyttämään alkuperäistä html-tiedostoa, CNAME record matka-sivulle hajosi.
+
+Tutkin asiaa tekemällä CNAME recordin sivulle, josta ei ollut conf-tiedosta ja sivulle, josta oli. Kumpikaan ei toiminut, mutta virheet olivat erilaisia.
+
+Sivu, josta ei ollut conf-tiedostoa ohjasi var-kansiossa olevaan tiedostoon:
+
+![image](https://github.com/user-attachments/assets/e4d09584-a614-456d-8818-52761d6be3bc)
+
+Sivu, josta oli conf-tiedosto antoi virheilmoituksen:
+
+![image](https://github.com/user-attachments/assets/e4f7cfbf-6ef0-4914-959b-b1cae92bebc8)
+
+(Vaihdoin var-kansiossa olleen tiedoston tekstin, joka aiemmin oli Testi, kerta se aina ajoittain näytti hyppäävän näkyviin.)
+
+Testailu ei ollut riittävää ja pelkän Apachen name based -sivun tankkaaminen ei ollut riittävää, joten etsiydyin Youtubessa katsomaan Nerd on the Strees:n videon Apache Virtual Hosts (https://www.youtube.com/watch?v=x5fWSWdM4F8&t=861s). Videon avulla lopulta hahmotin selkeästi, mitä conf-tiedostot tekivät ja miksi sivut välillä ohjautuivat var-kansiossa olevaan tiedostoon.
+
+Videolla kerrottiin, että kun Apacheen otetaan yhteyttä, etsitään conf-tiedostoista yhteensopivaa ServerName:ia. Jos tätä ei löydy, valitaan järjestyksessä ensimmäinen conf-tiedosto joka on 000.default ja koska tämä tiedosto ohjaa var-kansion tiedostoon, päädytään tänne. Jos taas yhteensopivuus löytyy, ohjataan käyttäjä kyseisessä tiedostossa määriteltyyn tiedostosijaintiin. Jälkimmäisessä testissä tiedostosijainnissa ei ollut oikeasti mitään kansiota eli virheilmoitus johtuu tästä.
+
+Oppimani perusteella sain matka-sivun onnistuneesti osoittamaan sivulle tutkimusmatka.jennimuhonen.com.
+
+Ensiksi muokkasin CNAME recordin kuntoon:
+
+![image](https://github.com/user-attachments/assets/c7c2f626-4618-4f0d-938c-2e16e4a6cc2c)
+
+Tämän jälkeen muokkasin tutkimusmatka.jennimuhonen.com.conf-tiedostoa siten, että tästä tiedostosta löytyi haluttu vastaavuus syötetyn osoitteen kanssa:
+
+![image](https://github.com/user-attachments/assets/b8c1275b-025f-4303-bac6-8e8cd7353fdb)
+
+Tämän jälkeen homma alkoi toimia:
+
+![image](https://github.com/user-attachments/assets/553d54e2-106b-4861-a9eb-8c10f40a9eef)
+
+
+
+
 ---
 **ToDo-lista**
 
