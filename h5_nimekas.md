@@ -321,7 +321,7 @@ Ensiksi muokkasin CNAME recordin kuntoon:
 
 ![image](https://github.com/user-attachments/assets/c7c2f626-4618-4f0d-938c-2e16e4a6cc2c)
 
-Tämän jälkeen muokkasin tutkimusmatka.jennimuhonen.com.conf-tiedostoa siten, että tästä tiedostosta löytyi haluttu vastaavuus syötetyn osoitteen kanssa:
+Tämän jälkeen muokkasin tutkimusmatka.jennimuhonen.com.conf-tiedostoa siten, että tästä tiedostosta löytyi haluttu vastaavuus syötetyn osoitteen kanssa. Apachen ohjeesta (https://httpd.apache.org/docs/2.4/vhosts/name-based.html) tarkistin, kuinka useampi alias merkitään tiedostoon.)
 
 ![image](https://github.com/user-attachments/assets/b8c1275b-025f-4303-bac6-8e8cd7353fdb)
 
