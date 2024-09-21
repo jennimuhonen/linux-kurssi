@@ -376,7 +376,13 @@ Voidakseni käyttää dig-komentoa minun piti asentaa dnsutils. Olin törmännyt
 
 ![image](https://github.com/user-attachments/assets/143a412a-77c9-4afd-b6fa-869426b7364f)
 
-man host -sivun mukaan host-komentoa käytetään normaalisti muuntamaan domain nimiä ip-osoitteiksi ja päinvastoin. Kun kirjoittaa pelkästään host, saa listan käytettävissä olevista komennoista. 
+man host -sivun mukaan host-komentoa käytetään normaalisti muuntamaan domain nimiä ip-osoitteiksi ja päinvastoin. Kun kirjoittaa pelkästään host, saa listan käytettävissä olevista komennoista. Pelkän man sivun perusteella en osannut sanoa, mitä lisäkomentoja kannattaisi käyttää mielenkiintoisia tuloksia saadakseni.
+
+man dig -sivun mukaan dig-komento on monipuolinen työkalu, jonka vulla voi tutkia DNS nimiservereitä. Komennon avulla voi selvittää DNS:ään liittyviä ongelmia. dig -h listaa lyhyen tiivistelmän erilaisista komennoista ja vaihtoehdoista. Yksinkertainen tapa käyttää komentoa: dig @server name type, jossa server on nimi/ip-osoite, nimi haettu resurssitietue (resource record), tyyppi (ANY, A MC SIG etc ja jos tyyppiä ei ole määritetty, etsitään A recordia). Kahteen viimeiseen pitää etsiä lisätietoa.
+
+Man-sivujen perusteella saattoi huomata, että dig-komennossa on huomattavasti enemmän erilaisia lisäkomentoja verrattuna hostiin.
+
+
 
 ![image](https://github.com/user-attachments/assets/d4c71171-0680-427d-83c4-d8c2430c2dff)
 
