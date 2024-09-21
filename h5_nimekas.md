@@ -335,6 +335,8 @@ Tämän jälkeen homma alkoi toimia:
 
 *Tehtävä: Automatisoi kirjautuminen julkisella SSH-avaimella.*
 
+*21.9.2024 n. 15.30*
+
 Edellisen kerran raportista voi lukea kamppailuistani SSH-avaimien kanssa (https://github.com/jennimuhonen/linux-kurssi/blob/main/h4_maailma_kuulee.md), sillä valitsemani UpCloud pakotti käyttämään niitä. Sain avaimet lopulta toimimaan, mutta ongelmana oli, etten päässyt kirjautumaan uudella tekemälläni käyttäjällä palvelimelle salasanan avulla, vaikka salasanakirjautuminen olikin sallittua (muutin sen itse vasta myöhemmin).
 
 Koska varsinaisella käyttäjälläni on jo ssh-avaimet käytössä, tein uuden käyttäjän:
