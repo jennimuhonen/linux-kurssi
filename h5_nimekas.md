@@ -331,13 +331,15 @@ Tämän jälkeen homma alkoi toimia:
 
 ![image](https://github.com/user-attachments/assets/553d54e2-106b-4861-a9eb-8c10f40a9eef)
 
-## C) Pubkey
+## c) Pubkey
 
 *Tehtävä: Automatisoi kirjautuminen julkisella SSH-avaimella.*
 
 *21.9.2024 n. 15.30*
 
-Edellisen kerran raportista voi lukea kamppailuistani SSH-avaimien kanssa (https://github.com/jennimuhonen/linux-kurssi/blob/main/h4_maailma_kuulee.md), sillä valitsemani UpCloud pakotti käyttämään niitä. Sain avaimet lopulta toimimaan, mutta ongelmana oli, etten päässyt kirjautumaan uudella tekemälläni käyttäjällä palvelimelle salasanan avulla, vaikka salasanakirjautuminen olikin sallittua (muutin sen itse vasta myöhemmin).
+Jos haluat lukea kamppailuistani SSH-avaimien kanssa, voit kurkistaa edellisen viikon raporttini: https://github.com/jennimuhonen/linux-kurssi/blob/main/h4_maailma_kuulee.md. UpCloudilla avaimia oli pakko käyttää ja tämän takia päädyin asian opettelemaan.
+
+Tämän viikon tehtävässä noudatin edellisellä viikolla oppimaani kaavaa ja otin mallia edellisestä raportistani.
 
 Koska varsinaisella käyttäjälläni on jo ssh-avaimet käytössä, tein uuden käyttäjän:
 
@@ -347,7 +349,7 @@ Kopioin julkisen avaimen käyttäjältä jemjem:
 
 ![image](https://github.com/user-attachments/assets/1360389d-b3b3-43bc-a0cd-9001b795ad4b)
 
-Vaihdoin käyttäjään varjo palvelimen sisällä, koska vaikka salasanakirjautuminen palvelimelle olisi sallittuna, tämä ei jostain syystä ole toiminut:
+Vaihdoin käyttäjään varjo palvelimen sisällä, koska edellisellä viikolla totesin, että vaikka salasanakirjautuminen palvelimelle oli alkuun sallittuna, tämä ei jostain syystä toiminut:
 
 ![image](https://github.com/user-attachments/assets/918e3014-68d3-412c-af67-12826b805caf)
 
