@@ -350,6 +350,7 @@ Kopioin julkisen avaimen käyttäjältä jemjem:
 Vaihdoin käyttäjään varjo:
 
 ![image](https://github.com/user-attachments/assets/918e3014-68d3-412c-af67-12826b805caf)
+
 ![image](https://github.com/user-attachments/assets/f5be3dc1-581d-4699-85ff-bd9e1f1d5b5e)
 
 Tein varjolla kansion samanlaiseen sijaintiin kuin jemjem:llä on ja määritin kansion oikeudet ja tein tiedoston julkisille avaimille ja liitin kopioimani tiedon sinne:
