@@ -392,7 +392,7 @@ host / dig jennimuhonen.com:
 
 ![image](https://github.com/user-attachments/assets/25885adb-2c23-41e5-bf3b-6c6dffa27e83)
 
-host / dog 
+host / dig 94.237.16.92:
 
 ![image](https://github.com/user-attachments/assets/cbc90137-7f5a-4806-8a1b-091961e03e5d)
 
