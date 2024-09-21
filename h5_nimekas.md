@@ -390,7 +390,7 @@ host / dig jennimuhonen.com:
 
 ![image](https://github.com/user-attachments/assets/d4c71171-0680-427d-83c4-d8c2430c2dff)
 
-![image](https://github.com/user-attachments/assets/25885adb-2c23-41e5-bf3b-6c6dffa27e83)
+![image](https://github.com/user-attachments/assets/a45e93ec-68d2-4dac-a328-472c4d3016c6)
 
 host / dig 94.237.16.92:
 
