@@ -279,6 +279,8 @@ Mysteeriksi jäi vielä, onko ALIAS record sama, jonka voisi määrittää myös
 
 **Github-mysteeri**
 
+*20.9.2024 joskus illalla*
+
 Päätin vielä kokeilla Githubin kanssa. Githubin sivuilla kehotettiin verifioimaan pääsivu, joten verifioin jennimuhonen.com domainin. Tämän jälkeen tein alidomainille sivu A recordit neljään Githubin antamaan ip-osoitteeseen. Githubin sivuja tankkaamalla tajusin, että sivun verifiointia ei ollut näytetty ohjevideolla vaan halutun sivun osoite piti antaa aivan eri paikkaan. Olin mennyt sekaisin siinä, että olin mennyt Github-tilini asetuksissa Page-välilehdelle, mutta lisäksi täytyi mennä halutun repositorion asetusten Pages-välilehdelle ja lisätä Custom domain kohtaan haluttu domain. 
 
 ![image](https://github.com/user-attachments/assets/7f6b66b6-a1dc-40a7-88f3-9a16dfdd0a8a)
