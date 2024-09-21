@@ -372,6 +372,11 @@ Ja pääsin sisälle ilman salasanaa:
 - *Jonkin pikkuyrityksen, kerhon tai yksittäisen henkilön weppisivut. (Ei kuitenkaan kurssikaverin tällä viikolla vuokrattua nimeä).*
 - *Jonkin suuren ja kaikkien tunteman palvelun tiedot.*
 
+Voidakseni käyttää dig-komentoa minun piti asentaa dnsutils. Olin törmännyt dig-komentoon jo aiemmin Github-sivujen ohjeissa ja asentanut sen silloin virtuaalipalvelimen puolelle, nyt asensin sen myös VirtualBoxilla olevalle Debianille. Oikean asennuspaketin löysin GeeksforGeeks-sivujen ohjeista (https://www.geeksforgeeks.org/dig-command-in-linux-with-examples/).
+
+![image](https://github.com/user-attachments/assets/143a412a-77c9-4afd-b6fa-869426b7364f)
+
+
 ---
 
 **ToDo-lista**
@@ -395,6 +400,7 @@ Ja pääsin sisälle ilman salasanaa:
 - Debian Wiki: Permissions. https://wiki.debian.org/Permissions
 - DNSimple Support: Differences Between A and CNAME Records. https://support.dnsimple.com/articles/differences-a-cname-records/
 - DNSimple Support: Differences Among A, CNAME, ALIAS, and URL records. https://support.dnsimple.com/articles/differences-between-a-cname-alias-url/
+- Geeksforgeeks 22.6.2024: dig Command in Linux with Examples. https://www.geeksforgeeks.org/dig-command-in-linux-with-examples/
 - Github Docs: Managing a custom domain for your GitHub Pages site. https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
 - Github Docs: Verifying your custom domain for GitHub Pages. https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages
 - Karvinen, Tero 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
