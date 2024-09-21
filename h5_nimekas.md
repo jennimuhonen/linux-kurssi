@@ -386,13 +386,18 @@ Edelliseen hakuun kuuluu ilmeisesti nimen kohdalle laittaa domainnimi, sillä To
 
 Man-sivujen perusteella saattoi huomata, että dig-komennossa on huomattavasti enemmän erilaisia lisäkomentoja verrattuna hostiin.
 
-
+host / dig jennimuhonen.com:
 
 ![image](https://github.com/user-attachments/assets/d4c71171-0680-427d-83c4-d8c2430c2dff)
 
+![image](https://github.com/user-attachments/assets/25885adb-2c23-41e5-bf3b-6c6dffa27e83)
+
+host / dog 
+
 ![image](https://github.com/user-attachments/assets/cbc90137-7f5a-4806-8a1b-091961e03e5d)
 
-Kokeilin myös komentoa erilaisten lisäkomentojen kera, mutta 
+![image](https://github.com/user-attachments/assets/b7ae5366-0866-4ec6-8a7e-69e9f6cf1518)
+
 
 ---
 
