@@ -376,6 +376,13 @@ Voidakseni käyttää dig-komentoa minun piti asentaa dnsutils. Olin törmännyt
 
 ![image](https://github.com/user-attachments/assets/143a412a-77c9-4afd-b6fa-869426b7364f)
 
+man host -sivun mukaan host-komentoa käytetään normaalisti muuntamaan domain nimiä ip-osoitteiksi ja päinvastoin. Kun kirjoittaa pelkästään host, saa listan käytettävissä olevista komennoista. 
+
+![image](https://github.com/user-attachments/assets/d4c71171-0680-427d-83c4-d8c2430c2dff)
+
+![image](https://github.com/user-attachments/assets/cbc90137-7f5a-4806-8a1b-091961e03e5d)
+
+Kokeilin myös komentoa erilaisten lisäkomentojen kera, mutta 
 
 ---
 
