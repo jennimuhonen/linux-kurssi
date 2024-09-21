@@ -388,9 +388,9 @@ Man-sivujen perusteella saattoi huomata, että dig-komennossa on huomattavasti e
 
 host / dig jennimuhonen.com:
 
-![image](https://github.com/user-attachments/assets/2208ec68-126e-49af-810c-18198f563c4d)
+![image](https://github.com/user-attachments/assets/e724f4d4-9b56-4d3e-aca0-e6c9225e950f)
 
-![image](https://github.com/user-attachments/assets/a45e93ec-68d2-4dac-a328-472c4d3016c6)
+![image](https://github.com/user-attachments/assets/2208ec68-126e-49af-810c-18198f563c4d)
 
 host / dig 94.237.16.92:
 
