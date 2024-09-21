@@ -378,7 +378,9 @@ Voidakseni käyttää dig-komentoa minun piti asentaa dnsutils. Olin törmännyt
 
 man host -sivun mukaan host-komentoa käytetään normaalisti muuntamaan domain nimiä ip-osoitteiksi ja päinvastoin. Kun kirjoittaa pelkästään host, saa listan käytettävissä olevista komennoista. Pelkän man sivun perusteella en osannut sanoa, mitä lisäkomentoja kannattaisi käyttää mielenkiintoisia tuloksia saadakseni.
 
-man dig -sivun mukaan dig-komento on monipuolinen työkalu, jonka vulla voi tutkia DNS nimiservereitä. Komennon avulla voi selvittää DNS:ään liittyviä ongelmia. dig -h listaa lyhyen tiivistelmän erilaisista komennoista ja vaihtoehdoista. Yksinkertainen tapa käyttää komentoa: dig @server name type, jossa server on nimi/ip-osoite, nimi haettu resurssitietue (resource record), tyyppi (ANY, A MC SIG etc ja jos tyyppiä ei ole määritetty, etsitään A recordia).
+man dig -sivun mukaan dig-komento on monipuolinen työkalu, jonka vulla voi tutkia DNS nimiservereitä. Komennon avulla voi selvittää DNS:ään liittyviä ongelmia. dig -h listaa lyhyen tiivistelmän erilaisista komennoista ja vaihtoehdoista.
+
+Yksinkertainen tapa käyttää komentoa: dig @server name type, jossa serveri: nimiserveri, josta tietoa haetaan ja jos ei ole määritelty, default on /etc/resolv/conf , nimi: sivu josta halutaan tietoa, tyyppi (ANY, A (eli A Recordiin) MC (liittyy sähköpostiin) SIG tms ja jos tyyppiä ei ole määritetty, etsitään A recordia). (Lisätietoa aiheeseen löydetty Tony Teaches Techin videolta (https://www.youtube.com/watch?v=iESSCDnC74k).
 
 Man-sivujen perusteella saattoi huomata, että dig-komennossa on huomattavasti enemmän erilaisia lisäkomentoja verrattuna hostiin.
 
@@ -419,11 +421,14 @@ Kokeilin myös komentoa erilaisten lisäkomentojen kera, mutta
 - Karvinen, Tero 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
 - Karvinen, Tero: Oppitunti 18.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
 - Linux Mint Forums: [SOLVED][Apache2] AH00035: access to / denied. https://forums.linuxmint.com/viewtopic.php?t=176598
+- man dig
+- man host
 - Muhonen, Jenni 2024: h3 Hello Web Server. https://github.com/jennimuhonen/linux-kurssi/blob/main/h3-hello-web-server.md
 - Muhonen, Jenni 2024: h4 Maailma kuulee. https://github.com/jennimuhonen/linux-kurssi/blob/main/h4_maailma_kuulee.md
 - StackOverflow: Apache giving 403 forbidden error. https://stackoverflow.com/questions/18447454/apache-giving-403-forbidden-errors
 - Tony Teaches Tech 27.4.2021: How to Use a Custom Domain with GitHub Pages. https://www.youtube.com/watch?v=EX4w9hsduNA
 - Tony Teaches Tech 19.8.2021: What are CNAME records? (and how they compare to DNS A records). https://www.youtube.com/watch?v=ZXCQwdVgDno
+- Tony Teaches Tech 7.5.2021. How To Lookup DNS Records With The dig Command https://www.youtube.com/watch?v=iESSCDnC74k
 - Webmasters: Why does typing in my site's IP address bring up a different site? https://webmasters.stackexchange.com/questions/113237/why-does-typing-in-my-sites-ip-address-bring-up-a-different-site
 
 
