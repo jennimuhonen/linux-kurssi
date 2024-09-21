@@ -350,16 +350,25 @@ Vaihdoin käyttäjään varjo:
 ![image](https://github.com/user-attachments/assets/918e3014-68d3-412c-af67-12826b805caf)
 ![image](https://github.com/user-attachments/assets/f5be3dc1-581d-4699-85ff-bd9e1f1d5b5e)
 
+Tein varjolla kansion samanlaiseen sijaintiin kuin jemjem:llä on ja määritin kansion oikeudet ja tein tiedoston julkisille avaimille ja liitin kopioimani tiedon sinne:
+
+![image](https://github.com/user-attachments/assets/6d9ea59d-227d-4bad-9c56-d9954fc90244)
+
+Ja pääsin sisälle ilman salasanaa:
+
+![image](https://github.com/user-attachments/assets/61d8eab2-7121-4cde-a0e0-b56ae121e015)
+
+Vaikka salasanakirjautuminen olisi sallittu, niin käyttäjät eivät päässeet palvelimelle sisään ilman julkista ssh-avainta viime viikolla ssh-avaimien kanssa säätäessäni. Tänään en ryhtynyt taistelemaan tämän ongelman kanssa, vaan mahdollisesti paneudun mysteeriin joku toinen kerta.
 
 ---
+
 **ToDo-lista**
 
-- poista turhaan tehdyt githubin verifiointisivun tiedot
 - opettele siirtämään sivun sisältö omalle palvelimelle sen sijaan, että ohjaan sivun githubiin
 
 **Selvittämättömät ongelmat**
 
-- Mikä meni pieleen Github-kokeilun kanssa?
+- Miksi en pääse palvelimelle ilman julkista SSH-avainta, vaikka salasanakirjautuminen olisi sallittuna?
 
 ---
 
