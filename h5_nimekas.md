@@ -331,7 +331,11 @@ Tämän jälkeen homma alkoi toimia:
 
 ![image](https://github.com/user-attachments/assets/553d54e2-106b-4861-a9eb-8c10f40a9eef)
 
+## C) Pubkey
 
+*Tehtävä: Automatisoi kirjautuminen julkisella SSH-avaimella.*
+
+Edellisen kerran raportista voi lukea kamppailuistani SSH-avaimien kanssa (https://github.com/jennimuhonen/linux-kurssi/blob/main/h4_maailma_kuulee.md), sillä valitsemani UpCloud pakotti käyttämään niitä. Sain avaimet lopulta toimimaan, mutta toisin kuin käyttämissäni ohjeissa ja tunneilla, jouduin antamaan julkisen avaimen uudelle käyttäjälle copy-paste-tekniikalla sen sijaan, että olisin voinut lähettää sen käyttäjälle.
 
 
 ---
