@@ -347,7 +347,7 @@ Kopioin julkisen avaimen käyttäjältä jemjem:
 
 ![image](https://github.com/user-attachments/assets/1360389d-b3b3-43bc-a0cd-9001b795ad4b)
 
-Vaihdoin käyttäjään varjo:
+Vaihdoin käyttäjään varjo palvelimen sisällä, koska vaikka salasanakirjautuminen palvelimelle olisi sallittuna, tämä ei jostain syystä ole toiminut:
 
 ![image](https://github.com/user-attachments/assets/918e3014-68d3-412c-af67-12826b805caf)
 
@@ -361,7 +361,14 @@ Ja pääsin sisälle ilman salasanaa:
 
 ![image](https://github.com/user-attachments/assets/61d8eab2-7121-4cde-a0e0-b56ae121e015)
 
-Vaikka salasanakirjautuminen olisi sallittu, niin käyttäjät eivät päässeet palvelimelle sisään ilman julkista ssh-avainta viime viikolla ssh-avaimien kanssa säätäessäni. Tänään en ryhtynyt taistelemaan tämän ongelman kanssa, vaan mahdollisesti paneudun mysteeriin joku toinen kerta.
+
+## d) Tutki jonkin nimen DNS-tietoja 'host' ja 'dig' -komennoilla.
+
+*Tehtävä: Käytä kumpaakin komentoa kaikkiin nimiin ja vertaa tuloksia. Katso man-sivulta, miten komennot toimivat - esimerkiksi miten 'dig' näyttää kaikki kentät. Analysoi tulokset. Etsi tarvittaessa uusia lähteitä haastaviin kohtiin. Sähköpostin todentamiseen liittyvät SPF ja DMARC -tietojen yksityiskohdat on jätetty vapaaehtoiseksi lisätehtäväksi. Tutkittavat nimet:*
+
+ - *Oma domain-nimesi. Vertaa tuloksia nimen vuokraajan (namecheap.com, name.com...) weppiliittymässä näkyviin asetuksiin.*
+- *Jonkin pikkuyrityksen, kerhon tai yksittäisen henkilön weppisivut. (Ei kuitenkaan kurssikaverin tällä viikolla vuokrattua nimeä).*
+- *Jonkin suuren ja kaikkien tunteman palvelun tiedot.*
 
 ---
 
