@@ -382,6 +382,8 @@ man dig -sivun mukaan dig-komento on monipuolinen työkalu, jonka vulla voi tutk
 
 Yksinkertainen tapa käyttää komentoa: dig @server name type, jossa serveri: DNS serveri, josta tietoa haetaan ja jos ei ole määritelty, defaulttina ovat serverit, jotka on määritelty tiedostossa /etc/resolv/conf , nimi: sivu josta halutaan tietoa, tyyppi (ANY, A (eli A Recordiin) MC (liittyy sähköpostiin) SIG tms ja jos tyyppiä ei ole määritetty, etsitään A recordia). (Lisätietoa aiheeseen löydetty man dig:n täydennykseksi Tony Teaches Techin videolta (https://www.youtube.com/watch?v=iESSCDnC74k)).
 
+Edelliseen hakuun kuuluu ilmeisesti nimen kohdalle laittaa domainnimi, sillä Tony Teaches Tech näyttää erikseen reverse DNS-haun: `dig -x ip-osoite`.
+
 Man-sivujen perusteella saattoi huomata, että dig-komennossa on huomattavasti enemmän erilaisia lisäkomentoja verrattuna hostiin.
 
 
