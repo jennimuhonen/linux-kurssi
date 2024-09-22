@@ -410,7 +410,17 @@ Ensimmäinen rivi kertoo dig-komennon version. Header-osiossa NOERROR-status ker
 
 Question osiosta nähdään, että kysely tehtiin jennimuhonen.com:sta ja että kyseessä oli kysely A recordeista (default-valinta). IN tarkoittaa internettiä . Answer-osiossa nähdään kysytyn sivun ip-osoite. Vastauksen alla Query time kertoo miten pitkään vastauksen saamiseen meni, palvelin josta vastaus saatiin, aika jolloin kysely tehtiin ja DNS-palmelimelta saadun vastauksen koko.
 
+Vertailukohtana tein haun sivu-sivusta, joka linkittyy Github-sivuuni.
 
+![image](https://github.com/user-attachments/assets/5a3f3209-3f9e-4bcc-a2a8-082a1a2ed358)
+
+Vaikka A-record on defaul-vastaus, niin näyttää silti siltä, että haku sisällyttää myös CNAME:n vastaukseen. Vastauksessa listataan myös githubin ip-osoitteet, joihin tämä sivu osoittaa. Sen sijaan kuten näkyy, tämä sivu ei osoita minun palvelimelleni lainkaan.
+
+Seuraavaksi kokeilin hakea Espoon scifiseuran tietoja:
+
+![image](https://github.com/user-attachments/assets/d88a02a6-0970-41d6-abb4-275d35b478c4)
+
+Molemmista vastauksista nähdään, että sivu sijaitsee ip-osoitteessa 5.44.245.27.
 
 
 ---
