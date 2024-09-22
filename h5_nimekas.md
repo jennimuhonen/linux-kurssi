@@ -386,11 +386,29 @@ Edelliseen hakuun kuuluu ilmeisesti nimen kohdalle laittaa domainnimi, sillä To
 
 Man-sivujen perusteella saattoi huomata, että dig-komennossa on huomattavasti enemmän erilaisia lisäkomentoja verrattuna hostiin.
 
-host / dig jennimuhonen.com:
+host ennimuhonen.com:
 
 ![image](https://github.com/user-attachments/assets/e724f4d4-9b56-4d3e-aca0-e6c9225e950f)
 
+Ylläoleva näyttää selkeältä. Host listaa ip-osoitteen ja lisäksi löytää tietoa sähköpostiin liittyen. Namecheapin sivuilla on TXT record, jossa mainitaan efwd.registrar-servers.com.
+
+dig jennimuhonen.com:
+
 ![image](https://github.com/user-attachments/assets/2208ec68-126e-49af-810c-18198f563c4d)
+
+Dig-komennon tulkitsemiseksi etsin lisätietoa. JSDeliverin artikkelissa (https://www.jsdelivr.com/blog/how-to-read-a-dig-result-a-guide-for-network-novices/) käydään läpi komennolla saatua sisältöä.
+
+- Header: kertoo tehdystä dig-kyselystä, kuten kyselyaika, käytetty serveri ja flags (?)
+- Question section: kertoo domainin ja kysellyn recordin tyypin
+- Answer section: DNS serveriltä saatu tieto, kuten ip-osoite ja tai muut DNS recordit
+- Authority section: listaa authoritatiiviset DNS-palvelimet, jotka liittyvät domainiin, josta kysely tehtiin
+- Additional: sisältää muun tiedon, joka DNS-palvelimelta saatiin, esim. authoritatiivisten palvelinten IP-osoitteet
+
+Yllä olevan kyselyn tulkinta, tulkinnassa käytetty JSDeliverin artikkelin lisäksi Phoenixnapin artikkelia (https://phoenixnap.com/kb/linux-dig-command-examples).
+
+Ensimmäinen rivi kertoo dig-komennon version. Header-osiossa NOERROR-status kertoo, että vastaus saatiin onnistuneesti. OPT Pseudosectionista näkisi jos flageja olisi määritelty. Udp tarkoittaa udp-paketin kokoa.
+
+Question osiosta nähdään, että kysely tehtiin jennimuhonen.com:sta ja että kyseessä oli kysely A recordeista (default-valinta). IN tarkoittaa internettiä . Answer-osiossa nähdään kysytyn sivun ip-osoite. Vastauksen alla Query time kertoo miten pitkään vastauksen saamiseen meni, palvelin josta vastaus saatiin, aika jolloin kysely tehtiin ja DNS-palmelimelta saadun vastauksen koko.
 
 host / dig 94.237.16.92:
 
@@ -425,6 +443,7 @@ host / dig 94.237.16.92:
 - Geeksforgeeks 22.6.2024: dig Command in Linux with Examples. https://www.geeksforgeeks.org/dig-command-in-linux-with-examples/
 - Github Docs: Managing a custom domain for your GitHub Pages site. https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
 - Github Docs: Verifying your custom domain for GitHub Pages. https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages
+- JSDelivr: How to Read a Dig Result: A Guide for Network Novices. https://www.jsdelivr.com/blog/how-to-read-a-dig-result-a-guide-for-network-novices/
 - Karvinen, Tero 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
 - Karvinen, Tero: Oppitunti 18.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
 - Linux Mint Forums: [SOLVED][Apache2] AH00035: access to / denied. https://forums.linuxmint.com/viewtopic.php?t=176598
@@ -432,6 +451,7 @@ host / dig 94.237.16.92:
 - man host
 - Muhonen, Jenni 2024: h3 Hello Web Server. https://github.com/jennimuhonen/linux-kurssi/blob/main/h3-hello-web-server.md
 - Muhonen, Jenni 2024: h4 Maailma kuulee. https://github.com/jennimuhonen/linux-kurssi/blob/main/h4_maailma_kuulee.md
+- PhoenicNAP 23.5.2024: dig Command in Linux with Examples. https://phoenixnap.com/kb/linux-dig-command-examples
 - StackOverflow: Apache giving 403 forbidden error. https://stackoverflow.com/questions/18447454/apache-giving-403-forbidden-errors
 - Tony Teaches Tech 27.4.2021: How to Use a Custom Domain with GitHub Pages. https://www.youtube.com/watch?v=EX4w9hsduNA
 - Tony Teaches Tech 19.8.2021: What are CNAME records? (and how they compare to DNS A records). https://www.youtube.com/watch?v=ZXCQwdVgDno
