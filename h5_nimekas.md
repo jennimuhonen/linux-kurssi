@@ -430,6 +430,8 @@ Viimeiseksi tutkin Amazonin tietoja:
 
 Amazon.com:n sivuun on linkitetty yhden sijaan kolme ip-osoitetta.
 
+Selvitin vielä lisää, mitä Authority sectionilla tarkoitetaan. Uptimian artikkelin (https://www.uptimia.com/questions/what-does-the-authority-section-in-dig-results-mean) mukaan kyseinen osio on olennainen osa vastausta ja kertoo virallisen (authoritative) name serverin, joka liittyy domainiin, josta kysely tehtiin. Eli mitkä DNS serverit ovat vastuussa vastaamaan kyselyihin, jotka liittyvät kyseiseen domainiin. "DNS resolution":ssa tämä osio on keskeinen, sillä tämä ohjaa DNS resolverit oikean nimipalvelimen luokse, kun ne hakevat tietoa domainista. Tämä osio on hyödyllinen esimerkiksi silloin, kun tehdään muutoksia DNS-asetuksiin tai selvitellään siihen liittyviä ongelmia. 
+
 ---
 
 **ToDo-lista**
@@ -469,6 +471,7 @@ Amazon.com:n sivuun on linkitetty yhden sijaan kolme ip-osoitetta.
 - Tony Teaches Tech 27.4.2021: How to Use a Custom Domain with GitHub Pages. https://www.youtube.com/watch?v=EX4w9hsduNA
 - Tony Teaches Tech 19.8.2021: What are CNAME records? (and how they compare to DNS A records). https://www.youtube.com/watch?v=ZXCQwdVgDno
 - Tony Teaches Tech 7.5.2021. How To Lookup DNS Records With The dig Command https://www.youtube.com/watch?v=iESSCDnC74k
+- Uptimia 16.4.2024. What Does The Authority Section In Dig Results Mean? https://www.uptimia.com/questions/what-does-the-authority-section-in-dig-results-mean
 - Webmasters: Why does typing in my site's IP address bring up a different site? https://webmasters.stackexchange.com/questions/113237/why-does-typing-in-my-sites-ip-address-bring-up-a-different-site
 
 
