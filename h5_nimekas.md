@@ -436,7 +436,7 @@ Selvitin vielä lisää, mitä Authority sectionilla tarkoitetaan. Uptimian arti
 
 **ToDo-lista**
 
-- opettele siirtämään sivun sisältö omalle palvelimelle sen sijaan, että ohjaan sivun githubiin
+- Opettele siirtämään sivun sisältö omalle palvelimelle sen sijaan, että ohjaan sivun githubiin
 
 **Selvittämättömät ongelmat**
 
