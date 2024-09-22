@@ -430,7 +430,7 @@ Viimeiseksi tutkin Amazonin tietoja:
 
 Amazon.com:n sivuun on linkitetty yhden sijaan kolme ip-osoitetta.
 
-Selvitin vielä lisää, mitä Authority sectionilla tarkoitetaan. Uptimian artikkelin (https://www.uptimia.com/questions/what-does-the-authority-section-in-dig-results-mean) mukaan kyseinen osio on olennainen osa vastausta ja kertoo virallisen (authoritative) name serverin, joka liittyy domainiin, josta kysely tehtiin. Eli mitkä DNS serverit ovat vastuussa vastaamaan kyselyihin, jotka liittyvät kyseiseen domainiin. "DNS resolution":ssa tämä osio on keskeinen, sillä tämä ohjaa DNS resolverit oikean nimipalvelimen luokse, kun ne hakevat tietoa domainista. Tämä osio on hyödyllinen esimerkiksi silloin, kun tehdään muutoksia DNS-asetuksiin tai selvitellään siihen liittyviä ongelmia. 
+Selvitin vielä lisää, mitä Authority sectionilla tarkoitetaan. Uptimian artikkelin (https://www.uptimia.com/questions/what-does-the-authority-section-in-dig-results-mean) mukaan kyseinen osio on olennainen osa vastausta ja kertoo virallisen (authoritative) name serverin, joka liittyy domainiin, josta kysely tehtiin. Eli mitkä DNS serverit ovat vastuussa vastaamaan kyselyihin, jotka liittyvät kyseiseen domainiin. "DNS resolution":ssa tämä osio on keskeinen, sillä tämä ohjaa DNS resolverit oikean nimipalvelimen luokse, kun ne hakevat tietoa domainista. Tämä osio on hyödyllinen esimerkiksi silloin, kun tehdään muutoksia DNS-asetuksiin tai selvitellään siihen liittyviä ongelmia. (Minulla on tällä hetkellä Tietoverkkojen perusteet -kurssi kesken. Uskon, että hahmotan edellä kirjoittamani paremmin, kun olen käynyt kurssin. Tällä hetkellä kurssilla ei olla vielä päästy ylempien OSI-kerrosten tarkempaan tarkasteluun.)
 
 ---
 
