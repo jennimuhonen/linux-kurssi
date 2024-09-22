@@ -410,11 +410,7 @@ Ensimmäinen rivi kertoo dig-komennon version. Header-osiossa NOERROR-status ker
 
 Question osiosta nähdään, että kysely tehtiin jennimuhonen.com:sta ja että kyseessä oli kysely A recordeista (default-valinta). IN tarkoittaa internettiä . Answer-osiossa nähdään kysytyn sivun ip-osoite. Vastauksen alla Query time kertoo miten pitkään vastauksen saamiseen meni, palvelin josta vastaus saatiin, aika jolloin kysely tehtiin ja DNS-palmelimelta saadun vastauksen koko.
 
-host / dig 94.237.16.92:
 
-![image](https://github.com/user-attachments/assets/cbc90137-7f5a-4806-8a1b-091961e03e5d)
-
-![image](https://github.com/user-attachments/assets/b7ae5366-0866-4ec6-8a7e-69e9f6cf1518)
 
 
 ---
