@@ -386,7 +386,7 @@ Edelliseen hakuun kuuluu ilmeisesti nimen kohdalle laittaa domainnimi, sillä To
 
 Man-sivujen perusteella saattoi huomata, että dig-komennossa on huomattavasti enemmän erilaisia lisäkomentoja verrattuna hostiin.
 
-host ennimuhonen.com:
+host jennimuhonen.com:
 
 ![image](https://github.com/user-attachments/assets/e724f4d4-9b56-4d3e-aca0-e6c9225e950f)
 
@@ -395,6 +395,8 @@ Ylläoleva näyttää selkeältä. Host listaa ip-osoitteen ja lisäksi löytä�
 dig jennimuhonen.com:
 
 ![image](https://github.com/user-attachments/assets/2208ec68-126e-49af-810c-18198f563c4d)
+
+*23.9.2024 n. klo 23*
 
 Dig-komennon tulkitsemiseksi etsin lisätietoa. JSDeliverin artikkelissa (https://www.jsdelivr.com/blog/how-to-read-a-dig-result-a-guide-for-network-novices/) käydään läpi komennolla saatua sisältöä.
 
@@ -422,6 +424,11 @@ Seuraavaksi kokeilin hakea Espoon scifiseuran tietoja:
 
 Molemmista vastauksista nähdään, että sivu sijaitsee ip-osoitteessa 5.44.245.27.
 
+Viimeiseksi tutkin Amazonin tietoja:
+
+![image](https://github.com/user-attachments/assets/9272965b-a0c6-4836-85d0-a43ebd0ddd74)
+
+Amazon.com:n sivuun on linkitetty yhden sijaan kolme ip-osoitetta.
 
 ---
 
