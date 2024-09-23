@@ -296,7 +296,7 @@ Palasin CNAME-teeman pariin vielä uudestaan, sillä säädettyäni Github-sivun
 
 Tutkin asiaa tekemällä CNAME recordin sivulle, josta ei ollut conf-tiedosta ja sivulle, josta oli. Kumpikaan ei toiminut, mutta virheet olivat erilaisia.
 
-Sivu, josta ei ollut conf-tiedostoa ohjasi var-kansiossa olevaan tiedostoon:
+Sivu, josta ei ollut conf-tiedostoa ohjasi var-kansiossa olevaan tiedostoon. (Päivitin kyseisen tiedoston sisällön, kun törmäsin siihen jatkuvasti ja "Testi" ei tuntunut sopivalta.)
 
 ![image](https://github.com/user-attachments/assets/e4d09584-a614-456d-8818-52761d6be3bc)
 
