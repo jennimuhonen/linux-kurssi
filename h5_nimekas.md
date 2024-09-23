@@ -304,8 +304,6 @@ Sivu, josta oli conf-tiedosto antoi virheilmoituksen:
 
 ![image](https://github.com/user-attachments/assets/e4f7cfbf-6ef0-4914-959b-b1cae92bebc8)
 
-(Vaihdoin var-kansiossa olleen tiedoston tekstin, joka aiemmin oli Testi, kerta se aina ajoittain näytti hyppäävän näkyviin.)
-
 Testailu ei ollut riittävää ja pelkän Apachen name based -sivun tankkaaminen ei ollut riittävää, joten etsiydyin Youtubessa katsomaan Nerd on the Strees:n videon Apache Virtual Hosts (https://www.youtube.com/watch?v=x5fWSWdM4F8&t=861s). Videon avulla lopulta hahmotin selkeästi, mitä conf-tiedostot tekivät ja miksi sivut välillä ohjautuivat var-kansiossa olevaan tiedostoon.
 
 Videolla kerrottiin, että kun Apacheen otetaan yhteyttä, etsitään conf-tiedostoista yhteensopivaa ServerName:ia. Jos tätä ei löydy, valitaan järjestyksessä ensimmäinen conf-tiedosto joka on 000.default ja koska tämä tiedosto ohjaa var-kansion tiedostoon, päädytään tänne. Jos taas yhteensopivuus löytyy, ohjataan käyttäjä kyseisessä tiedostossa määriteltyyn tiedostosijaintiin. Jälkimmäisessä testissä tiedostosijainnissa ei ollut oikeasti mitään kansiota eli virheilmoitus johtuu tästä.
