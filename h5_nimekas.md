@@ -167,15 +167,13 @@ Kokeilin ensin tehdä molemmille alidomaineille A-tietueet:
 
 Pidin pienen tauon ennen kuin kokeilin, ovatko sivut lähteneet toimimaan.
 
-Molemmat alidomainit toimivat, mutta molemmissa on korjattavaa:
+Molemmat alidomainit teoriassa toimivat, mutta molemmissa on myös korjattavaa. Linux-sivussa on jotain pielessä, sillä se näyttää Testi-sivun. Tarkistan aiemmin tekemäni muutoksen etsiäkseni tekemääni virhettä. Tutkimusmatka-sivun html:ää taas voisi vähän viilata, mutta viilaamisen sijaan kokeilen ohjata kyseisen alidomainin osoittamaan suoraan varsinaiselle github-sivulle.
 
 ![image](https://github.com/user-attachments/assets/e60e97c5-8a32-473f-96a8-750fac05300c)
 
-Linux-sivussa on jotain pielessä, sillä se näyttää Testi-sivun. Tarkistan aiemmin tekemäni muutoksen etsiäkseni tekemääni virhettä. Tutkimusmatka-sivun html:ää taas voisi vähän viilata, mutta viilaamisen sijaan kokeilen ohjata kyseisen alidomainin osoittamaan suoraan varsinaiselle github-sivulle.
+Jouduin hetken hakemaan sitä, missä muodossa github-sivun osoite kuului antaa CNAME Recordiin. Lopussa oleva / ja alun https:// täytyi ottaa pois, jotta osoite hyväksyttiin:
 
 ![image](https://github.com/user-attachments/assets/5578227b-775b-4677-9ea8-d47f6230fb45)
-
-Jouduin hetken hakemaan sitä, missä muodossa github-sivun osoite kuului antaa. lopun / ja alun https:// täytyi ottaa pois, jotta osoite hyväksyttiin.
 
 Osoite osoittautui virheelliseksi:
 
