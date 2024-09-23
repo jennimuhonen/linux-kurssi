@@ -257,7 +257,9 @@ Tämä näyttää riittävän ja matka.jennimuhonen.com:n sisältö on sama Gith
 
 Eli näyttää siltä, että CNAME recordia tehdessä minun ei tarvitse tehdä mitään Apachen puolella.
 
-Tässä vaiheessa matka-sivu osoittaa var-kansion alla olevaan tiedostoon, jossa on pelkkä sana Testi. Tämä sivu näyttää erilaisissa ongelmatilanteissa tulevan vastaan eli ehkä siellä voisi lukea jotain muuta kuin Testi. Yritin lukea uudestaan Apachen dokumentaatiota name-based virtual hosteista (https://httpd.apache.org/docs/2.4/vhosts/name-based.html) ja vaikka sivun sisältö on nyt ymmärrettävämpää kuin silloin, kun sitä ensimmäisen kerran piti lukea, ei se edelleenkään avaa aihetta minulle tarpeeksi. Luin myös serveraliaksista (https://httpd.apache.org/docs/current/mod/core.html#serveralias) eli voisin conf-tiedostoon listata myös erilaisia aliaksia sivulle. Kuinka tämä eroaa CNAME:sta? Lisäksi Namecheapin puolella voisin lisätä ALIAS recordin. Miten tämä eroaa edellisistä?
+**A record, CNAME record jne**
+
+Yritin lukea uudestaan Apachen dokumentaatiota name-based virtual hosteista (https://httpd.apache.org/docs/2.4/vhosts/name-based.html) ja vaikka sivun sisältö on nyt ymmärrettävämpää kuin silloin, kun sitä ensimmäisen kerran piti lukea, ei se edelleenkään avaa aihetta minulle tarpeeksi. Luin myös serveraliaksista (https://httpd.apache.org/docs/current/mod/core.html#serveralias) eli voisin conf-tiedostoon listata myös erilaisia aliaksia sivulle. Kuinka tämä eroaa CNAME:sta? Lisäksi Namecheapin puolella voisin lisätä ALIAS recordin. Miten tämä eroaa edellisistä?
 
 DNSimplen sivuilla vertaillaan erilaisia tietuevaihtoehtoja (https://support.dnsimple.com/articles/differences-between-a-cname-alias-url/). Sivun mukaan A, CNAME, ALIAS ja URL ovat kaikki vaihtoehtoja, joilla osoittaa sivun host nimi, mutta näissä on pieniä eroavaisuuksia.
 
