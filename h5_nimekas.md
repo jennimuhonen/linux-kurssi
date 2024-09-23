@@ -193,13 +193,13 @@ Korjasin puuttuvat www-tiedot:
 
 Katsomani video-ohje on vuodelta 2021 ja Githubin sivut ovat luultavasti muuttuneet sen jälkeen, sillä en löytänyt videolla nähtyä kohtaa. Vaihdoin sen sijaan lukemaan Githubin ohjeita (https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site). Vilkaisin ohjeita jo aiemminkin, mutta nyt kun olen videomuodossa saanut yleiskäsityksen siitä mitä olen tekemässä, on pelkkiin tekstiohjeisiin helpompi tarttua.
 
-Ohjeet ohjasivat ensiksi vahvistamaan domainin Github-sivuille (https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages), jotta joku muu ei pysty ottamaan sivustoani haltuun. Kun vahvista päädomainin, vahvistuvat samalla myös kaikki mahdolliset alidomainit.
+Ohjeet ohjasivat ensiksi vahvistamaan domainin Github-sivuille (https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages), jotta joku muu ei pysty ottamaan sivustoani haltuun. Kun vahvistaa päädomainin, vahvistuvat samalla myös kaikki mahdolliset alidomainit.
 
 Menin Githubin sivuilla asetuksiin ja sivupalkin kohdasta Code, Planning, and Automation alta löytyi Pages. Klikkasin sitä ja syötin domainin:
 
 ![image](https://github.com/user-attachments/assets/80622309-2274-43e6-aa25-6dfa7f09648f)
 
-Sen jälkeen minun täytyy vahvistaa domain Githubille suorittamalla vaadityt toimet:
+Sen jälkeen minun täytyi vahvistaa domain Githubille suorittamalla vaaditut toimet:
 
 ![image](https://github.com/user-attachments/assets/f48c9ec8-afd3-4dab-8e09-682b8dae6d73)
 
