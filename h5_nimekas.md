@@ -304,7 +304,7 @@ Sivu, josta oli conf-tiedosto antoi virheilmoituksen:
 
 ![image](https://github.com/user-attachments/assets/e4f7cfbf-6ef0-4914-959b-b1cae92bebc8)
 
-Testailu ei ollut riittävää ja pelkän Apachen name based -sivun tankkaaminen ei ollut riittävää, joten etsiydyin Youtubessa katsomaan Nerd on the Strees:n videon Apache Virtual Hosts (https://www.youtube.com/watch?v=x5fWSWdM4F8&t=861s). Videon avulla lopulta hahmotin selkeästi, mitä conf-tiedostot tekivät ja miksi sivut välillä ohjautuivat var-kansiossa olevaan tiedostoon.
+Testailu ei ollut riittävää ja pelkän Apachen name based -sivun tankkaaminen ei ollut riittävää, joten etsiydyin Youtubessa katsomaan Nerd on the Street:n videon Apache Virtual Hosts (https://www.youtube.com/watch?v=x5fWSWdM4F8&t=861s). Videon avulla lopulta hahmotin selkeästi, mitä conf-tiedostot tekivät ja miksi sivut välillä ohjautuivat var-kansiossa olevaan tiedostoon.
 
 Videolla kerrottiin, että kun Apacheen otetaan yhteyttä, etsitään conf-tiedostoista yhteensopivaa ServerName:ia. Jos tätä ei löydy, valitaan järjestyksessä ensimmäinen conf-tiedosto joka on 000.default ja koska tämä tiedosto ohjaa var-kansion tiedostoon, päädytään tänne. Jos taas yhteensopivuus löytyy, ohjataan käyttäjä kyseisessä tiedostossa määriteltyyn tiedostosijaintiin. Jälkimmäisessä testissä tiedostosijainnissa ei ollut oikeasti mitään kansiota eli virheilmoitus johtuu tästä.
 
@@ -457,6 +457,7 @@ Selvitin vielä lisää, mitä Authority sectionilla tarkoitetaan. Uptimian arti
 - man host
 - Muhonen, Jenni 2024: h3 Hello Web Server. https://github.com/jennimuhonen/linux-kurssi/blob/main/h3-hello-web-server.md
 - Muhonen, Jenni 2024: h4 Maailma kuulee. https://github.com/jennimuhonen/linux-kurssi/blob/main/h4_maailma_kuulee.md
+- Nerd on the Street 17.5.2020: Apache Virtual Hosts. https://www.youtube.com/watch?v=x5fWSWdM4F8&t=861s
 - PhoenicNAP 23.5.2024: dig Command in Linux with Examples. https://phoenixnap.com/kb/linux-dig-command-examples
 - StackOverflow: Apache giving 403 forbidden error. https://stackoverflow.com/questions/18447454/apache-giving-403-forbidden-errors
 - Tony Teaches Tech 27.4.2021: How to Use a Custom Domain with GitHub Pages. https://www.youtube.com/watch?v=EX4w9hsduNA
