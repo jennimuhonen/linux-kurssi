@@ -397,7 +397,7 @@ Dig-komennon tulkitsemiseksi etsin lisätietoa. JSDeliverin artikkelissa (https:
 - Authority section: listaa authoritatiiviset DNS-palvelimet, jotka liittyvät domainiin, josta kysely tehtiin
 - Additional: sisältää muun tiedon, joka DNS-palvelimelta saatiin, esim. authoritatiivisten palvelinten IP-osoitteet
 
-Yllä olevan kyselyn tulkinta, tulkinnassa käytetty JSDeliverin artikkelin lisäksi Phoenixnapin artikkelia (https://phoenixnap.com/kb/linux-dig-command-examples).
+Yllä olevan kyselyn tulkinnassa on käytetty JSDeliverin artikkelin lisäksi Phoenixnapin artikkelia (https://phoenixnap.com/kb/linux-dig-command-examples).
 
 Ensimmäinen rivi kertoo dig-komennon version. Header-osiossa NOERROR-status kertoo, että vastaus saatiin onnistuneesti. OPT Pseudosectionista näkisi jos flageja olisi määritelty. Udp tarkoittaa udp-paketin kokoa.
 
@@ -407,7 +407,7 @@ Vertailukohtana tein haun sivu-sivusta, joka linkittyy Github-sivuuni.
 
 ![image](https://github.com/user-attachments/assets/5a3f3209-3f9e-4bcc-a2a8-082a1a2ed358)
 
-Vaikka A-record on defaul-vastaus, niin näyttää silti siltä, että haku sisällyttää myös CNAME:n vastaukseen. Vastauksessa listataan myös githubin ip-osoitteet, joihin tämä sivu osoittaa. Sen sijaan kuten näkyy, tämä sivu ei osoita minun palvelimelleni lainkaan.
+Vaikka A-record on defaul-vastaus, niin näyttää silti siltä, että haku sisällyttää myös CNAME:n vastaukseen. Vastauksessa listataan myös githubin ip-osoitteet, joihin tämä sivu osoittaa. Sen sijaan kuten näkyy, tämä sivu ei osoita minun virtuaalipalvelimelleni lainkaan.
 
 Seuraavaksi kokeilin hakea Espoon scifiseuran tietoja:
 
