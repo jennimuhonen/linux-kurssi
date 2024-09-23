@@ -187,11 +187,11 @@ Korjasin puuttuvat www-tiedot:
 
 ![image](https://github.com/user-attachments/assets/2dadc0d1-5bfe-4cbd-ac23-abd383c68b5a)
 
-**Github-seikkailu vailla onnellista loppua**
+**Github-seikkailu jatkuu**
 
 *20.9.2024 13.11 (tauon jälkeen)*
 
-Katsomani video-ohje on vuodelta 2021 ja Githubin sivut ovat luultavasti muuttuneet sen jälkeen, sillä en löytänyt videolla nähtyä kohtaa. Vaihdoin sen sijaan lukemaan Githubin ohjeita (https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site). Vilkaisin ohjeita jo aiemminkin, mutta nyt kun minulla olen videomuodossa saanut yleiskäsityksen siitä mitä olen tekemässä, on pelkkiin tekstiohjeisiin helpompi tarttua.
+Katsomani video-ohje on vuodelta 2021 ja Githubin sivut ovat luultavasti muuttuneet sen jälkeen, sillä en löytänyt videolla nähtyä kohtaa. Vaihdoin sen sijaan lukemaan Githubin ohjeita (https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site). Vilkaisin ohjeita jo aiemminkin, mutta nyt kun olen videomuodossa saanut yleiskäsityksen siitä mitä olen tekemässä, on pelkkiin tekstiohjeisiin helpompi tarttua.
 
 Ohjeet ohjasivat ensiksi vahvistamaan domainin Github-sivuille (https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages), jotta joku muu ei pysty ottamaan sivustoani haltuun. Kun vahvista päädomainin, vahvistuvat samalla myös kaikki mahdolliset alidomainit.
 
