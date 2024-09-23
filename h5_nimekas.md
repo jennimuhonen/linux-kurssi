@@ -115,7 +115,7 @@ Eli kokeilen, auttaisiko komento `chmod +x /home/jemjem/publicsites`.
 
 ![image](https://github.com/user-attachments/assets/d665ffe3-d8da-4362-bc05-9cf1302f504d)
 
-Ei ainakaan suorilta auttanut. Tosin tutkin mitä tarkoittaa domainin TTL-kohdassa oleva aika ja Cloudflare Docs:n (https://developers.cloudflare.com/dns/manage-dns-records/reference/ttl/) tämä tarkoittaa Time to Live eli kuinka kauan kestää, että tietueiden päivitykset saavuttavat loppukäyttäjän. Eli varmaan aivan heti mitään muutosta ei kuulukaan nähdä.
+Ei ainakaan suorilta auttanut. Tosin tutkin mitä tarkoittaa domainin TTL-kohdassa oleva aika ja Cloudflare Docs:n (https://developers.cloudflare.com/dns/manage-dns-records/reference/ttl/) mukaan tämä tarkoittaa Time to Live eli kuinka kauan kestää, että tietueiden päivitykset saavuttavat loppukäyttäjän. Eli varmaan aivan heti mitään muutosta ei kuulukaan nähdä.
 
 Luin vielä tarkemmin Linux Mint Forumsin keskusteluketjua ja siellä annettiin ohje, että oikeudet kannattaa antaa myös kansioille /home ja /home/user. Tein näin ja lopulta sivu alkoi toimia:
 
@@ -133,7 +133,7 @@ Nyt on aika siis viilata sivujen html tehtävänannon mukaiseksi ja tehdä tutki
 
 Seuraavaksi aloin askartelemaan html:n kanssa. Ohessa päätin muuttaa portfolio-sivuston nimeksi linux.
 
-![image](https://github.com/user-attachments/assets/3a2aaf53-b314-4497-aebf-d1386fb5d1be)
+![image](https://github.com/user-attachments/assets/691b67e7-474c-4acf-a3fd-bbeb9e6dcfa4)
 
 Muokkasin myös conf-tiedostoa:
 
