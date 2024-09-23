@@ -187,7 +187,7 @@ Korjasin puuttuvat www-tiedot:
 
 ![image](https://github.com/user-attachments/assets/2dadc0d1-5bfe-4cbd-ac23-abd383c68b5a)
 
-**Github-seikkailu jatkuu**
+**Github-seikkailu (tai sekoilu) jatkuu**
 
 *20.9.2024 13.11 (tauon jälkeen)*
 
