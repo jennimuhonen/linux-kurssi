@@ -369,9 +369,9 @@ Voidakseni käyttää dig-komentoa minun piti asentaa dnsutils. Olin törmännyt
 
 man host -sivun mukaan host-komentoa käytetään normaalisti muuntamaan domain nimiä ip-osoitteiksi ja päinvastoin. Kun kirjoittaa pelkästään host, saa listan käytettävissä olevista komennoista. Pelkän man sivun perusteella en osannut sanoa, mitä lisäkomentoja kannattaisi käyttää mielenkiintoisia tuloksia saadakseni.
 
-man dig -sivun mukaan dig-komento on monipuolinen työkalu, jonka vulla voi tutkia DNS nimiservereitä. Komennon avulla voi selvittää DNS:ään liittyviä ongelmia. dig -h listaa lyhyen tiivistelmän erilaisista komennoista ja vaihtoehdoista.
+man dig -sivun mukaan dig-komento on monipuolinen työkalu, jonka avulla voi tutkia DNS nimiservereitä. Komennon avulla voi selvittää DNS:ään liittyviä ongelmia. dig -h listaa lyhyen tiivistelmän erilaisista komennoista ja vaihtoehdoista.
 
-Yksinkertainen tapa käyttää komentoa: dig @server name type, jossa serveri: DNS serveri, josta tietoa haetaan ja jos ei ole määritelty, defaulttina ovat serverit, jotka on määritelty tiedostossa /etc/resolv/conf , nimi: sivu josta halutaan tietoa, tyyppi (ANY, A (eli A Recordiin) MC (liittyy sähköpostiin) SIG tms ja jos tyyppiä ei ole määritetty, etsitään A recordia). (Lisätietoa aiheeseen löydetty man dig:n täydennykseksi Tony Teaches Techin videolta (https://www.youtube.com/watch?v=iESSCDnC74k)).
+Man sivun mukaan, yksinkertainen tapa käyttää komentoa on: dig @server name type, jossa serveri: DNS serveri, josta tietoa haetaan ja jos ei ole määritelty, defaulttina ovat serverit, jotka on määritelty tiedostossa /etc/resolv/conf , nimi: sivu josta halutaan tietoa, tyyppi (ANY, A (eli A Recordiin) MC (liittyy sähköpostiin) SIG tms ja jos tyyppiä ei ole määritetty, etsitään A recordia). (Lisätietoa aiheeseen löydetty man dig:n täydennykseksi Tony Teaches Techin videolta (https://www.youtube.com/watch?v=iESSCDnC74k)).
 
 Edelliseen hakuun kuuluu ilmeisesti nimen kohdalle laittaa domainnimi, sillä Tony Teaches Tech näyttää erikseen reverse DNS-haun: `dig -x ip-osoite`.
 
