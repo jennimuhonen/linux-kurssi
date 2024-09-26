@@ -252,6 +252,30 @@ Korjausten jälkeen palvelin käynnistyi ja antamani nimet näkyivät:
 
 Tehtävä oli oikein opettavainen ja hieman kun opiskelisi Pythonia, voisi kokeilla jotain omaakin.
 
+## b) Tee Djangon tuotantotyyppinen asennus
+
+*26.9.2024 20.21 (eli tauon jälkeen)*
+
+Asiaa harkittuani päätin olla asentamatta Djangoa virtuaalipalvelimen puolelle ja pysyä VirtualBoxin Debianilla, sillä Python-osaamiseni pitäisi olla parempaa (tai edes olemassa) ennen kuin lähtisin jakamaan mitään kenenkään nähtäville.
+
+Luin opettajan ohjeita (https://terokarvinen.com/2022/deploy-django/) jo ennen taukoa perehtyäkseni aiheeseen. Ohjeiden alkupuolella on paljon asioita, jotka on tehty jo aiemmin kurssilla, joten poimin vain uusia asioita ohjeen alkupuoliskolta.
+
+Päivitin apt-getin jo aiemmin tänään, joten hyppäsin suoraan asentamaan bash-completionia, jota minulla ei vielä ollut.
+
+![image](https://github.com/user-attachments/assets/c5221763-afb9-43c9-a832-fa50e9344eb9)
+
+Tämän avulla Tab:ia painamalla voi täydentää tiedostonimiä. (Näppärää!)
+
+Tein uuden kansion ja alikansion projektia varten:
+
+![image](https://github.com/user-attachments/assets/cde33ce9-ee8f-4443-aa65-ea37fb088f8d)
+
+Tein uuden virtuaaliympäristön uudelle projektille ja aktivoin sen. Arvelin, että ympäristön nimenä mikalie olisi ärsyttävän pitkä, joten ympäristöstä tuli lie:
+
+![image](https://github.com/user-attachments/assets/7618aae8-9d47-4136-bc9a-cb23e8262243)
+
+
+
 ---
 
 **Lähteet**
@@ -260,6 +284,7 @@ Tehtävä oli oikein opettavainen ja hieman kun opiskelisi Pythonia, voisi kokei
 - Django: How to get Django. https://www.djangoproject.com/download/
 - Geeksforgeeks 19.6.2024: Source Command in Linux with Examples. https://www.geeksforgeeks.org/source-command-in-linux-with-examples/
 - Karvinen, Tero 2017: First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
+- Karvinen, Tero 2022: Deploy Django 4 - Production Install. https://terokarvinen.com/2022/deploy-django/
 - Karvinen, Tero 2022: Django 4 Instant Customer Database Tutorial. https://terokarvinen.com/2022/django-instant-crm-tutorial/
 - Karvinen, Tero: Oppitunti 25.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
 - man virtualenv
