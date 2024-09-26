@@ -282,6 +282,16 @@ Ohjeissa sanotaan, että voin kopioida aiemmin tekemäni projektin. Tein siis n�
 
 ![image](https://github.com/user-attachments/assets/63cb0f80-86d0-4e1c-bec4-9806c49b7ade)
 
+**Python & Apache**
+
+Seuraavaksi ohjeissa todetaan, että tarvitsen tietooni kolme tiedostopolkua.
+
+1. Django-protektin pääkansio: /home/jenni/publicprojekti/jotakin (TDIR)
+2. wsgi.py: /home/jenni/publicprojekti/jotakin/jotakin/wsgi.py (TWSGI)
+3. Virtualenv site-packages directory: /home/jenni/publicprojekti/lie/lib/python3.11/site-packages (TVENV)
+
+Bash-comletionista on ollut paljon iloa tätä tehtävää tehdessä ja esimerkiksi yllä olevat osoiteet kopioin tähän komentoriviltä, johon etsin ne bash-completionin avulla. (Kuten ohjeessakin kehotettiin tekemään.) Lisäsin tiedostojen perään ohjeen mukaiset lyhenteet, joita käytetään pian. Lisäksi otin ylimääräiset / lopusta pois, sillä tiedostopolut tullaan kopioimaan ilman niitä.
+
 
 
 
