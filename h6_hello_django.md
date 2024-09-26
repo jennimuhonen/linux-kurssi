@@ -70,6 +70,8 @@ Tunnilla opettaja kertoi, että asennamme Djangon virtuaaliympäristöön, jotta
 
 Opettaja myös varoitti, että koska tällä kerralla joudumme käyttämään apt-get:n sijaan pip:iä Djangon asentamiseen, kirjoitusvirheitä on parempi olla tekemättä. Jos asennustiedoston nimen kirjoittaa väärin, on erittäin suuri mahdollisuus asentaa Djangon sijaan jokin haittaohjelma!
 
+**Kehitysympäristön asentaminen**
+
 *26.9.2024 15.16 (tauon jälkeen)*
 
 Opettajan ohjeita noudattaen ryhdyin asentamaan kehitysympäristöä.
@@ -123,6 +125,8 @@ Seuraavaksi tarkistetaan, onko uusin versio asennettuna:
 ![image](https://github.com/user-attachments/assets/18cab386-c010-456e-aaed-cfc464563478)
 
 Tarkistin Djangon sivuilta (https://www.djangoproject.com/download/), että uusin virallinen versio on 5.1.1 eli näyttää oikealta.
+
+**Django**
 
 ---
 
