@@ -228,7 +228,26 @@ Viimeisenä ohjeissa päivitetään vielä nimet kuntoon, joten kävin päivitt�
 
 ![image](https://github.com/user-attachments/assets/69d35c39-84d7-466e-9d9b-052fa910689d)
 
-Unohdin ajaa muutokset ja käynnistin palvelimen suoraan, joka sai palvelimen sekaisin. Kokeilin ajaa muutoksia, mutta sain samaa virheviestiä. Otin muutokset pois ja tämän jälkeen tein ne uudestaan ja muistin ajaa muutokset. Tässä kohtaa kävi ilmi, että muutoksessa itsessään oli jotain vikaa. Viittaus virheilmoituksessa oli riville 8, mutta virhe korjautui muuttamalla nimikentän maksimipituudeksi 160 (kuten ohjeessa näkee). Oletettavasti näkyvä nimikenttä on jossain määritelty tätä pitemmäksi, jonka takia uusi muutos oli virheellinen.
+Unohdin ajaa muutokset ja käynnistin palvelimen suoraan, joka sai palvelimen sekaisin:
+
+![image](https://github.com/user-attachments/assets/3c594931-9ddf-4fba-abbf-245ec63dd5bf)
+
+Kokeilin ajaa muutoksia, mutta sain samaa virheviestiä:
+
+![image](https://github.com/user-attachments/assets/b99da804-f8c0-4cfa-8afb-55caeaadb810)
+
+Otin muutokset pois ja tämän jälkeen palvelin käynnistyi taas:
+
+![image](https://github.com/user-attachments/assets/1aa18cbc-2fdd-4415-ae4a-79d7842eceaf)
+
+Lisäsin muutokset uudestaan ja muistin ajaa muutokset. Tässä kohtaa kävi ilmi, että muutoksessa itsessään oli jotain vikaa, koska sain jälleen virheilmoituksia.
+
+![image](https://github.com/user-attachments/assets/2323d140-2281-4d08-8f2e-408a1c29753c)
+
+Etsin yllä olevasta viittausta viimeisimpään muokkaamaani tiedostoon, koska ongelma hyvin ilmeisesti liittyi siihen.
+
+
+Viittaus virheilmoituksessa oli riville 8, mutta virhe korjautui muuttamalla nimikentän maksimipituudeksi 160 (kuten ohjeessa näkee). Oletettavasti näkyvä nimikenttä on jossain määritelty tätä pitemmäksi, jonka takia uusi muutos oli virheellinen.
 
 Korjausten jälkeen palvelin käynnistyi ja antamani nimet näkyivät:
 
