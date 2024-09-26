@@ -178,7 +178,7 @@ Myös käyttäjä testi pystyi vastaavaan tapaan hallinnoimaan käyttäjiä kuin
 
 **Asiakaspalvelin (customer database)**
 
-Jatkoin ohjeiden seuraamista, ensimmäisena luotiin uusi kansio crm:
+Jatkoin ohjeiden seuraamista, ensimmäisenä luotiin uusi kansio crm:
 
 ![image](https://github.com/user-attachments/assets/39386945-fe0a-4905-9e2b-853469fecea1)
 
@@ -187,6 +187,14 @@ Päivitin asetustiedostoa ohjeiden mukaisesti eli lisäsin riville 40 `'crm',`
 ![image](https://github.com/user-attachments/assets/eb37fba4-9fb5-49c3-b3a1-07854e9465bb)
 
 ![image](https://github.com/user-attachments/assets/fd42d82b-57ea-4aa5-9f49-3c43b9491204)
+
+Seuraavaksi ohjeissa lisätään malleja (models):
+
+![image](https://github.com/user-attachments/assets/c86752bf-1410-45a6-8ce2-365b87895fd6)
+
+![image](https://github.com/user-attachments/assets/12147d99-519d-4cfb-aa96-b5e521e09095)
+
+![image](https://github.com/user-attachments/assets/d0c4c656-4267-4169-9119-9e24812a3a62)
 
 
 
