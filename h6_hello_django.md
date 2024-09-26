@@ -274,6 +274,9 @@ Tein uuden virtuaaliympäristön uudelle projektille ja aktivoin sen. Arvelin, e
 
 ![image](https://github.com/user-attachments/assets/7618aae8-9d47-4136-bc9a-cb23e8262243)
 
+Tarkistin, että käytä pip:iä oikeassa paikassa. Olin aiemmin tehnyt vaatimustiedoston kotihakemistossa, joten voin käyttää samaa tiedostoa uudestaan. Sen jälkeen asensin Djangon ja tarkistin asennuksen.
+
+![image](https://github.com/user-attachments/assets/e980900d-45e3-49d1-8bb0-ff964e2c616e)
 
 
 ---
