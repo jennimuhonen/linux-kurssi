@@ -118,17 +118,23 @@ Noudatin ohjeita. Tein tiedoston ja tarkistin sisällön cat:lla ja asensin sen.
 
 ![image](https://github.com/user-attachments/assets/a314d8a4-d042-4a01-8c71-6b0151a157fb)
 
+Seuraavaksi tarkistetaan, onko uusin versio asennettuna:
 
+![image](https://github.com/user-attachments/assets/18cab386-c010-456e-aaed-cfc464563478)
+
+Tarkistin Djangon sivuilta (https://www.djangoproject.com/download/), että uusin virallinen versio on 5.1.1 eli näyttää oikealta.
 
 ---
 
 **Lähteet**
 
 - ChatGPT.
+- Django. How to get Django. https://www.djangoproject.com/download/
 - Karvinen, Tero 2017: First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
 - Karvinen, Tero 2022: Django 4 Instant Customer Database Tutorial. https://terokarvinen.com/2022/django-instant-crm-tutorial/
 - Karvinen, Tero: Oppitunti 25.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
 - man virtualenv
+- man which
 - teclado 13.4.2021: The Complete Guide to Python Virtual Environments! https://www.youtube.com/watch?v=KxvKCSwlUv8
 
 ---
