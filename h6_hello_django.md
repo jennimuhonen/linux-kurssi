@@ -228,7 +228,7 @@ Viimeisenä ohjeissa päivitetään vielä nimet kuntoon, joten kävin päivitt�
 
 ![image](https://github.com/user-attachments/assets/69d35c39-84d7-466e-9d9b-052fa910689d)
 
-
+Unohdin ajaa muutokset ja käynnistin palvelimen suoraan, joka sai palvelimen sekaisin. Kokeilin ajaa muutoksia, mutta sain samaa virheviestiä. Otin muutokset pois ja tämän jälkeen tein ne uudestaan ja muistin ajaa muutokset. Tässä kohtaa kävi ilmi, että muutoksessa itsessään oli jotain vikaa. Viittaus virheilmoituksessa oli riville 8, mutta virhe korjautui muuttamalla 
 
 ---
 
