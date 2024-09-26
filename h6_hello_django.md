@@ -70,6 +70,19 @@ Tunnilla opettaja kertoi, että asennamme Djangon virtuaaliympäristöön, jotta
 
 Opettaja myös varoitti, että koska tällä kerralla joudumme käyttämään apt-get:n sijaan pip:iä Djangon asentamiseen, kirjoitusvirheitä on parempi olla tekemättä. Jos asennustiedoston nimen kirjoittaa väärin, on erittäin suuri mahdollisuus asentaa Djangon sijaan jokin haittaohjelma!
 
+*26.9.2024 15.16 (tauon jälkeen)*
+
+Opettajan ohjeita noudattaen ryhdyin asentamaan kehitysympäristöä.
+
+Ensiksi asensin virtuaaliympäristön apt-getillä:
+
+![image](https://github.com/user-attachments/assets/8882bc36-b47f-4be8-86d3-a6bac7b845d3)
+
+(Tajusin unohtaneeni päivittää apt-getin, joten päivitin sen `sudo apt-get update` ja annoin komennon `sudo apt-get -y install virtualenv` uudelleen.)
+
+Seuraavaksi ohjeissa annetaan komento `virtualenv --system-site-packages -p python3 env/`. 
+
+
 
 
 ---
