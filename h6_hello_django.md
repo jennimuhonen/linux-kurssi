@@ -158,6 +158,13 @@ Ensiksi kuului päivittää tietokanta:
 
 ![image](https://github.com/user-attachments/assets/d0f787e5-a0c4-4aa4-a59e-18b0afbba6cf)
 
+Jatkoin ohjeiden mukaan eli asensin salasanageneraattorin, loin sillä salasanan ja loin superkäyttäjän. Lisäksi laitoin palvelimen pyörimään, jotta pääsen sivulle:
+
+![image](https://github.com/user-attachments/assets/8ab9e804-c79b-405c-889f-6476ccc5340d)
+
+Kirjauduin käyttäjätunnuksella ja salasanalla admin-sivulle:
+
+![image](https://github.com/user-attachments/assets/7e36796a-e808-4467-87c9-44a2add8ab9a)
 
 
 ---
