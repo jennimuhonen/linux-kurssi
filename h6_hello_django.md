@@ -50,6 +50,8 @@ Testasin muutokset:
 
 ![image](https://github.com/user-attachments/assets/2ceac9c0-d29e-4977-81bc-5b34c1b42914)
 
+![image](https://github.com/user-attachments/assets/09b414ac-8f70-47f6-b8ab-5176cf641ed8)
+
 Tein uuden testihenkilön, jolla ei ole ssh-avaimia ja kokeilin, pääseekö tällä tunnuksella sisään:
 
 ![image](https://github.com/user-attachments/assets/7d4dd441-f4e8-4e6e-ae20-3f94f8fb9ee7)
