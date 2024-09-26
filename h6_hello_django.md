@@ -138,9 +138,16 @@ Ohjeissa, kuten tunnillakin sanottiin, että tämä on kehityspalvelin eli tät�
 
 Testasin selaimessa, kuten ohjeessa kehotettiin:
 
-![image](https://github.com/user-attachments/assets/24a014b8-0f8d-43c0-b979-14157b124e94)
+![image](https://github.com/user-attachments/assets/1573e213-c252-4682-8875-04491b85ad68)
 
 Ja sivu näyttää siltä kuin ohjeen mukaan pitääkin.
+
+Lopetin komennon ohjeen mukaan Ctrl + c ja katsoin sivua uudelleen. Nyt sivulla näkyi Unable to connect eli sivu on nähtävissä vain kun tuo komento on käynnissä.
+
+Katsoin jotakin-kansioon:
+
+![image](https://github.com/user-attachments/assets/eb3935c4-4fe2-40eb-997b-62422cea1e27)
+
 
 
 ---
