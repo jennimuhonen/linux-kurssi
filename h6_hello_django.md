@@ -362,6 +362,14 @@ Ja lopultakin toimii:
 
 ![image](https://github.com/user-attachments/assets/620278a7-5aa7-4a15-9286-575d1f50166c)
 
+Tämän jälkeen tarkistettiin, että kyseessä on varmasti Apache eikä kehityspalvelin. Ja kyllä Apachehan se!
+
+![image](https://github.com/user-attachments/assets/34123947-caf6-46fd-bb42-a3af1301acff)
+
+Ja vielä selaimessa:
+
+![image](https://github.com/user-attachments/assets/221e19b7-98ab-48f4-b8cc-77952a2cbfc3)
+
 
 ---
 
