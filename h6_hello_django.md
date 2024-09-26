@@ -136,10 +136,11 @@ Luin seuraavan pätkän ohjeita ja kokeilin käytännössä niiden mukaisesti:
 
 Ohjeissa, kuten tunnillakin sanottiin, että tämä on kehityspalvelin eli tätä ei saa viedä internetiin. Tästä ei pitäisi olla huolta, koska asensin kaiken virtuaaliboksin Debianille, en UpCloudin palvelimella olevalle.
 
-Testasin selaimessa, kuten ohjeesa kehotettiin:
+Testasin selaimessa, kuten ohjeessa kehotettiin:
 
 ![image](https://github.com/user-attachments/assets/24a014b8-0f8d-43c0-b979-14157b124e94)
 
+Ja sivu näyttää siltä kuin ohjeen mukaan pitääkin.
 
 
 ---
