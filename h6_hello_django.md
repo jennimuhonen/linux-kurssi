@@ -270,6 +270,10 @@ Tein uuden kansion ja alikansion projektia varten:
 
 ![image](https://github.com/user-attachments/assets/cde33ce9-ee8f-4443-aa65-ea37fb088f8d)
 
+Tarkistin, miten Apachella menee. Ohjeiden mukaan kaikki on hyvin, jos ainoa valitus on AH00558 ja sanotaan Syntax OK. Näin on eli kaikki vaikuttaa olevan ok.
+
+![image](https://github.com/user-attachments/assets/0ce5d94f-acb1-4120-be05-4acfedc88f64)
+
 Tein uuden virtuaaliympäristön uudelle projektille ja aktivoin sen. Arvelin, että ympäristön nimenä mikalie olisi ärsyttävän pitkä, joten ympäristöstä tuli lie:
 
 ![image](https://github.com/user-attachments/assets/7618aae8-9d47-4136-bc9a-cb23e8262243)
@@ -294,7 +298,23 @@ Bash-comletionista on ollut paljon iloa tätä tehtävää tehdessä ja esimerki
 
 Ohjeessa kehotetaan tekemään django-käyttäjä, jolla ei ole sudo-oikeuksia. Koska en ole verkkopalvelimen puolella ja en ole julkaisemassa verkkoon, en tee erillistä käyttäjää. Virtuaalipalvelimen puolella olen tehnyt parikin eri testikäyttäjää testattuani SSH-avaimiin liittyviä ongelmia, toinen pääsee kirjautumaan SSH-avaimilla ja toinen ei eivätkä kumpikaan ole sudo-ryhmässä, joten jätän VirtualBoxin puolella käyttäjien kanssa säätämisen tekemättä.
 
+Tein tiedoston ohjeiden mukaisesti:
 
+![image](https://github.com/user-attachments/assets/7bc22c84-e738-4c39-a2f2-cde1f955b443)
+
+![image](https://github.com/user-attachments/assets/11244c28-035d-4362-99a2-92cd9220f3a3)
+
+Ja tarkistin, että tiedoston on oikeassa paikassa:
+
+![image](https://github.com/user-attachments/assets/214cc349-c5e5-46fe-b177-92cd159698a1)
+
+Asensin Apache WSGI moduulin:
+
+![image](https://github.com/user-attachments/assets/1b3d40dc-a72c-45b3-8ae9-302c5db8095d)
+
+Tarkistin, että Apachella on kaikki kunnossa. Viesti on edelleen sama kuin aiemmin. 
+
+![image](https://github.com/user-attachments/assets/1315dfcb-f457-408d-af69-79f01ec4ad18)
 
 
 ---
