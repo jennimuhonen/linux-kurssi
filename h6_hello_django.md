@@ -278,6 +278,7 @@ Tarkistin, että käytä pip:iä oikeassa paikassa. Olin aiemmin tehnyt vaatimus
 
 ![image](https://github.com/user-attachments/assets/e980900d-45e3-49d1-8bb0-ff964e2c616e)
 
+Asennuksessa käytettiin näköjään aiemmin päivällä lataamiani tiedostoja.
 
 ---
 
