@@ -130,6 +130,16 @@ Tarkistin Djangon sivuilta (https://www.djangoproject.com/download/), että uusi
 
 *26.9.2024 16.39*
 
+Luin seuraavan pätkän ohjeita ja kokeilin käytännössä niiden mukaisesti:
+
+![image](https://github.com/user-attachments/assets/16cea040-cfb1-442d-ac9c-0965db5b1b2c)
+
+Ohjeissa, kuten tunnillakin sanottiin, että tämä on kehityspalvelin eli tätä ei saa viedä internetiin. Tästä ei pitäisi olla huolta, koska asensin kaiken virtuaaliboksin Debianille, en UpCloudin palvelimella olevalle.
+
+Testasin selaimessa, kuten ohjeesa kehotettiin:
+
+![image](https://github.com/user-attachments/assets/24a014b8-0f8d-43c0-b979-14157b124e94)
+
 
 
 ---
