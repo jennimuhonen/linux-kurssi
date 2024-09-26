@@ -30,7 +30,7 @@ Tehtäviä Tero Karvisen kurssille Linux Palvelimet 2024. https://terokarvinen.c
 
 *26.9.2024 12.56*
 
-Olin aiemmin ihmetellyt, miksi en pääse kirjautumaan UpCloudin virtuaali-Debianiini salasanalla, vaikka se oli alunperin asetustiedostossa sallittuna. En ennättänyt tätä itse selvittämään, vaan ratkaisu löytyi viime oppitunnilla, kun kanssaopiskelijalla oli toisenlainen kirjautumishaaste eri palvelun virtuaalipalvelimella. Aivan tunnin lopuksi hän kertoi löytäneensä ongelmaan ratkaisun eli asetustiedossa oli linkki toiseen asetustiedostoon, jossa oli tämä ongelmia aiheuttanut asetus. Koska linkki on tiedoston alussa, tämä yliajaa myöhemmin tulevat asetukset. (Tämän opin edellisen kerran tehtäviä tehdessä.) Opettaja kehotti ratkaisemaan ongelman poistamalla kyseisen linkin.
+Olin aiemmin ihmetellyt, miksi en pääse kirjautumaan UpCloudin virtuaali-Debianiini salasanalla, vaikka se oli alunperin asetustiedostossa sallittuna. Ratkaisu ongelmaan löytyi viime oppitunnilla, kun kanssaopiskelijalla oli toisenlainen kirjautumishaaste eri palvelun virtuaalipalvelimella. Aivan tunnin lopuksi hän kertoi löytäneensä ongelmaan ratkaisun eli asetustiedossa oli linkki toiseen asetustiedostoon, jossa oli tämä ongelmia aiheuttanut asetus. Koska linkki on tiedoston alussa, tämä yliajaa myöhemmin tulevat asetukset. (Tämän opin edellisen kerran tehtäviä tehdessä.) Opettaja kehotti ratkaisemaan ongelman poistamalla kyseisen linkin.
 
 Tutkin tämän perusteella omaa asetustiedostoani ja löysin sieltä kuvatunlaisen linkin:
 
@@ -57,6 +57,8 @@ Tein uuden testihenkilön, jolla ei ole ssh-avaimia ja kokeilin, pääseekö tä
 ![image](https://github.com/user-attachments/assets/7d4dd441-f4e8-4e6e-ae20-3f94f8fb9ee7)
 
 Onnistui! Tämän jälkeen yritin kieltää salasana-kirjautumisen uudestaan. Tosin tässä kohtaa tuli ongelmia vastaan ja jostain syystä testi-käyttäjäni pääsi edelleen salasanalla sisään. Lopulta päädyin lisäämään alkuperäisen rivin asetustiedostoon takaisin ja tämän jälkeen testi-käyttäjä ei päässyt enää salasanalla sisään.
+
+(Viimeistä haastetta selvitellessäni huomasin, että opettaja on antanut aiemmin ohjeen (https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/), että uudelleenkäynnistys hoidetaan tällä komennolla: `sudo service ssh restart`. Käytin tätä palauttaessani asetuksia.
 
 
 
