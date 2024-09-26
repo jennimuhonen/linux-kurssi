@@ -192,6 +192,8 @@ Seuraavaksi ohjeissa lisätään malleja (models):
 
 ![image](https://github.com/user-attachments/assets/c86752bf-1410-45a6-8ce2-365b87895fd6)
 
+Ja päivitettiin muutokset tietokantaan:
+
 ![image](https://github.com/user-attachments/assets/12147d99-519d-4cfb-aa96-b5e521e09095)
 
 ![image](https://github.com/user-attachments/assets/d0c4c656-4267-4169-9119-9e24812a3a62)
