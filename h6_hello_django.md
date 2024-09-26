@@ -154,6 +154,9 @@ Seuraavaksi ohjeissa lisätään admin sivustolle, sillä tällä hetkellä sivu
 
 ![image](https://github.com/user-attachments/assets/b09ac21b-d679-4043-92f5-5c11f2277d3a)
 
+Ensiksi kuului päivittää tietokanta:
+
+![image](https://github.com/user-attachments/assets/d0f787e5-a0c4-4aa4-a59e-18b0afbba6cf)
 
 
 
