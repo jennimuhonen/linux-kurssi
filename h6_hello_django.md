@@ -62,6 +62,13 @@ Tämän jälkeen yritin kieltää salasana-kirjautumisen uudestaan. Tässä koht
 
 (Viimeistä haastetta selvitellessäni huomasin, että opettaja on antanut aiemmin ohjeen (https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/), että uudelleenkäynnistys hoidetaan tällä komennolla: `sudo service ssh restart`. Käytin tätä palauttaessani asetuksia. (Kysyin ChatGPT:ltä mitä eroa komennoilla `sudo systemctl restart sshd` ja `sudo service ssh restart` on ja sen mukaan molemmat komennot suorittavat saman perustoiminnon eli käynnistävät uudelleen SSH-palvelun. En jäänyt selvittämään asiaa enempää.)
 
+## Tee yksinkertainen esimerkkiohjelma Djangolla
+
+Aloitin lukemalla opettajan ohjesivun: https://terokarvinen.com/2022/django-instant-crm-tutorial/.
+
+Tunnilla opettaja kertoi, että asennamme Djangon virtuaaliympäristöön, jotta voimme tarvittaessa asentaa Djangon toistamiseen. En vielä tunnin perusteella täysin ymmärtänyt mistä virtuaaliympäristöissä oli kyse, joten katsoin täydennykseksi Youtubesta tecladon videon alkupuoliskon (https://www.youtube.com/watch?v=KxvKCSwlUv8), jossa hän selitti virtuaaliympäristöä. Tämän avulla sain paremmin kuvan siitä, mistä virtuaaliympäristöissä on kyse, mutta en kuitenkaan yritä lähteä selittämään asiaa, vaan kehotan ennemmin katsomaan kyseistä videota.
+
+Opettaja myös varoitti, että koska tällä kerralla joudumme käyttämään apt-get:n sijaan pip:iä Djangon asentamiseen, kirjoitusvirheitä on parempi olla tekemättä. Jos asennustiedoston nimen kirjoittaa väärin, on erittäin suuri mahdollisuus asentaa Djangon sijaan jokin haittaohjelma!
 
 
 
@@ -73,6 +80,7 @@ Tämän jälkeen yritin kieltää salasana-kirjautumisen uudestaan. Tässä koht
 - Karvinen, Tero 2017: First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
 - Karvinen, Tero 2022: Django 4 Instant Customer Database Tutorial. https://terokarvinen.com/2022/django-instant-crm-tutorial/
 - Karvinen, Tero: Oppitunti 25.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
+- teclado 13.4.2021: The Complete Guide to Python Virtual Environments! https://www.youtube.com/watch?v=KxvKCSwlUv8
 
 ---
   
