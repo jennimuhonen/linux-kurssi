@@ -88,7 +88,7 @@ Saatuani kuvan siitä, mitä olin tekemässä, annoin komennon:
 
 ![image](https://github.com/user-attachments/assets/9575d0e7-b63b-4582-958b-142a6c7b092b)
 
-Tutkin, että kotihakemistossani oli tosiaan uusi env-hakemista ja sen syvyyksistä löytyi site-packages-kansio:
+Tutkin, että kotihakemistossani oli tosiaan uusi env-kansio ja sen syvyyksistä löytyi site-packages-kansio:
 
 ![image](https://github.com/user-attachments/assets/1231370d-a266-4c0a-848f-6d89b81fd147)
 
