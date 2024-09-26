@@ -330,6 +330,9 @@ Korjasin static:n tilalle mikalie ja tarkistin, ettei mitään unohtunut:
 
 ![image](https://github.com/user-attachments/assets/a4d169e8-21cb-44c7-8f6e-328603ff06d1)
 
+Static-kansio on ohjeissa kansion terocon alla eli minun tapauksessani mikalie:n pitäisi olla jotakin:n alla. Katsoin Vivek Giten sivuilta (https://www.cyberciti.biz/faq/mv-command-howto-move-folder-in-linux-terminal/) kuinka tiedostoja siirretään ja siirsin kansion:
+
+![image](https://github.com/user-attachments/assets/2468653b-e305-4217-95e4-4686e83b3344)
 
 
 
@@ -349,6 +352,7 @@ Korjasin static:n tilalle mikalie ja tarkistin, ettei mitään unohtunut:
 - man which
 - Shittu Olumide 3.5.2024: How to Copy a Directory in Linux – Use the cp Command to Copy a Folder. https://www.freecodecamp.org/news/how-to-copy-a-directory-in-linux-use-the-cp-command-to-copy-a-folder/
 - teclado 13.4.2021: The Complete Guide to Python Virtual Environments! https://www.youtube.com/watch?v=KxvKCSwlUv8
+- Vivek Gite 26.8.2024: How to move a folder in Linux using mv command. https://www.cyberciti.biz/faq/mv-command-howto-move-folder-in-linux-terminal/
 
 ---
   
