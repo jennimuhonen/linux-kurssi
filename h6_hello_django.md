@@ -80,7 +80,16 @@ Ensiksi asensin virtuaaliympäristön apt-getillä:
 
 (Tajusin unohtaneeni päivittää apt-getin, joten päivitin sen `sudo apt-get update` ja annoin komennon `sudo apt-get -y install virtualenv` uudelleen.)
 
-Seuraavaksi ohjeissa annetaan komento `virtualenv --system-site-packages -p python3 env/`. 
+Seuraavaksi ohjeissa annetaan komento `virtualenv --system-site-packages -p python3 env/`. Ohjeissa selitetään, että komento luo uuden kansion env/, jossa on uusimmat paketit ilmeisestikin kansiossa `lib/site-packages/`. Ja haluamme käyttää Python 3:ea.
+
+Ohjeen selitystä kohdasta `--system-site-packages` en aivan ymmärtänyt, joten tarkistin mitä sanotaan `man virtualenv`. Siellä sanottiin, että kyseinen komento antaa virtuaaliympäristölle pääsyn systeemin "site-packages dir", joka oletuksena on "False". Eli ilmeisesti kyseinen hakemisto ei automaattisesti ole käytössä ja näin se otetaan käyttöön ja sitä kautta saadaan jotain paketteja käytettäväksi. Man-sivulta myös totesin, että -p liittyy python3:een eli komennolla `-p python3` määritellään, että asennamme Python 3:n. (Käytin tulkinnan tukena myös ChatGPT:tä kysymällä, mitä komento tekee.)
+
+![image](https://github.com/user-attachments/assets/9575d0e7-b63b-4582-958b-142a6c7b092b)
+
+Tutkin, että kotihakemistossani oli tosiaan uusi env-hakemista ja sen syvyyksistä löytyi site-packages-kansio:
+
+![image](https://github.com/user-attachments/assets/1231370d-a266-4c0a-848f-6d89b81fd147)
+
 
 
 
@@ -93,6 +102,7 @@ Seuraavaksi ohjeissa annetaan komento `virtualenv --system-site-packages -p pyth
 - Karvinen, Tero 2017: First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
 - Karvinen, Tero 2022: Django 4 Instant Customer Database Tutorial. https://terokarvinen.com/2022/django-instant-crm-tutorial/
 - Karvinen, Tero: Oppitunti 25.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
+- man virtualenv
 - teclado 13.4.2021: The Complete Guide to Python Virtual Environments! https://www.youtube.com/watch?v=KxvKCSwlUv8
 
 ---
