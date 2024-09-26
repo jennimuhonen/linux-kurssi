@@ -104,7 +104,7 @@ Annoin komennon:
 
 Ohjeissa sanottiin, että komento luultavasti näyttää env:n alussa eli tällä ilmeisestikin viitataan yllä näkyvään.
 
-Seuraava komento on `which pip` eli tällä tarkistetaan, että olemme asentamassa pip:llä virtuaaliympäristöön. Ohjeessa sanotaan, että pip:iä ei tule käyttää ilman virtuaaliympäristössä eikä sudo:n kanssa.
+Seuraava komento ohjeessa on `which pip` eli tällä tarkistetaan, että olemme varmasti asentamassa pip:llä virtuaaliympäristöön. Ohjeessa sanotaan, että pip:iä ei tule käyttää ilman virtuaaliympäristöä eikä sudo:n kanssa.
 
 Tarkistin which:n man-sivulta, että kyseinen komento kertoo annetun tiedoston hakemistopolun.
 
