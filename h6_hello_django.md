@@ -108,7 +108,7 @@ Seuraava komento ohjeessa on `which pip` eli tällä tarkistetaan, että olemme 
 
 Tarkistin which:n man-sivulta, että kyseinen komento kertoo annetun tiedoston hakemistopolun.
 
-Seuraavaksi annoin komennon ja pip näkyy olevan env-kansion alla, kuten myös opettajan ohjeessa.
+Seuraavaksi annoin komennon ja pip näkyy olevan env-kansion alla, samoin kuin opettajan ohjeessa:
 
 ![image](https://github.com/user-attachments/assets/5a964df2-6ea6-42d4-a5ad-ca4123d822a9)
 
