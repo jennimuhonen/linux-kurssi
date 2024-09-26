@@ -60,7 +60,7 @@ Muutaman salasanan typotuskerran jälkeen kirjautuminen onnistui!
 
 Tämän jälkeen yritin kieltää salasana-kirjautumisen uudestaan. Tässä kohtaa tuli ongelmia vastaan ja jostain syystä testi-käyttäjäni pääsi edelleen salasanalla sisään, vaikka olin laittanut PasswordAuthentication no. Lopulta päädyin lisäämään alkuperäisen rivin asetustiedostoon takaisin ja tämän jälkeen testi-käyttäjä ei päässyt enää salasanalla sisään.
 
-(Viimeistä haastetta selvitellessäni huomasin, että opettaja on antanut aiemmin ohjeen (https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/), että uudelleenkäynnistys hoidetaan tällä komennolla: `sudo service ssh restart`. Käytin tätä palauttaessani asetuksia.
+(Viimeistä haastetta selvitellessäni huomasin, että opettaja on antanut aiemmin ohjeen (https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/), että uudelleenkäynnistys hoidetaan tällä komennolla: `sudo service ssh restart`. Käytin tätä palauttaessani asetuksia. (Kysyin ChatGPT:ltä mitä eroa näillä kahdella on ja sen mukaan molemmat komennot suorittavat saman perustoiminnon eli käynnistävät uudelleen SSH-palvelun. En jäänyt selvittämään asiaa enempää.)
 
 
 
@@ -68,6 +68,8 @@ Tämän jälkeen yritin kieltää salasana-kirjautumisen uudestaan. Tässä koht
 
 **Lähteet**
 
+- ChatGPT.
+- Karvinen, Tero 2017: First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
 - Karvinen, Tero 2022: Django 4 Instant Customer Database Tutorial. https://terokarvinen.com/2022/django-instant-crm-tutorial/
 - Karvinen, Tero: Oppitunti 25.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
 
