@@ -278,12 +278,10 @@ Tarkistin, että käytä pip:iä oikeassa paikassa. Olin aiemmin tehnyt vaatimus
 
 ![image](https://github.com/user-attachments/assets/e980900d-45e3-49d1-8bb0-ff964e2c616e)
 
-Asennuksessa käytettiin näköjään aiemmin päivällä lataamiani tiedostoja.
-
-Tutkin edellisessä tehtävässä tekemääni ja tulin siihen tulokseen, että testiympäristö asentui ilmeisestikin automaattisesti projektin tekemisen myötä eli voinen sellaisenaan käyttää edellistä projektia. Siirsin projektin kansioon publicprojekti. Siirtämiskomentoon löysin apua Vivek Giten artikkelista (https://www.cyberciti.biz/faq/mv-command-howto-move-folder-in-linux-terminal/).
-
+Ohjeissa sanotaan, että voin kopioida aiemmin tekemäni projektin. Tein siis näin ja eli kopioin projektin kansioon publicprojekti. Tunnilla oli puhetta kopioimisesta ja tarkistin komennon vielä Shittu Olumiden artikkelista (https://www.freecodecamp.org/news/how-to-copy-a-directory-in-linux-use-the-cp-command-to-copy-a-folder/).
 
 ![image](https://github.com/user-attachments/assets/63cb0f80-86d0-4e1c-bec4-9806c49b7ade)
+
 
 
 
@@ -300,8 +298,8 @@ Tutkin edellisessä tehtävässä tekemääni ja tulin siihen tulokseen, että t
 - Karvinen, Tero: Oppitunti 25.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
 - man virtualenv
 - man which
+- Shittu Olumide 3.5.2024: How to Copy a Directory in Linux – Use the cp Command to Copy a Folder. https://www.freecodecamp.org/news/how-to-copy-a-directory-in-linux-use-the-cp-command-to-copy-a-folder/
 - teclado 13.4.2021: The Complete Guide to Python Virtual Environments! https://www.youtube.com/watch?v=KxvKCSwlUv8
-- Vivek Gite 26.8.2024: How to move a folder in Linux using mv command. https://www.cyberciti.biz/faq/mv-command-howto-move-folder-in-linux-terminal/
 
 ---
   
