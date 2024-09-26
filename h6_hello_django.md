@@ -220,6 +220,15 @@ Poistin, lisäsin ja poistin vielä yhden käyttäjän ja totesin, että kukin s
 
 ![image](https://github.com/user-attachments/assets/ae11644f-a058-46cd-9121-051251e0b49d)
 
+**Asiakkaiden nimet**
+
+Viimeisenä ohjeissa päivitetään vielä nimet kuntoon, joten kävin päivittämässä tiedoston tämän mukaisesti:
+
+![image](https://github.com/user-attachments/assets/12ab128a-0949-4f5f-8e8f-530770615ead)
+
+![image](https://github.com/user-attachments/assets/69d35c39-84d7-466e-9d9b-052fa910689d)
+
+
 
 ---
 
