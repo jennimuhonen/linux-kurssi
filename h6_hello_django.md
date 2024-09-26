@@ -292,7 +292,7 @@ Seuraavaksi ohjeissa todetaan, että tarvitsen tietooni kolme tiedostopolkua.
 
 Bash-comletionista on ollut paljon iloa tätä tehtävää tehdessä ja esimerkiksi yllä olevat osoiteet kopioin tähän komentoriviltä, johon etsin ne bash-completionin avulla. (Kuten ohjeessakin kehotettiin tekemään.) Lisäsin tiedostojen perään ohjeen mukaiset lyhenteet, joita käytetään pian. Lisäksi otin ylimääräiset / lopusta pois, sillä tiedostopolut tullaan kopioimaan ilman niitä.
 
-
+Ohjeessa kehotetaan tekemään django-käyttäjä, jolla ei ole sudo-oikeuksia, mutta koska en ole verkkopalvelimen puolella ja en ole julkaisemassa verkkoon, en tee erillistä käyttäjää. Virtuaalipalvelimen puolella olen tehnyt parikin eri testikäyttäjää testattuani SSH-avaimiin liittyviä ongelmia
 
 
 ---
