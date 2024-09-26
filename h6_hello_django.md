@@ -112,6 +112,7 @@ Seuraavaksi annoin komennon ja pip näkyy olevan env-kansion alla, samoin kuin o
 
 ![image](https://github.com/user-attachments/assets/5a964df2-6ea6-42d4-a5ad-ca4123d822a9)
 
+Seuraavaksi ohjeissa tehdään tiedosto, jossa lukee django ja tämän tiedoston avulla asennamme djangon komennolla `pip install -r requirements.txt`. Pyysin ChatGPT:tä selittämään tämän komennon ja ChatGPT:n mukaan yhteisen tiedoston käyttäminen on yleinen tapa jakaa Python projekteja, jotta kaikilla tiimissa on täsmälleen samat paketit ja versiot käytössään.
 
 ---
 
