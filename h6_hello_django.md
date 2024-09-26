@@ -64,7 +64,7 @@ Tämän jälkeen yritin kieltää salasana-kirjautumisen uudestaan. Tässä koht
 
 ## Tee yksinkertainen esimerkkiohjelma Djangolla
 
-Aloitin lukemalla opettajan ohjesivun: https://terokarvinen.com/2022/django-instant-crm-tutorial/.
+Aloitin lukemalla opettajan ohjesivua: https://terokarvinen.com/2022/django-instant-crm-tutorial/.
 
 Tunnilla opettaja kertoi, että asennamme Djangon virtuaaliympäristöön, jotta voimme tarvittaessa asentaa Djangon toistamiseen. En vielä tunnin perusteella täysin ymmärtänyt mistä virtuaaliympäristöissä oli kyse, joten katsoin täydennykseksi Youtubesta tecladon videon alkupuoliskon (https://www.youtube.com/watch?v=KxvKCSwlUv8), jossa hän selitti virtuaaliympäristöä. Tiivistetysti tulkitsin, että seuraavan ohjelman kohdalla Python-versio voi olla eri, mutta sen päivittäminen voisi sotkea aiemman ohjelman toiminnan ja tämän takia Pythonit halutaan ajaa eri ympäristöissä. Lisäksi eri ohjelmat saattavat kaivata erilaisia lisäpalikoita. Erillisten virtuaaliympäristöjen avulla nämä palikat ja versiot voidaan eristää toisistaan.
 
