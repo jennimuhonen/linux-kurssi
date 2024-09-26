@@ -48,8 +48,6 @@ Noudatin opettajan ohjeita ja poistin alkuperäisestä tiedostosta linkin ylimä
 
 Testasin muutokset:
 
-![image](https://github.com/user-attachments/assets/b78ceafd-06f3-458e-b8b9-14e27bbd250b)
-
 ![image](https://github.com/user-attachments/assets/2ceac9c0-d29e-4977-81bc-5b34c1b42914)
 
 Tein uuden testihenkilön, jolla ei ole ssh-avaimia ja kokeilin, pääseekö tällä tunnuksella sisään:
