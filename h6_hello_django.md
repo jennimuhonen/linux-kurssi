@@ -350,6 +350,18 @@ Jossain vaiheessa huomasinkin miettiä, että jotain (a2ensite) oli tekemättä.
 
 ![image](https://github.com/user-attachments/assets/78c8c137-c004-4daf-be8e-74550027e7c1)
 
+Localhost näytti järjestyksessä seuraavan sivun:
+
+![image](https://github.com/user-attachments/assets/b2bf1c9e-3b2f-46cf-9e5f-f4faebd10b13)
+
+Otin senkin pois häiritsemästä:
+
+![image](https://github.com/user-attachments/assets/3507674b-eedc-4ced-94c2-7923e2e55eca)
+
+Ja lopultakin toimii:
+
+![image](https://github.com/user-attachments/assets/620278a7-5aa7-4a15-9286-575d1f50166c)
+
 
 ---
 
