@@ -188,7 +188,7 @@ Päivitin asetustiedostoa ohjeiden mukaisesti eli lisäsin riville 40 `'crm',`
 
 ![image](https://github.com/user-attachments/assets/fd42d82b-57ea-4aa5-9f49-3c43b9491204)
 
-Seuraavaksi ohjeissa lisätään malleja (models):
+Seuraavaksi ohjeissa lisätään malleja (models). Ohjeiden mukaan Customer-luokka luo customer-taulukon tietokantaan nimi-sarakkeen kera.
 
 ![image](https://github.com/user-attachments/assets/c86752bf-1410-45a6-8ce2-365b87895fd6)
 
@@ -198,7 +198,13 @@ Ja päivitettiin muutokset tietokantaan:
 
 ![image](https://github.com/user-attachments/assets/d0c4c656-4267-4169-9119-9e24812a3a62)
 
+Seuraavaksi ohjeissa todetaan, että nähdäksemme uuden tietokantamme admin-sivulla, meidän täytyy rekisteröidä se:
 
+![image](https://github.com/user-attachments/assets/714a9b0e-5fa6-4dfc-8826-ca3832c7f46c)
+
+![image](https://github.com/user-attachments/assets/81018cfe-1022-4b23-9ccb-cd6911804b58)
+
+Ja tämän jälkeen mennään jälleen admin-sivulle katsomaan, mitä varsinaisesti tulikaan tehtyä.
 
 ---
 
