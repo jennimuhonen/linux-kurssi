@@ -28,7 +28,28 @@ Tehtäviä Tero Karvisen kurssille Linux Palvelimet 2024. https://terokarvinen.c
 
 ## extra, kirjautumismysteeri ratkeaa
 
-Olin aiemmin ihmetellyt, miksi en pääse kirjautumaan UpCloudin virtuaali-Debianiini salasanalla, vaikka se on sallittuna. En ennättänyt tätä itse selvittämään, vaan
+*26.9.2024 12.56*
+
+Olin aiemmin ihmetellyt, miksi en pääse kirjautumaan UpCloudin virtuaali-Debianiini salasanalla, vaikka se oli alunperin asetustiedostossa sallittuna. En ennättänyt tätä itse selvittämään, vaan ratkaisu löytyi viime oppitunnilla, kun kanssaopiskelijalla oli toisenlainen kirjautumishaaste eri palvelun virtuaalipalvelimella. Aivan tunnin lopuksi hän kertoi löytäneensä ongelmaan ratkaisun eli asetustiedossa oli linkki toiseen asetustiedostoon, jossa oli tämä ongelmia aiheuttanut asetus. Koska linkki on tiedoston alussa, tämä yliajaa myöhemmin tulevat asetukset. (Tämän opin edellisen kerran tehtäviä tehdessä.) Opettaja kehotti ratkaisemaan ongelman poistamalla kyseisen linkin.
+
+Tutkin tämän perusteella omaa asetustiedostoani ja löysin sieltä kuvatunlaisen linkin:
+
+![image](https://github.com/user-attachments/assets/1580d6cd-6f6e-4921-b7db-71364a1cda7c)
+
+![image](https://github.com/user-attachments/assets/6090a7e7-8fef-4490-820e-a75ae3e3da3c)
+
+Kävin tutkimassa, mitä tiedostosta löytyy ja kuten arvata saattoi, siellä estettiin kirjautuminen salasanalla:
+
+![image](https://github.com/user-attachments/assets/0bbd4f9d-f1cd-4fc4-9e48-22d47b8b5811)
+
+![image](https://github.com/user-attachments/assets/c9ed0025-e69c-4d71-b2ad-a5a8f0ef2c9d)
+
+Noudatin opettajan ohjeita ja poistin alkuperäisestä tiedostosta linkin ylimääräisiin asetuksiin.
+
+Testasin muutokset:
+
+![image](https://github.com/user-attachments/assets/2ceac9c0-d29e-4977-81bc-5b34c1b42914)
+
 
 
 ---
