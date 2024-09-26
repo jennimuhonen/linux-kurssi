@@ -280,6 +280,13 @@ Tarkistin, että käytä pip:iä oikeassa paikassa. Olin aiemmin tehnyt vaatimus
 
 Asennuksessa käytettiin näköjään aiemmin päivällä lataamiani tiedostoja.
 
+Tutkin edellisessä tehtävässä tekemääni ja tulin siihen tulokseen, että testiympäristö asentui ilmeisestikin automaattisesti projektin tekemisen myötä eli voinen sellaisenaan käyttää edellistä projektia. Siirsin projektin kansioon publicprojekti. Siirtämiskomentoon löysin apua Vivek Giten artikkelista (https://www.cyberciti.biz/faq/mv-command-howto-move-folder-in-linux-terminal/).
+
+
+![image](https://github.com/user-attachments/assets/63cb0f80-86d0-4e1c-bec4-9806c49b7ade)
+
+
+
 ---
 
 **Lähteet**
@@ -294,6 +301,7 @@ Asennuksessa käytettiin näköjään aiemmin päivällä lataamiani tiedostoja.
 - man virtualenv
 - man which
 - teclado 13.4.2021: The Complete Guide to Python Virtual Environments! https://www.youtube.com/watch?v=KxvKCSwlUv8
+- Vivek Gite 26.8.2024: How to move a folder in Linux using mv command. https://www.cyberciti.biz/faq/mv-command-howto-move-folder-in-linux-terminal/
 
 ---
   
