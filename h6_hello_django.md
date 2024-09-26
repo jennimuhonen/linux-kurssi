@@ -206,6 +206,12 @@ Seuraavaksi ohjeissa todetaan, että nähdäksemme uuden tietokantamme admin-siv
 
 Ja tämän jälkeen mennään jälleen admin-sivulle katsomaan, mitä varsinaisesti tulikaan tehtyä.
 
+![image](https://github.com/user-attachments/assets/9490c138-a9dd-4dd4-ad5c-1aab87313a34)
+
+![image](https://github.com/user-attachments/assets/8b3f04e9-afdc-41d1-a08a-084e5991327b)
+
+Ja siellähän tämä uusi valikko näkyy olevan!
+
 ---
 
 **Lähteet**
