@@ -208,9 +208,9 @@ Ja tämän jälkeen mennään jälleen admin-sivulle katsomaan, mitä varsinaise
 
 ![image](https://github.com/user-attachments/assets/9490c138-a9dd-4dd4-ad5c-1aab87313a34)
 
-![image](https://github.com/user-attachments/assets/8b3f04e9-afdc-41d1-a08a-084e5991327b)
+![image](https://github.com/user-attachments/assets/f7e4cc15-22d8-4a1a-9df0-ca94e17b3317)
 
-Ja siellähän tämä uusi valikko näkyy olevan!
+Ja siellähän tämä uusi taulu näkyy olevan!
 
 ---
 
