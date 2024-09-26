@@ -212,6 +212,15 @@ Ja tämän jälkeen mennään jälleen admin-sivulle katsomaan, mitä varsinaise
 
 Ja siellähän tämä uusi taulu näkyy olevan!
 
+Lisäsin kolme uutta asiakasta ja näköjään heille annetut nimet eivät näy tässä näkymässä:
+
+![image](https://github.com/user-attachments/assets/ceae559f-40c5-418f-b787-bc07d3d362e8)
+
+Poistin, lisäsin ja poistin vielä yhden käyttäjän ja totesin, että kukin saa yksilöllisen numeron sulkuihin:
+
+![image](https://github.com/user-attachments/assets/ae11644f-a058-46cd-9121-051251e0b49d)
+
+
 ---
 
 **Lähteet**
