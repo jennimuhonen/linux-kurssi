@@ -84,6 +84,8 @@ Seuraavaksi ohjeissa annetaan komento `virtualenv --system-site-packages -p pyth
 
 Ohjeen selitystä kohdasta `--system-site-packages` en aivan ymmärtänyt, joten tarkistin mitä sanotaan `man virtualenv`. Siellä sanottiin, että kyseinen komento antaa virtuaaliympäristölle pääsyn systeemin "site-packages dir", joka oletuksena on "False". Eli ilmeisesti kyseinen hakemisto ei automaattisesti ole käytössä ja näin se otetaan käyttöön ja sitä kautta saadaan jotain paketteja käytettäväksi. Man-sivulta myös totesin, että -p liittyy python3:een eli komennolla `-p python3` määritellään, että asennamme Python 3:n. (Käytin tulkinnan tukena myös ChatGPT:tä kysymällä, mitä komento tekee.)
 
+Saatuani kuvan siitä, mitä olin tekemässä, annoin komennon:
+
 ![image](https://github.com/user-attachments/assets/9575d0e7-b63b-4582-958b-142a6c7b092b)
 
 Tutkin, että kotihakemistossani oli tosiaan uusi env-hakemista ja sen syvyyksistä löytyi site-packages-kansio:
