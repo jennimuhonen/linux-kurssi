@@ -182,6 +182,12 @@ Jatkoin ohjeiden seuraamista, ensimmäisena luotiin uusi kansio crm:
 
 ![image](https://github.com/user-attachments/assets/39386945-fe0a-4905-9e2b-853469fecea1)
 
+Päivitin asetustiedostoa ohjeiden mukaisesti eli lisäsin riville 40 `'crm',`
+
+![image](https://github.com/user-attachments/assets/eb37fba4-9fb5-49c3-b3a1-07854e9465bb)
+
+![image](https://github.com/user-attachments/assets/fd42d82b-57ea-4aa5-9f49-3c43b9491204)
+
 
 
 ---
