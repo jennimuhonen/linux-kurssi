@@ -334,7 +334,17 @@ Static-kansio on ohjeissa kansion terocon alla eli minun tapauksessani mikalie:n
 
 ![image](https://github.com/user-attachments/assets/2468653b-e305-4217-95e4-4686e83b3344)
 
+Tein index-sivun:
 
+![image](https://github.com/user-attachments/assets/4fef5614-2aee-43df-b82e-ac7cb8b41b55)
+
+Tein conf-tiedoston:
+
+![image](https://github.com/user-attachments/assets/4b1fd43e-49d0-4df1-9946-2caa7c513a3f)
+
+Ja poistin sen tajuttuani, että sitä ei tarvittu, vaan tuossa kohtaa ohjetta tehtiin jotakin-tiedostoa vastaava conf-tiedosto.
+
+![image](https://github.com/user-attachments/assets/17a6ffa9-58fa-45e7-a6e9-2a6c08f02e1d)
 
 
 ---
