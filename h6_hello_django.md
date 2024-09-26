@@ -370,6 +370,9 @@ Ja vielä selaimessa:
 
 ![image](https://github.com/user-attachments/assets/221e19b7-98ab-48f4-b8cc-77952a2cbfc3)
 
+**DEBUG:n estäminen**
+
+
 
 ---
 
