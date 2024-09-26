@@ -166,6 +166,15 @@ Kirjauduin käyttäjätunnuksella ja salasanalla admin-sivulle:
 
 ![image](https://github.com/user-attachments/assets/7e36796a-e808-4467-87c9-44a2add8ab9a)
 
+Seuraavaksi ohjeissa kehotettiin tekemään toinen käyttäjä ja antamaan myös hänelle superkäyttäjän oikeudet. Tein saman kuin edellä eli generoin salasanan ja loin uuden superkäyttäjän komennolla `./manage.py createsuperuser`. Uuden käyttäjän käyttäjänimi on joku ja myös tämä käyttäjä pääsi onnistuneesti kirjautumaan:
+
+![image](https://github.com/user-attachments/assets/176ebd8f-b373-4dce-8d15-4a6fc58ac034)
+
+Tein kolmannen käyttäjän ja tämä tein käyttöliittymän puolelta ja generoin hänelle toisessa avaamassani terminaalissa salasanan. Näköjään käyttöliittymän kautta tehdessä löytyivät valinnat superuser ja staff eli varmaan tämä oli tehtävän alkuperäinen tarkoitus. Valitsin käyttäjälle testi nämä molemmat, tallensin ja kirjauduin ulos.
+
+![image](https://github.com/user-attachments/assets/fec05c78-39e2-4208-bb7b-09d872abf430)
+
+Myös käyttäjä testi pystyi vastaavaan tapaan hallinnoimaan käyttäjiä kuin edellisetkin.
 
 ---
 
