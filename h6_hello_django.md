@@ -346,6 +346,10 @@ Ja poistin sen tajuttuani, että sitä ei tarvittu, vaan tuossa kohtaa ohjetta t
 
 ![image](https://github.com/user-attachments/assets/17a6ffa9-58fa-45e7-a6e9-2a6c08f02e1d)
 
+Jossain vaiheessa huomasinkin miettiä, että jotain (a2ensite) oli tekemättä. Se johtui siitä, että tämä oli tehty jo aiemmin. Tein ohjeiden mukaisesti, default-tiedosto otettiin pois käytöstä.
+
+![image](https://github.com/user-attachments/assets/78c8c137-c004-4daf-be8e-74550027e7c1)
+
 
 ---
 
