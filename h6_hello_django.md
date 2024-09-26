@@ -128,12 +128,17 @@ Tarkistin Djangon sivuilta (https://www.djangoproject.com/download/), että uusi
 
 **Django**
 
+*26.9.2024 16.39*
+
+
+
 ---
 
 **Lähteet**
 
 - ChatGPT.
-- Django. How to get Django. https://www.djangoproject.com/download/
+- Django: How to get Django. https://www.djangoproject.com/download/
+- Geeksforgeeks 19.6.2024: Source Command in Linux with Examples. https://www.geeksforgeeks.org/source-command-in-linux-with-examples/
 - Karvinen, Tero 2017: First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
 - Karvinen, Tero 2022: Django 4 Instant Customer Database Tutorial. https://terokarvinen.com/2022/django-instant-crm-tutorial/
 - Karvinen, Tero: Oppitunti 25.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
