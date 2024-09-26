@@ -316,6 +316,23 @@ Tarkistin, että Apachella on kaikki kunnossa. Viesti on edelleen sama kuin aiem
 
 ![image](https://github.com/user-attachments/assets/1315dfcb-f457-408d-af69-79f01ec4ad18)
 
+Tässä kohtaa saan todeta hypänneeni liian nopsaan alun yli:
+
+![image](https://github.com/user-attachments/assets/b64925d0-fd67-406c-979e-b9e57df2f7eb)
+
+![image](https://github.com/user-attachments/assets/0737fd71-8cb4-49d6-aa70-ee617154b89c)
+
+Kurkistin tekemääni conf-tiedostoon, jossa viitataan static-kansioon, jota minulla ei tietenkään ole:
+
+![image](https://github.com/user-attachments/assets/3b46d594-c37d-4e1e-aba4-0e7ec324d26a)
+
+Korjasin static:n tilalle mikalie ja tarkistin, ettei mitään unohtunut:
+
+![image](https://github.com/user-attachments/assets/a4d169e8-21cb-44c7-8f6e-328603ff06d1)
+
+
+
+
 
 ---
 
