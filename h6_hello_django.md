@@ -92,8 +92,25 @@ Tutkin, että kotihakemistossani oli tosiaan uusi env-kansio ja sen syvyyksistä
 
 ![image](https://github.com/user-attachments/assets/1231370d-a266-4c0a-848f-6d89b81fd147)
 
+Seuraava komento ohjeissa on `source env/bin/activate` ja että tämä aktivoi virtuaaliympäristö. Komento vaatii jälleen hieman selvitystä ennen kuin annan sen. Kurkistin kansioon env/bin ja siellä näkyy olevan tiedosto activate:
 
+![image](https://github.com/user-attachments/assets/a63b5bc8-50e1-4c31-8d73-ad37f690d417)
 
+Geeksforgeeks-sivustoa (https://www.geeksforgeeks.org/source-command-in-linux-with-examples/) lukemalla ymmärsin, että source-komennolla suoritetaan mainittu tiedosto.
+
+Annoin komennon:
+
+![image](https://github.com/user-attachments/assets/2bd2d6a4-ebab-456a-ac26-6fe0fc95d75e)
+
+Ohjeissa sanottiin, että komento luultavasti näyttää env:n alussa eli tällä ilmeisestikin viitataan yllä näkyvään.
+
+Seuraava komento on `which pip` eli tällä tarkistetaan, että olemme asentamassa pip:llä virtuaaliympäristöön. Ohjeessa sanotaan, että pip:iä ei tule käyttää ilman virtuaaliympäristössä eikä sudo:n kanssa.
+
+Tarkistin which:n man-sivulta, että kyseinen komento kertoo annetun tiedoston hakemistopolun.
+
+Seuraavaksi annoin komennon ja pip näkyy olevan env-kansion alla, kuten myös opettajan ohjeessa.
+
+![image](https://github.com/user-attachments/assets/5a964df2-6ea6-42d4-a5ad-ca4123d822a9)
 
 
 ---
