@@ -176,6 +176,14 @@ Tein kolmannen käyttäjän ja tämä tein käyttöliittymän puolelta ja genero
 
 Myös käyttäjä testi pystyi vastaavaan tapaan hallinnoimaan käyttäjiä kuin edellisetkin.
 
+**Asiakaspalvelin (customer database)**
+
+Jatkoin ohjeiden seuraamista, ensimmäisena luotiin uusi kansio crm:
+
+![image](https://github.com/user-attachments/assets/39386945-fe0a-4905-9e2b-853469fecea1)
+
+
+
 ---
 
 **Lähteet**
