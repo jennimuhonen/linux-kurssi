@@ -26,7 +26,7 @@ Tehtäviä Tero Karvisen kurssille Linux Palvelimet 2024. https://terokarvinen.c
 
 ---
 
-## extra, kirjautumismysteeri ratkeaa
+## Extra, kirjautumismysteerin salaisuus
 
 *26.9.2024 12.56*
 
@@ -48,7 +48,15 @@ Noudatin opettajan ohjeita ja poistin alkuperäisestä tiedostosta linkin ylimä
 
 Testasin muutokset:
 
+![image](https://github.com/user-attachments/assets/b78ceafd-06f3-458e-b8b9-14e27bbd250b)
+
 ![image](https://github.com/user-attachments/assets/2ceac9c0-d29e-4977-81bc-5b34c1b42914)
+
+Tein uuden testihenkilön, jolla ei ole ssh-avaimia ja kokeilin, pääseekö tällä tunnuksella sisään:
+
+![image](https://github.com/user-attachments/assets/7d4dd441-f4e8-4e6e-ae20-3f94f8fb9ee7)
+
+Onnistui! Tämän jälkeen yritin kieltää salasana-kirjautumisen uudestaan. Tosin tässä kohtaa tuli ongelmia vastaan ja jostain syystä testi-käyttäjäni pääsi edelleen salasanalla sisään. Lopulta päädyin lisäämään alkuperäisen rivin asetustiedostoon takaisin ja tämän jälkeen testi-käyttäjä ei päässyt enää salasanalla sisään.
 
 
 
