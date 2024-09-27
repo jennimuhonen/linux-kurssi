@@ -120,7 +120,7 @@ Noudatin ohjeita. Tein tiedoston ja tarkistin sisällön cat:lla ja asensin sen.
 
 ![image](https://github.com/user-attachments/assets/a314d8a4-d042-4a01-8c71-6b0151a157fb)
 
-Seuraavaksi tarkistetaan, onko uusin versio asennettuna:
+Seuraavaksi kuului tarkistaa, onko uusin versio asennettuna:
 
 ![image](https://github.com/user-attachments/assets/18cab386-c010-456e-aaed-cfc464563478)
 
