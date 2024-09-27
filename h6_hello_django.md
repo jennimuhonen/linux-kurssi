@@ -446,6 +446,20 @@ Katsoin error.logia:
 
 ![image](https://github.com/user-attachments/assets/d9ef6feb-d551-4c35-bde7-084067803c3c)
 
+Hetken tuijotettuani virhelokia keksin ongelman. Kuten virheilmoitukset ovat yrittäneet kertoa "NameError: name 'BASE_DIR' is not defined". Eli BASE_DIR:iä ei ole määritelty siinä kohtaa, kun yritän ohjata STATIC_ROOT:iin. Eli lisäämäni pätkä oli hivenen liian ylhäällä ja tiedossa ei oltu vielä määritelty BASE_DIR:iä.
+
+Korjasin siirtämällä lisäämäni tekstin muutaman rivin alaspäin:
+
+![image](https://github.com/user-attachments/assets/7ed543b0-9898-481a-8310-771209a29498)
+
+Tämän jälkeen pystyin antamaan komennon `./manage.py collectstatic`:
+
+![image](https://github.com/user-attachments/assets/612316ba-2548-40a8-9282-0c4b43874f20)
+
+Admin-sivu näyttää siltä kuin a-tehtävässä:
+
+![image](https://github.com/user-attachments/assets/9242aa69-0c96-4789-bfd6-5510dee6cb8e)
+
 
 ---
 
