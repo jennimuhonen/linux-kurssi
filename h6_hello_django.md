@@ -396,7 +396,7 @@ Ohjeiden mukaan nyt localhostin ei pitäisi toimia ja näin oli:
 
 ![image](https://github.com/user-attachments/assets/e6a7a388-49b0-4a9b-a311-e8a570fe682d)
 
-Ohjeissa kehotettiin myös tarkistamaan jollain satunnaisella satunnaisella osoitteen lopussa, ettei vastaan tule debug-näkymää. Ei tullut:
+Ohjeissa kehotettiin myös tarkistamaan jollain satunnaisella lisäyksellä osoitteen lopussa, ettei vastaan tule debug-näkymää. Ei tullut:
 
 ![image](https://github.com/user-attachments/assets/6fc10b0a-ebdc-470c-b418-d59eda38f695)
 
