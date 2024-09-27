@@ -442,6 +442,11 @@ Eli kyllä, tämä komento piti antaa virtuaaliympäristössä. Onko nyt kyse va
 
 Luin raporttiani ja ongelmallista on varmasti ainakin se, että vaihdoin virtuaaliympäristön lennosta, mutta olen määrittänyt eri virtuaaliympäristön conf-tiedostoon.
 
+Katsoin error.logia:
+
+![image](https://github.com/user-attachments/assets/d9ef6feb-d551-4c35-bde7-084067803c3c)
+
+
 ---
 
 **Lähteet**
