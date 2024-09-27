@@ -356,11 +356,11 @@ Jossain vaiheessa aiemmin olin miettinyt, että jokin vaihe oli mahdollisesti j�
 
 ![image](https://github.com/user-attachments/assets/78c8c137-c004-4daf-be8e-74550027e7c1)
 
-Localhost näytti järjestyksessä seuraavan sivun:
+Nyt localhost näytti conf-kansiossa aakkosjärjestyksessä seuraavan sivun (tämänkin opin edellisiä tehtäviä tehdessä): 
 
 ![image](https://github.com/user-attachments/assets/b2bf1c9e-3b2f-46cf-9e5f-f4faebd10b13)
 
-Otin senkin pois häiritsemästä:
+Tiedostoissa on siis luultavasti keskenään hieman ristiriitaisia tietoja, joten otin hattu.example.comin pois häiritsemästä:
 
 ![image](https://github.com/user-attachments/assets/3507674b-eedc-4ced-94c2-7923e2e55eca)
 
