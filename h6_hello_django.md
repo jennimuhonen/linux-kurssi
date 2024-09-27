@@ -442,9 +442,9 @@ Eli kyllä, tämä komento piti antaa virtuaaliympäristössä. Onko nyt kyse va
 
 Luin raporttiani ja ongelmallista on varmasti ainakin se, että vaihdoin virtuaaliympäristön lennosta, mutta olen määrittänyt eri virtuaaliympäristön conf-tiedostoon.
 
-(Lisäys samana päivänä: näyttää siltä, ettei ole väliä muokkaanko ei-kooditiedostoja virtuaaliympäristön sisällä vai ulkona. Koska kaksi eri virtuaaliympäristöäni ovat täysin samanlaiset, voin myös käyttää niitä rinnakkain. Conf-tiedostossa viittaan lie-ympäristöön. Tämän viittauksen avulla ohjelma varmaankin osaa pyöriä selaimessa vastaavasti.)
+(Lisäys samana päivänä, omaa pohdintaa oppimaani liittyen: näyttää siltä, ettei ole väliä muokkaanko ei-kooditiedostoja virtuaaliympäristön sisällä vai ulkona. Koska kaksi eri virtuaaliympäristöäni ovat identtiset, voin myös käyttää niitä rinnakkain ja vuorotellen. Conf-tiedostossa viittaan lie-ympäristöön. Tämän viittauksen avulla ohjelmalle määritetään oikea virtuaaliympäristö selaimessa pyöriessään. Voisin myös viitata env-ympäristöön.)
 
-Katsoin error.logia:
+Seuraavaksi katsoin error.logia:
 
 ![image](https://github.com/user-attachments/assets/d9ef6feb-d551-4c35-bde7-084067803c3c)
 
