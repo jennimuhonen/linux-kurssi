@@ -276,6 +276,8 @@ Tarkistin, miten Apachella menee. Ohjeiden mukaan kaikki on hyvin, jos ainoa val
 
 Tein uuden virtuaaliympäristön uudelle projektille ja aktivoin sen. Arvelin, että ympäristön nimenä mikalie olisi ärsyttävän pitkä, joten ympäristöstä tuli lie:
 
+*(Lisäys 27.9.21.26: Koska käytin samaa projektia samalla koneella, minun olisi kannattanut käyttää jo olemassaolevaa virtuaaliympäristöä.)*
+
 ![image](https://github.com/user-attachments/assets/7618aae8-9d47-4136-bc9a-cb23e8262243)
 
 Tarkistin, että käytä pip:iä oikeassa paikassa. Olin aiemmin tehnyt vaatimustiedoston kotihakemistossa, joten voin käyttää samaa tiedostoa uudestaan. Sen jälkeen asensin Djangon ja tarkistin asennuksen.
