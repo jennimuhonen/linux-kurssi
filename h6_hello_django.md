@@ -420,7 +420,7 @@ Ohjeiden mukaan lisäyksen voisi tehdä mihin vain tiedostossa, mutta oikea paik
 
 Tässä kohtaa nostan kysymyksen, jota ajoittain olen miettinyt. Olisiko jotain kohdan b-toimista kuulunut tehdä virtuaaliympäristössä Pythonin asentamisen lisäksi? Huomaan, etten aivan vielä hahmota virtuaaliympäristön ideaa. Which-pip komennon perusteella on selkeää, että sitä en voi käyttää virtuaaliympäristön ulkopuolella. Ja sillä asensin Pythonin eli sitä en varmasti voi käyttää virtuaaliympäristön ulkopuolella. Mutta eli rajautuuko virtuaaliympäristö env/lie-kansioiden sisään? Miten varsinainen projekti suhtautuu siihen? Onko virtuaaliympäristöllä väliä vain koodatessa? Entä koodaamisen ulkopuolella?
 
-Asiaa mietittyäni minun ei ainakaan olisi kuulunut tehdä uutta virtuaaliympäristöä kopioidulle projektille, koska jos jotain olisi tässä vaiheessa muuttunut, vanhalla versiolla tehty projektini olisi solmussa.
+Asiaa mietittyäni minun ei ainakaan olisi kuulunut tehdä uutta virtuaaliympäristöä kopioidulle projektille, koska jos jotain olisi tässä vaiheessa muuttunut, vanhalla versiolla tehty projektini olisi solmussa. (Lisäys myöhemmin samana päivänä: Koska tein virtuaaliympäristön samoilla määrityksillä, niin ei siitä haittaakaan ollut, mutta olisin voinut käyttää myös alkuperäistä ympäristöä, kun se oli jo olemassa.)
 
 Ryhdyin katsomaan Tech With Tim:n videota aiheesta (https://www.youtube.com/watch?v=Y21OR1OPC9A) ja hän toteaa, että virtuaaliympäristö on yksinkertaisesti vain kansio ja tämä kansio on loogista sijoittaa Python-projektin läheisyyteen, joka tätä ympäristöä tarvitsee.
 
@@ -441,6 +441,8 @@ Testimielessä kokeilin komentoa virtuaaliympäristön ulkopuolella:
 Eli kyllä, tämä komento piti antaa virtuaaliympäristössä. Onko nyt kyse vain jostain kirjoitusvirheestä vai siitä, että jotain tekemistäni asioista olisi kuulunut tehdä virtuaaliympäristössä?
 
 Luin raporttiani ja ongelmallista on varmasti ainakin se, että vaihdoin virtuaaliympäristön lennosta, mutta olen määrittänyt eri virtuaaliympäristön conf-tiedostoon.
+
+(Lisäys samana päivänä: näyttää siltä, ettei ole väliä muokkaanko ei-kooditiedostoja virtuaaliympäristön sisällä vai ulkona. Koska kaksi eri virtuaaliympäristöäni ovat täysin samanlaiset, voin myös käyttää niitä rinnakkain. Conf-tiedostossa viittaan lie-ympäristöön. Tämän viittauksen avulla ohjelma varmaankin osaa pyöriä selaimessa vastaavasti.)
 
 Katsoin error.logia:
 
