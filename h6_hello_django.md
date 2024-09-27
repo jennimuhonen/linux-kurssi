@@ -422,7 +422,7 @@ Tämän jälkeen jatkoin ohjeiden seuraamista eli siirryin muokkaamaan asetustie
 
 Ohjeiden mukaan lisäyksen voisi tehdä mihin vain tiedostossa, mutta oikea paikka on alussa muiden importien kanssa:
 
-*(Lisäys 27.9. 22.07: Kuvassa näkyvä paikka on liian ylhäällä. Komento tulee laittaa muutamaa riviä alemmas, kuten hieman myöhemmin voi lukea.)
+*(Lisäys 27.9. 22.07: Kuvassa näkyvä paikka on liian ylhäällä. Komento tulee laittaa muutamaa riviä alemmas, kuten hieman myöhemmin voi lukea.)*
 
 ![image](https://github.com/user-attachments/assets/47e24648-6098-4acd-aa48-7b2c73f82ab4)
 
