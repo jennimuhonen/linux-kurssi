@@ -422,6 +422,8 @@ Tämän jälkeen jatkoin ohjeiden seuraamista eli siirryin muokkaamaan asetustie
 
 Ohjeiden mukaan lisäyksen voisi tehdä mihin vain tiedostossa, mutta oikea paikka on alussa muiden importien kanssa:
 
+*(Lisäys 27.9. 22.07: Kuvassa näkyvä paikka on liian ylhäällä. Komento tulee laittaa muutamaa riviä alemmas, kuten hieman myöhemmin voi lukea.)
+
 ![image](https://github.com/user-attachments/assets/47e24648-6098-4acd-aa48-7b2c73f82ab4)
 
 Tässä kohtaa nostan kysymyksen, jota ajoittain olen miettinyt. Olisiko jotain kohdan b-toimista kuulunut tehdä virtuaaliympäristössä Pythonin asentamisen lisäksi? Huomaan, etten aivan vielä hahmota virtuaaliympäristön ideaa. Which-pip komennon perusteella on selkeää, että sitä en voi käyttää virtuaaliympäristön ulkopuolella. Ja sillä asensin Pythonin eli sitä en varmasti voi käyttää virtuaaliympäristön ulkopuolella. Mutta eli rajautuuko virtuaaliympäristö env/lie-kansioiden sisään? Miten varsinainen projekti suhtautuu siihen? Onko virtuaaliympäristöllä väliä vain koodatessa? Entä koodaamisen ulkopuolella?
