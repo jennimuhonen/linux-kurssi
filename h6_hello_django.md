@@ -352,7 +352,7 @@ Ja poistin sen tajuttuani, että sitä ei tarvittu. Tässä kohtaa ohjetta tehti
 
 ![image](https://github.com/user-attachments/assets/17a6ffa9-58fa-45e7-a6e9-2a6c08f02e1d)
 
-Jossain vaiheessa aiemmin oli miettinyt, että jokin vaihe oli mahdollisesti jäänyt tekemättä ja tässä kohtaa totesin, että tämä puuttuva komento oli a2ensite. Koska jotakin.conf olisi oikeutettu jo aiemmin, mutta en siinä kohtaa seurannut ohjeita, jäi tämä vaihe epähuomiossa välistä. Tein siis nyt ohjeiden mukaisesti, default-tiedosto otettiin myös pois käytöstä:
+Jossain vaiheessa aiemmin olin miettinyt, että jokin vaihe oli mahdollisesti jäänyt tekemättä ja tässä kohtaa totesin, että tämä puuttuva komento oli a2ensite. Koska jotakin.conf olisi oikeutettu jo aiemmin, mutta en siinä kohtaa seurannut ohjeita, jäi tämä vaihe epähuomiossa välistä. Tein siis nyt ohjeiden mukaisesti, default-tiedosto otettiin myös pois käytöstä:
 
 ![image](https://github.com/user-attachments/assets/78c8c137-c004-4daf-be8e-74550027e7c1)
 
