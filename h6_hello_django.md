@@ -244,7 +244,7 @@ Lisäsin muutokset uudestaan ja muistin ajaa muutokset. Tässä kohtaa kävi ilm
 
 ![image](https://github.com/user-attachments/assets/2323d140-2281-4d08-8f2e-408a1c29753c)
 
-Etsin yllä olevasta mainintaa viimeisimmästä muokkaamastani tiedostosta, koska ongelma hyvin ilmeisesti liittyi siihen. Aivan lopussa on maininta kyseisestä tiedostosta ja viittaus riville 8. Tutkin asiaa ja virhe korjautui muuttamalla nimikentän maksimipituudeksi 160 (kuten ohjeessakin oli). Olin huomannut, että ohjeessa pituus oli aiemmin 300 ja uudessa se oli 160, mutta jätin sen muuttamatta, koska ohjeessa ei tätä kehotettu muuttamaan. (Tämä oli mukavan helposti tutkittava ja korjattava virhetilanne eli onneksi en ollut muuttanut tätä heti, näin pääsin hieman näkemään minkälaisia ongelmia voi tulla vastaan.) Oletetan, että etusivulla näkyvä nimikenttä on jossain määritelty lyhyemmäksi kuin 300, jonka takia uusi muutos oli virheellinen.
+Etsin yllä olevasta mainintaa viimeisimmästä muokkaamastani tiedostosta, koska ongelma hyvin ilmeisesti liittyi siihen. Aivan lopussa on maininta kyseisestä tiedostosta ja viittaus riville 8. Tutkin asiaa ja virhe korjautui muuttamalla nimikentän maksimipituudeksi 160 (kuten ohjeessakin oli). Olin huomannut, että ohjeessa pituus oli aiemmin 300 ja uudessa se oli 160, mutta jätin sen muuttamatta, koska ohjeessa ei tätä kehotettu muuttamaan. (Tämä oli mukavan helposti tutkittava ja korjattava virhetilanne eli onneksi en ollut muuttanut tätä heti. Nyt pääsin hieman näkemään minkälaisia ongelmia voi tulla vastaan.) Oletetan, että etusivulla näkyvä nimikenttä on jossain määritelty lyhyemmäksi kuin 300, jonka takia uusi muutos oli virheellinen.
 
 Korjausten jälkeen palvelin käynnistyi ja antamani nimet näkyivät:
 
