@@ -330,6 +330,8 @@ Kurkistin tekemääni conf-tiedostoon, jossa viitataan static-kansioon, jota min
 
 Korjasin static:n tilalle mikalie ja tarkistin, ettei mitään unohtunut:
 
+*(Lisäys 27.9. 21.39: kansion nimenä olisi kannattanut pitää static, muutin tämän myöhemmin takaisin.)*
+
 ![image](https://github.com/user-attachments/assets/a4d169e8-21cb-44c7-8f6e-328603ff06d1)
 
 Static-kansio on ohjeissa kansion terocon alla eli minun tapauksessani mikalie:n pitäisi olla jotakin:n alla. Katsoin Vivek Giten sivuilta (https://www.cyberciti.biz/faq/mv-command-howto-move-folder-in-linux-terminal/) kuinka tiedostoja siirretään ja siirsin kansion:
