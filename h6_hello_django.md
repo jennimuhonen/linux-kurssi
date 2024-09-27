@@ -276,7 +276,7 @@ Tarkistin, miten Apachella menee. Ohjeiden mukaan kaikki on hyvin, jos ainoa val
 
 Tein uuden virtuaaliympäristön uudelle projektille ja aktivoin sen. Arvelin, että ympäristön nimenä mikalie olisi ärsyttävän pitkä, joten ympäristöstä tuli lie:
 
-*(Lisäys 27.9. 21.26: Koska käytin samaa projektia samalla koneella, minun olisi kannattanut käyttää jo olemassaolevaa virtuaaliympäristöä. Jostain myös luin/näin videolta, että yleensä käytetään ympäristön nimenä env tai venv eikä aleta nimeämään niitä miksi sattuu. Myös mikalie-kansio aiheutti ylimääräistä säätämistä myöhemmin. Sen sijaan ohjeessa oli olennaisia kohtia, joista hyppäsin yli, kuten myöhemmin raportista voi lukea.)*
+*(Lisäys 27.9. 21.26: Koska käytin samaa projektia samalla koneella, minun olisi kannattanut käyttää jo olemassaolevaa virtuaaliympäristöä. Toisaalta lienee käytännöllistä, että ympäristö on kansiorakenteessa lähempänä kuin alkuperäinen ympäristö. Jostain myös luin/näin videolta, että yleensä käytetään ympäristön nimenä env tai venv eikä aleta nimeämään niitä miksi sattuu. Myös mikalie-kansio aiheutti ylimääräistä säätämistä myöhemmin. Sen sijaan ohjeessa oli olennaisia kohtia, joista hyppäsin yli, kuten myöhemmin raportista voi lukea.)*
 
 ![image](https://github.com/user-attachments/assets/7618aae8-9d47-4136-bc9a-cb23e8262243)
 
