@@ -432,7 +432,7 @@ Tässä kohtaa aloin enemmän miettiä seikkaa, jota ajoittain pohdin jo aiemmin
 
 Olisiko jotain kohdan b-toimista kuulunut tehdä virtuaaliympäristössä Pythonin asentamisen lisäksi? Huomaan, etten aivan vielä hahmota virtuaaliympäristön ideaa. Which-pip komennon perusteella on selkeää, että sitä en voi käyttää virtuaaliympäristön ulkopuolella. Ja sillä asensin Pythonin eli sitä en varmasti voi käyttää virtuaaliympäristön ulkopuolella. Mutta eli rajautuuko virtuaaliympäristö env/lie-kansioiden sisään? Miten varsinainen projekti suhtautuu siihen? Onko virtuaaliympäristöllä väliä vain koodatessa? Entä koodaamisen ulkopuolella?
 
-Asiaa mietittyäni minun ei ainakaan olisi kuulunut tehdä uutta virtuaaliympäristöä kopioidulle projektille, koska jos jotain olisi tässä vaiheessa muuttunut, vanhalla versiolla tehty projektini olisi solmussa. (Lisäys myöhemmin samana päivänä: Koska tein virtuaaliympäristön samoilla määrityksillä, niin ei siitä haittaakaan ollut, mutta olisin voinut käyttää myös alkuperäistä ympäristöä, kun se oli jo olemassa.)
+Asiaa mietittyäni totesin, että minun ei ainakaan olisi kuulunut tehdä uutta virtuaaliympäristöä kopioidulle projektille, koska jos jotain olisi tässä vaiheessa muuttunut, vanhalla versiolla tehty projektinihan olisi solmussa. (Lisäys paria tuntia myöhemmin: Koska tein virtuaaliympäristön samoilla määrityksillä, niin ei siitä haittaakaan ollut, mutta olisin voinut käyttää myös alkuperäistä ympäristöä, kun se oli jo olemassa.)
 
 Ryhdyin katsomaan Tech With Tim:n videota aiheesta (https://www.youtube.com/watch?v=Y21OR1OPC9A) ja hän toteaa, että virtuaaliympäristö on yksinkertaisesti vain kansio ja tämä kansio on loogista sijoittaa Python-projektin läheisyyteen, joka tätä ympäristöä tarvitsee.
 
