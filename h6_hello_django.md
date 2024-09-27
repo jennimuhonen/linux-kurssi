@@ -296,7 +296,7 @@ Seuraavaksi ohjeissa todetaan, että tarvitsen tietooni kolme tiedostopolkua.
 2. wsgi.py: /home/jenni/publicprojekti/jotakin/jotakin/wsgi.py (TWSGI)
 3. Virtualenv site-packages directory: /home/jenni/publicprojekti/lie/lib/python3.11/site-packages (TVENV)
 
-Bash-comletionista on ollut paljon iloa tätä tehtävää tehdessä ja esimerkiksi yllä olevat osoiteet kopioin tähän komentoriviltä, johon etsin ne bash-completionin avulla. (Kuten ohjeessakin kehotettiin tekemään.) Lisäsin tiedostojen perään ohjeen mukaiset lyhenteet, joita käytetään pian. Lisäksi otin ylimääräiset / lopusta pois, sillä tiedostopolut tullaan kopioimaan ilman niitä.
+Bash-completionista on ollut paljon iloa tätä tehtävää tehdessä ja esimerkiksi yllä olevat osoiteet kopioin tähän komentoriviltä, johon etsin ne bash-completionin avulla. (Kuten ohjeessakin kehotettiin tekemään.) Lisäsin tiedostojen perään ohjeen mukaiset lyhenteet, joita käytetään pian. Lisäksi otin ylimääräiset / lopusta pois, sillä tiedostopolut tullaan kopioimaan ilman niitä.
 
 Ohjeessa kehotetaan tekemään django-käyttäjä, jolla ei ole sudo-oikeuksia. Koska en ole verkkopalvelimen puolella ja en ole julkaisemassa verkkoon, en tee erillistä käyttäjää. Virtuaalipalvelimen puolella olen tehnyt parikin eri testikäyttäjää testattuani SSH-avaimiin liittyviä ongelmia, toinen pääsee kirjautumaan SSH-avaimilla ja toinen ei eivätkä kumpikaan ole sudo-ryhmässä, joten jätän VirtualBoxin puolella käyttäjien kanssa säätämisen tekemättä.
 
