@@ -478,6 +478,7 @@ Admin-sivu näyttää siltä kuin a-tehtävässä:
 - man virtualenv
 - man which
 - Shittu Olumide 3.5.2024: How to Copy a Directory in Linux – Use the cp Command to Copy a Folder. https://www.freecodecamp.org/news/how-to-copy-a-directory-in-linux-use-the-cp-command-to-copy-a-folder/
+- Tech With Tim 16.2.2024: Python Virtual Environments - Full Tutorial for Beginners. https://www.youtube.com/watch?v=Y21OR1OPC9A
 - teclado 13.4.2021: The Complete Guide to Python Virtual Environments! https://www.youtube.com/watch?v=KxvKCSwlUv8
 - Vivek Gite 26.8.2024: How to move a folder in Linux using mv command. https://www.cyberciti.biz/faq/mv-command-howto-move-folder-in-linux-terminal/
 
