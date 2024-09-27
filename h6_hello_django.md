@@ -462,7 +462,7 @@ Seuraavaksi katsoin error.logia:
 
 ![image](https://github.com/user-attachments/assets/d9ef6feb-d551-4c35-bde7-084067803c3c)
 
-Hetken tuijotettuani virhelokia keksin ongelman. Kuten virheilmoitukset ovat yrittäneet kertoa "NameError: name 'BASE_DIR' is not defined". Eli BASE_DIR:iä ei ole määritelty siinä kohtaa, kun yritän ohjata STATIC_ROOT:iin. Eli lisäämäni pätkä oli hivenen liian ylhäällä ja tiedossa ei oltu vielä määritelty BASE_DIR:iä.
+Hetken tuijotettuani virhelokia keksin ongelman. Kuten virheilmoitukset ovat yrittäneet kertoa "NameError: name 'BASE_DIR' is not defined". Eli BASE_DIR:iä ei ole määritelty siinä kohtaa, kun yritän ohjata STATIC_ROOT:iin. Eli lisäämäni pätkä oli hivenen liian ylhäällä ja tiedostossa ei oltu vielä määritelty BASE_DIR:iä.
 
 Korjasin siirtämällä lisäämäni tekstin muutaman rivin alaspäin:
 
