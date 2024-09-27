@@ -84,7 +84,7 @@ Ensiksi asensin virtuaaliympäristön apt-getillä:
 
 Seuraavaksi ohjeissa annetaan komento `virtualenv --system-site-packages -p python3 env/`. Ohjeissa selitetään, että komento luo uuden kansion env/, jossa on uusimmat paketit ilmeisestikin kansiossa `lib/site-packages/`. Ja haluamme käyttää Python 3:ea.
 
-Ohjeen selitystä kohdasta `--system-site-packages` en aivan ymmärtänyt, joten tarkistin mitä sanotaan `man virtualenv`. Siellä sanottiin, että kyseinen komento antaa virtuaaliympäristölle pääsyn systeemin "site-packages dir", joka oletuksena on "False". Eli ilmeisesti kyseinen hakemisto ei automaattisesti ole käytössä ja näin se otetaan käyttöön ja sitä kautta saadaan paketteja käytettäväksi. Man-sivulta myös totesin, että -p liittyy python3:een eli komennolla `-p python3` määritellään, että asennamme Python 3:n. (Käytin tulkinnan tukena myös ChatGPT:tä kysymällä, mitä komento tekee.)
+Ohjeen selitystä kohdasta `--system-site-packages` en aivan ymmärtänyt, joten tarkistin mitä sanotaan `man virtualenv`. Siellä sanottiin, että kyseinen komento antaa virtuaaliympäristölle pääsyn systeemin "site-packages dir", joka oletuksena on "False". Eli ilmeisesti kyseinen hakemisto ei automaattisesti ole käytössä ja näin se otetaan käyttöön ja sitä kautta saadaan paketteja käytettäväksi. Man-sivulta myös luin, että -p liittyy python3:een eli komennolla `-p python3` määritellään, että asennamme Python 3:n. (Käytin Man-tekstin tulkinnan tukena myös ChatGPT:tä kysymällä, mitä komento tekee.)
 
 Saatuani kuvan siitä, mitä olin tekemässä, annoin komennon:
 
