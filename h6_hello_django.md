@@ -476,6 +476,7 @@ Admin-sivu näyttää siltä kuin a-tehtävässä:
 
 ![image](https://github.com/user-attachments/assets/9242aa69-0c96-4789-bfd6-5510dee6cb8e)
 
+Eli tehtävä suoritettu!
 
 ---
 
