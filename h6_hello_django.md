@@ -390,11 +390,21 @@ Ohjeiden mukaan nyt localhostin ei pitäisi toimia ja näin oli:
 
 ![image](https://github.com/user-attachments/assets/e6a7a388-49b0-4a9b-a311-e8a570fe682d)
 
-Ohjeissa kehotettiin myös tarkistamaan jollain satunnaisella satunnaisella osoitteen lopussa, ettei vastaan tule debug-näkymää:
+Ohjeissa kehotettiin myös tarkistamaan jollain satunnaisella satunnaisella osoitteen lopussa, ettei vastaan tule debug-näkymää. Ei tullut:
 
 ![image](https://github.com/user-attachments/assets/6fc10b0a-ebdc-470c-b418-d59eda38f695)
 
-Tässä kohtaa tajusin, ettei minulla ole aavistu
+Admin-sivu sen sijaan "toimii":
+
+![image](https://github.com/user-attachments/assets/4b5930cb-d0bc-41ff-ae1d-c427e05ca78c)
+
+Kokeilin myös kirjautuna käyttäjänä joku ja toimii edelleen:
+
+![image](https://github.com/user-attachments/assets/d9ba70b8-b254-483a-94fd-5e4d89924fe5)
+
+**Ulkonäön fiksaaminen**
+
+
 
 ---
 
