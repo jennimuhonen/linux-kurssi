@@ -440,6 +440,8 @@ Testimielessä kokeilin komentoa virtuaaliympäristön ulkopuolella:
 
 Eli kyllä, tämä komento piti antaa virtuaaliympäristössä. Onko nyt kyse vain jostain kirjoitusvirheestä vai siitä, että jotain tekemistäni asioista olisi kuulunut tehdä virtuaaliympäristössä?
 
+Luin raporttiani ja ongelmallista on varmasti ainakin se, että vaihdoin virtuaaliympäristön lennosta, mutta olen määrittänyt eri virtuaaliympäristön conf-tiedostoon.
+
 ---
 
 **Lähteet**
