@@ -346,7 +346,7 @@ Tein conf-tiedoston:
 
 ![image](https://github.com/user-attachments/assets/4b1fd43e-49d0-4df1-9946-2caa7c513a3f)
 
-Ja poistin sen tajuttuani, että sitä ei tarvittu, vaan tuossa kohtaa ohjetta tehtiin jotakin-tiedostoa vastaava conf-tiedosto.
+Ja poistin sen tajuttuani, että sitä ei tarvittu. Tässä kohtaa ohjetta tehtiin jotakin-tiedostoa vastaava conf-tiedosto, joka myöhemmin päivitettiin tuohon hieman ylempänä raportissa näkyvään muotoon.
 
 ![image](https://github.com/user-attachments/assets/17a6ffa9-58fa-45e7-a6e9-2a6c08f02e1d)
 
