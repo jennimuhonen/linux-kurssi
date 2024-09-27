@@ -381,6 +381,12 @@ Ohjeiden mukaan localhost on testaamista varten ja domain-nimeksi se, mitä suun
 
 ![image](https://github.com/user-attachments/assets/a3f38e63-8ff6-4b8b-a29d-bb0b05dc3caf)
 
+Seuraavaksi ohjeissa on komento `touch teroco/wsgi.py`. Touch:n man-sivun mukaan tällä komennolla muutetaan tiedoston
+aikaleimoja. Annoin komennon, tarkistin Apachen tilan ja käynnistin sen uudestaan.
+
+![image](https://github.com/user-attachments/assets/f23befd0-6dd3-48b1-88b4-6dfa6d83122c)
+
+
 
 ---
 
@@ -393,6 +399,7 @@ Ohjeiden mukaan localhost on testaamista varten ja domain-nimeksi se, mitä suun
 - Karvinen, Tero 2022: Deploy Django 4 - Production Install. https://terokarvinen.com/2022/deploy-django/
 - Karvinen, Tero 2022: Django 4 Instant Customer Database Tutorial. https://terokarvinen.com/2022/django-instant-crm-tutorial/
 - Karvinen, Tero: Oppitunti 25.9.2024. Linux-palvelimet. https://terokarvinen.com/linux-palvelimet/
+- man touch
 - man virtualenv
 - man which
 - Shittu Olumide 3.5.2024: How to Copy a Directory in Linux – Use the cp Command to Copy a Folder. https://www.freecodecamp.org/news/how-to-copy-a-directory-in-linux-use-the-cp-command-to-copy-a-folder/
