@@ -62,7 +62,7 @@ Tämän jälkeen yritin kieltää salasana-kirjautumisen uudestaan. Tässä koht
 
 (Viimeistä haastetta selvitellessäni huomasin, että opettaja on antanut aiemmin ohjeen (https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/), että uudelleenkäynnistys hoidetaan tällä komennolla: `sudo service ssh restart`. Käytin tätä palauttaessani asetuksia. (Kysyin ChatGPT:ltä mitä eroa komennoilla `sudo systemctl restart sshd` ja `sudo service ssh restart` on ja sen mukaan molemmat komennot suorittavat saman perustoiminnon eli käynnistävät uudelleen SSH-palvelun. En jäänyt selvittämään asiaa enempää.)
 
-## Tee yksinkertainen esimerkkiohjelma Djangolla
+## a) Tee yksinkertainen esimerkkiohjelma Djangolla
 
 Aloitin lukemalla opettajan ohjesivua: https://terokarvinen.com/2022/django-instant-crm-tutorial/.
 
@@ -304,7 +304,7 @@ Tein tiedoston ohjeiden mukaisesti:
 
 ![image](https://github.com/user-attachments/assets/11244c28-035d-4362-99a2-92cd9220f3a3)
 
-Ja tarkistin, että tiedoston on oikeassa paikassa:
+Ja tarkistin, että tiedosto on oikeassa paikassa:
 
 ![image](https://github.com/user-attachments/assets/214cc349-c5e5-46fe-b177-92cd159698a1)
 
