@@ -434,6 +434,8 @@ Asiaa mietittyäni minun ei ainakaan olisi kuulunut tehdä uutta virtuaaliympär
 
 Ryhdyin katsomaan Tech With Tim:n videota aiheesta (https://www.youtube.com/watch?v=Y21OR1OPC9A) ja hän toteaa, että virtuaaliympäristö on yksinkertaisesti vain kansio ja tämä kansio on loogista sijoittaa Python-projektin läheisyyteen, joka tätä ympäristöä tarvitsee.
 
+**Takaisin aiheeseen**
+
 Pohdintä liittyi seuraavaan komentoon eli tuleeko virtuaaliympäristöä käyttää komennon ´./manage.py collectstatic` yhteydessä. Laitoin alkuperäisen ympäristön päälle ja annoin sen jälkeen komennon:
 
 ![image](https://github.com/user-attachments/assets/4b39eec5-ea2b-4bbe-99a1-f57f10829c56)
