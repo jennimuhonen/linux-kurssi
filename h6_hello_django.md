@@ -404,7 +404,12 @@ Kokeilin myös kirjautuna käyttäjänä joku ja toimii edelleen:
 
 **Ulkonäön fiksaaminen**
 
-Nyt opin miksi sen yhden kansion nimi ohjeissa oli static. Se selvästikin viittaa staattisiin tiedostoihin, kuten CSS:ään. Kävin korjaamassa selkeyden nimissä.
+Nyt opin miksi sen yhden kansion nimi ohjeissa oli static. Se selvästikin viittaa staattisiin tiedostoihin, kuten CSS:ään. Kävin korjaamassa selkeyden nimissä:
+
+![image](https://github.com/user-attachments/assets/0ad831e9-789b-46e0-865b-012cd8fdf1d5)
+
+![image](https://github.com/user-attachments/assets/f4149619-3487-45e9-9fe5-71a6e12593fd)
+
 
 
 ---
