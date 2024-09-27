@@ -256,7 +256,7 @@ Tehtävä oli oikein opettavainen ja hieman kun opiskelisi Pythonia, voisi kokei
 
 *26.9.2024 20.21 (eli tauon jälkeen)*
 
-Asiaa harkittuani päätin olla asentamatta Djangoa virtuaalipalvelimen puolelle ja pysyä VirtualBoxin Debianilla, sillä Python-osaamiseni pitäisi olla parempaa (tai edes olemassa) ennen kuin lähtisin jakamaan mitään kenenkään nähtäville.
+Asiaa harkittuani päätin olla asentamatta Djangoa virtuaalipalvelimen puolelle ja pysyä VirtualBoxin Debianilla, sillä Python-osaamiseni pitäisi olla parempaa (tai edes olemassa) ennen kuin haluan jakaa mitään kenenkään nähtäville.
 
 Luin opettajan ohjeita (https://terokarvinen.com/2022/deploy-django/) jo ennen taukoa perehtyäkseni aiheeseen. Ohjeiden alkupuolella on paljon asioita, jotka on tehty jo aiemmin kurssilla, joten poimin vain uusia asioita ohjeen alkupuoliskolta.
 
