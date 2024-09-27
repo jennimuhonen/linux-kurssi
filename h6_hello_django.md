@@ -371,7 +371,15 @@ Ja vielä selaimessa:
 ![image](https://github.com/user-attachments/assets/221e19b7-98ab-48f4-b8cc-77952a2cbfc3)
 
 **DEBUG:n estäminen**
+*27.9.2024 10:16*
 
+Jatkoin opettajan ohjeiden mukaisesti muokkaamaan asetustiedostoa:
+
+![image](https://github.com/user-attachments/assets/42d542c4-d6df-492b-937c-e2b4dd3b6e6b)
+
+Ohjeiden mukaan localhost on testaamista varten ja domain-nimeksi se, mitä suunnittelee käyttävänsä tälle sivulle. Tässä tapauksessa en tietenkään ole suunnitellut mitään eli hello-sivu placeholderina:
+
+![image](https://github.com/user-attachments/assets/a3f38e63-8ff6-4b8b-a29d-bb0b05dc3caf)
 
 
 ---
