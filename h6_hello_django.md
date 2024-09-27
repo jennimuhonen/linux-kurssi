@@ -394,7 +394,7 @@ Ohjeissa kehotettiin myös tarkistamaan jollain satunnaisella satunnaisella osoi
 
 ![image](https://github.com/user-attachments/assets/6fc10b0a-ebdc-470c-b418-d59eda38f695)
 
-Admin-sivu sen sijaan "toimii":
+Admin-sivu sen sijaan toimii, mutta näyttää kauhealta:
 
 ![image](https://github.com/user-attachments/assets/4b5930cb-d0bc-41ff-ae1d-c427e05ca78c)
 
@@ -404,6 +404,7 @@ Kokeilin myös kirjautuna käyttäjänä joku ja toimii edelleen:
 
 **Ulkonäön fiksaaminen**
 
+Nyt opin miksi sen yhden kansion nimi ohjeissa oli static. Se selvästikin viittaa staattisiin tiedostoihin, kuten CSS:ään. Kävin korjaamassa selkeyden nimissä.
 
 
 ---
