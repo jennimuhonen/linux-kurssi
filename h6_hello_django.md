@@ -383,7 +383,7 @@ Jatkoin opettajan ohjeiden mukaisesti muokkaamaan asetustiedostoa:
 
 ![image](https://github.com/user-attachments/assets/42d542c4-d6df-492b-937c-e2b4dd3b6e6b)
 
-Ohjeiden mukaan localhost on testaamista varten ja domain-nimeksi se, mitä suunnittelee käyttävänsä tälle sivulle. Tässä tapauksessa en tietenkään ole suunnitellut mitään eli hello-sivu placeholderina:
+Ohjeiden mukaan localhost on testaamista varten ja domain-nimeksi se, mitä suunnittelee käyttävänsä tälle sivulle. Tässä tapauksessa en tietenkään ole suunnitellut mitään eli käytin helloa placeholderina:
 
 ![image](https://github.com/user-attachments/assets/a3f38e63-8ff6-4b8b-a29d-bb0b05dc3caf)
 
