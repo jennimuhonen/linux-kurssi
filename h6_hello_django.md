@@ -434,6 +434,11 @@ Jotain on kuitenkin pielessä joko edellä tekemieni muutosten kanssa tai virtua
 
 ![image](https://github.com/user-attachments/assets/687eb3fe-9dbc-488d-a34e-ca3a2cc0ecc5)
 
+Testimielessä kokeilin komentoa virtuaaliympäristön ulkopuolella:
+
+![image](https://github.com/user-attachments/assets/bc8e5de6-5fcb-435b-926e-3dc50c94a2f1)
+
+Eli kyllä, tämä komento piti antaa virtuaaliympäristössä. Onko nyt kyse vain jostain kirjoitusvirheestä vai siitä, että jotain tekemistäni asioista olisi kuulunut tehdä virtuaaliympäristössä?
 
 ---
 
