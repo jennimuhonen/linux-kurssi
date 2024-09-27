@@ -150,7 +150,7 @@ Katsoin jotakin-kansioon ja sieltä löytyi manage.py:
 
 **Admin-liittymä**
 
-Seuraavaksi ohjeissa lisätään admin sivustolle, sillä tällä hetkellä sivustolle http://127.0.0.1:8000/admin/ ei vielä pääse kirjautumaan:
+Seuraavaksi ohjeissa lisätään ylläpitäjä sivustolle, sillä tällä hetkellä sivulle http://127.0.0.1:8000/admin/ ei vielä ole kirjautumistunnuksia olemassa:
 
 ![image](https://github.com/user-attachments/assets/b09ac21b-d679-4043-92f5-5c11f2277d3a)
 
