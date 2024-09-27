@@ -318,9 +318,7 @@ Tarkistin, että Apachella on kaikki kunnossa. Viesti on edelleen sama kuin aiem
 
 ![image](https://github.com/user-attachments/assets/1315dfcb-f457-408d-af69-79f01ec4ad18)
 
-Seuraavaksi vähitellen havaisin hypänneeni liian nopsaan alun yli.
-
-Tiesin aiempien viikkojen ongelmanselvittelyjen pohjalta, että näkyvissä oli var-kansion default-sivu, jonne päädytään helposti esimerkiksi silloin, kun conf-tiedostossa on jotain häikkää:
+Testaamisen myötä huomasin, että jotain oli pielessä. Tiesin aiempien viikkojen ongelmanselvittelyjen pohjalta, että näkyvissä oli var-kansion default-sivu, jonne päädytään helposti esimerkiksi silloin, kun conf-tiedostossa on jotain häikkää:
 
 ![image](https://github.com/user-attachments/assets/b64925d0-fd67-406c-979e-b9e57df2f7eb)
 
