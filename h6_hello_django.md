@@ -456,7 +456,7 @@ Eli kyllä, tämä komento piti antaa virtuaaliympäristössä. Onko nyt kyse va
 
 Luin raporttiani ja ongelmallista on varmasti ainakin se, että vaihdoin virtuaaliympäristön lennosta, mutta olen määrittänyt eri virtuaaliympäristön conf-tiedostoon.
 
-(Lisäys samana päivänä, omaa pohdintaa oppimaani liittyen: näyttää siltä, ettei ole väliä muokkaanko ei-kooditiedostoja virtuaaliympäristön sisällä vai ulkona. Koska kaksi eri virtuaaliympäristöäni ovat identtiset, voin myös käyttää niitä rinnakkain ja vuorotellen. Conf-tiedostossa viittaan lie-ympäristöön. Tämän viittauksen avulla ohjelmalle määritetään oikea virtuaaliympäristö selaimessa pyöriessään. Voisin myös viitata env-ympäristöön.)
+(Lisäys samana päivänä, pari tuntia myöhemmin, omaa pohdintaa oppimaani liittyen: näyttää siltä, ettei ole väliä muokkaanko ei-kooditiedostoja virtuaaliympäristön sisällä vai ulkona. Koska kaksi eri virtuaaliympäristöäni ovat identtiset, voin myös käyttää niitä rinnakkain ja vuorotellen. Conf-tiedostossa viittaan lie-ympäristöön. Tämän viittauksen avulla ohjelmalle määritetään oikea virtuaaliympäristö selaimessa pyöriessään. Voisin myös viitata env-ympäristöön.)
 
 Seuraavaksi katsoin error.logia:
 
