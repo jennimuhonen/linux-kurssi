@@ -404,12 +404,19 @@ Kokeilin myös kirjautuna käyttäjänä joku ja toimii edelleen:
 
 **Ulkonäön fiksaaminen**
 
-Nyt opin miksi sen yhden kansion nimi ohjeissa oli static. Se selvästikin viittaa staattisiin tiedostoihin, kuten CSS:ään. Kävin korjaamassa selkeyden nimissä:
+Nyt opin miksi sen yhden kansion nimi ohjeissa oli static. Se viittaa staattisiin tiedostoihin, kuten CSS:ään. Kävin korjaamassa mikalien staticiksi selkeyden nimissä:
 
 ![image](https://github.com/user-attachments/assets/0ad831e9-789b-46e0-865b-012cd8fdf1d5)
 
 ![image](https://github.com/user-attachments/assets/f4149619-3487-45e9-9fe5-71a6e12593fd)
 
+Tämän jälkeen jatkoin ohjeiden seuraamista eli siirryin muokkaamaan asetustiedostoa:
+
+![image](https://github.com/user-attachments/assets/543a7f94-8874-4840-8805-abd509a71844)
+
+Ohjeiden mukaan lisäyksen voisi tehdä mihin vain tiedostossa, mutta oikea paikka on alussa muiden importien kanssa:
+
+![image](https://github.com/user-attachments/assets/47e24648-6098-4acd-aa48-7b2c73f82ab4)
 
 
 ---
