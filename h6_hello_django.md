@@ -328,7 +328,7 @@ Kurkistin tekemääni conf-tiedostoon, jossa viitataan static-kansioon, jota min
 
 ![image](https://github.com/user-attachments/assets/3b46d594-c37d-4e1e-aba4-0e7ec324d26a)
 
-Palasin tarkistamaan alkupään ohjeita.
+Palasin tarkistamaan ja seuraamaan alkupään ohjeita.
 
 Korjasin static:n tilalle mikalie ja tarkistin, ettei mitään unohtunut:
 
