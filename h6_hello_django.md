@@ -270,7 +270,7 @@ Tein uuden kansion ja alikansion projektia varten:
 
 ![image](https://github.com/user-attachments/assets/cde33ce9-ee8f-4443-aa65-ea37fb088f8d)
 
-Tarkistin, miten Apachella menee. Ohjeiden mukaan kaikki on hyvin, jos ainoa valitus on AH00558 ja sanotaan Syntax OK. Näin oli eli kaikki vaikutti olevan ok.
+Tarkistin, miten Apachella menee. Ohjeiden mukaan kaikki on hyvin, jos ainoa valitus on AH00558 ja sanotaan Syntax OK. Näin oli eli kaikki vaikutti olevan ok:
 
 ![image](https://github.com/user-attachments/assets/0ce5d94f-acb1-4120-be05-4acfedc88f64)
 
