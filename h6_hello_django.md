@@ -386,7 +386,15 @@ aikaleimoja. Annoin komennon, tarkistin Apachen tilan ja käynnistin sen uudesta
 
 ![image](https://github.com/user-attachments/assets/f23befd0-6dd3-48b1-88b4-6dfa6d83122c)
 
+Ohjeiden mukaan nyt localhostin ei pitäisi toimia ja näin oli:
 
+![image](https://github.com/user-attachments/assets/e6a7a388-49b0-4a9b-a311-e8a570fe682d)
+
+Ohjeissa kehotettiin myös tarkistamaan jollain satunnaisella satunnaisella osoitteen lopussa, ettei vastaan tule debug-näkymää:
+
+![image](https://github.com/user-attachments/assets/6fc10b0a-ebdc-470c-b418-d59eda38f695)
+
+Tässä kohtaa tajusin, ettei minulla ole aavistu
 
 ---
 
