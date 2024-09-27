@@ -404,7 +404,7 @@ Admin-sivu sen sijaan toimii, mutta näyttää kauhealta:
 
 ![image](https://github.com/user-attachments/assets/4b5930cb-d0bc-41ff-ae1d-c427e05ca78c)
 
-Kokeilin myös kirjautuna käyttäjänä joku ja toimii edelleen:
+Kokeilin myös kirjautuna käyttäjänä "joku" ja samat tunnukset, jotka tein a-tehtävässä, toimivat edelleen:
 
 ![image](https://github.com/user-attachments/assets/d9ba70b8-b254-483a-94fd-5e4d89924fe5)
 
