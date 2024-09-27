@@ -400,7 +400,7 @@ Ohjeissa kehotettiin myös tarkistamaan jollain satunnaisella lisäyksellä osoi
 
 ![image](https://github.com/user-attachments/assets/6fc10b0a-ebdc-470c-b418-d59eda38f695)
 
-Admin-sivu sen sijaan toimii, mutta näyttää kauhealta:
+Admin-sivu sen sijaan toimi, mutta näytti kauhealta:
 
 ![image](https://github.com/user-attachments/assets/4b5930cb-d0bc-41ff-ae1d-c427e05ca78c)
 
