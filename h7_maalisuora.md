@@ -77,15 +77,47 @@ Hyvin toimi! Tässä vielä cat-komennolla koodi:
 ![image](https://github.com/user-attachments/assets/cc5a36f9-a78c-4cd9-b1d5-0ea8d93902ec)
 
 
+**C**
+
+*Tauon jälkeen 3.10.2024 15.46*
+
+Debianin sivujen (https://www.debian.org/doc/manuals/debian-reference/ch12.en.html#_coding_in_compiled_languages) mukaan C:tä käyttääkseen tarvitsee asentaa paketti gcc, mutta näköjään olin asentanut sen jo aiemmin:
+
+![image](https://github.com/user-attachments/assets/ad482693-1c64-4ca8-b7a2-4c0352b868df)
+
+Tein kooditiedoston ohjeidon mukaisesti ja ajoin sen ongelmitta:
+
+![image](https://github.com/user-attachments/assets/1e6bfba1-ee0b-4c33-aca7-3c3748708c33)
+
+**Bash**
+
+GNU:n Bash-manuaalin (https://www.gnu.org/software/bash/manual/bash.html#What-is-Bash_003f) mukaan Bash on "shell" tai komentokieli GNU:n käyttöjärjestelmille ja sen nimi tulee sanaleikistä. Datacampin (https://www.datacamp.com/blog/what-is-shell) mukaan "shell" on puolestaan tietynlainen tietokoneohjelma, jonka avulla Linux ja Unix -käyttäjät voivat ohjata käyttöjärjestelmää komentorivikäyttöliittymästä.
+
+Ilmeisesti olen siis käyttänyt Bashia jatkuvasti Debianin terminaalia käyttäessäni ja Bash-termiin onkin tämän kurssin aikana törmännyt säännöllisesti esimerkiksi silloin, kun antamaani komentoa ei ole tunnistettu:
+
+![image](https://github.com/user-attachments/assets/6ecd7712-d865-4695-83ed-9928d1d6864d)
+
+Tarkistin vielä Bashin version:
+
+![image](https://github.com/user-attachments/assets/ea14ec46-421a-48cf-a762-59dafc282958)
+
+Tämän jälkeen tein opettajan ohjeiden mukaisesti Bash-ohjelman:
+
+![image](https://github.com/user-attachments/assets/42d62696-6f36-4baa-934c-56e70d1d2ff5)
 
 
+## Linuxiin uusi komento, jota kaikki käyttäjät voivat ajaa
 
+Eli tässä palaamme Bashin pariin.
 
 
 ---
 
 **Lähteet**
 
+- Datacamp: What is Shell? https://www.datacamp.com/blog/what-is-shell
+- Debian: Chapter 12. Programming. https://www.debian.org/doc/manuals/debian-reference/ch12.en.html#_coding_in_compiled_languages
+- GNU: Bash Reference Manual. https://www.gnu.org/software/bash/manual/bash.html#What-is-Bash_003f
 - Karvinen, Tero 2018: Hello World Python3, Bash, C, C++, Go, Lua, Ruby, Java – Programming Languages on Ubuntu 18.04. https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/
 - man javac
 - WebHi: How to install Java with “apt-get” on Ubuntu / Debian. https://www.webhi.com/how-to/how-to-install-java-with-apt-get-on-ubuntu-debian/
