@@ -66,7 +66,11 @@ Lopuksi ajoin ohjelman:
 
 ![image](https://github.com/user-attachments/assets/3d83f631-f7a9-40a1-943d-cf46114e9e06)
 
-Toimii. Koska olen parhaillaan java-kurssilla, kokeilin tein myös toisen kokeilun:
+Toimii.
+
+
+
+
 
 
 
