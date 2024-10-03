@@ -74,7 +74,7 @@ Kokeilin myös hieman pitempää Java-koodia:
 
 Hyvin toimi! Tässä vielä cat-komennolla koodi:
 
-![image](https://github.com/user-attachments/assets/cc5a36f9-a78c-4cd9-b1d5-0ea8d93902ec)
+![koodi](https://github.com/user-attachments/assets/c6ab24b1-44da-40c3-a258-4df3f9ee21af)
 
 
 **C**
