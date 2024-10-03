@@ -108,11 +108,11 @@ Tämän jälkeen tein opettajan ohjeiden mukaisesti Bash-ohjelman:
 
 ## Linuxiin uusi komento, jota kaikki käyttäjät voivat ajaa
 
-Eli tässä palaamme Bashin pariin.
+Eli palasin Bashin pariin.
 
-Ensin tarvitsin jonkin komennon. Apuna toimi Milica Dancukin artikkeli (https://phoenixnap.com/kb/bash-read) read-komennosta ja whoami:n käytöstä puolestaan opin esimerkiksi StackExchangen sivuilta (https://unix.stackexchange.com/questions/473947/using-whoami-to-search-for-files-that-mention-user).
+Ensin tarvitsin jonkin komennon, jota tehtävässä käyttäisin. Apuna toimi Milica Dancukin artikkeli (https://phoenixnap.com/kb/bash-read) read-komennosta ja whoami:n käytöstä puolestaan opin esimerkiksi StackExchangen sivuilta (https://unix.stackexchange.com/questions/473947/using-whoami-to-search-for-files-that-mention-user).
 
-Lopputuloksena seuraava:
+Lopputulos:
 
 ![image](https://github.com/user-attachments/assets/83c4aa4e-bc2a-446d-b3c2-12af29b7e811)
 
@@ -151,6 +151,7 @@ Palasin käyttäjänä nyar käyttäjän jenni kansioon koodit ja kokeilin uudes
 - Datacamp: What is Shell? https://www.datacamp.com/blog/what-is-shell
 - Debian: Chapter 12. Programming. https://www.debian.org/doc/manuals/debian-reference/ch12.en.html#_coding_in_compiled_languages
 - GNU: Bash Reference Manual. https://www.gnu.org/software/bash/manual/bash.html#What-is-Bash_003f
+- Karvinen, Tero 2007: Shell Scripting. https://terokarvinen.com/2007/12/04/shell-scripting-4/
 - Karvinen, Tero 2018: Hello World Python3, Bash, C, C++, Go, Lua, Ruby, Java – Programming Languages on Ubuntu 18.04. https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/
 - man javac
 - Milica Dancuk: How To Use The Bash read Command. https://phoenixnap.com/kb/bash-read
