@@ -118,9 +118,16 @@ Lopputuloksena seuraava:
 
 *(luvattoman pitkään Bashin parissa vietetyn ajan jälkeen eli 17.51)*
 
-Siirryin opettajan ohjesivulle (https://terokarvinen.com/2007/12/04/shell-scripting-4/), tehdäkseni komennosta sellaisen, että kaikki käyttäjät voivat käyttää sitä. Kysyin ChatGPT:ltä, mitä komennon eri kohdat tekevät. `#!/bin/bash` lisätään komentotiedoston alkuun ja tämän avulla järjestelmä tunnistaa, että kyseinen koodi suoritettaan Bashilla.
+Siirryin opettajan ohjesivulle (https://terokarvinen.com/2007/12/04/shell-scripting-4/), tehdäkseni komennosta sellaisen, että kaikki käyttäjät voivat käyttää sitä. Kysyin ChatGPT:ltä, mitä komennon eri kohdat tekevät. `#!/bin/bash` lisätään komentotiedoston alkuun ja tämän avulla järjestelmä tunnistaa, että kyseinen koodi suoritettaan Bashilla. Tämän jälkeen komennolla `chmod a+x lspwd` annetaan kaikille käyttäjäille suoritusoikeudet tiedostoon lspwd. Komennolla `./lspwd` koodi suoritetaan.
 
-Tämän jälkeen komennolla `chmod a+x lspwd` annetaan kaikille käyttäjäille suoritusoikeudet tiedostoon lspwd. Komennolla `./lspwd` koodi suoritetaan.
+Lisäsin ensin vaaditun pätkän tiedoston alkuun:
+
+![image](https://github.com/user-attachments/assets/219a9581-2dcd-4276-b845-92997685e91f)
+
+Oikeuksia antaessa tuli ongelmia vastaan, kun olin toiminut ohjeen mukaisesti. Tämän perusteella arvelin, että tiedostossa ei pitänyt olla päätettä ja poistin päätteen ja muokkasin nimen samalla lyhyemmäksi. Tämän jälkeen sain oikeudet annettua ja testasin komentoa:
+
+![image](https://github.com/user-attachments/assets/cd06ca86-7a24-4f32-b179-1c9b5f5ab62e)
+
 
 
 ---
