@@ -118,7 +118,9 @@ Lopputuloksena seuraava:
 
 *(luvattoman pitkään Bashin parissa vietetyn ajan jälkeen eli 17.51)*
 
+Siirryin opettajan ohjesivulle (https://terokarvinen.com/2007/12/04/shell-scripting-4/), tehdäkseni komennosta sellaisen, että kaikki käyttäjät voivat käyttää sitä. Kysyin ChatGPT:ltä, mitä komennon eri kohdat tekevät. `#!/bin/bash` lisätään komentotiedoston alkuun ja tämän avulla järjestelmä tunnistaa, että kyseinen koodi suoritettaan Bashilla.
 
+Tämän jälkeen komennolla `chmod a+x lspwd` annetaan kaikille käyttäjäille suoritusoikeudet tiedostoon lspwd. Komennolla `./lspwd` koodi suoritetaan.
 
 
 ---
