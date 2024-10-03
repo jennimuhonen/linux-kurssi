@@ -42,9 +42,13 @@ Päivitin apt-getin, tarkistin onko javaa (ei ollut), asensin javan ja tarkistin
 
 Seuraavaksi siirryin opettajan ohjeisiin (https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/).
 
-Tein kansion koodit ja siirsin tunnilla tehdyn Hei maailman Python-version kansioon ja tarkistelin ls:llä välissä, että asiat olivat oikeassa paikassa:
+Tein kansion nimeltään koodit ja siirsin tunnilla tehdyn Hei maailman Python-version sinne ja tarkistelin ls:llä välissä, että asiat olivat halutuissa paikoissa:
 
 ![image](https://github.com/user-attachments/assets/df177229-aa4a-473e-b1e4-0676ed1a8237)
+
+*Melkein unohtui, nyt on 3.10.2024 13.35*
+
+
 
 
 
