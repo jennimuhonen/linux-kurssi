@@ -128,6 +128,20 @@ Oikeuksia antaessa tuli ongelmia vastaan, kun olin toiminut ohjeen mukaisesti. T
 
 ![image](https://github.com/user-attachments/assets/cd06ca86-7a24-4f32-b179-1c9b5f5ab62e)
 
+Testatakseni komentoa toisella käyttäjällä tein uuden käyttäjän nyar.
+
+![image](https://github.com/user-attachments/assets/88f9d0c6-9aad-4ed4-a614-e7b98d2be9b5)
+
+Vaihdoin käyttäjää, siirryin nyarin kotihakemistoon ja kokeilin komentoa, mutta jotain oli pielessä:
+
+![image](https://github.com/user-attachments/assets/74dcf140-20c5-4241-8688-c31abc2eb2d8)
+
+Palasin käyttäjänä nyar käyttäjän jenni kansioon koodit ja kokeilin uudestaan. Siellä komentoi toimi:
+
+![image](https://github.com/user-attachments/assets/dbcd2c55-a344-47cc-a3c7-76ab767efbd4)
+
+
+
 
 
 ---
