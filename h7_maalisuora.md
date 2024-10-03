@@ -62,7 +62,11 @@ Olin kopioinut huolimattomasti ja jättänyt luokka-osion pois. Ihmettelin viel�
 
 ![image](https://github.com/user-attachments/assets/9d90e25e-c825-425a-a9ed-84599e06ca00)
 
+Lopuksi ajoin ohjelman:
 
+![image](https://github.com/user-attachments/assets/3d83f631-f7a9-40a1-943d-cf46114e9e06)
+
+Toimii. Koska olen parhaillaan java-kurssilla, kokeilin tein myös toisen kokeilun:
 
 
 
