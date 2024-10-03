@@ -110,6 +110,16 @@ Tämän jälkeen tein opettajan ohjeiden mukaisesti Bash-ohjelman:
 
 Eli tässä palaamme Bashin pariin.
 
+Ensin tarvitsin jonkin komennon. Apuna toimi Milica Dancukin artikkeli (https://phoenixnap.com/kb/bash-read) read-komennosta ja whoami:n käytöstä puolestaan opin esimerkiksi StackExchangen sivuilta (https://unix.stackexchange.com/questions/473947/using-whoami-to-search-for-files-that-mention-user).
+
+Lopputuloksena seuraava:
+
+![image](https://github.com/user-attachments/assets/83c4aa4e-bc2a-446d-b3c2-12af29b7e811)
+
+*(luvattoman pitkään Bashin parissa vietetyn ajan jälkeen eli 17.51)*
+
+
+
 
 ---
 
@@ -120,6 +130,8 @@ Eli tässä palaamme Bashin pariin.
 - GNU: Bash Reference Manual. https://www.gnu.org/software/bash/manual/bash.html#What-is-Bash_003f
 - Karvinen, Tero 2018: Hello World Python3, Bash, C, C++, Go, Lua, Ruby, Java – Programming Languages on Ubuntu 18.04. https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/
 - man javac
+- Milica Dancuk: How To Use The Bash read Command. https://phoenixnap.com/kb/bash-read
+- StackExchange: Using whoami to search for files that mention user. https://unix.stackexchange.com/questions/473947/using-whoami-to-search-for-files-that-mention-user
 - WebHi: How to install Java with “apt-get” on Ubuntu / Debian. https://www.webhi.com/how-to/how-to-install-java-with-apt-get-on-ubuntu-debian/
 
 ---
