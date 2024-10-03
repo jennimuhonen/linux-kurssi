@@ -246,6 +246,8 @@ Lisäsin muutokset uudestaan ja muistin ajaa muutokset. Tässä kohtaa kävi ilm
 
 Etsin yllä olevasta mainintaa viimeisimmästä muokkaamastani tiedostosta, koska ongelma hyvin ilmeisesti liittyi siihen. Aivan lopussa on maininta kyseisestä tiedostosta ja viittaus riville 8. Tutkin asiaa ja virhe korjautui muuttamalla nimikentän maksimipituudeksi 160 (kuten ohjeessakin oli). Olin huomannut, että ohjeessa pituus oli aiemmin 300 ja uudessa se oli 160, mutta jätin sen muuttamatta, koska ohjeessa ei tätä kehotettu muuttamaan. (Tämä oli mukavan helposti tutkittava ja korjattava virhetilanne eli onneksi en ollut muuttanut tätä heti. Nyt pääsin hieman näkemään minkälaisia ongelmia voi tulla vastaan.) Veikkaan, että etusivun nimikenttä on jossain määritelty lyhyemmäksi kuin 300, jonka takia uusi muutos oli virheellinen.
 
+*(Lisäys 3.10.2024: Tunnilla kävi ilmi, että ongelma ei liittynyt kentän pituuteen vaan koodin sisennyksiin, jotka ovat Pythonissa erittäin tärkeitä.)*
+
 Korjausten jälkeen palvelin käynnistyi ja antamani nimet näkyivät:
 
 ![image](https://github.com/user-attachments/assets/6c4807a0-dd0a-476e-afbc-105082adaa8e)
@@ -501,6 +503,6 @@ Eli tehtävä suoritettu!
   
 *Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 2 tai uudempi) mukaisesti. http://www.gnu.org/licenses/gpl.html*
 
-*Pohjana Tero Karvinen 2012: Linux kurssi, http://terokarvinen.com*
+*Pohjana Tero Karvinen 2024: Linux kurssi, http://terokarvinen.com*
 
 *Raportin tekijä: Jenni Muhonen*
