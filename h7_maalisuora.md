@@ -218,10 +218,11 @@ Sivupalkkiin sain vielä tälläisen viestin:
 
 ![ajureidenAsennus4](https://github.com/user-attachments/assets/80f100f3-c8f5-4a8d-9308-c6b0bd02631a)
 
+Ongelmalla on siis ilmeisesti jotain tekemistä VirtualBoxin ja asennuslevykkeen kanssa?
 
-(Homma päätyi virheilmoitukseen, kehotukseen katsoa logia ja siellä tietoon, että ei asennettu. Kokeilin aloittaa alusta ja kokeilin klikata päivitä, mutta kehottaa reboottaamaan Guestin Virtual Boxissa.)
+Tässä kohtaa aloin arvella, että ehkä pikkukuvakkeessa näkynyt juustonpalanen olikin hätähuuto. Olin Debianin asennusta tehdessä unohtanut, että asetuksissa oli määritetty Debian 64-bittiseksi 32-bittisen sijaan ja muuttanut tämän vasta yritettyäni aloittaa asennusta ja saatuani virheviestin. Ehkä tässä kohtaa jokin oli mennyt pieleen. Tässä vielä silloin saamani virheviesti, jonka otin varalta talteen:
 
-Tässä kohtaa aloin arvella, että ehkä pikkukuvakkeessa näkynyt juustonpalanen olikin hätähuuto. Olin Debianin asennusta tehdessä unohtanut, että asetuksissa oli määritetty Debian 64-bittiseksi 32-bittisen sijaan ja muuttanut tämän vasta yritettyäni aloittaa asennusta ja saatuani virheviestin. Ehkä tässä kohtaa jokin oli mennyt pieleen.
+![asennus2](https://github.com/user-attachments/assets/d950980f-ecf9-4f6a-97f9-cdbc52b59c4a)
 
 Päätin asentaa Debianin alusta ja nyt kuvake näytti oikealta. (Olisi varmaan selkeyden nimissä pitänyt nimetä tämä joksikin muuksi kuin reppuliksi, mutta kyseessä siis alla olevassa kuvassa DebianTheThird ja juustopalallinen on DebianTheSecond, josta edellinen kuvakaappaus on.)
 
