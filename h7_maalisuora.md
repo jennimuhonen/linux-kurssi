@@ -168,7 +168,7 @@ Olennaiset komennot McBrienin artikkelista poimittuna:
 
 Tarkistin vielä chmod:n man-sivulta, että muistin oikein, että jos +-merkin sijaan käytetään -, tällöin komento poistaa mainitut oikeudet. Kuten edellisen tehtävän komennosta ja yllä olevasta kuvakaappauksesta voi todeta, +:lla annettu komento on vain lisännyt pyydetyt oikeudet, mutta ei ole tehnyt mitään oikeuksille, joita komennossa ei mainittu.
 
-*4.102024 23.00 palasin tehtävän pariin*
+*4.10.2024 23.00 palasin tehtävän pariin*
 
 Valitsin tehtäväksi tämän vuoden kevään laboratoriotyön: https://terokarvinen.com/2024/arvioitava-laboratorioharjoitus-2024-linux-palvelimet/?fromSearch=laboratorio
 
