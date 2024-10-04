@@ -196,7 +196,7 @@ Edellä mainittua raporttia tehdessä en ollut huomannut tehdä päivityksiä ta
 
 Ja tämä oli se, mitä sai olla valmiina ennen varsinaista tehtävää.
 
-**Ongelma asennuksessa**
+**Mahdollinen ongelma asennuksessa**
 
 Seuraavaksi muistelin, mitä pieniä mukavuuksia kurssin myötä on asennettu.
 
@@ -228,7 +228,9 @@ Päätin asentaa Debianin alusta ja nyt kuvake näytti oikealta. (Olisi varmaan 
 
 ![image](https://github.com/user-attachments/assets/d5ad5f58-3459-455f-86c2-9b1e08334967)
 
-Päivitin, asensin palomuurin ja käynnistin uudelleen. Sitten kokeiltiin, onnistuisiko seuraava vaihe tällä kertaa.
+Päivitin, asensin palomuurin ja käynnistin uudelleen. Sitten kokeiltiin, onnistuisiko seuraava vaihe tällä kertaa. Komennosta `sudo bash VBoxLinuxAdditions.run` viestin on sama kuin edellä, mutta tällä kertaa Debian ei jäätynyt. Opettajan ohjeessa itseasiassa sanotaan jotain valituksista komentorivillä eli ne ovat ilmeisesti ihan normaaleja. Mutta koneen jäätyminen ei varmasti ollut.
+
+Käynnistin koneen ohjeen mukaisesti uudelleen. Ruudun suurentaminen kokoon 1920x1200 toimi. Päivitin vielä mukaisesti Devices -> Shared Clipboard -> Bidirectional, jotta voi leikata ja liimata työpöytien välillä. (Säätämisen myötä kello olikin jo yhtäkkiä 1.20, joten lopetin työskentelyn tältä päivältä.)
 
 
 ---
