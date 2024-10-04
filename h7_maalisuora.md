@@ -211,7 +211,7 @@ Tässä kohtaa eteen tuli ongelmia, kun yritin tehdä asennusta:
 
 Tässä kohtaa aloin arvella, että ehkä pikkukuvakkeessa näkynyt juustonpalanen olikin hätähuuto. Olin Debianin asennusta tehdessä unohtanut, että asetuksissa oli määritetty Debian 64-bittiseksi 32-bittisen sijaan ja muuttanut tämän vasta yritettyäni aloittaa asennusta ja saatuani virheviestin. Ehkä tässä kohtaa jokin oli mennyt pieleen.
 
-Päätin asentaa Debianin alusta ja nyt kuvake näytti oikealta:
+Päätin asentaa Debianin alusta ja nyt kuvake näytti oikealta. (Olisi varmaan selkeyden nimissä pitänyt nimetä tämä kone joksikin muuksi, mutta kyseessä siis DebianTheThird ja juustopalallinen on DebianTheSecond.)
 
 ![image](https://github.com/user-attachments/assets/d5ad5f58-3459-455f-86c2-9b1e08334967)
 
