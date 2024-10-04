@@ -154,20 +154,34 @@ Edellisen lisäksi tehtäviä tarkastellessani tulin siihen tulokseen, että kä
 
 ![image](https://github.com/user-attachments/assets/9dda96d1-4f3b-4ba8-98b4-afefb8b6d69d)
 
-Kuvassa näkyviin tiedostoihin käyttäjällä jenni on kaikkiin read ja write -oikeudet ja lisäksi kansioon ja ohjelmiin on myös execute oikeudet. Muut käyttäjät ovat automaattisesti saaneet joko 
+Kuvassa näkyviin tiedostoihin käyttäjällä jenni on kaikkiin read (r) ja write (w) -oikeudet ja lisäksi kansioon ja ohjelmiin on myös execute (x) oikeudet. Muut käyttäjät ovat automaattisesti saaneet tekemiini tiedoistoihin read-oikeudet ja kansioon read ja execute -oikeudet. Edellisessä tehtävässä muokkasin komennolla `chmod a+x moi` ohjelmaa moi siten, että kaikilla oli siihen read ja execute oikeudet.
+
+Olennaiset komennot McBrienin artikkelista poimittuna:
+
+- chmod u : omistajan oikeuksien muokkaaminen
+- chmod g : muut käyttäjät tiedoston ryhmässä
+- chmod o : muut käyttäjät, jotka eivät ole tiedoston ryhmässä
+- chmod a : kaikki käyttäjät
+- chown-komennolla puolestaan voi muuttaa tiedoston omistajaa ja chgrp:lla ryhmää
+- chmod ug+rwg esim.txt : omistajalle ja ryhmälle kaikki oikeudet tiedostoon
+- chmod o+r esim.txt : muille lukuoikeus tiedostoon
+
+Tarkistin vielä chmod:n man-sivulta, että muistin oikein, että jos +-merkin sijaan käytetään -, tällöin komento poistaa mainitut oikeudet. Kuten edellisen tehtävän komennosta ja yllä olevasta kuvakaappauksesta voi todeta, +:lla annettu komento on vain lisännyt pyydetyt oikeudet, mutta ei ole tehnyt mitään oikeuksille, joita komennossa ei mainittu.
 
 
 ---
 
 **Lähteet**
 
+- Dancuk, Milica: How To Use The Bash read Command. https://phoenixnap.com/kb/bash-read
 - Datacamp: What is Shell? https://www.datacamp.com/blog/what-is-shell
 - Debian: Chapter 12. Programming. https://www.debian.org/doc/manuals/debian-reference/ch12.en.html#_coding_in_compiled_languages
 - GNU: Bash Reference Manual. https://www.gnu.org/software/bash/manual/bash.html#What-is-Bash_003f
 - Karvinen, Tero 2007: Shell Scripting. https://terokarvinen.com/2007/12/04/shell-scripting-4/
 - Karvinen, Tero 2018: Hello World Python3, Bash, C, C++, Go, Lua, Ruby, Java – Programming Languages on Ubuntu 18.04. https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/
+- man chmod
 - man javac
-- Milica Dancuk: How To Use The Bash read Command. https://phoenixnap.com/kb/bash-read
+- McBrien, Scott: Linux file permissions explained. https://www.redhat.com/sysadmin/linux-file-permissions-explained
 - StackExchange: Using whoami to search for files that mention user. https://unix.stackexchange.com/questions/473947/using-whoami-to-search-for-files-that-mention-user
 - WebHi: How to install Java with “apt-get” on Ubuntu / Debian. https://www.webhi.com/how-to/how-to-install-java-with-apt-get-on-ubuntu-debian/
 
