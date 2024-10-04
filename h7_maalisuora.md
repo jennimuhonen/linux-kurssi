@@ -228,7 +228,7 @@ Päätin asentaa Debianin alusta ja nyt kuvake näytti oikealta. (Olisi varmaan 
 
 ![image](https://github.com/user-attachments/assets/d5ad5f58-3459-455f-86c2-9b1e08334967)
 
-
+Päivitin, asensin palomuurin ja käynnistin uudelleen. Sitten kokeiltiin, onnistuisiko seuraava vaihe tällä kertaa.
 
 
 ---
