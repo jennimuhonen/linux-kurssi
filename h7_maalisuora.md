@@ -196,13 +196,25 @@ Edellä mainittua raporttia tehdessä en ollut huomannut tehdä päivityksiä ta
 
 Ja tämä oli se, mitä sai olla valmiina ennen varsinaista tehtävää.
 
-**Ekstra**
+**Ongelma asennuksessa**
 
-Seuraavaksi muistelin, mitä pieniä mukavuuksia kurssin myötä on tullut asennettua.
+Seuraavaksi muistelin, mitä pieniä mukavuuksia kurssin myötä on asennettu.
 
-- opettajan edellisten ohjeiden loppupätkä, joilla mahdollistetaan virtuaalityöpöydän koon kasvattaminen
+Ensimmäisenä ovat luonnollisesti opettajan edellisten ohjeiden loppupätkä, joilla mahdollistetaan virtuaalityöpöydän koon kasvattaminen
+
+Tässä kohtaa eteen tuli ongelmia, kun yritin tehdä asennusta:
+
+
+
 
 (Homma päätyi virheilmoitukseen, kehotukseen katsoa logia ja siellä tietoon, että ei asennettu. Kokeilin aloittaa alusta ja kokeilin klikata päivitä, mutta kehottaa reboottaamaan Guestin Virtual Boxissa.)
+
+Tässä kohtaa aloin arvella, että ehkä pikkukuvakkeessa näkynyt juustonpalanen olikin hätähuuto. Olin Debianin asennusta tehdessä unohtanut, että asetuksissa oli määritetty Debian 64-bittiseksi 32-bittisen sijaan ja muuttanut tämän vasta yritettyäni aloittaa asennusta ja saatuani virheviestin. Ehkä tässä kohtaa jokin oli mennyt pieleen.
+
+Päätin asentaa Debianin alusta ja nyt kuvake näytti oikealta:
+
+![image](https://github.com/user-attachments/assets/d5ad5f58-3459-455f-86c2-9b1e08334967)
+
 
 
 
