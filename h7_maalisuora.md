@@ -140,6 +140,14 @@ Palasin käyttäjänä nyar käyttäjän jenni kansioon koodit ja kokeilin uudes
 
 ![image](https://github.com/user-attachments/assets/dbcd2c55-a344-47cc-a3c7-76ab767efbd4)
 
+*4.10.2024 19.55*
+
+Seuraavan tehtävän vaihtoehtoja tarkastellessani tulin siihen tulokseen, että komennon kuuluisi toimia muuallakin kuin kotihakemistossa. Olin lopussa googlettanut asiaa, mutta saanut liian monimutkaiselta vaikuttavan ratkaisun, joten olin jättänyt asian siihen. Nyt palasin kuitenkin tarkastelemaan opettajan ohjetta ja kommenteissa olikin ohje siihen, kuinka komento saadaan toimimaan kaikkialla.
+
+Annoin komennon `sudo cp moi /usr/local/bin/`, vaihdoin käyttäjäksi nyar ja kokeilin komentoa `moi` nyarin kotihakemistossa. Toimi:
+
+![image](https://github.com/user-attachments/assets/1b019f58-277f-4173-84ef-05328ac470ad)
+
 
 
 
