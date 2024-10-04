@@ -192,7 +192,17 @@ Edellä mainittua raporttia tehdessä en ollut huomannut tehdä päivityksiä ta
 
 1. Päivitetään eli `sudo apt-get update` ja sen jälkeen `sudo apt-get -y dist-upgrade`
 2. Palomuuri `sudo apt-get -y install ufw` ja sen jälkeen `sudo ufw enable`
-3. Käynnistä uudelleen
+3. Käynnistä uudelleen (Applications -> Log out -> Restart)
+
+Ja tämä oli se, mitä sai olla valmiina ennen varsinaista tehtävää.
+
+**Ekstra**
+
+Seuraavaksi muistelin, mitä pieniä mukavuuksia kurssin myötä on tullut asennettua.
+
+- opettajan edellisten ohjeiden loppupätkä, joilla mahdollistetaan virtuaalityöpöydän koon kasvattaminen
+
+(Homma päätyi virheilmoitukseen, kehotukseen katsoa logia ja siellä tietoon, että ei asennettu. Kokeilin aloittaa alusta ja kokeilin klikata päivitä, mutta kehottaa reboottaamaan Guestin Virtual Boxissa.)
 
 
 
