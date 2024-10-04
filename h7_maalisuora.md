@@ -168,6 +168,8 @@ Olennaiset komennot McBrienin artikkelista poimittuna:
 
 Tarkistin vielä chmod:n man-sivulta, että muistin oikein, että jos +-merkin sijaan käytetään -, tällöin komento poistaa mainitut oikeudet. Kuten edellisen tehtävän komennosta ja yllä olevasta kuvakaappauksesta voi todeta, +:lla annettu komento on vain lisännyt pyydetyt oikeudet, mutta ei ole tehnyt mitään oikeuksille, joita komennossa ei mainittu.
 
+*4.102024 23.00 palasin tehtävän pariin*
+
 Valitsin tehtäväksi tämän vuoden kevään laboratoriotyön: https://terokarvinen.com/2024/arvioitava-laboratorioharjoitus-2024-linux-palvelimet/?fromSearch=laboratorio
 
 Ensiksi tarvitaan tyhjä Linux-virtuaalikone, jossa saa olla virtualisointiympäristön tuki, palomuuri ja asennuksen mukana tulevat oletuspaketit. Ohjelmat saa päivittää.
@@ -175,6 +177,14 @@ Ensiksi tarvitaan tyhjä Linux-virtuaalikone, jossa saa olla virtualisointiympä
 Debianista oli ilmestynyt uusi versio, latasin sen:
 
 ![image](https://github.com/user-attachments/assets/22b127a7-5f00-4882-9a00-76bc795bf531)
+
+Seurasin omaa raporttiani: https://github.com/jennimuhonen/linux-kurssi/blob/main/h1_oma-linux.md
+
+Homma sujui ongelmitta raporttia seuratessa. Kokeilin paria vaihtoehtoista ratkaisua, mutta tulin siihen tulokseen, että raportti etenee järkevästi ja sivupolut aiheuttivat vain ongelmia. Kokeilin esimerkiksi jättää käymättä asetuksissa VirtualBoxin puolella ja hyvin pian jouduin palaamaan sinne. Olisin ainoastaan lisännyt vielä jonkin yksittäisen kuvan tehdäkseni ohjeen seuraamisesta vielä helpompaa.
+
+Tässä se pyörii, uuden version myötä yläkulman kuvakkeeseen on ilmestynyt jokin juuston kaltainen möhkäle:
+
+![image](https://github.com/user-attachments/assets/cb1783b3-d6d9-409b-8dce-31b109e71529)
 
 
 
