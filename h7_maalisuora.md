@@ -172,6 +172,8 @@ Tarkistin vielä chmod:n man-sivulta, että muistin oikein, että jos +-merkin s
 
 Valitsin tehtäväksi tämän vuoden kevään laboratoriotyön: https://terokarvinen.com/2024/arvioitava-laboratorioharjoitus-2024-linux-palvelimet/?fromSearch=laboratorio
 
+**Pohjatyöt**
+
 Ensiksi tarvitaan tyhjä Linux-virtuaalikone, jossa saa olla virtualisointiympäristön tuki, palomuuri ja asennuksen mukana tulevat oletuspaketit. Ohjelmat saa päivittää.
 
 Debianista oli ilmestynyt uusi versio, latasin sen:
@@ -185,6 +187,12 @@ Homma sujui ongelmitta raporttia seuratessa. Kokeilin paria vaihtoehtoista ratka
 Tässä se pyörii, uuden version myötä yläkulman kuvakkeeseen oli ilmestynyt jokin juuston kaltainen möhkäle:
 
 ![image](https://github.com/user-attachments/assets/cb1783b3-d6d9-409b-8dce-31b109e71529)
+
+Edellä mainittua raporttia tehdessä en ollut huomannut tehdä päivityksiä tai asentaa palomuuria. Siksi listaan tähän tiivistetysti askeleet itselleni muistiin. Ohjeena toimi opettajan ohje (https://terokarvinen.com/2021/install-debian-on-virtualbox/).
+
+1. Päivitetään eli `sudo apt-get update` ja sen jälkeen `sudo apt-get -y dist-upgrade`
+2. Palomuuri `sudo apt-get -y install ufw` ja sen jälkeen `sudo ufw enable`
+3. Käynnistä uudelleen
 
 
 
