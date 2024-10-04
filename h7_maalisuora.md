@@ -200,11 +200,21 @@ Ja tämä oli se, mitä sai olla valmiina ennen varsinaista tehtävää.
 
 Seuraavaksi muistelin, mitä pieniä mukavuuksia kurssin myötä on asennettu.
 
-Ensimmäisenä ovat luonnollisesti opettajan edellisten ohjeiden loppupätkä, joilla mahdollistetaan virtuaalityöpöydän koon kasvattaminen
+Ensimmäisenä ryhdyin luonnollisesti opettajan edellisten ohjeiden loppupätkä, joilla mahdollistetaan virtuaalityöpöydän koon kasvattaminen
 
 Tässä kohtaa eteen tuli ongelmia, kun yritin tehdä asennusta:
 
+![ajureidenAsennus](https://github.com/user-attachments/assets/0591881b-b5c8-4e5a-a485-4edf91466166)
 
+Jouduin käynnistämään jumiutuneen Debianin uudestaan ja sen jälkeen kävin katsomassa lokitiedostoa:
+
+![ajureidenAsennus2](https://github.com/user-attachments/assets/b638f0ef-b65f-4ddf-a6d6-0ba3e5683e89)
+
+
+
+![ajureidenAsennus3](https://github.com/user-attachments/assets/8c5887cf-78db-4276-9c3f-8d5d1c6c44c2)
+
+![ajureidenAsennus4](https://github.com/user-attachments/assets/80f100f3-c8f5-4a8d-9308-c6b0bd02631a)
 
 
 (Homma päätyi virheilmoitukseen, kehotukseen katsoa logia ja siellä tietoon, että ei asennettu. Kokeilin aloittaa alusta ja kokeilin klikata päivitä, mutta kehottaa reboottaamaan Guestin Virtual Boxissa.)
