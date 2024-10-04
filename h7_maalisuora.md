@@ -180,9 +180,9 @@ Debianista oli ilmestynyt uusi versio, latasin sen:
 
 Seurasin omaa raporttiani: https://github.com/jennimuhonen/linux-kurssi/blob/main/h1_oma-linux.md
 
-Homma sujui ongelmitta raporttia seuratessa. Kokeilin paria vaihtoehtoista ratkaisua, mutta tulin siihen tulokseen, että raportti etenee järkevästi ja sivupolut aiheuttivat vain ongelmia. Kokeilin esimerkiksi jättää käymättä asetuksissa VirtualBoxin puolella ja hyvin pian jouduin palaamaan sinne. Olisin ainoastaan lisännyt vielä jonkin yksittäisen kuvan tehdäkseni ohjeen seuraamisesta vielä helpompaa.
+Homma sujui ongelmitta raporttia seuratessa. Kokeilin paria vaihtoehtoista ratkaisua, mutta tulin siihen tulokseen, että raportti etenee järkevästi ja sivupolut aiheuttivat vain ongelmia. Kokeilin esimerkiksi jättää käymättä asetuksissa VirtualBoxin puolella ja hyvin pian jouduin palaamaan sinne. Kehitysehdotuksena itselleni raporttiin voisi vielä lisätä testi-Debianin työpöydällä olevan asennuskuvakkeen ja pari muuta pientä viilausta.
 
-Tässä se pyörii, uuden version myötä yläkulman kuvakkeeseen on ilmestynyt jokin juuston kaltainen möhkäle:
+Tässä se pyörii, uuden version myötä yläkulman kuvakkeeseen oli ilmestynyt jokin juuston kaltainen möhkäle:
 
 ![image](https://github.com/user-attachments/assets/cb1783b3-d6d9-409b-8dce-31b109e71529)
 
