@@ -214,7 +214,7 @@ Kokeilin päivittää Devices-valikon kautta, kun siellä oli päivitysvaihtoeht
 
 ![ajureidenAsennus3](https://github.com/user-attachments/assets/8c5887cf-78db-4276-9c3f-8d5d1c6c44c2)
 
-Kliku
+Sivupalkkiin sain vielä tälläisen viestin:
 
 ![ajureidenAsennus4](https://github.com/user-attachments/assets/80f100f3-c8f5-4a8d-9308-c6b0bd02631a)
 
