@@ -314,6 +314,14 @@ Tässä kohtaa IP-osoite 127.0.0.1 osoitti selaimessa default-sivulle ja aikakon
 
 ![image](https://github.com/user-attachments/assets/e65de2ca-2906-4277-8478-970e5ae8803f)
 
+11. Muokkasin html:ää:
+
+![image](https://github.com/user-attachments/assets/61fc0dac-7cb6-45c9-a50a-aee04dd99c4b)
+
+![image](https://github.com/user-attachments/assets/785258e8-d2ae-4a84-b051-d00864427344)
+
+
+
 
 ---
 
