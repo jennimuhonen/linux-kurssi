@@ -410,7 +410,7 @@ Jatkoin opettajan ohjeen seuraamista.
 
 ![image](https://github.com/user-attachments/assets/bd502fdb-5240-4527-b752-575026a63319)
 
-5. Tein käyttäjän Erkki, jolle annoin staff-oikeuden. Tällä hetkellä Erkki ei saa tehdä mitään:
+5. Tein ylläpitoliittymän kautta käyttäjän Erkki, jolle annoin staff-statuksen. Tällä hetkellä Erkki ei saa tehdä mitään:
 
 ![image](https://github.com/user-attachments/assets/56ee50b3-f927-44f1-89bb-8d3612a627c6)
 
