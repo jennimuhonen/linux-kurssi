@@ -376,9 +376,30 @@ Testasin avaimia ja pääsin kirjautumaan ilman salasanaa:
 
 Ensimmäiseksi asenna Djangon kehitysympäristö.
 
-Lähteinä jälleen opettajan ohje (https://terokarvinen.com/2022/django-instant-crm-tutorial/) ja oma rarportti (https://github.com/jennimuhonen/linux-kurssi/blob/main/h6_hello_django.md).
+Lähteenä tehtävässä opettajan ohje (https://terokarvinen.com/2022/django-instant-crm-tutorial/).
 
+1. Asensin virtuaaliympäristön `sudo apt-get -y install virtualenv`
+2. Loin virtuaaliympäristön `virtualenv --system-site-packages -p python3 env/` ja otin sen käyttöön `source env/bin/activate`.
+3. Tarkistin pip:n:
 
+![image](https://github.com/user-attachments/assets/945bb7c0-3158-444f-a52d-140f46f2a871)
+
+4. Tein vaatimustiedoston `micro requirements.txt`:
+
+![image](https://github.com/user-attachments/assets/eaf9d19f-30b6-45ff-9325-c683f5529ea7)
+
+5. Asensin `pip install -r requirements.txt`
+6. Tarkistin version `django-admin --version`:
+
+![image](https://github.com/user-attachments/assets/cef7ba3d-6bcf-4cb5-8046-17cea68edce9)
+
+Seuraavaksi tehtävässä kuuluu tehdään tietokantaan lista tekoälyistä määrätyillä ominaisuuksilla. Tämä on hieman edistyneempi tehtävä, kuin minkä tunnilla tein ja minulla on rajallisesti aikaa eli en sitoutunut tekemään tätä kokonaan.
+
+*(Aika nyt 18.34)*
+
+Jatkoin opettajan ohjeen seuraamista.
+
+1. Tein uuden projektin `django-admin startproject aikakone`
 
 ---
 
