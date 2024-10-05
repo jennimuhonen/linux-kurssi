@@ -466,6 +466,21 @@ Päätin kokeilla, onko ongelma wsgi.py:n sijainnissa ja siirsin aiemmassa teht�
 
 ![image](https://github.com/user-attachments/assets/2bc7efc9-aa2c-40f7-8f12-5a6d6ddae978)
 
+Tämän jälkeen vielä tarkistin, että kyseessä on varmasti Apache:
+
+![image](https://github.com/user-attachments/assets/de69dbd9-37bd-4052-b2a6-4814d212c9a5)
+
+Otin Debugin ohjeiden mukaisesti pois päältä ja onnistui ongelmitta:
+
+![image](https://github.com/user-attachments/assets/35839f07-e23d-496a-860c-f27c53c223ed)
+
+![image](https://github.com/user-attachments/assets/019fdfb2-4022-46de-8544-2e67d92f992f)
+
+Admin sen sijaan toimii:
+
+![image](https://github.com/user-attachments/assets/34388518-c937-4adf-a59b-842df703e556)
+
+
 
 
 ---
