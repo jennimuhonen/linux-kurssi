@@ -328,7 +328,7 @@ Tässä kohtaa IP-osoite 127.0.0.1 osoitti selaimessa default-sivulle ja aikakon
 
 **Salattua hallintaa**
 
-*5.10. n. 16*
+*5.10.2024 n. 16*
 
 Tehtävä: asenna SSH-palvelin, tee uusi käyttäjä, automatisoi julkisen avaimen menetelmällä.
 
@@ -367,7 +367,7 @@ Testasin avaimia ja pääsin kirjautumaan ilman salasanaa:
 
 ![image](https://github.com/user-attachments/assets/5d2d8f77-babb-4ffa-8325-e2bd28a9d386)
 
-*(Lopetusaika 17.04)*
+*(Lopetusaika 17.06)*
 
 ---
 
