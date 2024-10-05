@@ -462,6 +462,10 @@ Mokasin jotain:
 
 ![image](https://github.com/user-attachments/assets/32e494e0-46d5-480e-b19f-f2c7cb47372e)
 
+Päätin kokeilla, onko ongelma wsgi.py:n sijainnissa ja siirsin aiemmassa tehtävässä tekemäni aikakone-kansion sisällän publicwsgi:n alle, päivitin conf-tiedoston ja käynnistin Apachen uudelleen. Tämän jälkeen sain toimimaan:
+
+![image](https://github.com/user-attachments/assets/2bc7efc9-aa2c-40f7-8f12-5a6d6ddae978)
+
 
 
 ---
