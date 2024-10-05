@@ -372,6 +372,12 @@ Testasin avaimia ja pääsin kirjautumaan ilman salasanaa:
 
 **Django**
 
+*5.10.2024 18.21*
+
+Ensimmäiseksi asenna Djangon kehitysympäristö.
+
+Lähteinä jälleen opettajan ohje (https://terokarvinen.com/2022/django-instant-crm-tutorial/) ja oma rarportti (https://github.com/jennimuhonen/linux-kurssi/blob/main/h6_hello_django.md).
+
 
 
 ---
@@ -387,6 +393,7 @@ Testasin avaimia ja pääsin kirjautumaan ilman salasanaa:
 - Karvinen, Tero 2017: First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
 - Karvinen, Tero 2018: Hello World Python3, Bash, C, C++, Go, Lua, Ruby, Java – Programming Languages on Ubuntu 18.04.https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/
 - Karvinen, Tero 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
+- Karvinen, Tero 2022: Django 4 Instant Customer Database Tutorial. https://terokarvinen.com/2022/django-instant-crm-tutorial/
 - Karvinen, Tero 2024: Install Debian on Virtualbox - Updated 2024. https://terokarvinen.com/2021/install-debian-on-virtualbox/
 - Karvinen, Tero 2024: Luennot. Linux Palvelimet 2024 alkusyksy. https://terokarvinen.com/linux-palvelimet/
 - koskinene 2024: Maailma kuulee. https://github.com/koskinene/linux-course/blob/main/h4.md
@@ -395,6 +402,7 @@ Testasin avaimia ja pääsin kirjautumaan ilman salasanaa:
 - McBrien, Scott: Linux file permissions explained. https://www.redhat.com/sysadmin/linux-file-permissions-explained
 - Muhonen, Jenni: h1 Oma Linux. https://github.com/jennimuhonen/linux-kurssi/blob/main/h1_oma-linux.md
 - Muhonen, Jenni: h4 Maailma kuulee. https://github.com/jennimuhonen/linux-kurssi/blob/main/h4_maailma_kuulee.md
+- Muhonen, Jenni: h6 Hello Django. https://github.com/jennimuhonen/linux-kurssi/blob/main/h6_hello_django.md
 - Raussi, Leevi: h4 Maailma kuulee. https://github.com/LeeviRaussi/linux-palvelimet/blob/main/h4_Maailma_kuulee.md
 - Ruostemaa, Janne: Generating SSH keys. https://upcloud.com/docs/guides/use-ssh-keys-authentication/
 - StackExchange: Using whoami to search for files that mention user. https://unix.stackexchange.com/questions/473947/using-whoami-to-search-for-files-that-mention-user
