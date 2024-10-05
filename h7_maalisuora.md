@@ -295,6 +295,17 @@ Apachen asentamisesta oli jo hetki eli suuntasin suoraan opettajan ohjesivulle a
 ![image](https://github.com/user-attachments/assets/25c45207-427f-4723-b7dd-1fc46e4b99f7)
 
 5. Sallitaan sivu `sudo a2ensite aikakone.com` ja käynnistetään Apache uudelleen `sudo systemctl restart apache2`
+6. Tehdään verkkosivu `mkdir -p /home/frodo/publicsites/aikakone.com/`, `echo AI Kakone > /home/frodo/publicsites/aikakone.com/index.html`
+7. Testataan `curl -H 'Host: aikakone.com' localhost`, `curl localhost`
+8. Muokataan hosts-tiedostoa: `sudoedit /etc/hosts`:
+
+![image](https://github.com/user-attachments/assets/790c9da1-2659-4c2c-979a-b3075917258f)
+
+Tässä kohtaa IP-osoite 127.0.0.1 osoittaa selaimessa default-sivulle ja aikakone.com uudelle sivulle:
+
+![image](https://github.com/user-attachments/assets/97e1b8dc-7d5b-45f2-89d2-cec03ee1c6c8)
+
+![image](https://github.com/user-attachments/assets/c90cfa2d-195e-4ea6-866f-77e2ad0e6295)
 
 
 
