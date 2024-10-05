@@ -252,6 +252,8 @@ Tein uuden kansion `mkdir report` ja tein sinne raportin `micro report/index.md`
 
 Tee komento joka toimii kaikilla käyttäjillä hakemistosta riippumatta.
 
+Tässä kohtaa muistin toisen työskentelymukavuutta parantavan ohjelman ja asensin `sudo apt-get -y install bash-completion`, jonka jälkeen kansioiden nimien täydennykset tabilla toimivat jälleen.
+
 
 
 ---
