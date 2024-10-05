@@ -244,7 +244,8 @@ Asensin ensin micron ja määritin sen oletukseksi. Tarvittavat komennot:
 
 (Lähteenä muistiinpanot kurssin luennolta.)
 
-*(Huomautus 12.52: jotain vielä puuttuu, sillä ei toimi defaulttina.)*
+*(Huomautus 12.52: jotain vielä puuttuu, sillä Micro ei toimi defaulttina.)*
+*(Huomautus 18.18: googlasin asian, ongelma oli siinä, että terminaali täytyy sulkea ennen kuin muutos tulee voimaan. Lähde: https://askubuntu.com/questions/915626/setting-permanent-export-editor-to-nano-for-all-future-sessions)*
 
 Tein uuden kansion `mkdir report` ja tein sinne raportin `micro report/index.md` ja poistin muilta lukuoikeudet `chmod go-r report/index.md`.
 
@@ -377,6 +378,7 @@ Testasin avaimia ja pääsin kirjautumaan ilman salasanaa:
 
 **Lähteet**
 
+- AskUbuntu: Setting permanent export EDITOR to nano for all future sessions [duplicate]. https://askubuntu.com/questions/915626/setting-permanent-export-editor-to-nano-for-all-future-sessions
 - Dancuk, Milica: How To Use The Bash read Command. https://phoenixnap.com/kb/bash-read
 - Datacamp: What is Shell? https://www.datacamp.com/blog/what-is-shell
 - Debian: Chapter 12. Programming. https://www.debian.org/doc/manuals/debian-reference/ch12.en.html#_coding_in_compiled_languages
