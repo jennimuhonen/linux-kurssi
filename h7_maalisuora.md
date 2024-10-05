@@ -265,10 +265,13 @@ Tarvitut komennot
 - Lisätään uusi käyttäjä testaamaan komentoa ja vaihdetaan käyttäjään: `sudo adduser gandalf`, `su gandalf`
 
 Tiedoston sisältö:
-#!/bin/bash
-cat ~frodo/misc/moi.txt
-ls -l
-pwd
+
+![image](https://github.com/user-attachments/assets/7479401e-8e17-4c11-9f9d-eee2983243c9)
+
+- #!/bin/bash
+- cat ~frodo/misc/moi.txt
+- ls -l
+- pwd
 
 (Risuaitaa ei kannata alusta unohtaa.)
 
