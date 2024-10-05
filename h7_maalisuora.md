@@ -170,7 +170,7 @@ Tarkistin vielä chmod:n man-sivulta, että muistin oikein, että jos +-merkin s
 
 *4.10.2024 23.00 palasin tehtävän pariin*
 
-Valitsin tehtäväksi tämän vuoden kevään laboratoriotyön: https://terokarvinen.com/2024/arvioitava-laboratorioharjoitus-2024-linux-palvelimet/?fromSearch=laboratorio
+Valitsin tehtäväksi tämän vuoden kevään laboratoriotyön: https://terokarvinen.com/2024/arvioitava-laboratorioharjoitus-2024-linux-palvelimet/?fromSearch=laboratorio. Päätin, että soveltuvin osin tarkoittaa sitä, että saan tässä raportoida hieman ennemmän kuin ohjeessa pyydetään.
 
 **Pohjatyöt**
 
