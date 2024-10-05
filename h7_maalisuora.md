@@ -287,26 +287,32 @@ Asenna Apache + tee yritykselle kotisivu, joka näkyy suoraan koneen IP-osoittee
 
 Apachen asentamisesta oli jo hetki eli suuntasin suoraan opettajan ohjesivulle aiheesta: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
 
-1. Asennus `sudo apt-get -y install apache2`
-2. Tsekkaus, että toimii http://localhost/
-3. Default-sivun vaihtaminen : echo "This is default page."|sudo tee /var/www/html/index.html
-4. Conf-tiedoston tekeminen: `sudoedit /etc/apache2/sites-available/aikakone.com.conf`, tiedoston sisältö:
+1. Asensin Apachen: `sudo apt-get -y install apache2`
+2. Tsekkasin, että toimii: http://localhost/
+3. Vaihdoin default-sivun: echo "This is default page."|sudo tee /var/www/html/index.html
+4. Tein conf-tiedoston: `sudoedit /etc/apache2/sites-available/aikakone.com.conf`, tiedoston sisältö:
 
 ![image](https://github.com/user-attachments/assets/25c45207-427f-4723-b7dd-1fc46e4b99f7)
 
-5. Sallitaan sivu `sudo a2ensite aikakone.com` ja käynnistetään Apache uudelleen `sudo systemctl restart apache2`
-6. Tehdään verkkosivu `mkdir -p /home/frodo/publicsites/aikakone.com/`, `echo AI Kakone > /home/frodo/publicsites/aikakone.com/index.html`
-7. Testataan `curl -H 'Host: aikakone.com' localhost`, `curl localhost`
-8. Muokataan hosts-tiedostoa: `sudoedit /etc/hosts`:
+5. Sallin sivun `sudo a2ensite aikakone.com` ja käynnistin Apache uudelleen `sudo systemctl restart apache2`
+6. Tein verkkosivun `mkdir -p /home/frodo/publicsites/aikakone.com/`, `echo AI Kakone > /home/frodo/publicsites/aikakone.com/index.html`
+7. Testatasin `curl -H 'Host: aikakone.com' localhost`, `curl localhost`
+8. Muokkasin hosts-tiedostoa: `sudoedit /etc/hosts`:
 
 ![image](https://github.com/user-attachments/assets/790c9da1-2659-4c2c-979a-b3075917258f)
 
-Tässä kohtaa IP-osoite 127.0.0.1 osoittaa selaimessa default-sivulle ja aikakone.com uudelle sivulle:
+Tässä kohtaa IP-osoite 127.0.0.1 osoitti selaimessa default-sivulle ja aikakone.com uudelle sivulle:
 
 ![image](https://github.com/user-attachments/assets/97e1b8dc-7d5b-45f2-89d2-cec03ee1c6c8)
 
 ![image](https://github.com/user-attachments/assets/c90cfa2d-195e-4ea6-866f-77e2ad0e6295)
 
+9. Poistin oikeudet default-sivulta ja käynnistin Apachen uudelleen: `sudo a2dissite 000-default.conf`, `sudo systemctl restart apache2`
+10. Testasin komentorivillä ja selaimessa:
+
+![image](https://github.com/user-attachments/assets/b716499a-853a-4457-a269-f4e61d8fc8ae)
+
+![image](https://github.com/user-attachments/assets/e65de2ca-2906-4277-8478-970e5ae8803f)
 
 
 ---
