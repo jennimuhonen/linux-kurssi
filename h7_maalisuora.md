@@ -275,7 +275,11 @@ Tiedoston sisältö:
 
 (Risuaitaa ei kannata alusta unohtaa.)
 
+(Apuna: https://terokarvinen.com/2007/12/04/shell-scripting-4/)
 
+**Etusivu uusiksi**
+
+Asenna Apache
 
 
 ---
