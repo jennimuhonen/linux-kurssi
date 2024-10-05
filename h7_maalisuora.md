@@ -254,6 +254,25 @@ Tee komento joka toimii kaikilla käyttäjillä hakemistosta riippumatta.
 
 Tässä kohtaa muistin toisen työskentelymukavuutta parantavan ohjelman ja asensin `sudo apt-get -y install bash-completion`, jonka jälkeen kansioiden nimien täydennykset tabilla toimivat jälleen.
 
+Lopputulos:
+
+![image](https://github.com/user-attachments/assets/812c5a4e-101a-492c-824a-e57a426599c6)
+
+Tarvitut komennot
+
+- Tehdään tiedosto, annetaan kaikille oikeudet ja testataan: `micro howdy`, `chmod a+x howdy`, `./howdy`
+- Mahdollistetaan komennon käyttäminen kansion ulkopuolella ja testataan: `sudo cp howdy /usr/local/bin/`, `howdy`
+- Lisätään uusi käyttäjä testaamaan komentoa ja vaihdetaan käyttäjään: `sudo adduser gandalf`, `su gandalf`
+
+Tiedoston sisältö:
+#!/bin/bash
+cat ~frodo/misc/moi.txt
+ls -l
+pwd
+
+(Risuaitaa ei kannata alusta unohtaa.)
+
+
 
 
 ---
