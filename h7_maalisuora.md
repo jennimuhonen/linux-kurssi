@@ -489,7 +489,7 @@ Kirjauduin onnistuneesti edellisessä tehtävässä tekemilläni tunnuksilla:
 
 ![image](https://github.com/user-attachments/assets/1dfa6d7b-2d8a-46a7-8fbb-988cd81de6a2)
 
-*Kello on 20.43 ja totean, että lopetan viimeisen tehtävän tähän.*
+*Kello on 20.43 ja totean, että lopetan viimeisen tehtävän tähän, sillä aikaa on rajallisesti.*
 
 ---
 
