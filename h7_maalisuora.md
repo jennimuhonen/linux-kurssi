@@ -480,8 +480,15 @@ Admin sen sijaan toimii:
 
 ![image](https://github.com/user-attachments/assets/34388518-c937-4adf-a59b-842df703e556)
 
+Korjasin ulkonäön ohjeiden mukaisesti:
 
+![image](https://github.com/user-attachments/assets/443d999a-f2b0-4caa-9f13-babe70812841)
 
+Kirjauduin onnistuneesti edellisessä tehtävässä tekemilläni tunnuksilla:
+
+![image](https://github.com/user-attachments/assets/1dfa6d7b-2d8a-46a7-8fbb-988cd81de6a2)
+
+*Kello on 20.43 ja totean, että lopetan viimeisen tehtävän tähän.*
 
 ---
 
