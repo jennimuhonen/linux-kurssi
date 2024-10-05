@@ -504,6 +504,7 @@ Kirjauduin onnistuneesti edellisessä tehtävässä tekemilläni tunnuksilla:
 - Karvinen, Tero 2017: First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
 - Karvinen, Tero 2018: Hello World Python3, Bash, C, C++, Go, Lua, Ruby, Java – Programming Languages on Ubuntu 18.04.https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/
 - Karvinen, Tero 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
+- Karvinen, Tero 2022: Deploy Django 4 - Production Install. https://terokarvinen.com/2022/deploy-django/
 - Karvinen, Tero 2022: Django 4 Instant Customer Database Tutorial. https://terokarvinen.com/2022/django-instant-crm-tutorial/
 - Karvinen, Tero 2024: Install Debian on Virtualbox - Updated 2024. https://terokarvinen.com/2021/install-debian-on-virtualbox/
 - Karvinen, Tero 2024: Luennot. Linux Palvelimet 2024 alkusyksy. https://terokarvinen.com/linux-palvelimet/
