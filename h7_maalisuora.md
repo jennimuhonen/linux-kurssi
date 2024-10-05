@@ -414,6 +414,29 @@ Jatkoin opettajan ohjeen seuraamista.
 
 ![image](https://github.com/user-attachments/assets/56ee50b3-f927-44f1-89bb-8d3612a627c6)
 
+6. Tein avustaja-kansion `./manage.py startapp assistants` ja päivitin asetukset `micro aikakone/settings.py`:
+
+![image](https://github.com/user-attachments/assets/6668a8ee-7ec5-4075-a28f-3e425b671260)
+
+7. Seurasin opettajan ohjeita laittaen vain aina Customer-sanan sijalle Assistants
+
+![image](https://github.com/user-attachments/assets/156193b5-dcd0-4bfa-a5d7-a3a8623d55fb)
+
+Näköjään sanan kannattaa olla yksikössä:
+
+![image](https://github.com/user-attachments/assets/d222b283-72e4-49e7-9d97-e4e5be60efee)
+
+Annoin Erkille oikeudet muokata avustajia:
+
+![image](https://github.com/user-attachments/assets/b619a4c3-2749-4275-87a4-c4d63b4bed84)
+
+Tämän jälkeen taulu näkyi Erkillä:
+
+![image](https://github.com/user-attachments/assets/472e2cab-5268-4dd1-b944-786db064d481)
+
+Muokkasin vielä ohjeen mukaisesti, jotta sain nimet näkyviin:
+
+![image](https://github.com/user-attachments/assets/f04ec54b-f74b-4904-8f08-25789ada3690)
 
 
 ---
