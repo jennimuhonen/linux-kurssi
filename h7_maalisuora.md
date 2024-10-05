@@ -438,7 +438,30 @@ Muokkasin vielä ohjeen mukaisesti, jotta sain nimet näkyviin:
 
 ![image](https://github.com/user-attachments/assets/f04ec54b-f74b-4904-8f08-25789ada3690)
 
-(Aika nyt: 19.34.)
+*(Aika nyt: 19.34.)*
+
+**Djangon tuotantotyyppinen asennus**
+
+*19.43*
+
+Päätin tämän tehtävän kohdalla pitää raportoinnin minimissä, koska aika on rajallista.
+
+Jatkoin opettajan ohjeen seuraamista ja ensimmäiseksi loin tarvittavat kansiot, poistin oikeudet aiemmassa tehtävässä tehdyltä conf-tiedostolta ja tein uuden:
+
+![image](https://github.com/user-attachments/assets/8fe49ada-d9a6-4185-bdcd-0e2b8bf89198)
+
+Muokkasin conf-tiedostoa uudestaan ja etsin levällään olevat tiedostot. Jos tämä olisi oikea tilanne, nämä tiedostot olisi varmasti ollut hyvä yhdistää yhden kansion alle, mutta en alkanut nyt sitä tekemään. Etenkin, kun virtualenvin olisi joutunut silloin tekemään uudestaan.
+
+![image](https://github.com/user-attachments/assets/436353c2-58dd-4c77-8c22-0863575005da)
+
+Mokasin jotain:
+
+![image](https://github.com/user-attachments/assets/1a7fdccd-2a16-4c52-9470-4396a1e32a72)
+
+`sudo tail /var/log/apache2/error.log` sanoi seuraavaa: 
+
+![image](https://github.com/user-attachments/assets/32e494e0-46d5-480e-b19f-f2c7cb47372e)
+
 
 
 ---
