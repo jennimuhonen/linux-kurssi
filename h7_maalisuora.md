@@ -422,7 +422,7 @@ Jatkoin opettajan ohjeen seuraamista.
 
 ![image](https://github.com/user-attachments/assets/156193b5-dcd0-4bfa-a5d7-a3a8623d55fb)
 
-Näköjään sanan kannattaa olla yksikössä:
+Näköjään sanan kannattaa olla yksikössä. Kokeilin muuttaa tätä, mutta sain erroria, joten annoin olla, kun aikaa on rajallisesti:
 
 ![image](https://github.com/user-attachments/assets/d222b283-72e4-49e7-9d97-e4e5be60efee)
 
