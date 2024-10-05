@@ -438,6 +438,8 @@ Muokkasin vielä ohjeen mukaisesti, jotta sain nimet näkyviin:
 
 ![image](https://github.com/user-attachments/assets/f04ec54b-f74b-4904-8f08-25789ada3690)
 
+(Aika nyt: 19.34.)
+
 
 ---
 
