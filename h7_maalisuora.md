@@ -244,6 +244,8 @@ Asensin ensin micron ja määritin sen oletukseksi. Tarvittavat komennot:
 
 (Lähteenä muistiinpanot kurssin luennolta.)
 
+*(Huomautus 12.52: jotain vielä puuttuu, sillä ei toimi defaulttina.)*
+
 Tein uuden kansion `mkdir report` ja tein sinne raportin `micro report/index.md` ja poistin muilta lukuoikeudet `chmod go-r report/index.md`.
 
 ![image](https://github.com/user-attachments/assets/3b5513cb-d354-48c8-b035-5274055a6b40)
@@ -283,6 +285,22 @@ Tiedoston sisältö:
 
 Asenna Apache + tee yritykselle kotisivu, joka näkyy suoraan koneen IP-osoitteella. Sivua pitää voida muokata ilman sudoa.
 
+Apachen asentamisesta oli jo hetki eli suuntasin suoraan opettajan ohjesivulle aiheesta: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
+
+1. Asennus `sudo apt-get -y install apache2`
+2. Tsekkaus, että toimii http://localhost/
+3. Default-sivun vaihtaminen : echo "This is default page."|sudo tee /var/www/html/index.html
+4. Conf-tiedoston tekeminen: `sudoedit /etc/apache2/sites-available/aikakone.com.conf`, tiedoston sisältö:
+
+ <VirtualHost *:80>
+ ServerName aikakone.com
+ ServerAlias www.aikakone.com
+ DocumentRoot /home/frodo/publicsites/aikakone.com
+ <Directory /home/frodo/publicsites/aikakone.com>
+   Require all granted
+ </Directory>
+</VirtualHost>
+
 
 ---
 
@@ -294,6 +312,7 @@ Asenna Apache + tee yritykselle kotisivu, joka näkyy suoraan koneen IP-osoittee
 - GNU: Bash Reference Manual. https://www.gnu.org/software/bash/manual/bash.html#What-is-Bash_003f
 - Karvinen, Tero 2007: Shell Scripting. https://terokarvinen.com/2007/12/04/shell-scripting-4/
 - Karvinen, Tero 2018: Hello World Python3, Bash, C, C++, Go, Lua, Ruby, Java – Programming Languages on Ubuntu 18.04.https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/
+- Karvinen, Tero 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
 - Karvinen, Tero 2024: Install Debian on Virtualbox - Updated 2024. https://terokarvinen.com/2021/install-debian-on-virtualbox/
 - Karvinen, Tero 2024: Luennot. Linux Palvelimet 2024 alkusyksy. https://terokarvinen.com/linux-palvelimet/
 - man chmod
