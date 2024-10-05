@@ -232,6 +232,27 @@ Päivitin, asensin palomuurin ja käynnistin uudelleen. Sitten kokeiltiin, onnis
 
 Käynnistin koneen ohjeen mukaisesti uudelleen. Ruudun suurentaminen kokoon 1920x1200 toimi. Päivitin vielä mukaisesti Devices -> Shared Clipboard -> Bidirectional, jotta voi leikata ja liimata työpöytien välillä. (Säätämisen myötä kello olikin jo yhtäkkiä 1.20, joten lopetin työskentelyn tältä päivältä.)
 
+**Raportti kotihakemistoon ja oikeudet kuntoon**
+
+*5.10.2024 n. 11*
+
+Tehtävästä kuuluu tehdä raportti kotihakemistoon nimellä report/index.md ja suojata se siten, että vain oma käyttäjäni voi katsella raporttia.
+
+Asensin ensin micron ja määritin sen oletukseksi. Tarvittavat komennot:
+
+`sudo apt-get -y install micro`,  `micro .bashrc`. Tämän jälkeen tiedoston viimeiselle rivillle lisätään: `export EDITOR='micro'` 
+
+(Lähteenä muistiinpanot kurssin luennolta.)
+
+Tein uuden kansion `mkdir report` ja tein sinne raportin `micro report/index.md` ja poistin muilta lukuoikeudet `chmod go-r report/index.md`.
+
+![image](https://github.com/user-attachments/assets/3b5513cb-d354-48c8-b035-5274055a6b40)
+
+**howdy**
+
+Tee komento joka toimii kaikilla käyttäjillä hakemistosta riippumatta.
+
+
 
 ---
 
@@ -242,10 +263,13 @@ Käynnistin koneen ohjeen mukaisesti uudelleen. Ruudun suurentaminen kokoon 1920
 - Debian: Chapter 12. Programming. https://www.debian.org/doc/manuals/debian-reference/ch12.en.html#_coding_in_compiled_languages
 - GNU: Bash Reference Manual. https://www.gnu.org/software/bash/manual/bash.html#What-is-Bash_003f
 - Karvinen, Tero 2007: Shell Scripting. https://terokarvinen.com/2007/12/04/shell-scripting-4/
-- Karvinen, Tero 2018: Hello World Python3, Bash, C, C++, Go, Lua, Ruby, Java – Programming Languages on Ubuntu 18.04. https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/
+- Karvinen, Tero 2018: Hello World Python3, Bash, C, C++, Go, Lua, Ruby, Java – Programming Languages on Ubuntu 18.04.https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/
+- Karvinen, Tero 2024: Install Debian on Virtualbox - Updated 2024. https://terokarvinen.com/2021/install-debian-on-virtualbox/
+- Karvinen, Tero 2024: Luennot. Linux Palvelimet 2024 alkusyksy. https://terokarvinen.com/linux-palvelimet/
 - man chmod
 - man javac
 - McBrien, Scott: Linux file permissions explained. https://www.redhat.com/sysadmin/linux-file-permissions-explained
+- Muhonen, Jenni: h1 Oma Linux. https://github.com/jennimuhonen/linux-kurssi/blob/main/h1_oma-linux.md
 - StackExchange: Using whoami to search for files that mention user. https://unix.stackexchange.com/questions/473947/using-whoami-to-search-for-files-that-mention-user
 - WebHi: How to install Java with “apt-get” on Ubuntu / Debian. https://www.webhi.com/how-to/how-to-install-java-with-apt-get-on-ubuntu-debian/
 
