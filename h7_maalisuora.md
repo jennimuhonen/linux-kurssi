@@ -356,6 +356,19 @@ Tämän jälkeen lukitsin root:n `sudo usermod --lock root` ja estin root-kirjau
 
 Ja käynnistin ssh:n uudestaan `sudo service ssh restart`.
 
+SSH-avaimet olisi voinut tehdä jo DigitalOceanin päässä, mutta jätin siinä kohtaa vielä tekemättä. Käytin tässäkin apuna omaa raporttiani sekä sen tukena käyttämääni UpCloudin ohjesivua (https://upcloud.com/docs/guides/use-ssh-keys-authentication/).
+
+Tein kansion `mkdir -p ~/.ssh`, määritin sille oikeudet `chmod 700 ~/.ssh`, tarkistin, että vain minulla on oikeudet kansioon `ls -la`:
+![image](https://github.com/user-attachments/assets/aa9453b8-e0c3-487e-a4e2-e9721a272480)
+
+Loin avaimet `ssh-keygen -t rsa` ja lähetin ne palvelimelle `ssh-copy-id -i ~/.ssh/id_rsa.pub arwen@178.62.251.138`.
+
+Testasin avaimia ja pääsin kirjautumaan ilman salasanaa:
+
+![image](https://github.com/user-attachments/assets/5d2d8f77-babb-4ffa-8325-e2bd28a9d386)
+
+
+
 ---
 
 **Lähteet**
