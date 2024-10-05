@@ -401,6 +401,21 @@ Jatkoin opettajan ohjeen seuraamista.
 
 1. Tein uuden projektin `django-admin startproject aikakone`
 
+2. Menin projektikansioon `cd aikakone`, laitoin testipalvelimen pyörimään `./manage.py runserver` ja kokeilin näkyykö sivulla `http://127.0.0.1:8000/`:
+
+![image](https://github.com/user-attachments/assets/d2b17da3-0850-4fd3-8c20-b6cabe1d828b)
+
+3. Päivitin `./manage.py makemigrations` ja `./manage.py migrate`
+4. Asensin salasanageneraattorin `sudo apt-get install pwgen`, tein salasanan `pwgen -s 20 1 # randomize a password`, tein käyttäjän `./manage.py createsuperuser` ja kirjauduin sivulle `http://127.0.0.1:8000/admin/`
+
+![image](https://github.com/user-attachments/assets/bd502fdb-5240-4527-b752-575026a63319)
+
+5. Tein käyttäjän Erkki, jolle annoin staff-oikeuden. Tällä hetkellä Erkki ei saa tehdä mitään:
+
+![image](https://github.com/user-attachments/assets/56ee50b3-f927-44f1-89bb-8d3612a627c6)
+
+
+
 ---
 
 **Lähteet**
