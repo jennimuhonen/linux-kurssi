@@ -245,6 +245,7 @@ Asensin ensin micron ja määritin sen oletukseksi. Tarvittavat komennot:
 (Lähteenä muistiinpanot kurssin luennolta.)
 
 *(Huomautus 12.52: jotain vielä puuttuu, sillä Micro ei toimi defaulttina.)*
+
 *(Huomautus 18.18: googlasin asian, ongelma oli siinä, että terminaali täytyy sulkea ennen kuin muutos tulee voimaan. Lähde: https://askubuntu.com/questions/915626/setting-permanent-export-editor-to-nano-for-all-future-sessions)*
 
 Tein uuden kansion `mkdir report` ja tein sinne raportin `micro report/index.md` ja poistin muilta lukuoikeudet `chmod go-r report/index.md`.
