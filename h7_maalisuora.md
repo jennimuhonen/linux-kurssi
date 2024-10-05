@@ -393,7 +393,7 @@ Lähteenä tehtävässä opettajan ohje (https://terokarvinen.com/2022/django-in
 
 ![image](https://github.com/user-attachments/assets/cef7ba3d-6bcf-4cb5-8046-17cea68edce9)
 
-Seuraavaksi tehtävässä kuuluu tehdään tietokantaan lista tekoälyistä määrätyillä ominaisuuksilla. Tämä on hieman edistyneempi tehtävä, kuin minkä tunnilla tein ja minulla on rajallisesti aikaa eli en sitoutunut tekemään tätä kokonaan.
+Seuraavaksi tehtävässä kuuluu tehdään tietokantaan lista tekoälyistä määrätyillä ominaisuuksilla.
 
 *(Aika nyt 18.34)*
 
@@ -418,7 +418,7 @@ Jatkoin opettajan ohjeen seuraamista.
 
 ![image](https://github.com/user-attachments/assets/6668a8ee-7ec5-4075-a28f-3e425b671260)
 
-7. Seurasin opettajan ohjeita laittaen vain aina Customer-sanan sijalle Assistants
+7. Seurasin opettajan ohjeita laittaen vain aina Customer-sanan sijalle Assistants. (Tässä kohtaa totesin, että en raportoi enää komentoja niin tarkasti ajan säästämiseksi. Koska seuraan niin tiukasti opettajan ohjetta, voi askeleet tarkistaa sieltä.)
 
 ![image](https://github.com/user-attachments/assets/156193b5-dcd0-4bfa-a5d7-a3a8623d55fb)
 
