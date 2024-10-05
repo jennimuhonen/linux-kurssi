@@ -279,7 +279,9 @@ Tiedoston sisältö:
 
 **Etusivu uusiksi**
 
-Asenna Apache
+*5.10.2024 12.35*
+
+Asenna Apache + tee yritykselle kotisivu, joka näkyy suoraan koneen IP-osoitteella. Sivua pitää voida muokata ilman sudoa.
 
 
 ---
