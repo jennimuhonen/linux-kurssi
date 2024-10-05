@@ -328,6 +328,8 @@ Tässä kohtaa IP-osoite 127.0.0.1 osoitti selaimessa default-sivulle ja aikakon
 
 **Salattua hallintaa**
 
+*5.10. n. 16*
+
 Tehtävä: asenna SSH-palvelin, tee uusi käyttäjä, automatisoi julkisen avaimen menetelmällä.
 
 Kuuluisiko tässä tehtävässä tehdä kokonaan uusi SSH-palvelin? Vai riittääkö yhteys olemassa olevalle? Päätin kokeilla rekisteröityä DigitalOceanille hyödyntäen Githubin tarjoamia ilmaisia krediittejä. Katsoin kanssaopiskelijoilta mallia krediittien saamiseksi (https://github.com/LeeviRaussi/linux-palvelimet/blob/main/h4_Maailma_kuulee.md) ja DigitalOceanin käytöstä (https://github.com/koskinene/linux-course/blob/main/h4.md).
@@ -342,7 +344,17 @@ Asensin SSH:n `sudo apt-get -y install openssh-client`. Tämän jälkeen pystyin
 
 ![image](https://github.com/user-attachments/assets/28c17262-f0a6-441c-9ffe-e101217e45b3)
 
+Tein päivitykset ja asensin palomuurin samoin kuin tehtävän alkupuolella. 
 
+Tein palomuurin reiän ja laitoin sen päälle: `sudo ufw allow 22/tcp`, `sudo ufw enable`.
+
+Tein käyttäjän `sudo adduser arwen`, `sudo adduser arwen sudo`, `sudo adduser arwen adm` ja testasin käyttäjän erillisessä terminaalissa.
+
+Tämän jälkeen lukitsin root:n `sudo usermod --lock root` ja estin root-kirjautumisen `sudoedit /etc/ssh/sshd_config`:
+
+![image](https://github.com/user-attachments/assets/3def774d-4591-465a-9455-74a30c6308a7)
+
+Ja käynnistin ssh:n uudestaan `sudo service ssh restart`.
 
 ---
 
