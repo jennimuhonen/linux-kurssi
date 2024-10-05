@@ -292,14 +292,10 @@ Apachen asentamisesta oli jo hetki eli suuntasin suoraan opettajan ohjesivulle a
 3. Default-sivun vaihtaminen : echo "This is default page."|sudo tee /var/www/html/index.html
 4. Conf-tiedoston tekeminen: `sudoedit /etc/apache2/sites-available/aikakone.com.conf`, tiedoston sisältö:
 
- <VirtualHost *:80>
- ServerName aikakone.com
- ServerAlias www.aikakone.com
- DocumentRoot /home/frodo/publicsites/aikakone.com
- <Directory /home/frodo/publicsites/aikakone.com>
-   Require all granted
- </Directory>
-</VirtualHost>
+![image](https://github.com/user-attachments/assets/25c45207-427f-4723-b7dd-1fc46e4b99f7)
+
+5. Sallitaan sivu `sudo a2ensite aikakone.com` ja käynnistetään Apache uudelleen `sudo systemctl restart apache2`
+
 
 
 ---
