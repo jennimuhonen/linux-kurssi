@@ -369,6 +369,10 @@ Testasin avaimia ja pääsin kirjautumaan ilman salasanaa:
 
 *(Lopetusaika 17.06)*
 
+**Django**
+
+
+
 ---
 
 **Lähteet**
