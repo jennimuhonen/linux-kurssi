@@ -320,6 +320,9 @@ Tässä kohtaa IP-osoite 127.0.0.1 osoitti selaimessa default-sivulle ja aikakon
 
 ![image](https://github.com/user-attachments/assets/785258e8-d2ae-4a84-b051-d00864427344)
 
+12. Annoin kaikille oikeuden muokata etusivua:
+
+![image](https://github.com/user-attachments/assets/a3f39bc6-f017-4bab-8083-21d0e83b2177)
 
 
 
