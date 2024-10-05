@@ -367,7 +367,7 @@ Testasin avaimia ja pääsin kirjautumaan ilman salasanaa:
 
 ![image](https://github.com/user-attachments/assets/5d2d8f77-babb-4ffa-8325-e2bd28a9d386)
 
-
+*(Lopetusaika 17.04)*
 
 ---
 
@@ -390,6 +390,7 @@ Testasin avaimia ja pääsin kirjautumaan ilman salasanaa:
 - Muhonen, Jenni: h1 Oma Linux. https://github.com/jennimuhonen/linux-kurssi/blob/main/h1_oma-linux.md
 - Muhonen, Jenni: h4 Maailma kuulee. https://github.com/jennimuhonen/linux-kurssi/blob/main/h4_maailma_kuulee.md
 - Raussi, Leevi: h4 Maailma kuulee. https://github.com/LeeviRaussi/linux-palvelimet/blob/main/h4_Maailma_kuulee.md
+- Ruostemaa, Janne: Generating SSH keys. https://upcloud.com/docs/guides/use-ssh-keys-authentication/
 - StackExchange: Using whoami to search for files that mention user. https://unix.stackexchange.com/questions/473947/using-whoami-to-search-for-files-that-mention-user
 - WebHi: How to install Java with “apt-get” on Ubuntu / Debian. https://www.webhi.com/how-to/how-to-install-java-with-apt-get-on-ubuntu-debian/
 
