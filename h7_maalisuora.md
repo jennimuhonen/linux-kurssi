@@ -336,6 +336,8 @@ Tehtävä: asenna SSH-palvelin, tee uusi käyttäjä, automatisoi julkisen avaim
 
 Kuuluisiko tässä tehtävässä tehdä kokonaan uusi SSH-palvelin? Vai riittääkö yhteys olemassa olevalle? Päätin kokeilla rekisteröityä DigitalOceanille hyödyntäen Githubin tarjoamia ilmaisia krediittejä. Katsoin kanssaopiskelijoilta mallia krediittien saamiseksi (https://github.com/LeeviRaussi/linux-palvelimet/blob/main/h4_Maailma_kuulee.md) ja DigitalOceanin käytöstä (https://github.com/koskinene/linux-course/blob/main/h4.md).
 
+*(Lisäys 6.10.2024 15.40: Kiitos kanssaopiskelijalle, joka selitti tehtävänannon minulle palautteessaan! Eli olisi ilmeisestikin riittänyt, kun olisin asentanut ssh:n eli `sudo apt-get -y install openssh-client` ja sitten kuten tehtävässä tosiaan sanotaan, ottanut sillä yhteyttä localhostiin. No, tulipahan testattua myös DigitalOcean.)*
+
 Loin uuden palvelimen:
 
 ![image](https://github.com/user-attachments/assets/6967b4f6-72e3-403b-a197-79811bee8510)
@@ -506,6 +508,7 @@ Kirjauduin onnistuneesti edellisessä tehtävässä tekemilläni tunnuksilla:
 - Karvinen, Tero 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
 - Karvinen, Tero 2022: Deploy Django 4 - Production Install. https://terokarvinen.com/2022/deploy-django/
 - Karvinen, Tero 2022: Django 4 Instant Customer Database Tutorial. https://terokarvinen.com/2022/django-instant-crm-tutorial/
+- Karvinen, Tero 2024: Final Lab for Linux Palvelimet 2024 Spring https://terokarvinen.com/2024/arvioitava-laboratorioharjoitus-2024-linux-palvelimet/?fromSearch=laboratorio
 - Karvinen, Tero 2024: Install Debian on Virtualbox - Updated 2024. https://terokarvinen.com/2021/install-debian-on-virtualbox/
 - Karvinen, Tero 2024: Luennot. Linux Palvelimet 2024 alkusyksy. https://terokarvinen.com/linux-palvelimet/
 - koskinene 2024: Maailma kuulee. https://github.com/koskinene/linux-course/blob/main/h4.md
@@ -519,6 +522,8 @@ Kirjauduin onnistuneesti edellisessä tehtävässä tekemilläni tunnuksilla:
 - Ruostemaa, Janne: Generating SSH keys. https://upcloud.com/docs/guides/use-ssh-keys-authentication/
 - StackExchange: Using whoami to search for files that mention user. https://unix.stackexchange.com/questions/473947/using-whoami-to-search-for-files-that-mention-user
 - WebHi: How to install Java with “apt-get” on Ubuntu / Debian. https://www.webhi.com/how-to/how-to-install-java-with-apt-get-on-ubuntu-debian/
+
+*(Lähdeluettoloon lisätty sieltä puuttunut lähde 6.10.2024 15.46)*
 
 ---
   
